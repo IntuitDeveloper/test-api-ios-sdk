@@ -1,0 +1,11 @@
+framework module IntuitPlugin {
+  umbrella header "IntuitPlugin-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module IntuitPlugin.Swift {
+  header "IntuitPlugin-Swift.h"
+  requires objc
+}

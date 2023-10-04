@@ -1,0 +1,11 @@
+framework module AFMobileAuthenticationInterface {
+  umbrella header "AFMobileAuthenticationInterface-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AFMobileAuthenticationInterface.Swift {
+  header "AFMobileAuthenticationInterface-Swift.h"
+  requires objc
+}

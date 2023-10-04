@@ -1,0 +1,86 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AFMobileAuthenticationInterface
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AFMobileAuthenticationInterface
+import Foundation
+import Swift
+import WebKit
+import _Concurrency
+import _StringProcessing
+public protocol AuthenticationDelegate : Foundation.NSCopying {
+  func getAuthHeaders(completionHandler: @escaping (_ authHeaders: [Swift.String : Swift.String]?, _ error: (any Swift.Error)?) -> Swift.Void)
+  func retrieveWebSessionHydrationUrlAsync(targetUrl: Foundation.URL, realmId: Swift.String?, captchaToken: Swift.String?, queue: Foundation.OperationQueue, completion: @escaping (_ url: Foundation.URL?, _ captchaRequired: Swift.Bool, _ error: Foundation.NSError?) -> Swift.Void)
+  func hydrateWebSessionAsync(targetUrl: Foundation.URL, realmId: Swift.String?, captchaToken: Swift.String?, queue: Foundation.OperationQueue, completion: @escaping (_ websiteDataStore: WebKit.WKWebsiteDataStore?, _ captchaRequired: Swift.Bool, _ error: Foundation.NSError?) -> Swift.Void)
+  func handleErrorResponse(_ response: Foundation.HTTPURLResponse?, error: (any Swift.Error)?)
+  func getAuthId(completionHandler: @escaping (_ userId: Swift.String?, _ error: (any Swift.Error)?) -> Swift.Void)
+  func getUserIdPseudonym() -> Swift.String?
+  func getAuthStateAndHeaders(completionHandler: @escaping (_ authorizationState: AFMobileAuthenticationInterface.AuthorizationState, _ authHeaders: [Swift.String : Swift.String]?, _ error: (any Swift.Error)?) -> Swift.Void)
+  #if compiler(>=5.3) && $AsyncAwait
+  func authorizationHeaders() async throws -> [Swift.String : Swift.String]
+  #endif
+  var userAuthenticatedURLSession: Foundation.URLSession { get }
+  #if compiler(>=5.3) && $AsyncAwait
+  func webSessionHydrationURL(targetURL: Foundation.URL, realmID: Swift.String?) async throws -> Foundation.URL
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  func hydrateWebSession(targetURL: Foundation.URL, realmID: Swift.String?) async throws -> WebKit.WKWebsiteDataStore
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  func authId() async throws -> Swift.String
+  #endif
+  var userIDPseudonym: Swift.String { get }
+  #if compiler(>=5.3) && $AsyncAwait
+  func authStateAndHeaders() async throws -> (AFMobileAuthenticationInterface.AuthorizationState, [Swift.String : Swift.String]?)
+  #endif
+}
+extension AFMobileAuthenticationInterface.AuthenticationDelegate {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func authorizationHeaders() async throws -> [Swift.String : Swift.String]
+  #endif
+  public var userAuthenticatedURLSession: Foundation.URLSession {
+    get
+  }
+  #if compiler(>=5.3) && $AsyncAwait
+  public func webSessionHydrationURL(targetURL: Foundation.URL, realmID: Swift.String?) async throws -> Foundation.URL
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func hydrateWebSession(targetURL: Foundation.URL, realmID: Swift.String?) async throws -> WebKit.WKWebsiteDataStore
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func authId() async throws -> Swift.String
+  #endif
+  public var userIDPseudonym: Swift.String {
+    get
+  }
+  #if compiler(>=5.3) && $AsyncAwait
+  public func authStateAndHeaders() async throws -> (AFMobileAuthenticationInterface.AuthorizationState, [Swift.String : Swift.String]?)
+  #endif
+}
+extension AFMobileAuthenticationInterface.AuthenticationDelegate {
+  public func getAuthHeaders(completionHandler: @escaping (_ authHeaders: [Swift.String : Swift.String]?, _ error: (any Swift.Error)?) -> Swift.Void)
+  public func retrieveWebSessionHydrationUrlAsync(targetUrl: Foundation.URL, realmId: Swift.String?, captchaToken: Swift.String?, queue: Foundation.OperationQueue, completion: @escaping (_ url: Foundation.URL?, _ captchaRequired: Swift.Bool, _ error: Foundation.NSError?) -> Swift.Void)
+  public func hydrateWebSessionAsync(targetUrl: Foundation.URL, realmId: Swift.String?, captchaToken: Swift.String?, queue: Foundation.OperationQueue, completion: @escaping (_ websiteDataStore: WebKit.WKWebsiteDataStore?, _ captchaRequired: Swift.Bool, _ error: Foundation.NSError?) -> Swift.Void)
+  public func handleErrorResponse(_ response: Foundation.HTTPURLResponse?, error: (any Swift.Error)?)
+  public func getAuthId(completionHandler: @escaping (_ userId: Swift.String?, _ error: (any Swift.Error)?) -> Swift.Void)
+  public func getUserIdPseudonym() -> Swift.String?
+  public func getAuthStateAndHeaders(completionHandler: @escaping (_ authorizationState: AFMobileAuthenticationInterface.AuthorizationState, _ authHeaders: [Swift.String : Swift.String]?, _ error: (any Swift.Error)?) -> Swift.Void)
+}
+public enum AuthorizationState : Swift.Int {
+  case unknown
+  case protectedDataUnavailable
+  case applicationLocked
+  case signedOut
+  case signedIn
+  public var description: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension AFMobileAuthenticationInterface.AuthorizationState : Swift.Equatable {}
+extension AFMobileAuthenticationInterface.AuthorizationState : Swift.Hashable {}
+extension AFMobileAuthenticationInterface.AuthorizationState : Swift.RawRepresentable {}

@@ -1,0 +1,384 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SampleIntuitWidget",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Gzip",
+        "printedName": "Gzip",
+        "declKind": "Import",
+        "moduleName": "SampleIntuitWidget"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SampleIntuitWidget",
+        "printedName": "SampleIntuitWidget",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SampleIntuitWidget",
+                "printedName": "SampleIntuitWidget.SampleIntuitWidget",
+                "usr": "s:18SampleIntuitWidgetAAV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18SampleIntuitWidgetAAVABycfc",
+            "mangledName": "$s18SampleIntuitWidgetAAVABycfc",
+            "moduleName": "SampleIntuitWidget",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VStack",
+                "printedName": "SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Image, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI.Text)>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TupleView",
+                    "printedName": "SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Image, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI.Text)>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Image, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI.Text)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ModifiedContent",
+                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Image, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ModifiedContent",
+                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.Image, SwiftUI._FrameLayout>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Image",
+                                    "printedName": "SwiftUI.Image",
+                                    "usr": "s:7SwiftUI5ImageV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "_FrameLayout",
+                                    "printedName": "SwiftUI._FrameLayout",
+                                    "usr": "s:7SwiftUI12_FrameLayoutV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI15ModifiedContentV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "_EnvironmentKeyWritingModifier",
+                                "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Optional",
+                                    "printedName": "SwiftUI.Color?",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Color",
+                                        "printedName": "SwiftUI.Color",
+                                        "usr": "s:7SwiftUI5ColorV"
+                                      }
+                                    ],
+                                    "usr": "s:Sq"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI15ModifiedContentV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Text",
+                            "printedName": "SwiftUI.Text",
+                            "usr": "s:7SwiftUI4TextV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:7SwiftUI9TupleViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI6VStackV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18SampleIntuitWidgetAAV4bodyQrvp",
+            "mangledName": "$s18SampleIntuitWidgetAAV4bodyQrvp",
+            "moduleName": "SampleIntuitWidget",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VStack",
+                    "printedName": "SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Image, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI.Text)>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TupleView",
+                        "printedName": "SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Image, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI.Text)>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Image, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI.Text)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ModifiedContent",
+                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Image, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ModifiedContent",
+                                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.Image, SwiftUI._FrameLayout>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Image",
+                                        "printedName": "SwiftUI.Image",
+                                        "usr": "s:7SwiftUI5ImageV"
+                                      },
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "_FrameLayout",
+                                        "printedName": "SwiftUI._FrameLayout",
+                                        "usr": "s:7SwiftUI12_FrameLayoutV"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI15ModifiedContentV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "_EnvironmentKeyWritingModifier",
+                                    "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Optional",
+                                        "printedName": "SwiftUI.Color?",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "Color",
+                                            "printedName": "SwiftUI.Color",
+                                            "usr": "s:7SwiftUI5ColorV"
+                                          }
+                                        ],
+                                        "usr": "s:Sq"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI15ModifiedContentV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Text",
+                                "printedName": "SwiftUI.Text",
+                                "usr": "s:7SwiftUI4TextV"
+                              }
+                            ]
+                          }
+                        ],
+                        "usr": "s:7SwiftUI9TupleViewV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI6VStackV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18SampleIntuitWidgetAAV4bodyQrvg",
+                "mangledName": "$s18SampleIntuitWidgetAAV4bodyQrvg",
+                "moduleName": "SampleIntuitWidget",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18SampleIntuitWidgetAAV",
+        "mangledName": "$s18SampleIntuitWidgetAAV",
+        "moduleName": "SampleIntuitWidget",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VStack",
+                    "printedName": "SwiftUI.VStack<SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Image, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI.Text)>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TupleView",
+                        "printedName": "SwiftUI.TupleView<(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Image, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI.Text)>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Image, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI.Text)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ModifiedContent",
+                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.Image, SwiftUI._FrameLayout>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ModifiedContent",
+                                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.Image, SwiftUI._FrameLayout>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Image",
+                                        "printedName": "SwiftUI.Image",
+                                        "usr": "s:7SwiftUI5ImageV"
+                                      },
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "_FrameLayout",
+                                        "printedName": "SwiftUI._FrameLayout",
+                                        "usr": "s:7SwiftUI12_FrameLayoutV"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI15ModifiedContentV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "_EnvironmentKeyWritingModifier",
+                                    "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Optional",
+                                        "printedName": "SwiftUI.Color?",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "Color",
+                                            "printedName": "SwiftUI.Color",
+                                            "usr": "s:7SwiftUI5ColorV"
+                                          }
+                                        ],
+                                        "usr": "s:Sq"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI15ModifiedContentV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Text",
+                                "printedName": "SwiftUI.Text",
+                                "usr": "s:7SwiftUI4TextV"
+                              }
+                            ]
+                          }
+                        ],
+                        "usr": "s:7SwiftUI9TupleViewV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI6VStackV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitWidget\/Sources\/SampleIntuitWidget\/SampleIntuitWidget.swift",
+      "kind": "StringLiteral",
+      "offset": 190,
+      "length": 16,
+      "value": "\"Hello, widget!\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitWidget\/Sources\/SampleIntuitWidget\/SampleIntuitWidget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 295,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitWidget\/Sources\/SampleIntuitWidget\/SampleIntuitWidget.swift",
+      "kind": "StringLiteral",
+      "offset": 331,
+      "length": 11,
+      "value": "\"timelapse\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitWidget\/Sources\/SampleIntuitWidget\/SampleIntuitWidget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 403,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitWidget\/Sources\/SampleIntuitWidget\/SampleIntuitWidget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 415,
+      "length": 2,
+      "value": "60"
+    }
+  ]
+}

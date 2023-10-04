@@ -1,0 +1,1649 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "AppContext",
+        "printedName": "AppContext",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "appAuthToken",
+            "printedName": "appAuthToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IntuitPlugin10AppContextP12appAuthTokenSSvp",
+            "mangledName": "$s12IntuitPlugin10AppContextP12appAuthTokenSSvp",
+            "moduleName": "IntuitPlugin",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin10AppContextP12appAuthTokenSSvg",
+                "mangledName": "$s12IntuitPlugin10AppContextP12appAuthTokenSSvg",
+                "moduleName": "IntuitPlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.AppContext>",
+                "sugared_genericSig": "<Self where Self : IntuitPlugin.AppContext>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appName",
+            "printedName": "appName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IntuitPlugin10AppContextP7appNameSSSgvp",
+            "mangledName": "$s12IntuitPlugin10AppContextP7appNameSSSgvp",
+            "moduleName": "IntuitPlugin",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin10AppContextP7appNameSSSgvg",
+                "mangledName": "$s12IntuitPlugin10AppContextP7appNameSSSgvg",
+                "moduleName": "IntuitPlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.AppContext>",
+                "sugared_genericSig": "<Self where Self : IntuitPlugin.AppContext>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "offeringId",
+            "printedName": "offeringId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IntuitPlugin10AppContextP10offeringIdSSSgvp",
+            "mangledName": "$s12IntuitPlugin10AppContextP10offeringIdSSSgvp",
+            "moduleName": "IntuitPlugin",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin10AppContextP10offeringIdSSSgvg",
+                "mangledName": "$s12IntuitPlugin10AppContextP10offeringIdSSSgvg",
+                "moduleName": "IntuitPlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.AppContext>",
+                "sugared_genericSig": "<Self where Self : IntuitPlugin.AppContext>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12IntuitPlugin10AppContextP",
+        "mangledName": "$s12IntuitPlugin10AppContextP",
+        "moduleName": "IntuitPlugin",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AFMobileContextInterface",
+        "printedName": "AFMobileContextInterface",
+        "declKind": "Import",
+        "moduleName": "IntuitPlugin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AFMobileAuthenticationInterface",
+        "printedName": "AFMobileAuthenticationInterface",
+        "declKind": "Import",
+        "moduleName": "IntuitPlugin"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppFabricWrapper",
+        "printedName": "AppFabricWrapper",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Config",
+                "printedName": "IntuitPlugin.Config",
+                "usr": "s:12IntuitPlugin6ConfigC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12IntuitPlugin16AppFabricWrapperP6configxAA6ConfigC_tcfc",
+            "mangledName": "$s12IntuitPlugin16AppFabricWrapperP6configxAA6ConfigC_tcfc",
+            "moduleName": "IntuitPlugin",
+            "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.AppFabricWrapper>",
+            "sugared_genericSig": "<Self where Self : IntuitPlugin.AppFabricWrapper>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getContext",
+            "printedName": "getContext()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ContextDelegate",
+                "printedName": "AFMobileContextInterface.ContextDelegate",
+                "usr": "s:24AFMobileContextInterface0B8DelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IntuitPlugin16AppFabricWrapperP10getContext08AFMobileG9Interface0G8Delegate_pyF",
+            "mangledName": "$s12IntuitPlugin16AppFabricWrapperP10getContext08AFMobileG9Interface0G8Delegate_pyF",
+            "moduleName": "IntuitPlugin",
+            "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.AppFabricWrapper>",
+            "sugared_genericSig": "<Self where Self : IntuitPlugin.AppFabricWrapper>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAuthDelegate",
+            "printedName": "getAuthDelegate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AuthenticationDelegate",
+                "printedName": "AFMobileAuthenticationInterface.AuthenticationDelegate",
+                "usr": "s:31AFMobileAuthenticationInterface0B8DelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IntuitPlugin16AppFabricWrapperP15getAuthDelegate31AFMobileAuthenticationInterface0jH0_pyF",
+            "mangledName": "$s12IntuitPlugin16AppFabricWrapperP15getAuthDelegate31AFMobileAuthenticationInterface0jH0_pyF",
+            "moduleName": "IntuitPlugin",
+            "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.AppFabricWrapper>",
+            "sugared_genericSig": "<Self where Self : IntuitPlugin.AppFabricWrapper>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12IntuitPlugin16AppFabricWrapperP",
+        "mangledName": "$s12IntuitPlugin16AppFabricWrapperP",
+        "moduleName": "IntuitPlugin",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuitPlugin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Config",
+        "printedName": "Config",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "appName",
+            "printedName": "appName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IntuitPlugin6ConfigC7appNameSSvp",
+            "mangledName": "$s12IntuitPlugin6ConfigC7appNameSSvp",
+            "moduleName": "IntuitPlugin",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin6ConfigC7appNameSSvg",
+                "mangledName": "$s12IntuitPlugin6ConfigC7appNameSSvg",
+                "moduleName": "IntuitPlugin",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin6ConfigC7appNameSSvs",
+                "mangledName": "$s12IntuitPlugin6ConfigC7appNameSSvs",
+                "moduleName": "IntuitPlugin",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin6ConfigC7appNameSSvM",
+                "mangledName": "$s12IntuitPlugin6ConfigC7appNameSSvM",
+                "moduleName": "IntuitPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appAuthToken",
+            "printedName": "appAuthToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IntuitPlugin6ConfigC12appAuthTokenSSvp",
+            "mangledName": "$s12IntuitPlugin6ConfigC12appAuthTokenSSvp",
+            "moduleName": "IntuitPlugin",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin6ConfigC12appAuthTokenSSvg",
+                "mangledName": "$s12IntuitPlugin6ConfigC12appAuthTokenSSvg",
+                "moduleName": "IntuitPlugin",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin6ConfigC12appAuthTokenSSvs",
+                "mangledName": "$s12IntuitPlugin6ConfigC12appAuthTokenSSvs",
+                "moduleName": "IntuitPlugin",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin6ConfigC12appAuthTokenSSvM",
+                "mangledName": "$s12IntuitPlugin6ConfigC12appAuthTokenSSvM",
+                "moduleName": "IntuitPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "offeringId",
+            "printedName": "offeringId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IntuitPlugin6ConfigC10offeringIdSSvp",
+            "mangledName": "$s12IntuitPlugin6ConfigC10offeringIdSSvp",
+            "moduleName": "IntuitPlugin",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin6ConfigC10offeringIdSSvg",
+                "mangledName": "$s12IntuitPlugin6ConfigC10offeringIdSSvg",
+                "moduleName": "IntuitPlugin",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin6ConfigC10offeringIdSSvs",
+                "mangledName": "$s12IntuitPlugin6ConfigC10offeringIdSSvs",
+                "moduleName": "IntuitPlugin",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin6ConfigC10offeringIdSSvM",
+                "mangledName": "$s12IntuitPlugin6ConfigC10offeringIdSSvM",
+                "moduleName": "IntuitPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pluginAssetId",
+            "printedName": "pluginAssetId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IntuitPlugin6ConfigC13pluginAssetIdSSvp",
+            "mangledName": "$s12IntuitPlugin6ConfigC13pluginAssetIdSSvp",
+            "moduleName": "IntuitPlugin",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin6ConfigC13pluginAssetIdSSvg",
+                "mangledName": "$s12IntuitPlugin6ConfigC13pluginAssetIdSSvg",
+                "moduleName": "IntuitPlugin",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin6ConfigC13pluginAssetIdSSvs",
+                "mangledName": "$s12IntuitPlugin6ConfigC13pluginAssetIdSSvs",
+                "moduleName": "IntuitPlugin",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin6ConfigC13pluginAssetIdSSvM",
+                "mangledName": "$s12IntuitPlugin6ConfigC13pluginAssetIdSSvM",
+                "moduleName": "IntuitPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pluginAssetAlias",
+            "printedName": "pluginAssetAlias",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IntuitPlugin6ConfigC16pluginAssetAliasSSvp",
+            "mangledName": "$s12IntuitPlugin6ConfigC16pluginAssetAliasSSvp",
+            "moduleName": "IntuitPlugin",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin6ConfigC16pluginAssetAliasSSvg",
+                "mangledName": "$s12IntuitPlugin6ConfigC16pluginAssetAliasSSvg",
+                "moduleName": "IntuitPlugin",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin6ConfigC16pluginAssetAliasSSvs",
+                "mangledName": "$s12IntuitPlugin6ConfigC16pluginAssetAliasSSvs",
+                "moduleName": "IntuitPlugin",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin6ConfigC16pluginAssetAliasSSvM",
+                "mangledName": "$s12IntuitPlugin6ConfigC16pluginAssetAliasSSvM",
+                "moduleName": "IntuitPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(appName:appAuthToken:offeringId:assetId:assetAlias:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Config",
+                "printedName": "IntuitPlugin.Config",
+                "usr": "s:12IntuitPlugin6ConfigC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12IntuitPlugin6ConfigC7appName0D9AuthToken10offeringId05assetI00J5AliasACSS_S4Stcfc",
+            "mangledName": "$s12IntuitPlugin6ConfigC7appName0D9AuthToken10offeringId05assetI00J5AliasACSS_S4Stcfc",
+            "moduleName": "IntuitPlugin",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12IntuitPlugin6ConfigC",
+        "mangledName": "$s12IntuitPlugin6ConfigC",
+        "moduleName": "IntuitPlugin",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuitPlugin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Event",
+        "printedName": "Event",
+        "children": [
+          {
+            "kind": "AssociatedType",
+            "name": "Data",
+            "printedName": "Data",
+            "declKind": "AssociatedType",
+            "usr": "s:12IntuitPlugin5EventP4DataQa",
+            "mangledName": "$s12IntuitPlugin5EventP4DataQa",
+            "moduleName": "IntuitPlugin",
+            "protocolReq": true
+          },
+          {
+            "kind": "Var",
+            "name": "source",
+            "printedName": "source",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EventSource",
+                "printedName": "IntuitPlugin.EventSource",
+                "usr": "s:12IntuitPlugin11EventSourceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IntuitPlugin5EventP6sourceAA0C6SourceVvp",
+            "mangledName": "$s12IntuitPlugin5EventP6sourceAA0C6SourceVvp",
+            "moduleName": "IntuitPlugin",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventSource",
+                    "printedName": "IntuitPlugin.EventSource",
+                    "usr": "s:12IntuitPlugin11EventSourceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin5EventP6sourceAA0C6SourceVvg",
+                "mangledName": "$s12IntuitPlugin5EventP6sourceAA0C6SourceVvg",
+                "moduleName": "IntuitPlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.Event>",
+                "sugared_genericSig": "<Self where Self : IntuitPlugin.Event>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.Data"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IntuitPlugin5EventP4data4DataQzvp",
+            "mangledName": "$s12IntuitPlugin5EventP4data4DataQzvp",
+            "moduleName": "IntuitPlugin",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Data"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin5EventP4data4DataQzvg",
+                "mangledName": "$s12IntuitPlugin5EventP4data4DataQzvg",
+                "moduleName": "IntuitPlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.Event>",
+                "sugared_genericSig": "<Self where Self : IntuitPlugin.Event>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12IntuitPlugin5EventP",
+        "mangledName": "$s12IntuitPlugin5EventP",
+        "moduleName": "IntuitPlugin",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EventSource",
+        "printedName": "EventSource",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EventSource",
+                "printedName": "IntuitPlugin.EventSource",
+                "usr": "s:12IntuitPlugin11EventSourceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12IntuitPlugin11EventSourceV4nameACSS_tcfc",
+            "mangledName": "$s12IntuitPlugin11EventSourceV4nameACSS_tcfc",
+            "moduleName": "IntuitPlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12IntuitPlugin11EventSourceV",
+        "mangledName": "$s12IntuitPlugin11EventSourceV",
+        "moduleName": "IntuitPlugin",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ErrorEvent",
+        "printedName": "ErrorEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IntuitPlugin10ErrorEventP4datas0C0_pvp",
+            "mangledName": "$s12IntuitPlugin10ErrorEventP4datas0C0_pvp",
+            "moduleName": "IntuitPlugin",
+            "protocolReq": true,
+            "overriding": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin10ErrorEventP4datas0C0_pvg",
+                "mangledName": "$s12IntuitPlugin10ErrorEventP4datas0C0_pvg",
+                "moduleName": "IntuitPlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.ErrorEvent>",
+                "sugared_genericSig": "<Self where Self : IntuitPlugin.ErrorEvent>",
+                "protocolReq": true,
+                "overriding": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IntuitPlugin10ErrorEventP5errors0C0_pvp",
+            "mangledName": "$s12IntuitPlugin10ErrorEventP5errors0C0_pvp",
+            "moduleName": "IntuitPlugin",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin10ErrorEventP5errors0C0_pvg",
+                "mangledName": "$s12IntuitPlugin10ErrorEventP5errors0C0_pvg",
+                "moduleName": "IntuitPlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.ErrorEvent>",
+                "sugared_genericSig": "<Self where Self : IntuitPlugin.ErrorEvent>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12IntuitPlugin10ErrorEventP",
+        "mangledName": "$s12IntuitPlugin10ErrorEventP",
+        "moduleName": "IntuitPlugin",
+        "genericSig": "<τ_0_0 : IntuitPlugin.Event, τ_0_0.Data == Swift.Error>",
+        "sugared_genericSig": "<Self : IntuitPlugin.Event, Self.Data == Swift.Error>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Event",
+            "printedName": "Event",
+            "usr": "s:12IntuitPlugin5EventP",
+            "mangledName": "$s12IntuitPlugin5EventP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLEvent",
+        "printedName": "URLEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IntuitPlugin8URLEventP4data10Foundation3URLVvp",
+            "mangledName": "$s12IntuitPlugin8URLEventP4data10Foundation3URLVvp",
+            "moduleName": "IntuitPlugin",
+            "protocolReq": true,
+            "overriding": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin8URLEventP4data10Foundation3URLVvg",
+                "mangledName": "$s12IntuitPlugin8URLEventP4data10Foundation3URLVvg",
+                "moduleName": "IntuitPlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.URLEvent>",
+                "sugared_genericSig": "<Self where Self : IntuitPlugin.URLEvent>",
+                "protocolReq": true,
+                "overriding": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IntuitPlugin8URLEventP3url10Foundation3URLVvp",
+            "mangledName": "$s12IntuitPlugin8URLEventP3url10Foundation3URLVvp",
+            "moduleName": "IntuitPlugin",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin8URLEventP3url10Foundation3URLVvg",
+                "mangledName": "$s12IntuitPlugin8URLEventP3url10Foundation3URLVvg",
+                "moduleName": "IntuitPlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.URLEvent>",
+                "sugared_genericSig": "<Self where Self : IntuitPlugin.URLEvent>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12IntuitPlugin8URLEventP",
+        "mangledName": "$s12IntuitPlugin8URLEventP",
+        "moduleName": "IntuitPlugin",
+        "genericSig": "<τ_0_0 : IntuitPlugin.Event, τ_0_0.Data == Foundation.URL>",
+        "sugared_genericSig": "<Self : IntuitPlugin.Event, Self.Data == Foundation.URL>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Event",
+            "printedName": "Event",
+            "usr": "s:12IntuitPlugin5EventP",
+            "mangledName": "$s12IntuitPlugin5EventP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Response",
+        "printedName": "Response",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IntuitPlugin8ResponseV7messageSSvp",
+            "mangledName": "$s12IntuitPlugin8ResponseV7messageSSvp",
+            "moduleName": "IntuitPlugin",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin8ResponseV7messageSSvg",
+                "mangledName": "$s12IntuitPlugin8ResponseV7messageSSvg",
+                "moduleName": "IntuitPlugin",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin8ResponseV7messageSSvs",
+                "mangledName": "$s12IntuitPlugin8ResponseV7messageSSvs",
+                "moduleName": "IntuitPlugin",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin8ResponseV7messageSSvM",
+                "mangledName": "$s12IntuitPlugin8ResponseV7messageSSvM",
+                "moduleName": "IntuitPlugin",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Response",
+                "printedName": "IntuitPlugin.Response",
+                "usr": "s:12IntuitPlugin8ResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12IntuitPlugin8ResponseV7messageACSS_tcfc",
+            "mangledName": "$s12IntuitPlugin8ResponseV7messageACSS_tcfc",
+            "moduleName": "IntuitPlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12IntuitPlugin8ResponseV",
+        "mangledName": "$s12IntuitPlugin8ResponseV",
+        "moduleName": "IntuitPlugin",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IntuitPlugin",
+        "printedName": "IntuitPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PluginConfiguration",
+                "printedName": "IntuitPlugin.PluginConfiguration",
+                "usr": "s:12IntuitPlugin0B13ConfigurationP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IntuitPluginAAP4load6configqd__AA0B13Configuration_p_tKA2ARd__lFZ",
+            "mangledName": "$s12IntuitPluginAAP4load6configqd__AA0B13Configuration_p_tKA2ARd__lFZ",
+            "moduleName": "IntuitPlugin",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : IntuitPlugin.IntuitPlugin, τ_1_0 : IntuitPlugin.IntuitPlugin>",
+            "sugared_genericSig": "<Self, T where Self : IntuitPlugin.IntuitPlugin, T : IntuitPlugin.IntuitPlugin>",
+            "static": true,
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unload",
+            "printedName": "unload(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IntuitPlugin.Event, IntuitPlugin.Response) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(IntuitPlugin.Event, IntuitPlugin.Response)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Event",
+                        "printedName": "IntuitPlugin.Event",
+                        "usr": "s:12IntuitPlugin5EventP"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Response",
+                        "printedName": "IntuitPlugin.Response",
+                        "usr": "s:12IntuitPlugin8ResponseV"
+                      }
+                    ]
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IntuitPluginAAP6unloadyyyAA5Event_p_AA8ResponseVtXEF",
+            "mangledName": "$s12IntuitPluginAAP6unloadyyyAA5Event_p_AA8ResponseVtXEF",
+            "moduleName": "IntuitPlugin",
+            "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.IntuitPlugin>",
+            "sugared_genericSig": "<Self where Self : IntuitPlugin.IntuitPlugin>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleAppEvent",
+            "printedName": "handleAppEvent(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Event",
+                "printedName": "IntuitPlugin.Event",
+                "usr": "s:12IntuitPlugin5EventP"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IntuitPlugin.Event, IntuitPlugin.Response) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(IntuitPlugin.Event, IntuitPlugin.Response)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Event",
+                        "printedName": "IntuitPlugin.Event",
+                        "usr": "s:12IntuitPlugin5EventP"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Response",
+                        "printedName": "IntuitPlugin.Response",
+                        "usr": "s:12IntuitPlugin8ResponseV"
+                      }
+                    ]
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IntuitPluginAAP14handleAppEvent_10completionyAA0E0_p_yAaE_p_AA8ResponseVtXEtF",
+            "mangledName": "$s12IntuitPluginAAP14handleAppEvent_10completionyAA0E0_p_yAaE_p_AA8ResponseVtXEtF",
+            "moduleName": "IntuitPlugin",
+            "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.IntuitPlugin>",
+            "sugared_genericSig": "<Self where Self : IntuitPlugin.IntuitPlugin>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12IntuitPluginAAP",
+        "mangledName": "$s12IntuitPluginAAP",
+        "moduleName": "IntuitPlugin",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuitPlugin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PluginConfiguration",
+        "printedName": "PluginConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "appContext",
+            "printedName": "appContext",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppContext",
+                "printedName": "IntuitPlugin.AppContext",
+                "usr": "s:12IntuitPlugin10AppContextP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IntuitPlugin0B13ConfigurationP10appContextAA03AppE0_pvp",
+            "mangledName": "$s12IntuitPlugin0B13ConfigurationP10appContextAA03AppE0_pvp",
+            "moduleName": "IntuitPlugin",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppContext",
+                    "printedName": "IntuitPlugin.AppContext",
+                    "usr": "s:12IntuitPlugin10AppContextP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin0B13ConfigurationP10appContextAA03AppE0_pvg",
+                "mangledName": "$s12IntuitPlugin0B13ConfigurationP10appContextAA03AppE0_pvg",
+                "moduleName": "IntuitPlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.PluginConfiguration>",
+                "sugared_genericSig": "<Self where Self : IntuitPlugin.PluginConfiguration>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "eventHandler",
+            "printedName": "eventHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PluginEventHandler",
+                "printedName": "IntuitPlugin.PluginEventHandler",
+                "usr": "s:12IntuitPlugin0B12EventHandlerP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IntuitPlugin0B13ConfigurationP12eventHandlerAA0b5EventE0_pvp",
+            "mangledName": "$s12IntuitPlugin0B13ConfigurationP12eventHandlerAA0b5EventE0_pvp",
+            "moduleName": "IntuitPlugin",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PluginEventHandler",
+                    "printedName": "IntuitPlugin.PluginEventHandler",
+                    "usr": "s:12IntuitPlugin0B12EventHandlerP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin0B13ConfigurationP12eventHandlerAA0b5EventE0_pvg",
+                "mangledName": "$s12IntuitPlugin0B13ConfigurationP12eventHandlerAA0b5EventE0_pvg",
+                "moduleName": "IntuitPlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.PluginConfiguration>",
+                "sugared_genericSig": "<Self where Self : IntuitPlugin.PluginConfiguration>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12IntuitPlugin0B13ConfigurationP",
+        "mangledName": "$s12IntuitPlugin0B13ConfigurationP",
+        "moduleName": "IntuitPlugin",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PluginEventHandler",
+        "printedName": "PluginEventHandler",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "handlePluginEvent",
+            "printedName": "handlePluginEvent(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Event",
+                "printedName": "IntuitPlugin.Event",
+                "usr": "s:12IntuitPlugin5EventP"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IntuitPlugin.Event, IntuitPlugin.Response) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(IntuitPlugin.Event, IntuitPlugin.Response)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Event",
+                        "printedName": "IntuitPlugin.Event",
+                        "usr": "s:12IntuitPlugin5EventP"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Response",
+                        "printedName": "IntuitPlugin.Response",
+                        "usr": "s:12IntuitPlugin8ResponseV"
+                      }
+                    ]
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12IntuitPlugin0B12EventHandlerP06handlebC0_10completionyAA0C0_p_yAaF_p_AA8ResponseVtXEtF",
+            "mangledName": "$s12IntuitPlugin0B12EventHandlerP06handlebC0_10completionyAA0C0_p_yAaF_p_AA8ResponseVtXEtF",
+            "moduleName": "IntuitPlugin",
+            "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.PluginEventHandler>",
+            "sugared_genericSig": "<Self where Self : IntuitPlugin.PluginEventHandler>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12IntuitPlugin0B12EventHandlerP",
+        "mangledName": "$s12IntuitPlugin0B12EventHandlerP",
+        "moduleName": "IntuitPlugin",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

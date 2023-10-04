@@ -1,0 +1,21 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SampleIntuitPlugin
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import IntuitPlugin
+@_exported import SampleIntuitPlugin
+import SampleIntuitWidget
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+public struct SomeSamplePlugin : IntuitPlugin {
+  public static func load<T>(config: any PluginConfiguration) throws -> T where T : IntuitPlugin
+  public func unload(_ completion: (any Event, Response) -> Swift.Void)
+  public func handleAppEvent(_ event: any Event, completion: (any Event, Response) -> Swift.Void)
+  public init()
+  public func getPluginViewController() -> some SwiftUI.View
+  
+}
+public struct PluginError : Swift.Error {
+}

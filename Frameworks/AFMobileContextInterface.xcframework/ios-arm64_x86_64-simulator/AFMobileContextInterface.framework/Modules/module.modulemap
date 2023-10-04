@@ -1,0 +1,11 @@
+framework module AFMobileContextInterface {
+  umbrella header "AFMobileContextInterface-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AFMobileContextInterface.Swift {
+  header "AFMobileContextInterface-Swift.h"
+  requires objc
+}

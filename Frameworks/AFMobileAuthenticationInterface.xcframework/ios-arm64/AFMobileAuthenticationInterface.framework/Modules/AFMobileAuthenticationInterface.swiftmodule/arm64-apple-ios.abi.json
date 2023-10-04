@@ -1,0 +1,2366 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "AFMobileAuthenticationInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AuthenticationDelegate",
+        "printedName": "AuthenticationDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getAuthHeaders",
+            "printedName": "getAuthHeaders(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.String : Swift.String]?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "([Swift.String : Swift.String]?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Swift.String : Swift.String]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Swift.String]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegateP14getAuthHeaders17completionHandleryySDyS2SGSg_s5Error_pSgtc_tF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegateP14getAuthHeaders17completionHandleryySDyS2SGSg_s5Error_pSgtc_tF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retrieveWebSessionHydrationUrlAsync",
+            "printedName": "retrieveWebSessionHydrationUrlAsync(targetUrl:realmId:captchaToken:queue:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OperationQueue",
+                "printedName": "Foundation.OperationQueue",
+                "usr": "c:objc(cs)NSOperationQueue"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URL?, Swift.Bool, Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.URL?, Swift.Bool, Foundation.NSError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URL?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegateP35retrieveWebSessionHydrationUrlAsync06targetI07realmId12captchaToken5queue10completiony10Foundation3URLV_SSSgAMSo16NSOperationQueueCyALSg_SbSo7NSErrorCSgtctF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegateP35retrieveWebSessionHydrationUrlAsync06targetI07realmId12captchaToken5queue10completiony10Foundation3URLV_SSSgAMSo16NSOperationQueueCyALSg_SbSo7NSErrorCSgtctF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hydrateWebSessionAsync",
+            "printedName": "hydrateWebSessionAsync(targetUrl:realmId:captchaToken:queue:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OperationQueue",
+                "printedName": "Foundation.OperationQueue",
+                "usr": "c:objc(cs)NSOperationQueue"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKWebsiteDataStore?, Swift.Bool, Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(WebKit.WKWebsiteDataStore?, Swift.Bool, Foundation.NSError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "WebKit.WKWebsiteDataStore?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "WKWebsiteDataStore",
+                            "printedName": "WebKit.WKWebsiteDataStore",
+                            "usr": "c:objc(cs)WKWebsiteDataStore"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegateP22hydrateWebSessionAsync9targetUrl7realmId12captchaToken5queue10completiony10Foundation3URLV_SSSgAMSo16NSOperationQueueCySo18WKWebsiteDataStoreCSg_SbSo7NSErrorCSgtctF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegateP22hydrateWebSessionAsync9targetUrl7realmId12captchaToken5queue10completiony10Foundation3URLV_SSSgAMSo16NSOperationQueueCySo18WKWebsiteDataStoreCSg_SbSo7NSErrorCSgtctF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleErrorResponse",
+            "printedName": "handleErrorResponse(_:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.HTTPURLResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPURLResponse",
+                    "printedName": "Foundation.HTTPURLResponse",
+                    "usr": "c:objc(cs)NSHTTPURLResponse"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegateP19handleErrorResponse_5errorySo17NSHTTPURLResponseCSg_s0F0_pSgtF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegateP19handleErrorResponse_5errorySo17NSHTTPURLResponseCSg_s0F0_pSgtF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAuthId",
+            "printedName": "getAuthId(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegateP9getAuthId17completionHandleryySSSg_s5Error_pSgtc_tF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegateP9getAuthId17completionHandleryySSSg_s5Error_pSgtc_tF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserIdPseudonym",
+            "printedName": "getUserIdPseudonym()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegateP18getUserIdPseudonymSSSgyF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegateP18getUserIdPseudonymSSSgyF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAuthStateAndHeaders",
+            "printedName": "getAuthStateAndHeaders(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AFMobileAuthenticationInterface.AuthorizationState, [Swift.String : Swift.String]?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(AFMobileAuthenticationInterface.AuthorizationState, [Swift.String : Swift.String]?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthorizationState",
+                        "printedName": "AFMobileAuthenticationInterface.AuthorizationState",
+                        "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Swift.String : Swift.String]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Swift.String]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegateP22getAuthStateAndHeaders17completionHandleryyAA013AuthorizationG0O_SDyS2SGSgs5Error_pSgtc_tF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegateP22getAuthStateAndHeaders17completionHandleryyAA013AuthorizationG0O_SDyS2SGSgs5Error_pSgtc_tF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "authorizationHeaders",
+            "printedName": "authorizationHeaders()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegateP20authorizationHeadersSDyS2SGyYaKF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegateP20authorizationHeadersSDyS2SGyYaKF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "userAuthenticatedURLSession",
+            "printedName": "userAuthenticatedURLSession",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "usr": "c:objc(cs)NSURLSession"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegateP27userAuthenticatedURLSessionSo12NSURLSessionCvp",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegateP27userAuthenticatedURLSessionSo12NSURLSessionCvp",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLSession",
+                    "printedName": "Foundation.URLSession",
+                    "usr": "c:objc(cs)NSURLSession"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31AFMobileAuthenticationInterface0B8DelegateP27userAuthenticatedURLSessionSo12NSURLSessionCvg",
+                "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegateP27userAuthenticatedURLSessionSo12NSURLSessionCvg",
+                "moduleName": "AFMobileAuthenticationInterface",
+                "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+                "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "webSessionHydrationURL",
+            "printedName": "webSessionHydrationURL(targetURL:realmID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegateP22webSessionHydrationURL06targetH07realmID10Foundation0H0VAI_SSSgtYaKF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegateP22webSessionHydrationURL06targetH07realmID10Foundation0H0VAI_SSSgtYaKF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hydrateWebSession",
+            "printedName": "hydrateWebSession(targetURL:realmID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebsiteDataStore",
+                "printedName": "WebKit.WKWebsiteDataStore",
+                "usr": "c:objc(cs)WKWebsiteDataStore"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegateP17hydrateWebSession9targetURL7realmIDSo18WKWebsiteDataStoreC10Foundation0I0V_SSSgtYaKF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegateP17hydrateWebSession9targetURL7realmIDSo18WKWebsiteDataStoreC10Foundation0I0V_SSSgtYaKF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "authId",
+            "printedName": "authId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegateP6authIdSSyYaKF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegateP6authIdSSyYaKF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "userIDPseudonym",
+            "printedName": "userIDPseudonym",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegateP15userIDPseudonymSSvp",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegateP15userIDPseudonymSSvp",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31AFMobileAuthenticationInterface0B8DelegateP15userIDPseudonymSSvg",
+                "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegateP15userIDPseudonymSSvg",
+                "moduleName": "AFMobileAuthenticationInterface",
+                "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+                "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "authStateAndHeaders",
+            "printedName": "authStateAndHeaders()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(AFMobileAuthenticationInterface.AuthorizationState, [Swift.String : Swift.String]?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthorizationState",
+                    "printedName": "AFMobileAuthenticationInterface.AuthorizationState",
+                    "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegateP19authStateAndHeadersAA013AuthorizationF0O_SDyS2SGSgtyYaKF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegateP19authStateAndHeadersAA013AuthorizationF0O_SDyS2SGSgtyYaKF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "authorizationHeaders",
+            "printedName": "authorizationHeaders()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegatePAAE20authorizationHeadersSDyS2SGyYaKF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegatePAAE20authorizationHeadersSDyS2SGyYaKF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "userAuthenticatedURLSession",
+            "printedName": "userAuthenticatedURLSession",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "usr": "c:objc(cs)NSURLSession"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegatePAAE27userAuthenticatedURLSessionSo12NSURLSessionCvp",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegatePAAE27userAuthenticatedURLSessionSo12NSURLSessionCvp",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLSession",
+                    "printedName": "Foundation.URLSession",
+                    "usr": "c:objc(cs)NSURLSession"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31AFMobileAuthenticationInterface0B8DelegatePAAE27userAuthenticatedURLSessionSo12NSURLSessionCvg",
+                "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegatePAAE27userAuthenticatedURLSessionSo12NSURLSessionCvg",
+                "moduleName": "AFMobileAuthenticationInterface",
+                "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+                "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "webSessionHydrationURL",
+            "printedName": "webSessionHydrationURL(targetURL:realmID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegatePAAE22webSessionHydrationURL06targetH07realmID10Foundation0H0VAI_SSSgtYaKF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegatePAAE22webSessionHydrationURL06targetH07realmID10Foundation0H0VAI_SSSgtYaKF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hydrateWebSession",
+            "printedName": "hydrateWebSession(targetURL:realmID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebsiteDataStore",
+                "printedName": "WebKit.WKWebsiteDataStore",
+                "usr": "c:objc(cs)WKWebsiteDataStore"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegatePAAE17hydrateWebSession9targetURL7realmIDSo18WKWebsiteDataStoreC10Foundation0I0V_SSSgtYaKF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegatePAAE17hydrateWebSession9targetURL7realmIDSo18WKWebsiteDataStoreC10Foundation0I0V_SSSgtYaKF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "authId",
+            "printedName": "authId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegatePAAE6authIdSSyYaKF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegatePAAE6authIdSSyYaKF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "userIDPseudonym",
+            "printedName": "userIDPseudonym",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegatePAAE15userIDPseudonymSSvp",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegatePAAE15userIDPseudonymSSvp",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31AFMobileAuthenticationInterface0B8DelegatePAAE15userIDPseudonymSSvg",
+                "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegatePAAE15userIDPseudonymSSvg",
+                "moduleName": "AFMobileAuthenticationInterface",
+                "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+                "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "authStateAndHeaders",
+            "printedName": "authStateAndHeaders()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(AFMobileAuthenticationInterface.AuthorizationState, [Swift.String : Swift.String]?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthorizationState",
+                    "printedName": "AFMobileAuthenticationInterface.AuthorizationState",
+                    "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegatePAAE19authStateAndHeadersAA013AuthorizationF0O_SDyS2SGSgtyYaKF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegatePAAE19authStateAndHeadersAA013AuthorizationF0O_SDyS2SGSgtyYaKF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAuthHeaders",
+            "printedName": "getAuthHeaders(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.String : Swift.String]?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "([Swift.String : Swift.String]?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Swift.String : Swift.String]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Swift.String]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegatePAAE14getAuthHeaders17completionHandleryySDyS2SGSg_s5Error_pSgtc_tF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegatePAAE14getAuthHeaders17completionHandleryySDyS2SGSg_s5Error_pSgtc_tF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retrieveWebSessionHydrationUrlAsync",
+            "printedName": "retrieveWebSessionHydrationUrlAsync(targetUrl:realmId:captchaToken:queue:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OperationQueue",
+                "printedName": "Foundation.OperationQueue",
+                "usr": "c:objc(cs)NSOperationQueue"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URL?, Swift.Bool, Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.URL?, Swift.Bool, Foundation.NSError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URL?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegatePAAE35retrieveWebSessionHydrationUrlAsync06targetI07realmId12captchaToken5queue10completiony10Foundation3URLV_SSSgAMSo16NSOperationQueueCyALSg_SbSo7NSErrorCSgtctF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegatePAAE35retrieveWebSessionHydrationUrlAsync06targetI07realmId12captchaToken5queue10completiony10Foundation3URLV_SSSgAMSo16NSOperationQueueCyALSg_SbSo7NSErrorCSgtctF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hydrateWebSessionAsync",
+            "printedName": "hydrateWebSessionAsync(targetUrl:realmId:captchaToken:queue:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OperationQueue",
+                "printedName": "Foundation.OperationQueue",
+                "usr": "c:objc(cs)NSOperationQueue"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKWebsiteDataStore?, Swift.Bool, Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(WebKit.WKWebsiteDataStore?, Swift.Bool, Foundation.NSError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "WebKit.WKWebsiteDataStore?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "WKWebsiteDataStore",
+                            "printedName": "WebKit.WKWebsiteDataStore",
+                            "usr": "c:objc(cs)WKWebsiteDataStore"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegatePAAE22hydrateWebSessionAsync9targetUrl7realmId12captchaToken5queue10completiony10Foundation3URLV_SSSgAMSo16NSOperationQueueCySo18WKWebsiteDataStoreCSg_SbSo7NSErrorCSgtctF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegatePAAE22hydrateWebSessionAsync9targetUrl7realmId12captchaToken5queue10completiony10Foundation3URLV_SSSgAMSo16NSOperationQueueCySo18WKWebsiteDataStoreCSg_SbSo7NSErrorCSgtctF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleErrorResponse",
+            "printedName": "handleErrorResponse(_:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.HTTPURLResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPURLResponse",
+                    "printedName": "Foundation.HTTPURLResponse",
+                    "usr": "c:objc(cs)NSHTTPURLResponse"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegatePAAE19handleErrorResponse_5errorySo17NSHTTPURLResponseCSg_s0F0_pSgtF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegatePAAE19handleErrorResponse_5errorySo17NSHTTPURLResponseCSg_s0F0_pSgtF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAuthId",
+            "printedName": "getAuthId(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegatePAAE9getAuthId17completionHandleryySSSg_s5Error_pSgtc_tF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegatePAAE9getAuthId17completionHandleryySSSg_s5Error_pSgtc_tF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserIdPseudonym",
+            "printedName": "getUserIdPseudonym()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegatePAAE18getUserIdPseudonymSSSgyF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegatePAAE18getUserIdPseudonymSSSgyF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAuthStateAndHeaders",
+            "printedName": "getAuthStateAndHeaders(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AFMobileAuthenticationInterface.AuthorizationState, [Swift.String : Swift.String]?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(AFMobileAuthenticationInterface.AuthorizationState, [Swift.String : Swift.String]?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthorizationState",
+                        "printedName": "AFMobileAuthenticationInterface.AuthorizationState",
+                        "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Swift.String : Swift.String]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Swift.String]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31AFMobileAuthenticationInterface0B8DelegatePAAE22getAuthStateAndHeaders17completionHandleryyAA013AuthorizationG0O_SDyS2SGSgs5Error_pSgtc_tF",
+            "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegatePAAE22getAuthStateAndHeaders17completionHandleryyAA013AuthorizationG0O_SDyS2SGSgs5Error_pSgtc_tF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileAuthenticationInterface.AuthenticationDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:31AFMobileAuthenticationInterface0B8DelegateP",
+        "mangledName": "$s31AFMobileAuthenticationInterface0B8DelegateP",
+        "moduleName": "AFMobileAuthenticationInterface",
+        "genericSig": "<τ_0_0 : Foundation.NSCopying>",
+        "sugared_genericSig": "<Self : Foundation.NSCopying>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AFMobileAuthenticationInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AuthorizationState",
+        "printedName": "AuthorizationState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AFMobileAuthenticationInterface.AuthorizationState.Type) -> AFMobileAuthenticationInterface.AuthorizationState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthorizationState",
+                    "printedName": "AFMobileAuthenticationInterface.AuthorizationState",
+                    "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AFMobileAuthenticationInterface.AuthorizationState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthorizationState",
+                        "printedName": "AFMobileAuthenticationInterface.AuthorizationState",
+                        "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO7unknownyA2CmF",
+            "mangledName": "$s31AFMobileAuthenticationInterface18AuthorizationStateO7unknownyA2CmF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "protectedDataUnavailable",
+            "printedName": "protectedDataUnavailable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AFMobileAuthenticationInterface.AuthorizationState.Type) -> AFMobileAuthenticationInterface.AuthorizationState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthorizationState",
+                    "printedName": "AFMobileAuthenticationInterface.AuthorizationState",
+                    "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AFMobileAuthenticationInterface.AuthorizationState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthorizationState",
+                        "printedName": "AFMobileAuthenticationInterface.AuthorizationState",
+                        "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO24protectedDataUnavailableyA2CmF",
+            "mangledName": "$s31AFMobileAuthenticationInterface18AuthorizationStateO24protectedDataUnavailableyA2CmF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "applicationLocked",
+            "printedName": "applicationLocked",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AFMobileAuthenticationInterface.AuthorizationState.Type) -> AFMobileAuthenticationInterface.AuthorizationState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthorizationState",
+                    "printedName": "AFMobileAuthenticationInterface.AuthorizationState",
+                    "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AFMobileAuthenticationInterface.AuthorizationState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthorizationState",
+                        "printedName": "AFMobileAuthenticationInterface.AuthorizationState",
+                        "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO17applicationLockedyA2CmF",
+            "mangledName": "$s31AFMobileAuthenticationInterface18AuthorizationStateO17applicationLockedyA2CmF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "signedOut",
+            "printedName": "signedOut",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AFMobileAuthenticationInterface.AuthorizationState.Type) -> AFMobileAuthenticationInterface.AuthorizationState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthorizationState",
+                    "printedName": "AFMobileAuthenticationInterface.AuthorizationState",
+                    "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AFMobileAuthenticationInterface.AuthorizationState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthorizationState",
+                        "printedName": "AFMobileAuthenticationInterface.AuthorizationState",
+                        "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO9signedOutyA2CmF",
+            "mangledName": "$s31AFMobileAuthenticationInterface18AuthorizationStateO9signedOutyA2CmF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "signedIn",
+            "printedName": "signedIn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AFMobileAuthenticationInterface.AuthorizationState.Type) -> AFMobileAuthenticationInterface.AuthorizationState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthorizationState",
+                    "printedName": "AFMobileAuthenticationInterface.AuthorizationState",
+                    "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AFMobileAuthenticationInterface.AuthorizationState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthorizationState",
+                        "printedName": "AFMobileAuthenticationInterface.AuthorizationState",
+                        "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO8signedInyA2CmF",
+            "mangledName": "$s31AFMobileAuthenticationInterface18AuthorizationStateO8signedInyA2CmF",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO11descriptionSSvp",
+            "mangledName": "$s31AFMobileAuthenticationInterface18AuthorizationStateO11descriptionSSvp",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO11descriptionSSvg",
+                "mangledName": "$s31AFMobileAuthenticationInterface18AuthorizationStateO11descriptionSSvg",
+                "moduleName": "AFMobileAuthenticationInterface",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AFMobileAuthenticationInterface.AuthorizationState?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthorizationState",
+                    "printedName": "AFMobileAuthenticationInterface.AuthorizationState",
+                    "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO8rawValueACSgSi_tcfc",
+            "mangledName": "$s31AFMobileAuthenticationInterface18AuthorizationStateO8rawValueACSgSi_tcfc",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO8rawValueSivp",
+            "mangledName": "$s31AFMobileAuthenticationInterface18AuthorizationStateO8rawValueSivp",
+            "moduleName": "AFMobileAuthenticationInterface",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO8rawValueSivg",
+                "mangledName": "$s31AFMobileAuthenticationInterface18AuthorizationStateO8rawValueSivg",
+                "moduleName": "AFMobileAuthenticationInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:31AFMobileAuthenticationInterface18AuthorizationStateO",
+        "mangledName": "$s31AFMobileAuthenticationInterface18AuthorizationStateO",
+        "moduleName": "AFMobileAuthenticationInterface",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthenticationDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 8044,
+      "length": 53,
+      "value": "\"implement userAuthenticatedURLSession before using.\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthenticationDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 8779,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthenticationDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8789,
+      "length": 5,
+      "value": "-1010"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthenticationDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 8807,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthenticationDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 8815,
+      "length": 18,
+      "value": "\"no hydration url\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthenticationDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 9729,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthenticationDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9739,
+      "length": 5,
+      "value": "-1010"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthenticationDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 9757,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthenticationDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 9765,
+      "length": 23,
+      "value": "\"no wkWebsiteDataStore\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthenticationDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 10465,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthenticationDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10475,
+      "length": 5,
+      "value": "-1010"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthenticationDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 10493,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthenticationDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 10501,
+      "length": 11,
+      "value": "\"no authID\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthenticationDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 10718,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthenticationDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12343,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthenticationDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12409,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthenticationDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13157,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthenticationDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13223,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthenticationDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 13380,
+      "length": 66,
+      "value": "\"please provide implementation before using handleErrorResponse()\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthorizationState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 329,
+      "length": 24,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthorizationState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 437,
+      "length": 17,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthorizationState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 513,
+      "length": 9,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthorizationState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 559,
+      "length": 8,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthorizationState.swift",
+      "kind": "StringLiteral",
+      "offset": 670,
+      "length": 9,
+      "value": "\"Unknown\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthorizationState.swift",
+      "kind": "StringLiteral",
+      "offset": 740,
+      "length": 26,
+      "value": "\"ProtectedDataUnavailable\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthorizationState.swift",
+      "kind": "StringLiteral",
+      "offset": 820,
+      "length": 19,
+      "value": "\"ApplicationLocked\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthorizationState.swift",
+      "kind": "StringLiteral",
+      "offset": 885,
+      "length": 11,
+      "value": "\"SignedOut\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthorizationState.swift",
+      "kind": "StringLiteral",
+      "offset": 941,
+      "length": 10,
+      "value": "\"SignedIn\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthorizationState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 329,
+      "length": 24,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthorizationState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 437,
+      "length": 17,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthorizationState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 513,
+      "length": 9,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthorizationState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 559,
+      "length": 8,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthorizationState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 329,
+      "length": 24,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthorizationState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 437,
+      "length": 17,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthorizationState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 513,
+      "length": 9,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/appfabric\/AFMAuthenticationInterface\/Sources\/AFMobileAuthenticationInterface\/AuthorizationState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 559,
+      "length": 8,
+      "value": "4"
+    }
+  ]
+}
