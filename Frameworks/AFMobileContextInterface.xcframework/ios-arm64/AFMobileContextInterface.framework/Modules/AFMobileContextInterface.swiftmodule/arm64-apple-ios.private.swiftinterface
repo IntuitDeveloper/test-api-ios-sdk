@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AFMobileContextInterface
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import AFMobileContextInterface
+import AFMobileLoggingInterface
 import Foundation
 import Swift
 import _Concurrency
@@ -49,11 +50,12 @@ public protocol ContextDelegate : Foundation.NSCopying {
   final public let appID: Swift.String
   final public let appToken: Swift.String
   final public let locale: Foundation.Locale
+  final public let loglevel: AFMobileLoggingInterface.LogLevelType
   final public let offeringId: Swift.String
   final public let sku: Swift.String?
   final public let assetId: Swift.String?
   final public let assetAlias: Swift.String?
-  public init(appName: Swift.String, appVersion: Swift.String, appID: Swift.String, offeringId: Swift.String, appToken: Swift.String, locale: Foundation.Locale, sku: Swift.String? = nil, assetId: Swift.String? = nil, assetAlias: Swift.String? = nil)
+  public init(appName: Swift.String, appVersion: Swift.String, appID: Swift.String, offeringId: Swift.String, appToken: Swift.String, locale: Foundation.Locale, logLevelType: AFMobileLoggingInterface.LogLevelType?, sku: Swift.String? = nil, assetId: Swift.String? = nil, assetAlias: Swift.String? = nil)
   public func asDictionary() -> [Swift.String : Swift.String]
   public func asDictionaryForLogging() -> [Swift.String : Swift.String]
   @objc deinit

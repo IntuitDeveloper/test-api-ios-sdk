@@ -181,27 +181,101 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "AFMobileContextInterface",
-        "printedName": "AFMobileContextInterface",
-        "declKind": "Import",
-        "moduleName": "IntuitPlugin",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AFMobileAuthenticationInterface",
-        "printedName": "AFMobileAuthenticationInterface",
-        "declKind": "Import",
-        "moduleName": "IntuitPlugin"
-      },
-      {
         "kind": "TypeDecl",
         "name": "AppFabricWrapper",
         "printedName": "AppFabricWrapper",
         "children": [
+          {
+            "kind": "Var",
+            "name": "sandbox",
+            "printedName": "sandbox",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IntuitSDKSandbox",
+                "printedName": "IntuitPlugin.IntuitSDKSandbox",
+                "usr": "s:12IntuitPlugin0A10SDKSandboxC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12IntuitPlugin16AppFabricWrapperP7sandboxAA0A10SDKSandboxCvp",
+            "mangledName": "$s12IntuitPlugin16AppFabricWrapperP7sandboxAA0A10SDKSandboxCvp",
+            "moduleName": "IntuitPlugin",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntuitSDKSandbox",
+                    "printedName": "IntuitPlugin.IntuitSDKSandbox",
+                    "usr": "s:12IntuitPlugin0A10SDKSandboxC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin16AppFabricWrapperP7sandboxAA0A10SDKSandboxCvg",
+                "mangledName": "$s12IntuitPlugin16AppFabricWrapperP7sandboxAA0A10SDKSandboxCvg",
+                "moduleName": "IntuitPlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.AppFabricWrapper>",
+                "sugared_genericSig": "<Self where Self : IntuitPlugin.AppFabricWrapper>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntuitSDKSandbox",
+                    "printedName": "IntuitPlugin.IntuitSDKSandbox",
+                    "usr": "s:12IntuitPlugin0A10SDKSandboxC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin16AppFabricWrapperP7sandboxAA0A10SDKSandboxCvs",
+                "mangledName": "$s12IntuitPlugin16AppFabricWrapperP7sandboxAA0A10SDKSandboxCvs",
+                "moduleName": "IntuitPlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.AppFabricWrapper>",
+                "sugared_genericSig": "<Self where Self : IntuitPlugin.AppFabricWrapper>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12IntuitPlugin16AppFabricWrapperP7sandboxAA0A10SDKSandboxCvM",
+                "mangledName": "$s12IntuitPlugin16AppFabricWrapperP7sandboxAA0A10SDKSandboxCvM",
+                "moduleName": "IntuitPlugin",
+                "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.AppFabricWrapper>",
+                "sugared_genericSig": "<Self where Self : IntuitPlugin.AppFabricWrapper>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -228,53 +302,6 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "getContext",
-            "printedName": "getContext()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ContextDelegate",
-                "printedName": "AFMobileContextInterface.ContextDelegate",
-                "usr": "s:24AFMobileContextInterface0B8DelegateP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12IntuitPlugin16AppFabricWrapperP10getContext08AFMobileG9Interface0G8Delegate_pyF",
-            "mangledName": "$s12IntuitPlugin16AppFabricWrapperP10getContext08AFMobileG9Interface0G8Delegate_pyF",
-            "moduleName": "IntuitPlugin",
-            "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.AppFabricWrapper>",
-            "sugared_genericSig": "<Self where Self : IntuitPlugin.AppFabricWrapper>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getAuthDelegate",
-            "printedName": "getAuthDelegate()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AuthenticationDelegate",
-                "printedName": "AFMobileAuthenticationInterface.AuthenticationDelegate",
-                "usr": "s:31AFMobileAuthenticationInterface0B8DelegateP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12IntuitPlugin16AppFabricWrapperP15getAuthDelegate31AFMobileAuthenticationInterface0jH0_pyF",
-            "mangledName": "$s12IntuitPlugin16AppFabricWrapperP15getAuthDelegate31AFMobileAuthenticationInterface0jH0_pyF",
-            "moduleName": "IntuitPlugin",
-            "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.AppFabricWrapper>",
-            "sugared_genericSig": "<Self where Self : IntuitPlugin.AppFabricWrapper>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -283,16 +310,6 @@
         "moduleName": "IntuitPlugin",
         "declAttributes": [
           "AccessControl",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IntuitPlugin",
-        "declAttributes": [
           "RawDocComment"
         ]
       },
@@ -558,8 +575,8 @@
           },
           {
             "kind": "Var",
-            "name": "pluginAssetId",
-            "printedName": "pluginAssetId",
+            "name": "sdkAssetId",
+            "printedName": "sdkAssetId",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -569,8 +586,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IntuitPlugin6ConfigC13pluginAssetIdSSvp",
-            "mangledName": "$s12IntuitPlugin6ConfigC13pluginAssetIdSSvp",
+            "usr": "s:12IntuitPlugin6ConfigC10sdkAssetIdSSvp",
+            "mangledName": "$s12IntuitPlugin6ConfigC10sdkAssetIdSSvp",
             "moduleName": "IntuitPlugin",
             "declAttributes": [
               "HasStorage",
@@ -591,8 +608,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IntuitPlugin6ConfigC13pluginAssetIdSSvg",
-                "mangledName": "$s12IntuitPlugin6ConfigC13pluginAssetIdSSvg",
+                "usr": "s:12IntuitPlugin6ConfigC10sdkAssetIdSSvg",
+                "mangledName": "$s12IntuitPlugin6ConfigC10sdkAssetIdSSvg",
                 "moduleName": "IntuitPlugin",
                 "implicit": true,
                 "accessorKind": "get"
@@ -615,8 +632,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IntuitPlugin6ConfigC13pluginAssetIdSSvs",
-                "mangledName": "$s12IntuitPlugin6ConfigC13pluginAssetIdSSvs",
+                "usr": "s:12IntuitPlugin6ConfigC10sdkAssetIdSSvs",
+                "mangledName": "$s12IntuitPlugin6ConfigC10sdkAssetIdSSvs",
                 "moduleName": "IntuitPlugin",
                 "implicit": true,
                 "accessorKind": "set"
@@ -633,8 +650,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IntuitPlugin6ConfigC13pluginAssetIdSSvM",
-                "mangledName": "$s12IntuitPlugin6ConfigC13pluginAssetIdSSvM",
+                "usr": "s:12IntuitPlugin6ConfigC10sdkAssetIdSSvM",
+                "mangledName": "$s12IntuitPlugin6ConfigC10sdkAssetIdSSvM",
                 "moduleName": "IntuitPlugin",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -643,8 +660,8 @@
           },
           {
             "kind": "Var",
-            "name": "pluginAssetAlias",
-            "printedName": "pluginAssetAlias",
+            "name": "sdkAssetAlias",
+            "printedName": "sdkAssetAlias",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -654,8 +671,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IntuitPlugin6ConfigC16pluginAssetAliasSSvp",
-            "mangledName": "$s12IntuitPlugin6ConfigC16pluginAssetAliasSSvp",
+            "usr": "s:12IntuitPlugin6ConfigC13sdkAssetAliasSSvp",
+            "mangledName": "$s12IntuitPlugin6ConfigC13sdkAssetAliasSSvp",
             "moduleName": "IntuitPlugin",
             "declAttributes": [
               "HasStorage",
@@ -677,8 +694,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IntuitPlugin6ConfigC16pluginAssetAliasSSvg",
-                "mangledName": "$s12IntuitPlugin6ConfigC16pluginAssetAliasSSvg",
+                "usr": "s:12IntuitPlugin6ConfigC13sdkAssetAliasSSvg",
+                "mangledName": "$s12IntuitPlugin6ConfigC13sdkAssetAliasSSvg",
                 "moduleName": "IntuitPlugin",
                 "implicit": true,
                 "accessorKind": "get"
@@ -701,8 +718,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IntuitPlugin6ConfigC16pluginAssetAliasSSvs",
-                "mangledName": "$s12IntuitPlugin6ConfigC16pluginAssetAliasSSvs",
+                "usr": "s:12IntuitPlugin6ConfigC13sdkAssetAliasSSvs",
+                "mangledName": "$s12IntuitPlugin6ConfigC13sdkAssetAliasSSvs",
                 "moduleName": "IntuitPlugin",
                 "implicit": true,
                 "accessorKind": "set"
@@ -719,8 +736,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IntuitPlugin6ConfigC16pluginAssetAliasSSvM",
-                "mangledName": "$s12IntuitPlugin6ConfigC16pluginAssetAliasSSvM",
+                "usr": "s:12IntuitPlugin6ConfigC13sdkAssetAliasSSvM",
+                "mangledName": "$s12IntuitPlugin6ConfigC13sdkAssetAliasSSvM",
                 "moduleName": "IntuitPlugin",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -786,16 +803,6 @@
         "moduleName": "IntuitPlugin",
         "declAttributes": [
           "AccessControl",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IntuitPlugin",
-        "declAttributes": [
           "RawDocComment"
         ]
       },
@@ -902,7 +909,8 @@
         "mangledName": "$s12IntuitPlugin5EventP",
         "moduleName": "IntuitPlugin",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ]
       },
       {
@@ -1296,8 +1304,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "IntuitPlugin",
-        "printedName": "IntuitPlugin",
+        "name": "IntuitSDK",
+        "printedName": "IntuitSDK",
         "children": [
           {
             "kind": "Function",
@@ -1311,17 +1319,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "PluginConfiguration",
-                "printedName": "IntuitPlugin.PluginConfiguration",
-                "usr": "s:12IntuitPlugin0B13ConfigurationP"
+                "name": "SDKConfiguration",
+                "printedName": "IntuitPlugin.SDKConfiguration",
+                "usr": "s:12IntuitPlugin16SDKConfigurationP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12IntuitPluginAAP4load6configqd__AA0B13Configuration_p_tKA2ARd__lFZ",
-            "mangledName": "$s12IntuitPluginAAP4load6configqd__AA0B13Configuration_p_tKA2ARd__lFZ",
+            "usr": "s:12IntuitPlugin0A3SDKP4load6configqd__AA16SDKConfiguration_p_tKAaBRd__lFZ",
+            "mangledName": "$s12IntuitPlugin0A3SDKP4load6configqd__AA16SDKConfiguration_p_tKAaBRd__lFZ",
             "moduleName": "IntuitPlugin",
-            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : IntuitPlugin.IntuitPlugin, τ_1_0 : IntuitPlugin.IntuitPlugin>",
-            "sugared_genericSig": "<Self, T where Self : IntuitPlugin.IntuitPlugin, T : IntuitPlugin.IntuitPlugin>",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : IntuitPlugin.IntuitSDK, τ_1_0 : IntuitPlugin.IntuitSDK>",
+            "sugared_genericSig": "<Self, T where Self : IntuitPlugin.IntuitSDK, T : IntuitPlugin.IntuitSDK>",
             "static": true,
             "protocolReq": true,
             "throwing": true,
@@ -1374,11 +1382,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12IntuitPluginAAP6unloadyyyAA5Event_p_AA8ResponseVtXEF",
-            "mangledName": "$s12IntuitPluginAAP6unloadyyyAA5Event_p_AA8ResponseVtXEF",
+            "usr": "s:12IntuitPlugin0A3SDKP6unloadyyyAA5Event_p_AA8ResponseVtXEF",
+            "mangledName": "$s12IntuitPlugin0A3SDKP6unloadyyyAA5Event_p_AA8ResponseVtXEF",
             "moduleName": "IntuitPlugin",
-            "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.IntuitPlugin>",
-            "sugared_genericSig": "<Self where Self : IntuitPlugin.IntuitPlugin>",
+            "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.IntuitSDK>",
+            "sugared_genericSig": "<Self where Self : IntuitPlugin.IntuitSDK>",
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -1435,19 +1443,19 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12IntuitPluginAAP14handleAppEvent_10completionyAA0E0_p_yAaE_p_AA8ResponseVtXEtF",
-            "mangledName": "$s12IntuitPluginAAP14handleAppEvent_10completionyAA0E0_p_yAaE_p_AA8ResponseVtXEtF",
+            "usr": "s:12IntuitPlugin0A3SDKP14handleAppEvent_10completionyAA0F0_p_yAaF_p_AA8ResponseVtXEtF",
+            "mangledName": "$s12IntuitPlugin0A3SDKP14handleAppEvent_10completionyAA0F0_p_yAaF_p_AA8ResponseVtXEtF",
             "moduleName": "IntuitPlugin",
-            "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.IntuitPlugin>",
-            "sugared_genericSig": "<Self where Self : IntuitPlugin.IntuitPlugin>",
+            "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.IntuitSDK>",
+            "sugared_genericSig": "<Self where Self : IntuitPlugin.IntuitSDK>",
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
-        "usr": "s:12IntuitPluginAAP",
-        "mangledName": "$s12IntuitPluginAAP",
+        "usr": "s:12IntuitPlugin0A3SDKP",
+        "mangledName": "$s12IntuitPlugin0A3SDKP",
         "moduleName": "IntuitPlugin",
         "declAttributes": [
           "AccessControl",
@@ -1465,9 +1473,107 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "AFMobileShellCore",
+        "printedName": "AFMobileShellCore",
+        "declKind": "Import",
+        "moduleName": "IntuitPlugin"
+      },
+      {
+        "kind": "Import",
+        "name": "AppShellWidgetInterface",
+        "printedName": "AppShellWidgetInterface",
+        "declKind": "Import",
+        "moduleName": "IntuitPlugin"
+      },
+      {
         "kind": "TypeDecl",
-        "name": "PluginConfiguration",
-        "printedName": "PluginConfiguration",
+        "name": "IntuitSDKSandbox",
+        "printedName": "IntuitSDKSandbox",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(contextDelegate:authenticationDelegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IntuitSDKSandbox",
+                "printedName": "IntuitPlugin.IntuitSDKSandbox",
+                "usr": "s:12IntuitPlugin0A10SDKSandboxC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AFMobileContextDelegate",
+                "printedName": "AppShellWidgetInterface.AFMobileContextDelegate",
+                "usr": "s:23AppShellWidgetInterface23AFMobileContextDelegateP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AFMobileAuthenticationDelegate",
+                "printedName": "AppShellWidgetInterface.AFMobileAuthenticationDelegate",
+                "usr": "s:23AppShellWidgetInterface30AFMobileAuthenticationDelegateP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12IntuitPlugin0A10SDKSandboxC15contextDelegate014authenticationE0AC23AppShellWidgetInterface015AFMobileContextE0_p_AF0k14AuthenticationE0_ptcfc",
+            "mangledName": "$s12IntuitPlugin0A10SDKSandboxC15contextDelegate014authenticationE0AC23AppShellWidgetInterface015AFMobileContextE0_p_AF0k14AuthenticationE0_ptcfc",
+            "moduleName": "IntuitPlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IntuitSDKSandbox",
+                "printedName": "IntuitPlugin.IntuitSDKSandbox",
+                "usr": "s:12IntuitPlugin0A10SDKSandboxC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12IntuitPlugin0A10SDKSandboxCACycfc",
+            "mangledName": "$s12IntuitPlugin0A10SDKSandboxCACycfc",
+            "moduleName": "IntuitPlugin",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12IntuitPlugin0A10SDKSandboxC",
+        "mangledName": "$s12IntuitPlugin0A10SDKSandboxC",
+        "moduleName": "IntuitPlugin",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "superclassUsr": "s:17AFMobileShellCore13MobileSandboxC",
+        "superclassNames": [
+          "AFMobileShellCore.MobileSandbox"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sandbox",
+            "printedName": "Sandbox",
+            "usr": "s:23AppShellWidgetInterface7SandboxP",
+            "mangledName": "$s23AppShellWidgetInterface7SandboxP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDKConfiguration",
+        "printedName": "SDKConfiguration",
         "children": [
           {
             "kind": "Var",
@@ -1482,8 +1588,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IntuitPlugin0B13ConfigurationP10appContextAA03AppE0_pvp",
-            "mangledName": "$s12IntuitPlugin0B13ConfigurationP10appContextAA03AppE0_pvp",
+            "usr": "s:12IntuitPlugin16SDKConfigurationP10appContextAA03AppE0_pvp",
+            "mangledName": "$s12IntuitPlugin16SDKConfigurationP10appContextAA03AppE0_pvp",
             "moduleName": "IntuitPlugin",
             "protocolReq": true,
             "accessors": [
@@ -1500,11 +1606,11 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IntuitPlugin0B13ConfigurationP10appContextAA03AppE0_pvg",
-                "mangledName": "$s12IntuitPlugin0B13ConfigurationP10appContextAA03AppE0_pvg",
+                "usr": "s:12IntuitPlugin16SDKConfigurationP10appContextAA03AppE0_pvg",
+                "mangledName": "$s12IntuitPlugin16SDKConfigurationP10appContextAA03AppE0_pvg",
                 "moduleName": "IntuitPlugin",
-                "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.PluginConfiguration>",
-                "sugared_genericSig": "<Self where Self : IntuitPlugin.PluginConfiguration>",
+                "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.SDKConfiguration>",
+                "sugared_genericSig": "<Self where Self : IntuitPlugin.SDKConfiguration>",
                 "protocolReq": true,
                 "reqNewWitnessTableEntry": true,
                 "accessorKind": "get"
@@ -1518,14 +1624,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "PluginEventHandler",
-                "printedName": "IntuitPlugin.PluginEventHandler",
-                "usr": "s:12IntuitPlugin0B12EventHandlerP"
+                "name": "SDKEventHandler",
+                "printedName": "IntuitPlugin.SDKEventHandler",
+                "usr": "s:12IntuitPlugin15SDKEventHandlerP"
               }
             ],
             "declKind": "Var",
-            "usr": "s:12IntuitPlugin0B13ConfigurationP12eventHandlerAA0b5EventE0_pvp",
-            "mangledName": "$s12IntuitPlugin0B13ConfigurationP12eventHandlerAA0b5EventE0_pvp",
+            "usr": "s:12IntuitPlugin16SDKConfigurationP12eventHandlerAA08SDKEventE0_pvp",
+            "mangledName": "$s12IntuitPlugin16SDKConfigurationP12eventHandlerAA08SDKEventE0_pvp",
             "moduleName": "IntuitPlugin",
             "protocolReq": true,
             "declAttributes": [
@@ -1539,17 +1645,17 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "PluginEventHandler",
-                    "printedName": "IntuitPlugin.PluginEventHandler",
-                    "usr": "s:12IntuitPlugin0B12EventHandlerP"
+                    "name": "SDKEventHandler",
+                    "printedName": "IntuitPlugin.SDKEventHandler",
+                    "usr": "s:12IntuitPlugin15SDKEventHandlerP"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12IntuitPlugin0B13ConfigurationP12eventHandlerAA0b5EventE0_pvg",
-                "mangledName": "$s12IntuitPlugin0B13ConfigurationP12eventHandlerAA0b5EventE0_pvg",
+                "usr": "s:12IntuitPlugin16SDKConfigurationP12eventHandlerAA08SDKEventE0_pvg",
+                "mangledName": "$s12IntuitPlugin16SDKConfigurationP12eventHandlerAA08SDKEventE0_pvg",
                 "moduleName": "IntuitPlugin",
-                "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.PluginConfiguration>",
-                "sugared_genericSig": "<Self where Self : IntuitPlugin.PluginConfiguration>",
+                "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.SDKConfiguration>",
+                "sugared_genericSig": "<Self where Self : IntuitPlugin.SDKConfiguration>",
                 "protocolReq": true,
                 "reqNewWitnessTableEntry": true,
                 "accessorKind": "get"
@@ -1558,8 +1664,8 @@
           }
         ],
         "declKind": "Protocol",
-        "usr": "s:12IntuitPlugin0B13ConfigurationP",
-        "mangledName": "$s12IntuitPlugin0B13ConfigurationP",
+        "usr": "s:12IntuitPlugin16SDKConfigurationP",
+        "mangledName": "$s12IntuitPlugin16SDKConfigurationP",
         "moduleName": "IntuitPlugin",
         "declAttributes": [
           "AccessControl",
@@ -1568,13 +1674,13 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "PluginEventHandler",
-        "printedName": "PluginEventHandler",
+        "name": "SDKEventHandler",
+        "printedName": "SDKEventHandler",
         "children": [
           {
             "kind": "Function",
-            "name": "handlePluginEvent",
-            "printedName": "handlePluginEvent(_:completion:)",
+            "name": "handleSDKEvent",
+            "printedName": "handleSDKEvent(_:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1623,19 +1729,19 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12IntuitPlugin0B12EventHandlerP06handlebC0_10completionyAA0C0_p_yAaF_p_AA8ResponseVtXEtF",
-            "mangledName": "$s12IntuitPlugin0B12EventHandlerP06handlebC0_10completionyAA0C0_p_yAaF_p_AA8ResponseVtXEtF",
+            "usr": "s:12IntuitPlugin15SDKEventHandlerP06handleC0_10completionyAA5Event_p_yAaF_p_AA8ResponseVtXEtF",
+            "mangledName": "$s12IntuitPlugin15SDKEventHandlerP06handleC0_10completionyAA5Event_p_yAaF_p_AA8ResponseVtXEtF",
             "moduleName": "IntuitPlugin",
-            "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.PluginEventHandler>",
-            "sugared_genericSig": "<Self where Self : IntuitPlugin.PluginEventHandler>",
+            "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.SDKEventHandler>",
+            "sugared_genericSig": "<Self where Self : IntuitPlugin.SDKEventHandler>",
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
-        "usr": "s:12IntuitPlugin0B12EventHandlerP",
-        "mangledName": "$s12IntuitPlugin0B12EventHandlerP",
+        "usr": "s:12IntuitPlugin15SDKEventHandlerP",
+        "mangledName": "$s12IntuitPlugin15SDKEventHandlerP",
         "moduleName": "IntuitPlugin",
         "declAttributes": [
           "AccessControl",
@@ -1645,5 +1751,13 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": []
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/externalization\/IntuitPlugin\/Sources\/IntuitPlugin\/Internal\/IntuitSDKSandbox.swift",
+      "kind": "StringLiteral",
+      "offset": 257,
+      "length": 16,
+      "value": "\"IntuitPlugin.IntuitSDKSandbox\""
+    }
+  ]
 }

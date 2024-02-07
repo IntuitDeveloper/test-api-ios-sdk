@@ -15,6 +15,10 @@ Pod::Spec.new do |spec|
   spec.source       = { :http => "https://github.com/IntuitDeveloper/test-api-ios-sdk/releases/download/v1-test/Frameworks.zip" }
   spec.ios.vendored_frameworks = 'Frameworks/AFMobileAuthenticationInterface.xcframework',
                                  'Frameworks/AFMobileContextInterface.xcframework',
+                                 'Frameworks/AFMobileAnalyticsInterface.xcframework',
+                                 'Frameworks/AFMobileAnalytics.xcframework',
+                                 'Frameworks/AFMobileShellCore.xcframework',
+                                 'Frameworks/AppShellWidgetInterface.xcframework',
                                  'Frameworks/IntuitPlugin.xcframework',
                                  'Frameworks/SampleIntuitPlugin.xcframework',
                                  'Frameworks/SampleIntuitWidget.xcframework'

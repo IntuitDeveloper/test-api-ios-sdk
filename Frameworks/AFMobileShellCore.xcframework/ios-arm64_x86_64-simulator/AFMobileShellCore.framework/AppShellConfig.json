@@ -1,0 +1,18 @@
+{
+    "QBO_HYDRATE_URL_PATH": "/v1/company/%@/auth/hydrate?noredirect=true",
+    "QBO_API_GATEWAY_URLS": {
+        "DEV": "https://qbonline-qal.api.intuit.com",
+        "QA": "https://qbonline-qal.api.intuit.com",
+        "E2E": "https://qbonline-e2e.api.intuit.com",
+        "PROD": "https://qbonline.api.intuit.com"
+    },
+    "QBO_HEADER_EDGE_TYPE_KEY": "intuit_gw_route",
+    "QBO_HEADER_EDGE_TYPE": "edge",
+    "QBO_WEBSHELL_RELATIVE_PATH": "/app/mobile?_embeddedMobile=true",
+    
+    "IUS_HYDRATION_TARGET_URL_DEFAULT": {
+        "QA": "https://accounts-e2e.intuit.com",
+        "E2E": "https://accounts-e2e.intuit.com",
+        "PROD": "https://accounts.intuit.com"
+    },
+}

@@ -1,0 +1,2336 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AFMobileAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppShellWidgetInterface",
+        "printedName": "AppShellWidgetInterface",
+        "declKind": "Import",
+        "moduleName": "AFMobileAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "AFMobileContextInterface",
+        "printedName": "AFMobileContextInterface",
+        "declKind": "Import",
+        "moduleName": "AFMobileAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "EventCollectionStandard",
+        "printedName": "EventCollectionStandard",
+        "declKind": "Import",
+        "moduleName": "AFMobileAnalytics"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnalyticsEventFilter",
+        "printedName": "AnalyticsEventFilter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "evaluateEvent",
+            "printedName": "evaluateEvent(eventName:eventData:context:applicationContext:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.String, [Swift.String : Any], [Swift.String : Any]?, [Swift.String : Any]?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17AFMobileAnalytics0B11EventFilterP08evaluateC09eventName0F4Data7context18applicationContextSS_SDySSypGAISgAJtSS_Ai2JtYaF",
+            "mangledName": "$s17AFMobileAnalytics0B11EventFilterP08evaluateC09eventName0F4Data7context18applicationContextSS_SDySSypGAISgAJtSS_Ai2JtYaF",
+            "moduleName": "AFMobileAnalytics",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileAnalytics.AnalyticsEventFilter>",
+            "sugared_genericSig": "<Self where Self : AFMobileAnalytics.AnalyticsEventFilter>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17AFMobileAnalytics0B11EventFilterP",
+        "mangledName": "$s17AFMobileAnalytics0B11EventFilterP",
+        "moduleName": "AFMobileAnalytics",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PassThruAnalyticsFilter",
+        "printedName": "PassThruAnalyticsFilter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PassThruAnalyticsFilter",
+                "printedName": "AFMobileAnalytics.PassThruAnalyticsFilter",
+                "usr": "s:17AFMobileAnalytics08PassThruB6FilterC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17AFMobileAnalytics08PassThruB6FilterCACycfc",
+            "mangledName": "$s17AFMobileAnalytics08PassThruB6FilterCACycfc",
+            "moduleName": "AFMobileAnalytics",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "evaluateEvent",
+            "printedName": "evaluateEvent(eventName:eventData:context:applicationContext:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.String, [Swift.String : Any], [Swift.String : Any]?, [Swift.String : Any]?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17AFMobileAnalytics08PassThruB6FilterC13evaluateEvent9eventName0H4Data7context18applicationContextSS_SDySSypGAISgAJtSS_Ai2JtF",
+            "mangledName": "$s17AFMobileAnalytics08PassThruB6FilterC13evaluateEvent9eventName0H4Data7context18applicationContextSS_SDySSypGAISgAJtSS_Ai2JtF",
+            "moduleName": "AFMobileAnalytics",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17AFMobileAnalytics08PassThruB6FilterC",
+        "mangledName": "$s17AFMobileAnalytics08PassThruB6FilterC",
+        "moduleName": "AFMobileAnalytics",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AnalyticsEventFilter",
+            "printedName": "AnalyticsEventFilter",
+            "usr": "s:17AFMobileAnalytics0B11EventFilterP",
+            "mangledName": "$s17AFMobileAnalytics0B11EventFilterP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BaseECSFieldsInjector",
+        "printedName": "BaseECSFieldsInjector",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BaseECSFieldsInjector",
+                "printedName": "AFMobileAnalytics.BaseECSFieldsInjector",
+                "usr": "s:17AFMobileAnalytics21BaseECSFieldsInjectorC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17AFMobileAnalytics21BaseECSFieldsInjectorCACycfc",
+            "mangledName": "$s17AFMobileAnalytics21BaseECSFieldsInjectorCACycfc",
+            "moduleName": "AFMobileAnalytics",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getECSPayload",
+            "printedName": "getECSPayload(eventName:eventPayload:applicationContext:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17AFMobileAnalytics21BaseECSFieldsInjectorC13getECSPayload9eventName0H7Payload18applicationContextSDySSypGSS_A2HtF",
+            "mangledName": "$s17AFMobileAnalytics21BaseECSFieldsInjectorC13getECSPayload9eventName0H7Payload18applicationContextSDySSypGSS_A2HtF",
+            "moduleName": "AFMobileAnalytics",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "evaluateEvent",
+            "printedName": "evaluateEvent(eventName:eventData:context:applicationContext:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.String, [Swift.String : Any], [Swift.String : Any]?, [Swift.String : Any]?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17AFMobileAnalytics21BaseECSFieldsInjectorC13evaluateEvent9eventName0H4Data7context18applicationContextSS_SDySSypGAISgAJtSS_Ai2JtF",
+            "mangledName": "$s17AFMobileAnalytics21BaseECSFieldsInjectorC13evaluateEvent9eventName0H4Data7context18applicationContextSS_SDySSypGAISgAJtSS_Ai2JtF",
+            "moduleName": "AFMobileAnalytics",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17AFMobileAnalytics21BaseECSFieldsInjectorC",
+        "mangledName": "$s17AFMobileAnalytics21BaseECSFieldsInjectorC",
+        "moduleName": "AFMobileAnalytics",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AnalyticsEventFilter",
+            "printedName": "AnalyticsEventFilter",
+            "usr": "s:17AFMobileAnalytics0B11EventFilterP",
+            "mangledName": "$s17AFMobileAnalytics0B11EventFilterP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdobeIntegrationFilter",
+        "printedName": "AdobeIntegrationFilter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdobeIntegrationFilter",
+                "printedName": "AFMobileAnalytics.AdobeIntegrationFilter",
+                "usr": "s:17AFMobileAnalytics22AdobeIntegrationFilterC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17AFMobileAnalytics22AdobeIntegrationFilterCyACSSSgyccfc",
+            "mangledName": "$s17AFMobileAnalytics22AdobeIntegrationFilterCyACSSSgyccfc",
+            "moduleName": "AFMobileAnalytics",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "getAdobeVisitorID",
+            "printedName": "getAdobeVisitorID",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17AFMobileAnalytics22AdobeIntegrationFilterC03getC9VisitorIDSSSgycvp",
+            "mangledName": "$s17AFMobileAnalytics22AdobeIntegrationFilterC03getC9VisitorIDSSSgycvp",
+            "moduleName": "AFMobileAnalytics",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17AFMobileAnalytics22AdobeIntegrationFilterC03getC9VisitorIDSSSgycvg",
+                "mangledName": "$s17AFMobileAnalytics22AdobeIntegrationFilterC03getC9VisitorIDSSSgycvg",
+                "moduleName": "AFMobileAnalytics",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17AFMobileAnalytics22AdobeIntegrationFilterC03getC9VisitorIDSSSgycvs",
+                "mangledName": "$s17AFMobileAnalytics22AdobeIntegrationFilterC03getC9VisitorIDSSSgycvs",
+                "moduleName": "AFMobileAnalytics",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17AFMobileAnalytics22AdobeIntegrationFilterC03getC9VisitorIDSSSgycvM",
+                "mangledName": "$s17AFMobileAnalytics22AdobeIntegrationFilterC03getC9VisitorIDSSSgycvM",
+                "moduleName": "AFMobileAnalytics",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "evaluateEvent",
+            "printedName": "evaluateEvent(eventName:eventData:context:applicationContext:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.String, [Swift.String : Any], [Swift.String : Any]?, [Swift.String : Any]?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17AFMobileAnalytics22AdobeIntegrationFilterC13evaluateEvent9eventName0H4Data7context18applicationContextSS_SDySSypGAISgAJtSS_Ai2JtF",
+            "mangledName": "$s17AFMobileAnalytics22AdobeIntegrationFilterC13evaluateEvent9eventName0H4Data7context18applicationContextSS_SDySSypGAISgAJtSS_Ai2JtF",
+            "moduleName": "AFMobileAnalytics",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17AFMobileAnalytics22AdobeIntegrationFilterC",
+        "mangledName": "$s17AFMobileAnalytics22AdobeIntegrationFilterC",
+        "moduleName": "AFMobileAnalytics",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AnalyticsEventFilter",
+            "printedName": "AnalyticsEventFilter",
+            "usr": "s:17AFMobileAnalytics0B11EventFilterP",
+            "mangledName": "$s17AFMobileAnalytics0B11EventFilterP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnalyticsFilterManager",
+        "printedName": "AnalyticsFilterManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(filters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnalyticsFilterManager",
+                "printedName": "AFMobileAnalytics.AnalyticsFilterManager",
+                "usr": "s:17AFMobileAnalytics0B13FilterManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AFMobileAnalytics.AnalyticsEventFilter]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnalyticsEventFilter",
+                    "printedName": "AFMobileAnalytics.AnalyticsEventFilter",
+                    "usr": "s:17AFMobileAnalytics0B11EventFilterP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17AFMobileAnalytics0B13FilterManagerC7filtersACSayAA0b5EventC0_pG_tcfc",
+            "mangledName": "$s17AFMobileAnalytics0B13FilterManagerC7filtersACSayAA0b5EventC0_pG_tcfc",
+            "moduleName": "AFMobileAnalytics",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17AFMobileAnalytics0B13FilterManagerC",
+        "mangledName": "$s17AFMobileAnalytics0B13FilterManagerC",
+        "moduleName": "AFMobileAnalytics",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AFMobileAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Segment",
+        "printedName": "Segment",
+        "declKind": "Import",
+        "moduleName": "AFMobileAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AFMobileAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppShellWidgetInterface",
+        "printedName": "AppShellWidgetInterface",
+        "declKind": "Import",
+        "moduleName": "AFMobileAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "AFMobileLoggingInterface",
+        "printedName": "AFMobileLoggingInterface",
+        "declKind": "Import",
+        "moduleName": "AFMobileAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "AFMobileContextInterface",
+        "printedName": "AFMobileContextInterface",
+        "declKind": "Import",
+        "moduleName": "AFMobileAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "Segment",
+        "printedName": "Segment",
+        "declKind": "Import",
+        "moduleName": "AFMobileAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "EventCollectionStandard",
+        "printedName": "EventCollectionStandard",
+        "declKind": "Import",
+        "moduleName": "AFMobileAnalytics",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AFMobileShellCore",
+        "printedName": "AFMobileShellCore",
+        "declKind": "Import",
+        "moduleName": "AFMobileAnalytics"
+      },
+      {
+        "kind": "Import",
+        "name": "AFMobileAnalyticsInterface",
+        "printedName": "AFMobileAnalyticsInterface",
+        "declKind": "Import",
+        "moduleName": "AFMobileAnalytics"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SegmentDelegateError",
+        "printedName": "SegmentDelegateError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "noWriteKey",
+            "printedName": "noWriteKey",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AFMobileAnalytics.SegmentDelegateError.Type) -> (AFMobileContextInterface.AuthEnvironmentType) -> AFMobileAnalytics.SegmentDelegateError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AFMobileContextInterface.AuthEnvironmentType) -> AFMobileAnalytics.SegmentDelegateError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SegmentDelegateError",
+                        "printedName": "AFMobileAnalytics.SegmentDelegateError",
+                        "usr": "s:17AFMobileAnalytics20SegmentDelegateErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(forEnv: AFMobileContextInterface.AuthEnvironmentType)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AuthEnvironmentType",
+                            "printedName": "AFMobileContextInterface.AuthEnvironmentType",
+                            "usr": "s:24AFMobileContextInterface19AuthEnvironmentTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AFMobileAnalytics.SegmentDelegateError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SegmentDelegateError",
+                        "printedName": "AFMobileAnalytics.SegmentDelegateError",
+                        "usr": "s:17AFMobileAnalytics20SegmentDelegateErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17AFMobileAnalytics20SegmentDelegateErrorO10noWriteKeyyAC0A16ContextInterface19AuthEnvironmentTypeO_tcACmF",
+            "mangledName": "$s17AFMobileAnalytics20SegmentDelegateErrorO10noWriteKeyyAC0A16ContextInterface19AuthEnvironmentTypeO_tcACmF",
+            "moduleName": "AFMobileAnalytics"
+          },
+          {
+            "kind": "Var",
+            "name": "badURL",
+            "printedName": "badURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AFMobileAnalytics.SegmentDelegateError.Type) -> AFMobileAnalytics.SegmentDelegateError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SegmentDelegateError",
+                    "printedName": "AFMobileAnalytics.SegmentDelegateError",
+                    "usr": "s:17AFMobileAnalytics20SegmentDelegateErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AFMobileAnalytics.SegmentDelegateError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SegmentDelegateError",
+                        "printedName": "AFMobileAnalytics.SegmentDelegateError",
+                        "usr": "s:17AFMobileAnalytics20SegmentDelegateErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17AFMobileAnalytics20SegmentDelegateErrorO6badURLyA2CmF",
+            "mangledName": "$s17AFMobileAnalytics20SegmentDelegateErrorO6badURLyA2CmF",
+            "moduleName": "AFMobileAnalytics"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17AFMobileAnalytics20SegmentDelegateErrorO",
+        "mangledName": "$s17AFMobileAnalytics20SegmentDelegateErrorO",
+        "moduleName": "AFMobileAnalytics",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SegmentAnalyticsDelegate",
+        "printedName": "SegmentAnalyticsDelegate",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sandbox",
+            "printedName": "sandbox",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "AppShellWidgetInterface.Sandbox?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17AFMobileAnalytics07SegmentB8DelegateC7sandbox23AppShellWidgetInterface7Sandbox_pSgvp",
+            "mangledName": "$s17AFMobileAnalytics07SegmentB8DelegateC7sandbox23AppShellWidgetInterface7Sandbox_pSgvp",
+            "moduleName": "AFMobileAnalytics",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AppShellWidgetInterface.Sandbox?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sandbox",
+                        "printedName": "AppShellWidgetInterface.Sandbox",
+                        "usr": "s:23AppShellWidgetInterface7SandboxP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17AFMobileAnalytics07SegmentB8DelegateC7sandbox23AppShellWidgetInterface7Sandbox_pSgvg",
+                "mangledName": "$s17AFMobileAnalytics07SegmentB8DelegateC7sandbox23AppShellWidgetInterface7Sandbox_pSgvg",
+                "moduleName": "AFMobileAnalytics",
+                "overriding": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AppShellWidgetInterface.Sandbox?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sandbox",
+                        "printedName": "AppShellWidgetInterface.Sandbox",
+                        "usr": "s:23AppShellWidgetInterface7SandboxP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17AFMobileAnalytics07SegmentB8DelegateC7sandbox23AppShellWidgetInterface7Sandbox_pSgvs",
+                "mangledName": "$s17AFMobileAnalytics07SegmentB8DelegateC7sandbox23AppShellWidgetInterface7Sandbox_pSgvs",
+                "moduleName": "AFMobileAnalytics",
+                "overriding": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17AFMobileAnalytics07SegmentB8DelegateC7sandbox23AppShellWidgetInterface7Sandbox_pSgvM",
+                "mangledName": "$s17AFMobileAnalytics07SegmentB8DelegateC7sandbox23AppShellWidgetInterface7Sandbox_pSgvM",
+                "moduleName": "AFMobileAnalytics",
+                "overriding": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(contextDelegate:writeKeys:filters:customTopic:customConfig:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SegmentAnalyticsDelegate",
+                "printedName": "AFMobileAnalytics.SegmentAnalyticsDelegate",
+                "usr": "c:@M@AFMobileAnalytics@objc(cs)SegmentAnalyticsDelegate"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AFMobileContextDelegate",
+                "printedName": "AppShellWidgetInterface.AFMobileContextDelegate",
+                "usr": "s:23AppShellWidgetInterface23AFMobileContextDelegateP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[AFMobileContextInterface.AuthEnvironmentType : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthEnvironmentType",
+                    "printedName": "AFMobileContextInterface.AuthEnvironmentType",
+                    "usr": "s:24AFMobileContextInterface19AuthEnvironmentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AFMobileAnalytics.AnalyticsEventFilter]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnalyticsEventFilter",
+                    "printedName": "AFMobileAnalytics.AnalyticsEventFilter",
+                    "usr": "s:17AFMobileAnalytics0B11EventFilterP"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(inout Segment.AnalyticsConfiguration) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnalyticsConfiguration",
+                    "printedName": "Segment.AnalyticsConfiguration",
+                    "usr": "c:objc(cs)SEGAnalyticsConfiguration"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ],
+                "hasDefaultArg": true
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17AFMobileAnalytics07SegmentB8DelegateC07contextD09writeKeys7filters11customTopic0I6ConfigAC23AppShellWidgetInterface0a7ContextD0_p_SDy0apO019AuthEnvironmentTypeOSSGSayAA0B11EventFilter_pGSSSgySo25SEGAnalyticsConfigurationCzXEtKcfc",
+            "mangledName": "$s17AFMobileAnalytics07SegmentB8DelegateC07contextD09writeKeys7filters11customTopic0I6ConfigAC23AppShellWidgetInterface0a7ContextD0_p_SDy0apO019AuthEnvironmentTypeOSSGSayAA0B11EventFilter_pGSSSgySo25SEGAnalyticsConfigurationCzXEtKcfc",
+            "moduleName": "AFMobileAnalytics",
+            "deprecated": true,
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "Available",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(contextDelegate:authenticationDelegate:writeKeys:filters:topic:customConfig:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SegmentAnalyticsDelegate",
+                "printedName": "AFMobileAnalytics.SegmentAnalyticsDelegate",
+                "usr": "c:@M@AFMobileAnalytics@objc(cs)SegmentAnalyticsDelegate"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AFMobileContextDelegate",
+                "printedName": "AppShellWidgetInterface.AFMobileContextDelegate",
+                "usr": "s:23AppShellWidgetInterface23AFMobileContextDelegateP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AppShellWidgetInterface.AFMobileAuthenticationDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AFMobileAuthenticationDelegate",
+                    "printedName": "AppShellWidgetInterface.AFMobileAuthenticationDelegate",
+                    "usr": "s:23AppShellWidgetInterface30AFMobileAuthenticationDelegateP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[AFMobileContextInterface.AuthEnvironmentType : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthEnvironmentType",
+                    "printedName": "AFMobileContextInterface.AuthEnvironmentType",
+                    "usr": "s:24AFMobileContextInterface19AuthEnvironmentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AFMobileAnalytics.AnalyticsEventFilter]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnalyticsEventFilter",
+                    "printedName": "AFMobileAnalytics.AnalyticsEventFilter",
+                    "usr": "s:17AFMobileAnalytics0B11EventFilterP"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(inout Segment.AnalyticsConfiguration) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnalyticsConfiguration",
+                    "printedName": "Segment.AnalyticsConfiguration",
+                    "usr": "c:objc(cs)SEGAnalyticsConfiguration"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ],
+                "hasDefaultArg": true
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17AFMobileAnalytics07SegmentB8DelegateC07contextD0014authenticationD09writeKeys7filters5topic12customConfigAC23AppShellWidgetInterface0a7ContextD0_p_AJ0a14AuthenticationD0_pSgSDy0aqP019AuthEnvironmentTypeOSSGSayAA0B11EventFilter_pGSSySo25SEGAnalyticsConfigurationCzXEtKcfc",
+            "mangledName": "$s17AFMobileAnalytics07SegmentB8DelegateC07contextD0014authenticationD09writeKeys7filters5topic12customConfigAC23AppShellWidgetInterface0a7ContextD0_p_AJ0a14AuthenticationD0_pSgSDy0aqP019AuthEnvironmentTypeOSSGSayAA0B11EventFilter_pGSSySo25SEGAnalyticsConfigurationCzXEtKcfc",
+            "moduleName": "AFMobileAnalytics",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "copy",
+            "printedName": "copy(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ObjectiveC.NSZone?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSZone",
+                    "printedName": "ObjectiveC.NSZone",
+                    "usr": "s:10ObjectiveC6NSZoneV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AFMobileAnalytics@objc(cs)SegmentAnalyticsDelegate(im)copyWithZone:",
+            "mangledName": "$s17AFMobileAnalytics07SegmentB8DelegateC4copy4withyp10ObjectiveC6NSZoneVSg_tF",
+            "moduleName": "AFMobileAnalytics",
+            "overriding": true,
+            "objc_name": "copyWithZone:",
+            "declAttributes": [
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackEvent",
+            "printedName": "trackEvent(_:eventData:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17AFMobileAnalytics07SegmentB8DelegateC10trackEvent_9eventData7contextySS_SDySSypGAGSgtF",
+            "mangledName": "$s17AFMobileAnalytics07SegmentB8DelegateC10trackEvent_9eventData7contextySS_SDySSypGAGSgtF",
+            "moduleName": "AFMobileAnalytics",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "track",
+            "printedName": "track(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StandardEvent",
+                "printedName": "AFMobileAnalyticsInterface.StandardEvent",
+                "usr": "s:26AFMobileAnalyticsInterface13StandardEventP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17AFMobileAnalytics07SegmentB8DelegateC5track_7contexty0aB9Interface13StandardEvent_p_SDySSypGSgtF",
+            "mangledName": "$s17AFMobileAnalytics07SegmentB8DelegateC5track_7contexty0aB9Interface13StandardEvent_p_SDySSypGSgtF",
+            "moduleName": "AFMobileAnalytics",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17AFMobileAnalytics07SegmentB8DelegateC5resetyyF",
+            "mangledName": "$s17AFMobileAnalytics07SegmentB8DelegateC5resetyyF",
+            "moduleName": "AFMobileAnalytics",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "flush",
+            "printedName": "flush()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17AFMobileAnalytics07SegmentB8DelegateC5flushyyF",
+            "mangledName": "$s17AFMobileAnalytics07SegmentB8DelegateC5flushyyF",
+            "moduleName": "AFMobileAnalytics",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAnonymousId",
+            "printedName": "getAnonymousId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17AFMobileAnalytics07SegmentB8DelegateC14getAnonymousIdSSyF",
+            "mangledName": "$s17AFMobileAnalytics07SegmentB8DelegateC14getAnonymousIdSSyF",
+            "moduleName": "AFMobileAnalytics",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sandbox:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SegmentAnalyticsDelegate",
+                "printedName": "AFMobileAnalytics.SegmentAnalyticsDelegate",
+                "usr": "c:@M@AFMobileAnalytics@objc(cs)SegmentAnalyticsDelegate"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AppShellWidgetInterface.Sandbox?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Sandbox",
+                    "printedName": "AppShellWidgetInterface.Sandbox",
+                    "usr": "s:23AppShellWidgetInterface7SandboxP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17AFMobileAnalytics07SegmentB8DelegateC7sandboxAC23AppShellWidgetInterface7Sandbox_pSg_tcfc",
+            "mangledName": "$s17AFMobileAnalytics07SegmentB8DelegateC7sandboxAC23AppShellWidgetInterface7Sandbox_pSg_tcfc",
+            "moduleName": "AFMobileAnalytics",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AFMobileAnalytics@objc(cs)SegmentAnalyticsDelegate",
+        "mangledName": "$s17AFMobileAnalytics07SegmentB8DelegateC",
+        "moduleName": "AFMobileAnalytics",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@AFMobileShellCore@objc(cs)BaseSandboxDelegate",
+        "superclassNames": [
+          "AFMobileShellCore.BaseSandboxDelegate",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AFMobileAnalyticsDelegate",
+            "printedName": "AFMobileAnalyticsDelegate",
+            "usr": "s:23AppShellWidgetInterface25AFMobileAnalyticsDelegateP",
+            "mangledName": "$s23AppShellWidgetInterface25AFMobileAnalyticsDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SandboxDelegate",
+            "printedName": "SandboxDelegate",
+            "usr": "s:23AppShellWidgetInterface15SandboxDelegateP",
+            "mangledName": "$s23AppShellWidgetInterface15SandboxDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AnalyticsDelegate",
+            "printedName": "AnalyticsDelegate",
+            "usr": "s:26AFMobileAnalyticsInterface0B8DelegateP",
+            "mangledName": "$s26AFMobileAnalyticsInterface0B8DelegateP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsFilters.swift",
+      "kind": "Dictionary",
+      "offset": 2747,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsFilters.swift",
+      "kind": "Dictionary",
+      "offset": 2783,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsFilters.swift",
+      "kind": "Dictionary",
+      "offset": 4019,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsFilters.swift",
+      "kind": "Dictionary",
+      "offset": 4907,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsFilters.swift",
+      "kind": "Dictionary",
+      "offset": 4940,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsFilters.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9091,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsFilters.swift",
+      "kind": "StringLiteral",
+      "offset": 9405,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 1970,
+      "length": 31,
+      "value": "\"SEGAnalytics singleton is nil\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 695,
+      "length": 56,
+      "value": "\"https:\/\/eventbus-ENV.intuit.com\/v2\/segment\/TOPIC\/batch\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1100,
+      "length": 6,
+      "value": "\"-ENV\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1114,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1223,
+      "length": 5,
+      "value": "\"ENV\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1236,
+      "length": 5,
+      "value": "\"e2e\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1298,
+      "length": 7,
+      "value": "\"TOPIC\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1647,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 3018,
+      "length": 19,
+      "value": "\"AFMobileAnalytics\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 3421,
+      "length": 26,
+      "value": "\"SegmentAnalyticsDelegate\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3529,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3555,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3529,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3555,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3529,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3555,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 5227,
+      "length": 10,
+      "value": "\"settings\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6295,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 7925,
+      "length": 28,
+      "value": "\"intuit-general-clickstream\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 8147,
+      "length": 28,
+      "value": "\"intuit-general-clickstream\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 10661,
+      "length": 26,
+      "value": "\"SegmentAnalyticsDelegate\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 11504,
+      "length": 54,
+      "value": "\"Unable to create copy of segment analytics delegate.\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "Dictionary",
+      "offset": 13541,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 13770,
+      "length": 9,
+      "value": "\"context\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1536,
+      "length": 24,
+      "value": "\"AFMobileAnalytics.SegmentAnalyticsDelegate\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 15895,
+      "length": 34,
+      "value": "\"ShellAnalyticsDelegateInitialize\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 15987,
+      "length": 38,
+      "value": "\"ShellAnalyticsDelegateInitializeFail\""
+    }
+  ]
+}

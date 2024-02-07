@@ -23,6 +23,27 @@
       },
       {
         "kind": "Import",
+        "name": "AFMobileAnalytics",
+        "printedName": "AFMobileAnalytics",
+        "declKind": "Import",
+        "moduleName": "SampleIntuitPlugin"
+      },
+      {
+        "kind": "Import",
+        "name": "AFMobileShellCore",
+        "printedName": "AFMobileShellCore",
+        "declKind": "Import",
+        "moduleName": "SampleIntuitPlugin"
+      },
+      {
+        "kind": "Import",
+        "name": "AFMobileContextInterface",
+        "printedName": "AFMobileContextInterface",
+        "declKind": "Import",
+        "moduleName": "SampleIntuitPlugin"
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -45,17 +66,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "PluginConfiguration",
-                "printedName": "IntuitPlugin.PluginConfiguration",
-                "usr": "s:12IntuitPlugin0B13ConfigurationP"
+                "name": "SDKConfiguration",
+                "printedName": "IntuitPlugin.SDKConfiguration",
+                "usr": "s:12IntuitPlugin16SDKConfigurationP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18SampleIntuitPlugin04SomeaC0V4load6configx0bC00C13Configuration_p_tKA2FRzlFZ",
-            "mangledName": "$s18SampleIntuitPlugin04SomeaC0V4load6configx0bC00C13Configuration_p_tKA2FRzlFZ",
+            "usr": "s:18SampleIntuitPlugin04SomeaC0V4load6configx0bC016SDKConfiguration_p_tKAF0B3SDKRzlFZ",
+            "mangledName": "$s18SampleIntuitPlugin04SomeaC0V4load6configx0bC016SDKConfiguration_p_tKAF0B3SDKRzlFZ",
             "moduleName": "SampleIntuitPlugin",
-            "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.IntuitPlugin>",
-            "sugared_genericSig": "<T where T : IntuitPlugin.IntuitPlugin>",
+            "genericSig": "<τ_0_0 where τ_0_0 : IntuitPlugin.IntuitSDK>",
+            "sugared_genericSig": "<T where T : IntuitPlugin.IntuitSDK>",
             "static": true,
             "declAttributes": [
               "AccessControl"
@@ -230,10 +251,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "IntuitPlugin",
-            "printedName": "IntuitPlugin",
-            "usr": "s:12IntuitPluginAAP",
-            "mangledName": "$s12IntuitPluginAAP"
+            "name": "IntuitSDK",
+            "printedName": "IntuitSDK",
+            "usr": "s:12IntuitPlugin0A3SDKP",
+            "mangledName": "$s12IntuitPlugin0A3SDKP"
           }
         ]
       },
@@ -264,6 +285,30 @@
             "mangledName": "$ss8SendableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "AFMobileContextInterface",
+        "printedName": "AFMobileContextInterface",
+        "declKind": "Import",
+        "moduleName": "SampleIntuitPlugin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppShellWidgetInterface",
+        "printedName": "AppShellWidgetInterface",
+        "declKind": "Import",
+        "moduleName": "SampleIntuitPlugin"
+      },
+      {
+        "kind": "Import",
+        "name": "IntuitPlugin",
+        "printedName": "IntuitPlugin",
+        "declKind": "Import",
+        "moduleName": "SampleIntuitPlugin"
       }
     ],
     "json_format_version": 8
@@ -272,9 +317,107 @@
     {
       "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitPlugin\/Sources\/SampleIntuitPlugin\/SampleIntuitPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 381,
+      "offset": 493,
       "length": 81,
       "value": "\"[SampleWidgetPlugin.load failed]: type T does not match SampleWidgetPlugin.type\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitPlugin\/Sources\/SampleIntuitPlugin\/SampleIntuitPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 881,
+      "length": 12,
+      "value": "\"Sample App\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitPlugin\/Sources\/SampleIntuitPlugin\/SampleIntuitPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 909,
+      "length": 52,
+      "value": "\"ErpcZ4qQw70St7BIzQiLQn4a7lFIiGL9kMo3dJIeB5OiHazksI\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitPlugin\/Sources\/SampleIntuitPlugin\/SampleIntuitPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 975,
+      "length": 50,
+      "value": "\"Intuit.platform.appfabriccommonutilities.testios\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitPlugin\/Sources\/SampleIntuitPlugin\/SampleIntuitPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1036,
+      "length": 21,
+      "value": "\"1874640937190510355\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitPlugin\/Sources\/SampleIntuitPlugin\/SampleIntuitPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1071,
+      "length": 31,
+      "value": "\"Intuit.appfabric.intuitplugin\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitPlugin\/Sources\/SampleIntuitPlugin\/SampleIntuitPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1787,
+      "length": 34,
+      "value": "\"f7f3revx1e7ZKns4XpU9MFP1x6Giwkhj\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitPlugin\/Sources\/SampleIntuitPlugin\/SampleIntuitPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1848,
+      "length": 34,
+      "value": "\"XpU9MFP1x6Giwkhjf7f3revx1e7ZKns4\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitPlugin\/Sources\/SampleIntuitPlugin\/SampleIntuitPlugin.swift",
+      "kind": "Array",
+      "offset": 1921,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitPlugin\/Sources\/SampleIntuitPlugin\/SampleIntuitPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1960,
+      "length": 28,
+      "value": "\"intuit-general-clickstream\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitPlugin\/Sources\/SampleIntuitPlugin\/SampleIntuitPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2119,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitPlugin\/Sources\/SampleIntuitPlugin\/SampleIntuitPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2806,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitPlugin\/Sources\/SampleIntuitPlugin\/SampleIntuitPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2822,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitPlugin\/Sources\/SampleIntuitPlugin\/SampleWidgetContextDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 518,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitPlugin\/Sources\/SampleIntuitPlugin\/SampleWidgetContextDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 589,
+      "length": 2,
+      "value": "\"\""
     }
   ]
 }

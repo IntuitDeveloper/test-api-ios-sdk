@@ -16,6 +16,13 @@
       },
       {
         "kind": "Import",
+        "name": "AppShellWidgetInterface",
+        "printedName": "AppShellWidgetInterface",
+        "declKind": "Import",
+        "moduleName": "SampleIntuitWidget"
+      },
+      {
+        "kind": "Import",
         "name": "Gzip",
         "printedName": "Gzip",
         "declKind": "Import",
@@ -348,35 +355,35 @@
     {
       "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitWidget\/Sources\/SampleIntuitWidget\/SampleIntuitWidget.swift",
       "kind": "StringLiteral",
-      "offset": 190,
+      "offset": 221,
       "length": 16,
       "value": "\"Hello, widget!\""
     },
     {
       "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitWidget\/Sources\/SampleIntuitWidget\/SampleIntuitWidget.swift",
       "kind": "IntegerLiteral",
-      "offset": 295,
+      "offset": 352,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitWidget\/Sources\/SampleIntuitWidget\/SampleIntuitWidget.swift",
       "kind": "StringLiteral",
-      "offset": 331,
+      "offset": 388,
       "length": 11,
       "value": "\"timelapse\""
     },
     {
       "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitWidget\/Sources\/SampleIntuitWidget\/SampleIntuitWidget.swift",
       "kind": "IntegerLiteral",
-      "offset": 403,
+      "offset": 460,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/jdomingo\/Dev\/externalization\/SampleIntuitWidget\/Sources\/SampleIntuitWidget\/SampleIntuitWidget.swift",
       "kind": "IntegerLiteral",
-      "offset": 415,
+      "offset": 472,
       "length": 2,
       "value": "60"
     }

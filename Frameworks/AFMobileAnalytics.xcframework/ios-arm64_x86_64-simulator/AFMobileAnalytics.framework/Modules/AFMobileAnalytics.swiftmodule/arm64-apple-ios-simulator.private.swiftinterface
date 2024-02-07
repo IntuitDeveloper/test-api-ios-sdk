@@ -1,0 +1,62 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AFMobileAnalytics
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AFMobileAnalytics
+import AFMobileAnalyticsInterface
+import AFMobileContextInterface
+import AFMobileLoggingInterface
+import AFMobileShellCore
+import AppShellWidgetInterface
+import EventCollectionStandard
+import Foundation
+import Segment
+import Swift
+import _Concurrency
+import _StringProcessing
+public protocol AnalyticsEventFilter {
+  #if compiler(>=5.3) && $AsyncAwait
+  func evaluateEvent(eventName: Swift.String, eventData: [Swift.String : Any], context: [Swift.String : Any]?, applicationContext: [Swift.String : Any]?) async -> (Swift.String, [Swift.String : Any], [Swift.String : Any]?, [Swift.String : Any]?)
+  #endif
+}
+open class PassThruAnalyticsFilter : AFMobileAnalytics.AnalyticsEventFilter {
+  public init()
+  public func evaluateEvent(eventName: Swift.String, eventData: [Swift.String : Any], context: [Swift.String : Any]?, applicationContext: [Swift.String : Any]?) -> (Swift.String, [Swift.String : Any], [Swift.String : Any]?, [Swift.String : Any]?)
+  @objc deinit
+}
+open class BaseECSFieldsInjector : AFMobileAnalytics.AnalyticsEventFilter {
+  public init()
+  public func getECSPayload(eventName: Swift.String, eventPayload: [Swift.String : Any], applicationContext: [Swift.String : Any]) -> [Swift.String : Any]
+  public func evaluateEvent(eventName: Swift.String, eventData: [Swift.String : Any], context: [Swift.String : Any]?, applicationContext: [Swift.String : Any]?) -> (Swift.String, [Swift.String : Any], [Swift.String : Any]?, [Swift.String : Any]?)
+  @objc deinit
+}
+open class AdobeIntegrationFilter : AFMobileAnalytics.AnalyticsEventFilter {
+  public init(_ getAdobeVisitorID: @escaping () -> Swift.String?)
+  public var getAdobeVisitorID: () -> Swift.String?
+  public func evaluateEvent(eventName: Swift.String, eventData: [Swift.String : Any], context: [Swift.String : Any]?, applicationContext: [Swift.String : Any]?) -> (Swift.String, [Swift.String : Any], [Swift.String : Any]?, [Swift.String : Any]?)
+  @objc deinit
+}
+public class AnalyticsFilterManager {
+  public init(filters: [any AFMobileAnalytics.AnalyticsEventFilter] = [PassThruAnalyticsFilter()])
+  @objc deinit
+}
+public enum SegmentDelegateError : Swift.Error {
+  case noWriteKey(forEnv: AFMobileContextInterface.AuthEnvironmentType)
+  case badURL
+}
+@objc open class SegmentAnalyticsDelegate : AFMobileShellCore.BaseSandboxDelegate, AppShellWidgetInterface.AFMobileAnalyticsDelegate {
+  weak override public var sandbox: (any AppShellWidgetInterface.Sandbox)? {
+    get
+    set
+  }
+  @available(*, deprecated, message: "A segment topic is now required. This convenience init is only kept to support backwards compatibility. Please request a topic from IDP and use non-optional topic SegmentAnalyticsDelegate init.")
+  convenience public init(contextDelegate: any AppShellWidgetInterface.AFMobileContextDelegate, writeKeys: [AFMobileContextInterface.AuthEnvironmentType : Swift.String], filters: [any AFMobileAnalytics.AnalyticsEventFilter], customTopic: Swift.String? = "intuit-general-clickstream", customConfig: (inout Segment.AnalyticsConfiguration) -> Swift.Void = { _ in }) throws
+  public init(contextDelegate: any AppShellWidgetInterface.AFMobileContextDelegate, authenticationDelegate: (any AppShellWidgetInterface.AFMobileAuthenticationDelegate)? = nil, writeKeys: [AFMobileContextInterface.AuthEnvironmentType : Swift.String], filters: [any AFMobileAnalytics.AnalyticsEventFilter], topic: Swift.String, customConfig: (inout Segment.AnalyticsConfiguration) -> Swift.Void = { _ in }) throws
+  @objc override public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  open func trackEvent(_ eventName: Swift.String, eventData: [Swift.String : Any], context: [Swift.String : Any]?)
+  open func track(_ event: any AFMobileAnalyticsInterface.StandardEvent, context: [Swift.String : Any]?)
+  public func reset()
+  public func flush()
+  public func getAnonymousId() -> Swift.String
+  @objc deinit
+}

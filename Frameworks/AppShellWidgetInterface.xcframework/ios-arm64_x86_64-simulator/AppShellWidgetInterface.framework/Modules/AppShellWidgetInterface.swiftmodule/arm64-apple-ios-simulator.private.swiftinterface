@@ -1,0 +1,837 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AppShellWidgetInterface
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AFMobileABTestingInterface
+import AFMobileAnalyticsInterface
+import AFMobileAuthenticationInterface
+import AFMobileContextInterface
+import AFMobileDeepLinkInterface
+import AFMobileIntuitDataLayerInterface
+import AFMobileLoggingInterface
+import AFMobileNetworkInterface
+import AFMobilePerformanceInterface
+import AFMobilePubSubInterface
+import AFMobileSmartLookInterface
+import AFMobileSubscriptionInterface
+@_exported import AppShellWidgetInterface
+import CGPlayerPlugin
+import Combine
+import EventCollectionStandard
+import Foundation
+import IntuitDataLayer
+import JavaScriptCore
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import iOSPlayer
+public protocol ActionDelegate : AppShellWidgetInterface.SandboxDelegate {
+  func doAction(_ action: Swift.String, data: Swift.AnyObject?, context: [Swift.String : Swift.AnyObject]?, completionHandler: @escaping (_ data: Swift.AnyObject?, _ error: Foundation.NSError?) -> Swift.Void)
+}
+@_inheritsConvenienceInitializers public class AFMobileIntuitDataDelegateImplementation : AFMobileIntuitDataLayerInterface.ShellIntuitDataDelegate, AppShellWidgetInterface.AFMobileIntuitDataDelegate {
+  weak public var sandbox: (any AppShellWidgetInterface.Sandbox)?
+  override public init()
+  @objc override public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  @objc deinit
+}
+public protocol AppDataDelegate : AppShellWidgetInterface.SandboxDelegate {
+  func getData(_ data: Swift.AnyObject?, context: [Swift.String : Swift.AnyObject]?, completionHandler: @escaping (_ data: Swift.AnyObject?, _ error: Foundation.NSError?) -> Swift.Void)
+}
+public enum AppShellResult<T> : AppShellWidgetInterface.ResultProtocol, Swift.CustomStringConvertible, Swift.CustomDebugStringConvertible {
+  case success(T)
+  case failure(any Swift.Error)
+  public init(value: T)
+  public init(error: any Swift.Error)
+  public init(_ value: T?, failWith: @autoclosure () -> any Swift.Error)
+  public init(_ f: @autoclosure () throws -> T)
+  public init(attempt f: () throws -> T)
+  public func dematerialize() throws -> T
+  public func analysis<R>(ifSuccess: (T) -> R, ifFailure: (any Swift.Error) -> R) -> R
+  public static var errorDomain: Swift.String {
+    get
+  }
+  public static var functionKey: Swift.String {
+    get
+  }
+  public static var fileKey: Swift.String {
+    get
+  }
+  public static var lineKey: Swift.String {
+    get
+  }
+  public static func error(_ message: Swift.String? = nil, function: Swift.String = #function, file: Swift.String = #file, line: Swift.Int = #line) -> Foundation.NSError
+  public var description: Swift.String {
+    get
+  }
+  public var debugDescription: Swift.String {
+    get
+  }
+  public typealias Value = T
+}
+public func materialize<T>(_ f: () throws -> T) -> AppShellWidgetInterface.AppShellResult<T>
+public func materialize<T>(_ f: @autoclosure () throws -> T) -> AppShellWidgetInterface.AppShellResult<T>
+extension Foundation.NSError : AppShellWidgetInterface.ErrorConvertible {
+  public static func error(from error: any Swift.Error) -> Self
+}
+public enum NoError : Swift.Error, Swift.Equatable {
+  case error
+  public static func == (lhs: AppShellWidgetInterface.NoError, rhs: AppShellWidgetInterface.NoError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension AppShellWidgetInterface.ResultProtocol {
+  public var isSuccess: Swift.Bool {
+    get
+  }
+  public var isFailure: Swift.Bool {
+    get
+  }
+}
+extension AppShellWidgetInterface.AppShellResult {
+  @discardableResult
+  public func onSuccess(operation: (AppShellWidgetInterface.AppShellResult<T>.Value) -> Swift.Void) -> AppShellWidgetInterface.AppShellResult<AppShellWidgetInterface.AppShellResult<T>.Value>
+  @discardableResult
+  public func onFailure(operation: (any Swift.Error) -> Swift.Void) -> AppShellWidgetInterface.AppShellResult<AppShellWidgetInterface.AppShellResult<T>.Value>
+}
+public enum AppShellWidgetInterfaceError : Foundation.LocalizedError {
+  case urlRequestReturnedNil
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public static func == (a: AppShellWidgetInterface.AppShellWidgetInterfaceError, b: AppShellWidgetInterface.AppShellWidgetInterfaceError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum RemoteConfigError : Foundation.LocalizedError {
+  case error(any Swift.Error)
+  case invalidData
+  case invalidJson
+  case invalidEnvironment
+  case invalidUrl
+  case invalidUrlRequest
+  case jsonSerializationFailed
+  case defaultImplementation
+  case failedToFetchRemoteConfig
+  case failedToParseJsonToDataModel
+  case weakSelfError
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public enum DynamicCacheError : Foundation.LocalizedError {
+  case error(any Swift.Error)
+  case shellRepositoryNameEmpty
+  case shellRepositoryInitializationFailed
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public enum NetworkLayerError : Foundation.LocalizedError {
+  case error(any Swift.Error)
+  case resourceNotFound
+  case failedToExtractRequestURL
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public protocol AppUpdateManager {
+  func compareAppInfoToUpdateConfig(sandbox: any AppShellWidgetInterface.Sandbox, updateManagerConfigFileData: [Swift.String : Any]) -> AppShellWidgetInterface.UpdateManagerComparisonResult
+  func showUpdateWarningUI(currentViewController: UIKit.UIViewController, iconImage: UIKit.UIImage?, title: Swift.String, message: Swift.String, url: Swift.String, blocking: Swift.Bool, animated: Swift.Bool, completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
+}
+public enum UpdateManagerComparisonResult : Swift.Equatable {
+  case ShowBlocking(title: Swift.String?, message: Swift.String?, url: Swift.String)
+  case ShowNonBlocking(title: Swift.String?, message: Swift.String?, url: Swift.String)
+  case Error(_: AppShellWidgetInterface.RemoteConfigError)
+  case DontShow
+  public func getTitle() -> Swift.String?
+  public func getMessage() -> Swift.String?
+  public func setTitleAndMessage(toNewTitle newTitle: Swift.String?, toNewMessage newMessage: Swift.String?) -> AppShellWidgetInterface.UpdateManagerComparisonResult
+  public func canBeLocalized() -> Swift.Bool
+  public static func == (lhs: AppShellWidgetInterface.UpdateManagerComparisonResult, rhs: AppShellWidgetInterface.UpdateManagerComparisonResult) -> Swift.Bool
+}
+public class AssetSource : AFMobileContextInterface.AFAssetSource {
+  public static let unknown: AppShellWidgetInterface.AssetSource
+  public struct Asset : AFMobileContextInterface.AFAsset, Swift.Decodable {
+    public static let unknown: AppShellWidgetInterface.AssetSource.Asset
+    public static let appShell: AppShellWidgetInterface.AssetSource.Asset
+    public let assetId: Swift.String
+    public let assetAlias: Swift.String
+    public init(assetId: Swift.String, assetAlias: Swift.String?)
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  final public let fileId: Swift.String
+  final public let module: Swift.String?
+  public init(fileId: Swift.String = #fileID, asset: AppShellWidgetInterface.AssetSource.Asset? = nil)
+  public func getAsset() -> any AFMobileContextInterface.AFAsset
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class CaaSRemoteConfigDelegate : AppShellWidgetInterface.AFMobileRemoteConfigDelegate {
+  weak public var sandbox: (any AppShellWidgetInterface.Sandbox)?
+  @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  convenience public init(hostAppName: Swift.String, environment: AFMobileContextInterface.AuthEnvironmentType, retryStrategy: any AppShellWidgetInterface.NetworkRequestRetrying = NetworkRequestLinearDelayRetry())
+  public func fetchConfiguration(withUrl url: Swift.String, completion: @escaping (Swift.Result<[Swift.String : Any], any Swift.Error>) -> Swift.Void)
+  public func fetchConfiguration(withConfigFilePath configFilePath: Swift.String, completion: @escaping (Swift.Result<[Swift.String : Any], any Swift.Error>) -> Swift.Void)
+  public func fetchConfiguration(forApp appName: Swift.String, withConfigFilePath configFilePath: Swift.String, completion: @escaping (Swift.Result<[Swift.String : Any], any Swift.Error>) -> Swift.Void)
+  public func fetchConfiguration(forApp appName: Swift.String, withConfigFilePath configFilePath: Swift.String, environment: AFMobileContextInterface.AuthEnvironmentType, completion: @escaping (Swift.Result<[Swift.String : Any], any Swift.Error>) -> Swift.Void)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class AppShellConstants {
+  public static let ActionEventReceivedNotification: Swift.String
+  public static let DataEventReceivedNotification: Swift.String
+  public static let WidgetEventReceivedNotification: Swift.String
+  public static let ErrorNotification: Swift.String
+  public static let AppShellNotification: Swift.String
+  public static let startTime: Swift.String
+  public static let endTime: Swift.String
+  public static let duration: Swift.String
+  public static let tokenizer: Swift.String
+  public static func stringFormattedPlatforms(supportedPlatforms: [AppShellWidgetInterface.SupportedPlatform]) -> [Swift.String]
+  @objc deinit
+}
+public enum WidgetEvent : Swift.String {
+  case waitStart
+  case waitFinish
+  case error
+  case done
+  case cancel
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum ContextKeyword : Swift.String {
+  case pluginId
+  case widgetId
+  case widgetVersion
+  case mobileShellVersion
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum WidgetType : Swift.String {
+  case native
+  case reactNative
+  case web
+  case fuego
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum SupportedPlatform : Swift.String {
+  case web
+  case iOS
+  case android
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum ShellLoggingEventDictionaryKeys : Swift.String {
+  case additionalInfo
+  case eventType
+  case enableShellLogging
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum ShellLoggingEventDictionaryValues : Swift.String {
+  case metricsEventType
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension Swift.Dictionary {
+  public mutating func append(dictionary: [Key : Value]?)
+  public var jsonData: Foundation.Data? {
+    get
+  }
+  public var jsonString: Swift.String? {
+    get
+  }
+}
+public enum DynamicCacheConstant {
+  public static let dynamicCacheSource: Swift.String
+  public static let globalRepositoryName: Swift.String
+  public static let hostAppName: Swift.String
+  public static func getRemoteConfigUrl(forEnvironment environment: AFMobileContextInterface.AuthEnvironmentType) -> Swift.String
+}
+public protocol DynamicCacheDelegate : AppShellWidgetInterface.SandboxDelegate {
+  var globalRepository: AppShellWidgetInterface.ShellRepository { get }
+  func createPublicRepository(named: Swift.String) -> AppShellWidgetInterface.ShellRepository
+  func createPrivateRepository(for bundle: Foundation.Bundle) -> AppShellWidgetInterface.ShellRepository
+}
+public enum HttpMethod : Swift.String {
+  case post
+  case put
+  case get
+  case delete
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum EndpointConstant {
+  public static let requestTimeout: Swift.Double
+}
+public protocol Endpoint {
+  var urlRequest: Foundation.URLRequest { get }
+  var httpMethod: AppShellWidgetInterface.HttpMethod { get }
+  var queryItems: [Foundation.URLQueryItem]? { get }
+  var messageBodyDictionary: [Swift.String : Any]? { get }
+}
+public protocol HelpDelegate : AppShellWidgetInterface.SandboxDelegate {
+  func showHelp(_ data: [Swift.String : Swift.AnyObject], context: [Swift.String : Swift.AnyObject]?)
+}
+@_hasMissingDesignatedInitializers public class MobileShellRemoteConfigManager {
+  public static let shared: AppShellWidgetInterface.MobileShellRemoteConfigManager
+  public var remoteConfigDelegate: (any AppShellWidgetInterface.AFMobileRemoteConfigDelegate)?
+  public func refreshRemoteConfigResult(for environment: AFMobileContextInterface.AuthEnvironmentType)
+  public func getRemoteConfig<T>(for modelType: T.Type, environment: AFMobileContextInterface.AuthEnvironmentType, refreshConfig: Swift.Bool, completion: @escaping (Swift.Result<T, any Swift.Error>) -> Swift.Void) where T : Swift.Decodable
+  @available(iOS 13.0, *)
+  public func getRemoteConfig<T>(for modelType: T.Type, environment: AFMobileContextInterface.AuthEnvironmentType, refreshConfig: Swift.Bool) -> Combine.Future<T, any Swift.Error> where T : Swift.Decodable
+  @objc deinit
+}
+public protocol NativeWidget : AnyObject, AFMobileContextInterface.WidgetInfoProvider, AppShellWidgetInterface.SandboxContainer {
+  var trackingContext: [Swift.String : Any] { get }
+  var presentable: UIKit.UIViewController? { get }
+}
+extension AppShellWidgetInterface.NativeWidget {
+  public var info: AFMobileContextInterface.WidgetInfo {
+    get
+  }
+  public var trackingContext: [Swift.String : Any] {
+    get
+  }
+  public var presentable: UIKit.UIViewController? {
+    get
+  }
+}
+final public class NetworkClient {
+  public init(session: Foundation.URLSession = URLSession.shared)
+  final public func request(_ endpoint: any AppShellWidgetInterface.Endpoint, networkCallCompletion: @escaping (Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void)
+  @objc deinit
+}
+public protocol PlayerHandler : AnyObject, AppShellWidgetInterface.SandboxContainer {
+  var uuid: Foundation.UUID { get }
+  var player: iOSPlayer.Player? { get }
+  func playerPlugin() -> [any iOSPlayer.NativePlugin]
+  func setupPlayer(context: JavaScriptCore.JSContext) -> iOSPlayer.Player
+  func configurePlayer(_ player: iOSPlayer.Player)
+  func start(flow: Swift.String, flowId: Swift.String?, viewDidLayout: @escaping () -> Swift.Void, completion: ((Swift.Result<iOSPlayer.CompletedState, iOSPlayer.PlayerError>) -> Swift.Void)?)
+  func receivedFlow(result: Swift.Result<iOSPlayer.CompletedState, iOSPlayer.PlayerError>)
+  func receivedPlayerBeacon(beacon: iOSPlayer.DefaultBeacon)
+  func cleanup()
+  func analyticEvent(for beacon: iOSPlayer.DefaultBeacon) -> (name: Swift.String, details: [Swift.String : any Swift.Encodable])?
+  func trackAnalytic(name: Swift.String, details: [Swift.String : any Swift.Encodable])
+}
+extension AppShellWidgetInterface.PlayerHandler {
+  public func setupPlayer(context: JavaScriptCore.JSContext = JSContext()) -> iOSPlayer.Player
+  public func start(flow: Swift.String, flowId passedflowID: Swift.String? = nil, viewDidLayout layoutCallback: @escaping () -> Swift.Void = {}, completion: ((Swift.Result<iOSPlayer.CompletedState, iOSPlayer.PlayerError>) -> Swift.Void)? = nil)
+  public func cleanup()
+  public func analyticEvent(for beacon: iOSPlayer.DefaultBeacon) -> (name: Swift.String, details: [Swift.String : any Swift.Encodable])?
+  public func trackAnalytic(name: Swift.String, details: [Swift.String : any Swift.Encodable])
+}
+extension iOSPlayer.DefaultBeacon {
+  public var analyticDetails: [Swift.String : any Swift.Encodable] {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) open class PlayerViewController : UIKit.UIViewController, AppShellWidgetInterface.PlayerHandler, AppShellWidgetInterface.NativeWidget {
+  @_Concurrency.MainActor(unsafe) final public let sandbox: any AppShellWidgetInterface.Sandbox
+  @_Concurrency.MainActor(unsafe) final public let uuid: Foundation.UUID
+  @_Concurrency.MainActor(unsafe) public var scrollView: UIKit.UIScrollView {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public init(sandbox: any AppShellWidgetInterface.Sandbox)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) open func setupUI()
+  @_Concurrency.MainActor(unsafe) public var player: iOSPlayer.Player? {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) open func receivedFlow(result: Swift.Result<iOSPlayer.CompletedState, iOSPlayer.PlayerError>)
+  @_Concurrency.MainActor(unsafe) open func receivedPlayerBeacon(beacon: iOSPlayer.DefaultBeacon)
+  @_Concurrency.MainActor(unsafe) open func playerPlugin() -> [any iOSPlayer.NativePlugin]
+  @_Concurrency.MainActor(unsafe) open func configurePlayer(_ player: iOSPlayer.Player)
+}
+@objc open class PlayerWidget : ObjectiveC.NSObject, AppShellWidgetInterface.Widget, AppShellWidgetInterface.PlayerHandler {
+  final public let uuid: Foundation.UUID
+  final public let sandbox: any AppShellWidgetInterface.Sandbox
+  final public let widgetDescriptor: any AppShellWidgetInterface.WidgetDescriptor
+  open var widgetId: Swift.String {
+    get
+  }
+  open var widgetVersion: Swift.String {
+    get
+  }
+  open func getTrackingContext() -> [Swift.String : Any]
+  @discardableResult
+  public func setupViewController() -> AppShellWidgetInterface.PlayerViewController
+  required public init(widgetDescriptor: any AppShellWidgetInterface.WidgetDescriptor, sandbox: any AppShellWidgetInterface.Sandbox) throws
+  @objc deinit
+  open func preload(_ widgetLoadCompletionBlock: @escaping (_ error: (any Swift.Error)?) -> Swift.Void)
+  open func load(uiDelegate: (any AppShellWidgetInterface.AFMobileUIDelegate)?, initialProperties: [Swift.String : Swift.AnyObject]?, widgetLoadCompletionBlock: @escaping (_ viewController: UIKit.UIViewController?, _ error: (any Swift.Error)?) -> Swift.Void)
+  open func prepareToUnload(_ completionBlock: @escaping (_ canUnload: Swift.Bool, _ error: (any Swift.Error)?) -> Swift.Void)
+  open func unload(completionBlock: @escaping (_ error: (any Swift.Error)?) -> Swift.Void)
+  open func release(completionBlock: @escaping (_ error: (any Swift.Error)?) -> Swift.Void)
+  open var player: iOSPlayer.Player? {
+    get
+  }
+  open func receivedFlow(result: Swift.Result<iOSPlayer.CompletedState, iOSPlayer.PlayerError>)
+  open func receivedPlayerBeacon(beacon: iOSPlayer.DefaultBeacon)
+  open func playerPlugin() -> [any iOSPlayer.NativePlugin]
+  open func configurePlayer(_ player: iOSPlayer.Player)
+  open func trackAnalytic(name: Swift.String, details: [Swift.String : any Swift.Encodable])
+}
+public struct RemoteConfigurationConstants {
+}
+public protocol RemoteConfigDelegate : AppShellWidgetInterface.SandboxDelegate {
+  func fetchConfiguration(withUrl url: Swift.String, completion: @escaping (Swift.Result<[Swift.String : Any], any Swift.Error>) -> Swift.Void)
+  func fetchConfiguration(withConfigFilePath configFilePath: Swift.String, completion: @escaping (Swift.Result<[Swift.String : Any], any Swift.Error>) -> Swift.Void)
+  func fetchConfiguration(forApp appName: Swift.String, withConfigFilePath configFilePath: Swift.String, completion: @escaping (Swift.Result<[Swift.String : Any], any Swift.Error>) -> Swift.Void)
+  func fetchConfiguration(forApp appName: Swift.String, withConfigFilePath configFilePath: Swift.String, environment: AFMobileContextInterface.AuthEnvironmentType, completion: @escaping (Swift.Result<[Swift.String : Any], any Swift.Error>) -> Swift.Void)
+}
+public protocol NetworkRequestRetrying {
+  func shouldRetry(attempt: Swift.Int) -> Swift.Bool
+  func nextRetryDelay(attempt: Swift.Int) -> Foundation.TimeInterval
+}
+public struct NetworkRequestLinearDelayRetry : AppShellWidgetInterface.NetworkRequestRetrying {
+  public init(delay: Foundation.TimeInterval = 2.5, maxRetryCount: Swift.Int = 3)
+  public func shouldRetry(attempt: Swift.Int) -> Swift.Bool
+  public func nextRetryDelay(attempt: Swift.Int) -> Foundation.TimeInterval
+}
+public struct NetworkRequestExponentialDelayRetry : AppShellWidgetInterface.NetworkRequestRetrying {
+  public init(baseDelay: Foundation.TimeInterval = 1, backOffFactor: Swift.Int = 2, maxRetryCount: Swift.Int = 3)
+  public func shouldRetry(attempt: Swift.Int) -> Swift.Bool
+  public func nextRetryDelay(attempt: Swift.Int) -> Foundation.TimeInterval
+}
+public protocol ResultProtocol {
+  associatedtype Value
+  init(value: Self.Value)
+  init(error: any Swift.Error)
+  func analysis<U>(ifSuccess: (Self.Value) -> U, ifFailure: (any Swift.Error) -> U) -> U
+  var value: Self.Value? { get }
+  var error: (any Swift.Error)? { get }
+}
+extension AppShellWidgetInterface.ResultProtocol {
+  public var value: Self.Value? {
+    get
+  }
+  public var error: (any Swift.Error)? {
+    get
+  }
+  public func map<U>(_ transform: (Self.Value) -> U) -> AppShellWidgetInterface.AppShellResult<U>
+  public func flatMap<U>(_ transform: (Self.Value) -> AppShellWidgetInterface.AppShellResult<U>) -> AppShellWidgetInterface.AppShellResult<U>
+}
+extension AppShellWidgetInterface.ResultProtocol {
+  public func recover(_ value: @autoclosure () -> Self.Value) -> Self.Value
+  public func recover(with result: @autoclosure () -> Self) -> Self
+}
+public protocol ErrorConvertible : Swift.Error {
+  static func error(from error: any Swift.Error) -> Self
+}
+extension AppShellWidgetInterface.ResultProtocol {
+  public func tryMap<U>(_ transform: (Self.Value) throws -> U) -> AppShellWidgetInterface.AppShellResult<U>
+}
+public func ?? <T>(left: T, right: @autoclosure () -> T.Value) -> T.Value where T : AppShellWidgetInterface.ResultProtocol
+public func ?? <T>(left: T, right: @autoclosure () -> T) -> T where T : AppShellWidgetInterface.ResultProtocol
+@available(*, unavailable, renamed: "ResultProtocol")
+public typealias ResultType = AppShellWidgetInterface.ResultProtocol
+@available(*, unavailable, renamed: "Error")
+public typealias ResultErrorType = Swift.Error
+@available(*, unavailable, renamed: "ErrorConvertible")
+public typealias ErrorTypeConvertible = AppShellWidgetInterface.ErrorConvertible
+@available(*, deprecated, renamed: "ErrorConvertible")
+public protocol ErrorProtocolConvertible : AppShellWidgetInterface.ErrorConvertible {
+}
+extension AppShellWidgetInterface.ResultProtocol {
+  @available(*, unavailable, renamed: "recover(with:)")
+  public func recoverWith(_ result: @autoclosure () -> Self) -> Self
+}
+extension AppShellWidgetInterface.ErrorConvertible {
+  @available(*, unavailable, renamed: "error(from:)")
+  public static func errorFromErrorType(_ error: any Swift.Error) -> Self
+}
+extension AppShellWidgetInterface.Sandbox {
+  public var logDelegate: (any AppShellWidgetInterface.AFMobileLogDelegate)? {
+    get
+    set
+  }
+  public var analyticsDelegate: (any AppShellWidgetInterface.AFMobileAnalyticsDelegate)? {
+    get
+    set
+  }
+  public var authenticationDelegate: (any AppShellWidgetInterface.AFMobileAuthenticationDelegate)? {
+    get
+    set
+  }
+  public var contextDelegate: (any AppShellWidgetInterface.AFMobileContextDelegate)? {
+    get
+    set
+  }
+  public var performanceDelegate: (any AppShellWidgetInterface.AFMobilePerformanceDelegate)? {
+    get
+    set
+  }
+  public var abTestingDelegate: (any AppShellWidgetInterface.AFMobileABTestingDelegate)? {
+    get
+    set
+  }
+  public var pubSubDelegate: (any AppShellWidgetInterface.AFMobilePubSubDelegate)? {
+    get
+    set
+  }
+  public var localPubSubDelegate: (any AppShellWidgetInterface.AFMobileLocalPubSubDelegate)? {
+    get
+    set
+  }
+  public var remoteConfigDelegate: (any AppShellWidgetInterface.AFMobileRemoteConfigDelegate)? {
+    get
+    set
+  }
+  public var uiDelegate: (any AppShellWidgetInterface.AFMobileUIDelegate)? {
+    get
+    set
+  }
+  public var actionDelegate: (any AppShellWidgetInterface.AFMobileActionDelegate)? {
+    get
+    set
+  }
+  public var appDataDelegate: (any AppShellWidgetInterface.AFMobileAppDataDelegate)? {
+    get
+    set
+  }
+  public var helpDelegate: (any AppShellWidgetInterface.AFMobileHelpDelegate)? {
+    get
+    set
+  }
+  public var widgetEventDelegate: (any AppShellWidgetInterface.AFMobileWidgetEventDelegate)? {
+    get
+    set
+  }
+  public var widgetDelegate: (any AppShellWidgetInterface.AFMobileWidgetDelegate)? {
+    get
+    set
+  }
+  public var dynamicCacheDelegate: (any AppShellWidgetInterface.AFMobileDynamicCacheDelegate)? {
+    get
+    set
+  }
+  public var intuitDataDelegate: (any AppShellWidgetInterface.AFMobileIntuitDataDelegate)? {
+    get
+    set
+  }
+  public var networkDelegate: (any AppShellWidgetInterface.AFMobileNetworkDelegate)? {
+    get
+    set
+  }
+  public var deepLinkDelegate: (any AppShellWidgetInterface.AFMobileDeepLinkDelegate)? {
+    get
+    set
+  }
+  public var smartLookDelegate: (any AppShellWidgetInterface.AFMobileSmartLookDelegate)? {
+    get
+    set
+  }
+  public var subscriptionDelegate: (any AppShellWidgetInterface.AFMobileSubscriptionDelegate)? {
+    get
+    set
+  }
+  public var featureFlagDelegate: (any AppShellWidgetInterface.AFMobileFeatureFlagDelegate)? {
+    get
+    set
+  }
+}
+public protocol Sandbox : AnyObject {
+  func registerDelegate<DelegateImplementation>(ofType type: AppShellWidgetInterface.AFMobileDelegateType, withImplementation implementation: DelegateImplementation) throws
+  func unregisterDelegate<Delegate>(ofType type: Delegate.Type)
+  func getDelegate<Delegate>(ofType type: Delegate.Type) -> Delegate?
+  var sandboxSource: AppShellWidgetInterface.SandboxSource { get set }
+  var currentWidget: (any AppShellWidgetInterface.Widget)? { get set }
+  func clone() -> any AppShellWidgetInterface.Sandbox
+}
+public enum SandboxSource {
+  case app
+  case widget
+  case shell
+  public func source() -> Swift.String
+  public static func == (a: AppShellWidgetInterface.SandboxSource, b: AppShellWidgetInterface.SandboxSource) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol SandboxContainer {
+  var sandbox: any AppShellWidgetInterface.Sandbox { get }
+}
+public protocol SandboxProvider {
+  var sandbox: (any AppShellWidgetInterface.Sandbox)? { get }
+}
+extension AppShellWidgetInterface.Sandbox {
+  public func log(_ type: AFMobileLoggingInterface.LogLevelType, message: Swift.String, sourceName: Swift.String = "", version: Swift.String? = nil, file: Swift.String = #file, function: Swift.String = #function, line: Swift.UInt = #line, info: [Swift.String : Swift.AnyObject] = [:])
+  public func log(_ type: AFMobileLoggingInterface.LogLevelType, message: Swift.String, source: AFMobileLoggingInterface.Source, info: [Swift.String : Swift.AnyObject] = [:])
+}
+public enum AFMobileDelegateType : Swift.String {
+  case AFMobileABTestingDelegate
+  case AFMobileActionDelegate
+  case AFMobileAnalyticsDelegate
+  case AFMobileAppDataDelegate
+  case AFMobileAuthenticationDelegate
+  case AFMobileContextDelegate
+  case AFMobileDeepLinkDelegate
+  case AFMobileDynamicCacheDelegate
+  case AFMobileFeatureFlagDelegate
+  case AFMobileHelpDelegate
+  case AFMobileIntuitDataDelegate
+  case AFMobileLocalPubSubDelegate
+  case AFMobileLogDelegate
+  case AFMobileNetworkDelegate
+  case AFMobilePerformanceDelegate
+  case AFMobilePubSubDelegate
+  case AFMobileRemoteConfigDelegate
+  case AFMobileSmartLookDelegate
+  case AFMobileSubscriptionDelegate
+  case AFMobileUIDelegate
+  case AFMobileWidgetDelegate
+  case AFMobileWidgetEventDelegate
+  case ShellEventDelegate
+  case WebViewControllersDelegate
+  case WebSessionDelegate
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol AFMobileLogDelegate : AFMobileLoggingInterface.LogDelegate, AppShellWidgetInterface.SandboxDelegate {
+}
+public protocol AFMobilePerformanceDelegate : AFMobilePerformanceInterface.PerformanceDelegate, AppShellWidgetInterface.SandboxDelegate {
+}
+public protocol AFMobileABTestingDelegate : AFMobileABTestingInterface.ABTestingDelegate, AppShellWidgetInterface.SandboxDelegate {
+}
+public protocol AFMobileAnalyticsDelegate : AFMobileAnalyticsInterface.AnalyticsDelegate, AppShellWidgetInterface.SandboxDelegate {
+}
+public protocol AFMobileAuthenticationDelegate : AFMobileAuthenticationInterface.AuthenticationDelegate, AppShellWidgetInterface.SandboxDelegate {
+}
+public protocol AFMobileContextDelegate : AFMobileContextInterface.ContextDelegate, AppShellWidgetInterface.SandboxDelegate {
+}
+public protocol AFMobilePubSubDelegate : AFMobilePubSubInterface.PubSubDelegate, AppShellWidgetInterface.SandboxDelegate {
+}
+public protocol AFMobileLocalPubSubDelegate : AFMobilePubSubInterface.LocalPubSubDelegate, AppShellWidgetInterface.SandboxDelegate {
+}
+public protocol AFMobileIntuitDataDelegate : AFMobileIntuitDataLayerInterface.IntuitDataDelegate, AppShellWidgetInterface.SandboxDelegate {
+}
+public protocol AFMobileNetworkDelegate : AFMobileNetworkInterface.NetworkDelegate, AppShellWidgetInterface.SandboxDelegate {
+}
+public protocol AFMobileSmartLookDelegate : AFMobileSmartLookInterface.SmartLookDelegate, AppShellWidgetInterface.SandboxDelegate {
+}
+public protocol AFMobileSubscriptionDelegate : AFMobileSubscriptionInterface.SubscriptionDelegate, AppShellWidgetInterface.SandboxDelegate {
+}
+public protocol AFMobileFeatureFlagDelegate : AFMobileABTestingInterface.FeatureFlagDelegate, AppShellWidgetInterface.SandboxDelegate {
+}
+public protocol AFMobileDeepLinkDelegate : AFMobileDeepLinkInterface.DeepLinkDelegate, AppShellWidgetInterface.SandboxDelegate {
+  var deepLinkMap: AppShellWidgetInterface.ThreadSafeDictionary<AFMobileDeepLinkInterface.DeepLink, any AFMobileDeepLinkInterface.DeepLinkHandler> { get }
+}
+public protocol AFMobileRemoteConfigDelegate : AppShellWidgetInterface.RemoteConfigDelegate {
+}
+public protocol AFMobileDynamicCacheDelegate : AppShellWidgetInterface.DynamicCacheDelegate {
+}
+public protocol AFMobileUIDelegate : AppShellWidgetInterface.UIDelegate {
+}
+public protocol AFMobileActionDelegate : AppShellWidgetInterface.ActionDelegate {
+}
+public protocol AFMobileAppDataDelegate : AppShellWidgetInterface.AppDataDelegate {
+}
+public protocol AFMobileHelpDelegate : AppShellWidgetInterface.HelpDelegate {
+}
+public protocol AFMobileWidgetEventDelegate : AppShellWidgetInterface.WidgetEventDelegate {
+}
+public protocol AFMobileWidgetDelegate : AppShellWidgetInterface.WidgetDelegate {
+}
+public protocol SandboxDelegate : Foundation.NSCopying {
+  var sandbox: (any AppShellWidgetInterface.Sandbox)? { get set }
+}
+public class ShellDynamicCacheDelegate : AppShellWidgetInterface.AFMobileDynamicCacheDelegate {
+  weak public var sandbox: (any AppShellWidgetInterface.Sandbox)? {
+    get
+    set
+  }
+  public var globalRepository: AppShellWidgetInterface.ShellRepository
+  public init(_ environment: AFMobileContextInterface.AuthEnvironmentType)
+  @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  public func createPublicRepository(named: Swift.String) -> AppShellWidgetInterface.ShellRepository
+  public func createPrivateRepository(for bundle: Foundation.Bundle) -> AppShellWidgetInterface.ShellRepository
+  @objc deinit
+}
+public class ShellRepository : IntuitDataLayer.Repository {
+  public struct Configuration {
+    public init(enableLogging: Swift.Bool, enableInstrumentation: Swift.Bool)
+  }
+  public init(_ publicRepoName: Swift.String, sandbox: (any AppShellWidgetInterface.Sandbox)?)
+  public init(_ bundle: Foundation.Bundle, sandbox: (any AppShellWidgetInterface.Sandbox)?)
+  public func setSandbox(_ sandbox: any AppShellWidgetInterface.Sandbox)
+  public func update<DataIdentifier, Update>(for dataIdentifier: DataIdentifier, update: Update, lifetime: IntuitDataLayer.RepositoryDataLifetime, handleOn completionQueue: Dispatch.DispatchQueue = .main, completion: (((any Swift.Error)?) -> Swift.Void)? = nil) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying, Update : IntuitDataLayer.DynamicUpdate, DataIdentifier.DynamicDataType == Update.UpdatedDataType
+  public func query<DataIdentifier, Query>(for dataIdentifier: DataIdentifier, query: Query, handleOn completionQueue: Dispatch.DispatchQueue = .main, completion: @escaping (IntuitDataLayer.RepositoryQueryResult<DataIdentifier.DynamicDataType>) -> Swift.Void) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying, Query : IntuitDataLayer.DynamicQuery, DataIdentifier.DynamicDataType == Query.QueriedDataType
+  public func queryMetadata<DataIdentifier>(for dataIdentifier: DataIdentifier, handleOn completionQueue: Dispatch.DispatchQueue = .main, completion: @escaping (Swift.Result<IntuitDataLayer.RepositoryDataMetadata?, any Swift.Error>) -> Swift.Void) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying
+  public func updateLifetime<DataIdentifier>(for dataIdentifier: DataIdentifier, lifetime: IntuitDataLayer.RepositoryDataLifetime, handleOn completionQueue: Dispatch.DispatchQueue, completion: (((any Swift.Error)?) -> Swift.Void)?) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying
+  public func invalidate<DataIdentifier>(_ dataIdentifier: DataIdentifier, handleOn completionQueue: Dispatch.DispatchQueue, completion: (((any Swift.Error)?) -> Swift.Void)?) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying
+  public func delete<DataIdentifier>(for dataIdentifier: DataIdentifier, completionQueue: Dispatch.DispatchQueue, completion: (((any Swift.Error)?) -> Swift.Void)?) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying
+  public func clear(handleOn completionQueue: Dispatch.DispatchQueue = .main, completion: (((any Swift.Error)?) -> Swift.Void)? = nil)
+  public func watch<DataIdentifier, Query>(dataIdentifier: DataIdentifier, query: Query, handleOn handlerQueue: Dispatch.DispatchQueue = .main, handler: @escaping (IntuitDataLayer.RepositoryQueryResult<DataIdentifier.DynamicDataType>) -> Swift.Void) -> IntuitDataLayer.AnyCanceling? where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying, Query : IntuitDataLayer.DynamicQuery, DataIdentifier.DynamicDataType == Query.QueriedDataType
+  @objc deinit
+}
+extension AppShellWidgetInterface.ShellRepository {
+  public func update<DataIdentifier, Update>(for dataIdentifier: DataIdentifier, update: Update, lifetime: IntuitDataLayer.RepositoryDataLifetime, shellConfiguration: AppShellWidgetInterface.ShellRepository.Configuration, handleOn completionQueue: Dispatch.DispatchQueue = .main, completion: (((any Swift.Error)?) -> Swift.Void)? = nil) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying, Update : IntuitDataLayer.DynamicUpdate, DataIdentifier.DynamicDataType == Update.UpdatedDataType
+  public func query<DataIdentifier, Query>(for dataIdentifier: DataIdentifier, query: Query, shellConfiguration: AppShellWidgetInterface.ShellRepository.Configuration, handleOn completionQueue: Dispatch.DispatchQueue = .main, completion: @escaping (IntuitDataLayer.RepositoryQueryResult<DataIdentifier.DynamicDataType>) -> Swift.Void) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying, Query : IntuitDataLayer.DynamicQuery, DataIdentifier.DynamicDataType == Query.QueriedDataType
+  public func queryMetadata<DataIdentifier>(for dataIdentifier: DataIdentifier, shellConfiguration: AppShellWidgetInterface.ShellRepository.Configuration, handleOn completionQueue: Dispatch.DispatchQueue = .main, completion: @escaping (Swift.Result<IntuitDataLayer.RepositoryDataMetadata?, any Swift.Error>) -> Swift.Void) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying
+  public func updateLifetime<DataIdentifier>(for dataIdentifier: DataIdentifier, lifetime: IntuitDataLayer.RepositoryDataLifetime, shellConfiguration: AppShellWidgetInterface.ShellRepository.Configuration, handleOn completionQueue: Dispatch.DispatchQueue, completion: (((any Swift.Error)?) -> Swift.Void)?) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying
+  public func invalidate<DataIdentifier>(_ dataIdentifier: DataIdentifier, shellConfiguration: AppShellWidgetInterface.ShellRepository.Configuration, handleOn completionQueue: Dispatch.DispatchQueue, completion: (((any Swift.Error)?) -> Swift.Void)?) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying
+  public func delete<DataIdentifier>(for dataIdentifier: DataIdentifier, shellConfiguration: AppShellWidgetInterface.ShellRepository.Configuration, completionQueue: Dispatch.DispatchQueue, completion: (((any Swift.Error)?) -> Swift.Void)?) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying
+  public func clear(shellConfiguration: AppShellWidgetInterface.ShellRepository.Configuration, handleOn completionQueue: Dispatch.DispatchQueue = .main, completion: (((any Swift.Error)?) -> Swift.Void)? = nil)
+  public func watch<DataIdentifier, Query>(dataIdentifier: DataIdentifier, query: Query, shellConfiguration: AppShellWidgetInterface.ShellRepository.Configuration, handleOn handlerQueue: Dispatch.DispatchQueue = .main, handler: @escaping (IntuitDataLayer.RepositoryQueryResult<DataIdentifier.DynamicDataType>) -> Swift.Void) -> IntuitDataLayer.AnyCanceling? where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying, Query : IntuitDataLayer.DynamicQuery, DataIdentifier.DynamicDataType == Query.QueriedDataType
+}
+@available(iOS 13.0, *)
+public protocol SwiftUINativeWidget : AFMobileContextInterface.WidgetInfoProvider {
+  var trackingContext: [Swift.String : Any] { get }
+}
+@available(iOS 13.0, *)
+extension AppShellWidgetInterface.SwiftUINativeWidget {
+  public var info: AFMobileContextInterface.WidgetInfo {
+    get
+  }
+  public var trackingContext: [Swift.String : Any] {
+    get
+  }
+}
+public class ThreadSafeDictionary<Key, Value> where Key : Swift.Hashable {
+  public var isEmpty: Swift.Bool {
+    get
+  }
+  convenience public init(defaults: [Key : Value] = [:])
+  public init(queue: Dispatch.DispatchQueue, defaults: [Key : Value] = [:])
+  public subscript(key: Key) -> Value? {
+    get
+    set(newValue)
+  }
+  public func removeAll()
+  @discardableResult
+  public func removeValue(forKey key: Key) -> Value?
+  public func append(dictionary: AppShellWidgetInterface.ThreadSafeDictionary<Key, Value>)
+  public func dictionary() -> [Key : Value]
+  public func values() -> Swift.Dictionary<Key, Value>.Values
+  @objc deinit
+}
+public class ThreadSafeProperty<T> where T : Swift.Equatable {
+  public init(value: T, queue: Dispatch.DispatchQueue = DispatchQueue(label: "ThreadSafeValue.set.get.queue.\(T.self)"))
+  public func updateValue(value: T)
+  public func getValue() -> T
+  @objc deinit
+}
+public protocol UIDelegate : AppShellWidgetInterface.SandboxDelegate {
+  func displayWidgetElements(widgetElements: [AppShellWidgetInterface.WidgetElement], titleHeader: Swift.String, context: [Swift.String : Swift.AnyObject], completion: (Foundation.NSError?) -> Swift.Void)
+}
+public protocol Widget {
+  init(widgetDescriptor: any AppShellWidgetInterface.WidgetDescriptor, sandbox: any AppShellWidgetInterface.Sandbox) throws
+  var widgetId: Swift.String { get }
+  var widgetVersion: Swift.String { get }
+  var sandbox: any AppShellWidgetInterface.Sandbox { get }
+  func preload(_ widgetLoadCompletionBlock: @escaping (_ error: (any Swift.Error)?) -> Swift.Void)
+  func load(uiDelegate: (any AppShellWidgetInterface.AFMobileUIDelegate)?, initialProperties: [Swift.String : Swift.AnyObject]?, widgetLoadCompletionBlock: @escaping (_ viewController: UIKit.UIViewController?, _ error: (any Swift.Error)?) -> Swift.Void)
+  func prepareToUnload(_ completionBlock: @escaping (_ canUnload: Swift.Bool, _ error: (any Swift.Error)?) -> Swift.Void)
+  func unload(completionBlock: @escaping (_ error: (any Swift.Error)?) -> Swift.Void)
+  func release(completionBlock: @escaping (_ error: (any Swift.Error)?) -> Swift.Void)
+  func getTrackingContext() -> [Swift.String : Any]
+}
+public protocol WidgetDelegate : AppShellWidgetInterface.SandboxDelegate {
+  func createWidget(widgetId: Swift.String, widgetVersion: Swift.String, sandbox: any AppShellWidgetInterface.Sandbox, completionHandler: @escaping (_ widget: (any AppShellWidgetInterface.Widget)?, _ error: Foundation.NSError?) -> Swift.Void)
+  func createWidgetUnMerged(widgetId: Swift.String, widgetVersion: Swift.String, sandbox: any AppShellWidgetInterface.Sandbox, completionHandler: @escaping (_ widget: (any AppShellWidgetInterface.Widget)?, _ error: Foundation.NSError?) -> Swift.Void)
+}
+public protocol WidgetDescriptor {
+  var id: Swift.String { get }
+  var version: Swift.String { get }
+  var main: Swift.String { get }
+  var widgetType: AppShellWidgetInterface.WidgetType { get }
+  var supportedPlatforms: [Swift.String] { get }
+  var platformConfiguration: [Swift.String : Any] { get }
+  var requiresAuthentication: Swift.Bool { get }
+  var performanceEventInfo: [Swift.String : Swift.String] { get }
+}
+@objc public class WidgetElement : ObjectiveC.NSObject {
+  final public let id: Swift.String
+  final public let label: Swift.String
+  final public let action: AppShellWidgetInterface.WidgetAction
+  public var enabled: Swift.Bool
+  weak public var actionDelegate: (any AppShellWidgetInterface.WidgetElementActionDelegate)?
+  public init(id: Swift.String, label: Swift.String, action: AppShellWidgetInterface.WidgetAction, enabled: Swift.Bool = true, actionDelegate: any AppShellWidgetInterface.WidgetElementActionDelegate)
+  @objc deinit
+}
+public protocol WidgetElementActionDelegate : AnyObject {
+  func handleWidgetElementAction(_ widgetElement: AppShellWidgetInterface.WidgetElement, completion: @escaping (_ error: (any Swift.Error)?) -> Swift.Void)
+}
+public enum WidgetAction {
+  case primary
+  case cancel
+  case navigateNext
+  case navigatePrev
+  case custom(name: Swift.String)
+  public static func fromString(_ actionName: Swift.String) -> AppShellWidgetInterface.WidgetAction
+  public var description: Swift.String {
+    get
+  }
+  public static func == (lhs: AppShellWidgetInterface.WidgetAction, rhs: AppShellWidgetInterface.WidgetAction) -> Swift.Bool
+}
+public protocol WidgetEventDelegate : AppShellWidgetInterface.SandboxDelegate {
+  func handleEvent(_ eventName: Swift.String, eventData: [Swift.String : Swift.AnyObject]?, context: [Swift.String : Swift.AnyObject]?)
+}
+public protocol WidgetFactory {
+  init()
+  static func createWidgetDescriptor(json: [Swift.String : Any]) throws -> any AppShellWidgetInterface.WidgetDescriptor
+  func createWidget(widgetDescriptor: any AppShellWidgetInterface.WidgetDescriptor, sandbox: any AppShellWidgetInterface.Sandbox, completion: @escaping (AppShellWidgetInterface.AppShellResult<any AppShellWidgetInterface.Widget>) -> Swift.Void)
+  func createWidgetUnMerged(widgetDescriptor: any AppShellWidgetInterface.WidgetDescriptor, sandbox: any AppShellWidgetInterface.Sandbox, completion: @escaping (AppShellWidgetInterface.AppShellResult<any AppShellWidgetInterface.Widget>) -> Swift.Void)
+}
+extension AppShellWidgetInterface.NoError : Swift.Hashable {}
+extension AppShellWidgetInterface.AppShellWidgetInterfaceError : Swift.Equatable {}
+extension AppShellWidgetInterface.AppShellWidgetInterfaceError : Swift.Hashable {}
+extension AppShellWidgetInterface.WidgetEvent : Swift.Equatable {}
+extension AppShellWidgetInterface.WidgetEvent : Swift.Hashable {}
+extension AppShellWidgetInterface.WidgetEvent : Swift.RawRepresentable {}
+extension AppShellWidgetInterface.ContextKeyword : Swift.Equatable {}
+extension AppShellWidgetInterface.ContextKeyword : Swift.Hashable {}
+extension AppShellWidgetInterface.ContextKeyword : Swift.RawRepresentable {}
+extension AppShellWidgetInterface.WidgetType : Swift.Equatable {}
+extension AppShellWidgetInterface.WidgetType : Swift.Hashable {}
+extension AppShellWidgetInterface.WidgetType : Swift.RawRepresentable {}
+extension AppShellWidgetInterface.SupportedPlatform : Swift.Equatable {}
+extension AppShellWidgetInterface.SupportedPlatform : Swift.Hashable {}
+extension AppShellWidgetInterface.SupportedPlatform : Swift.RawRepresentable {}
+extension AppShellWidgetInterface.ShellLoggingEventDictionaryKeys : Swift.Equatable {}
+extension AppShellWidgetInterface.ShellLoggingEventDictionaryKeys : Swift.Hashable {}
+extension AppShellWidgetInterface.ShellLoggingEventDictionaryKeys : Swift.RawRepresentable {}
+extension AppShellWidgetInterface.ShellLoggingEventDictionaryValues : Swift.Equatable {}
+extension AppShellWidgetInterface.ShellLoggingEventDictionaryValues : Swift.Hashable {}
+extension AppShellWidgetInterface.ShellLoggingEventDictionaryValues : Swift.RawRepresentable {}
+extension AppShellWidgetInterface.HttpMethod : Swift.Equatable {}
+extension AppShellWidgetInterface.HttpMethod : Swift.Hashable {}
+extension AppShellWidgetInterface.HttpMethod : Swift.RawRepresentable {}
+extension AppShellWidgetInterface.SandboxSource : Swift.Equatable {}
+extension AppShellWidgetInterface.SandboxSource : Swift.Hashable {}
+extension AppShellWidgetInterface.AFMobileDelegateType : Swift.Equatable {}
+extension AppShellWidgetInterface.AFMobileDelegateType : Swift.Hashable {}
+extension AppShellWidgetInterface.AFMobileDelegateType : Swift.RawRepresentable {}

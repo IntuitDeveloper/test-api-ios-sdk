@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		iqASJSRVoD/KIzvIZVtz12YQwkk=
+		16f9FFise2ophGUgft2eevnXs+Y=
 		</data>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ebC3yAwP/mj//gZf0piiyC+ATn0=
+		/Kuc2x1u7d2FBVMtcvHnnhqfcKw=
 		</data>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Qnok0Kqu0L9r69+wlwtQlMO0zpk=
+		pNbdJPRPUjRfBua3Fic5a0mqwiQ=
 		</data>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ebC3yAwP/mj//gZf0piiyC+ATn0=
+		/Kuc2x1u7d2FBVMtcvHnnhqfcKw=
 		</data>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		CTB1cga/i7QLLbyvPZ+na8NJGsU=
+		ooj7rW38U4STA+Ln6DgHksGu5IQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			E/QwCtnZ6KpvIkTXGdepPZMQfWy6R2VjbZaXrlpkeVg=
+			pZNVrGFza5kWjutGA1V9Kav4bHKCTVNZ16oEIiANxKE=
 			</data>
 		</dict>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WkF2yFQ2jjbkou7B0MqM1MzGFYJwTRbJ5vkC1UPUxsA=
+			HpQwdgQ/gX/MG8AAM2yxXDkmiVIw/P1wKN9k9au+mMI=
 			</data>
 		</dict>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E/QwCtnZ6KpvIkTXGdepPZMQfWy6R2VjbZaXrlpkeVg=
+			pZNVrGFza5kWjutGA1V9Kav4bHKCTVNZ16oEIiANxKE=
 			</data>
 		</dict>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a2lK92EJhbeBAf6bN3aoEFUJZXqiOEVsOh2vUq4J8T4=
+			ogRhSanzwP4LP9MuWAmk+w+ch9SefgMQQkZOrlfVW3E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

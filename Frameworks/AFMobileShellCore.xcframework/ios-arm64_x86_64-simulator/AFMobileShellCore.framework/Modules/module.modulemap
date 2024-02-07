@@ -1,0 +1,11 @@
+framework module AFMobileShellCore {
+  umbrella header "AFMobileShellCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AFMobileShellCore.Swift {
+  header "AFMobileShellCore-Swift.h"
+  requires objc
+}

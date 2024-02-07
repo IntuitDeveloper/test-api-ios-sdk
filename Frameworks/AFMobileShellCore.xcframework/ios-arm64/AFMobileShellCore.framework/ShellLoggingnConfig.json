@@ -1,0 +1,29 @@
+{
+    "logging": {
+        "schemaVersion": "1.1.1",
+        "enableLogging":true,
+        "component": "ApplicationUtilities",
+        "appId": "Intuit.platform.appfabriccommonutilities.testios",
+        "levels": {
+            "atLevelAndHigher": "debug"
+        },
+        "providers": {
+            "IntuitiOSShell": {
+                "type": "remote",
+                "env": "e2e",
+                "endpoint": {
+                    "protocol": "https",
+                    "host": "logging-e2e.api.intuit.com",
+                    "port": 443,
+                    "basepath": "/v2/log",
+                    "method": "POST",
+                    "bodyFormat": "json",
+                    "headers": {
+                        "Cache-Control": "no-cache",
+                        "Content-Type": "application/gzip"
+                    }
+                }
+            }
+        }
+    }
+}

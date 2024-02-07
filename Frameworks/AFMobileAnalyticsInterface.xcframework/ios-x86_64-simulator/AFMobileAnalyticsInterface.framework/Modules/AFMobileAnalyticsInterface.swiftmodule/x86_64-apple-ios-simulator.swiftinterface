@@ -1,0 +1,179 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AFMobileAnalyticsInterface
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AFMobileAnalyticsInterface
+import EventCollectionStandard
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+@objc @_inheritsConvenienceInitializers public class Action : AFMobileAnalyticsInterface.StringRepresentableObject {
+  public static let none: AFMobileAnalyticsInterface.Action
+  public static let clicked: AFMobileAnalyticsInterface.Action
+  public static let closed: AFMobileAnalyticsInterface.Action
+  public static let completed: AFMobileAnalyticsInterface.Action
+  public static let confirmed: AFMobileAnalyticsInterface.Action
+  public static let goto: AFMobileAnalyticsInterface.Action
+  public static let selected: AFMobileAnalyticsInterface.Action
+  public static let viewed: AFMobileAnalyticsInterface.Action
+  required public init(rawValue: Swift.String)
+  @objc deinit
+}
+public protocol AnalyticsDelegate : Foundation.NSCopying {
+  func trackEvent(_ eventName: Swift.String, eventData: [Swift.String : Any], context: [Swift.String : Any]?)
+  func track(_ event: any AFMobileAnalyticsInterface.StandardEvent, context: [Swift.String : Any]?)
+}
+@objc @_inheritsConvenienceInitializers public class Object : AFMobileAnalyticsInterface.StringRepresentableObject {
+  public static let none: AFMobileAnalyticsInterface.Object
+  public static let settings: AFMobileAnalyticsInterface.Object
+  public static let subscription: AFMobileAnalyticsInterface.Object
+  public static let goto: AFMobileAnalyticsInterface.Object
+  public static let viewed: AFMobileAnalyticsInterface.Object
+  required public init(rawValue: Swift.String)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class Scope : AFMobileAnalyticsInterface.StringRepresentableObject {
+  public static let none: AFMobileAnalyticsInterface.Scope
+  public static let shell: AFMobileAnalyticsInterface.Scope
+  required public init(rawValue: Swift.String)
+  @objc deinit
+}
+extension AFMobileAnalyticsInterface.Scope {
+  public static let qbm: AFMobileAnalyticsInterface.Scope
+}
+@objc @_inheritsConvenienceInitializers public class ScopeArea : AFMobileAnalyticsInterface.StringRepresentableObject {
+  public static let none: AFMobileAnalyticsInterface.ScopeArea
+  public static let dashboard: AFMobileAnalyticsInterface.ScopeArea
+  required public init(rawValue: Swift.String)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class Screen : AFMobileAnalyticsInterface.StringRepresentableObject {
+  public static let settings: AFMobileAnalyticsInterface.Screen
+  public static let none: AFMobileAnalyticsInterface.Screen
+  required public init(rawValue: Swift.String)
+  @objc deinit
+}
+public protocol StandardEvent {
+  var name: Swift.String { get }
+  var segmentType: EventCollectionStandard.ECS.SegmentType { get }
+  var org: EventCollectionStandard.ECS.Org { get }
+  var purpose: EventCollectionStandard.ECS.Purpose { get }
+  var platform: EventCollectionStandard.ECS.Platform { get }
+  var ecsVersion: Swift.String { get }
+  var scope: AFMobileAnalyticsInterface.Scope { get }
+  var scopeArea: AFMobileAnalyticsInterface.ScopeArea { get }
+  var screen: AFMobileAnalyticsInterface.Screen { get }
+  var action: AFMobileAnalyticsInterface.Action { get }
+  var object: AFMobileAnalyticsInterface.Object { get }
+  var objectDetail: Swift.String? { get }
+  var uiAccessPoint: AFMobileAnalyticsInterface.UIAccessPoint? { get }
+  var uiAction: AFMobileAnalyticsInterface.UIActionLabel? { get }
+  var uiObject: AFMobileAnalyticsInterface.UIObject? { get }
+  var uiObjectDetail: AFMobileAnalyticsInterface.UIObjectDetail? { get }
+  var additionalProperties: [Swift.String : Swift.String]? { get }
+  func asMap() -> [Swift.String : Swift.AnyObject]
+}
+extension AFMobileAnalyticsInterface.StandardEvent {
+  public func asMap() -> [Swift.String : Swift.AnyObject]
+}
+open class BasicEvent : AFMobileAnalyticsInterface.StandardEvent {
+  public var org: EventCollectionStandard.ECS.Org
+  public var purpose: EventCollectionStandard.ECS.Purpose
+  public var platform: EventCollectionStandard.ECS.Platform
+  public var ecsVersion: Swift.String
+  public var name: Swift.String
+  public var segmentType: EventCollectionStandard.ECS.SegmentType
+  public var scope: AFMobileAnalyticsInterface.Scope
+  public var scopeArea: AFMobileAnalyticsInterface.ScopeArea
+  public var screen: AFMobileAnalyticsInterface.Screen
+  public var action: AFMobileAnalyticsInterface.Action
+  public var object: AFMobileAnalyticsInterface.Object
+  public var objectDetail: Swift.String?
+  public var uiAction: AFMobileAnalyticsInterface.UIActionLabel?
+  public var uiAccessPoint: AFMobileAnalyticsInterface.UIAccessPoint?
+  public var uiObject: AFMobileAnalyticsInterface.UIObject?
+  public var uiObjectDetail: AFMobileAnalyticsInterface.UIObjectDetail?
+  public var additionalProperties: [Swift.String : Swift.String]?
+  public init(name: Swift.String, screen: AFMobileAnalyticsInterface.Screen, scope: AFMobileAnalyticsInterface.Scope, scopeArea: AFMobileAnalyticsInterface.ScopeArea, object: AFMobileAnalyticsInterface.Object, objectDetail: Swift.String, action: AFMobileAnalyticsInterface.Action, uiAction: AFMobileAnalyticsInterface.UIActionLabel = .none, uiAccessPoint: AFMobileAnalyticsInterface.UIAccessPoint? = nil, uiObject: AFMobileAnalyticsInterface.UIObject? = nil, uiObjectDetail: AFMobileAnalyticsInterface.UIObjectDetail? = nil, org: EventCollectionStandard.ECS.Org, purpose: EventCollectionStandard.ECS.Purpose = .prod, segmentType: EventCollectionStandard.ECS.SegmentType = ECS.SegmentType.track, ecsVersion: Swift.String = "4.1.0", additionalProperties: [Swift.String : Swift.String]? = nil)
+  open func asMap() -> [Swift.String : Swift.AnyObject]
+  @objc deinit
+}
+public class IdentifyEvent : AFMobileAnalyticsInterface.StandardEvent {
+  public var name: Swift.String
+  public var segmentType: EventCollectionStandard.ECS.SegmentType
+  public var org: EventCollectionStandard.ECS.Org
+  public var purpose: EventCollectionStandard.ECS.Purpose
+  public var platform: EventCollectionStandard.ECS.Platform
+  public var ecsVersion: Swift.String
+  public var scope: AFMobileAnalyticsInterface.Scope
+  public var scopeArea: AFMobileAnalyticsInterface.ScopeArea
+  public var screen: AFMobileAnalyticsInterface.Screen
+  public var action: AFMobileAnalyticsInterface.Action
+  public var object: AFMobileAnalyticsInterface.Object
+  public var objectDetail: Swift.String?
+  public var uiAccessPoint: AFMobileAnalyticsInterface.UIAccessPoint?
+  public var uiAction: AFMobileAnalyticsInterface.UIActionLabel?
+  public var uiObject: AFMobileAnalyticsInterface.UIObject?
+  public var uiObjectDetail: AFMobileAnalyticsInterface.UIObjectDetail?
+  public var newUserId: Swift.String
+  public var additionalProperties: [Swift.String : Swift.String]?
+  public init(newUserId: Swift.String, org: EventCollectionStandard.ECS.Org)
+  public func asMap() -> [Swift.String : Swift.AnyObject]
+  @objc deinit
+}
+extension EventCollectionStandard.ECS {
+  public static func validField(in infoDict: [Swift.String : any Swift.Encodable]) -> [Swift.String : any Swift.Encodable]
+}
+@objc public class StringRepresentableObject : ObjectiveC.NSObject, Swift.RawRepresentable {
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String
+  required public init(rawValue: Swift.String)
+  convenience public init(_ rawValue: Swift.String)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class UIAccessPoint : AFMobileAnalyticsInterface.StringRepresentableObject {
+  public static let none: AFMobileAnalyticsInterface.UIAccessPoint
+  public static let oii: AFMobileAnalyticsInterface.UIAccessPoint
+  public static let menu: AFMobileAnalyticsInterface.UIAccessPoint
+  public static let launchScreen: AFMobileAnalyticsInterface.UIAccessPoint
+  required public init(rawValue: Swift.String)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class UIActionLabel : AFMobileAnalyticsInterface.StringRepresentableObject {
+  public static let none: AFMobileAnalyticsInterface.UIActionLabel
+  public static let clicked: AFMobileAnalyticsInterface.UIActionLabel
+  public static let dismissed: AFMobileAnalyticsInterface.UIActionLabel
+  public static let swiped: AFMobileAnalyticsInterface.UIActionLabel
+  public static let tapped: AFMobileAnalyticsInterface.UIActionLabel
+  public static let viewed: AFMobileAnalyticsInterface.UIActionLabel
+  required public init(rawValue: Swift.String)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class UIObject : AFMobileAnalyticsInterface.StringRepresentableObject {
+  public static let none: AFMobileAnalyticsInterface.UIObject
+  public static let button: AFMobileAnalyticsInterface.UIObject
+  public static let card: AFMobileAnalyticsInterface.UIObject
+  public static let cell: AFMobileAnalyticsInterface.UIObject
+  public static let dismiss: AFMobileAnalyticsInterface.UIObject
+  public static let icon: AFMobileAnalyticsInterface.UIObject
+  public static let link: AFMobileAnalyticsInterface.UIObject
+  public static let row: AFMobileAnalyticsInterface.UIObject
+  public static let screen: AFMobileAnalyticsInterface.UIObject
+  public static let section: AFMobileAnalyticsInterface.UIObject
+  public static let toggle: AFMobileAnalyticsInterface.UIObject
+  public static let tab: AFMobileAnalyticsInterface.UIObject
+  required public init(rawValue: Swift.String)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class UIObjectDetail : AFMobileAnalyticsInterface.StringRepresentableObject {
+  public static let confirm: AFMobileAnalyticsInterface.UIObjectDetail
+  public static let done: AFMobileAnalyticsInterface.UIObjectDetail
+  public static let next: AFMobileAnalyticsInterface.UIObjectDetail
+  public static let prev: AFMobileAnalyticsInterface.UIObjectDetail
+  public static let none: AFMobileAnalyticsInterface.UIObjectDetail
+  public static let save: AFMobileAnalyticsInterface.UIObjectDetail
+  public static let allow: AFMobileAnalyticsInterface.UIObjectDetail
+  required public init(rawValue: Swift.String)
+  @objc deinit
+}

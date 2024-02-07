@@ -1,0 +1,1062 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AFMobileShellCore
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AFMobileABTestingInterface
+import AFMobileAnalyticsInterface
+import AFMobileAuthenticationInterface
+import AFMobileContextInterface
+import AFMobileIntuitDataLayerInterface
+import AFMobileLoggingInterface
+import AFMobileNetworkInterface
+import AFMobilePerformanceInterface
+import AFMobilePubSubInterface
+@_exported import AFMobileShellCore
+import AppShellWidgetInterface
+import CoreTelephony
+import Foundation
+import Network
+import Swift
+import SystemConfiguration
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+public struct ActionsHandled : Swift.Hashable, Swift.Encodable {
+  public var nameSpace: Swift.String
+  public var action: Swift.String
+  public init(nameSpace: Swift.String, action: Swift.String)
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: AFMobileShellCore.ActionsHandled, b: AFMobileShellCore.ActionsHandled) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc public class AppConfig : ObjectiveC.NSObject {
+  public var environment: AFMobileContextInterface.AuthEnvironmentType
+  public var appName: Swift.String
+  public var appVersion: Swift.String
+  public var appID: Swift.String
+  public var appToken: Swift.String
+  public var locale: Foundation.Locale
+  public var runInPerfMode: Swift.Bool
+  public var loglevel: AFMobileLoggingInterface.LogLevelType
+  public var requestTimeoutInterval: Swift.Double
+  public var perfConfig: AFMobileShellCore.PerformanceConfig?
+  public var isParallelWebsessionMode: Swift.Bool
+  final public let trackViewControllers: Swift.Bool
+  final public let assetAlias: Swift.String
+  convenience public init(environment: AFMobileContextInterface.AuthEnvironmentType, appName: Swift.String, appVersion: Swift.String, appID: Swift.String, appToken: Swift.String, locale: Foundation.Locale, isParallelWebSession: Swift.Bool = false, assetAlias: Swift.String = "")
+  public init(environment: AFMobileContextInterface.AuthEnvironmentType, appName: Swift.String, appVersion: Swift.String, appID: Swift.String, appToken: Swift.String, locale: Foundation.Locale, isParallelWebSession: Swift.Bool = false, trackViewControllers: Swift.Bool = true, assetAlias: Swift.String = "")
+  convenience public init(environment: AFMobileContextInterface.AuthEnvironmentType, appName: Swift.String, appVersion: Swift.String, appID: Swift.String, appToken: Swift.String, isParallelWebSession: Swift.Bool = false, assetAlias: Swift.String = "")
+  public init(environment: AFMobileContextInterface.AuthEnvironmentType, appName: Swift.String, appVersion: Swift.String, appID: Swift.String, appToken: Swift.String, isParallelWebSession: Swift.Bool = false, trackViewControllers: Swift.Bool = true, assetAlias: Swift.String = "")
+  @objc deinit
+}
+@objc public class PerformanceConfig : ObjectiveC.NSObject {
+  final public let appDynamics_app_key: Swift.String
+  final public let appDynamics_api_key: Swift.String
+  final public let appDynamics_api_account_name: Swift.String
+  final public let appDynamics_api_url: Swift.String
+  final public let appDynamics_allowTrackingMultipleEvents: Swift.Bool
+  final public let appDynamics_RtConfig: AFMobileShellCore.AppDRTConfig?
+  public init(appKey: Swift.String, apiKey: Swift.String, accountName: Swift.String, apiURL: Swift.String, concurrentPublishEvent: Swift.Bool = false, rtConfig: AFMobileShellCore.AppDRTConfig? = nil)
+  @objc deinit
+}
+public class AppDRTConfig {
+  public var maxItemQueueSize: Swift.Int? {
+    get
+  }
+  public var intervalSeconds: Swift.Int? {
+    get
+  }
+  public var maxRetries: Swift.Int? {
+    get
+  }
+  public var requestTimeoutSeconds: Swift.Int? {
+    get
+  }
+  public var maxBytesQuota: Swift.Int64? {
+    get
+  }
+  public var retryStrategy: Swift.String? {
+    get
+  }
+  public var overrideLimitEnforcement: Swift.Bool {
+    get
+  }
+  public init(maxItemQueueSize: Swift.Int? = nil, intervalSeconds: Swift.Int? = nil, maxRetries: Swift.Int? = nil, requestTimeoutSeconds: Swift.Int? = nil, maxBytesQuota: Swift.Int64? = nil, retryStrategy: Swift.String? = nil, overrideLimitEnforcement: Swift.Bool = false)
+  public func setMaxItemQueueSize(maxItemQueueSize: Swift.Int)
+  public func setIntervalSeconds(intervalSeconds: Swift.Int)
+  public func setMaxRetries(maxRetries: Swift.Int)
+  public func setRequestTimeoutSeconds(requestTimeoutSeconds: Swift.Int)
+  public func setMaxBytesQuota(maxBytesQuota: Swift.Int64)
+  public func setRetryStrategy(retryStrategy: Swift.String)
+  public func setOverrideLimitEnforcement(overrideLimitEnforcement: Swift.Bool)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers public class AppSandbox : AFMobileShellCore.MobileSandbox {
+  override public init()
+  @objc deinit
+}
+@objc public class AppShell : ObjectiveC.NSObject {
+  public static var enabledFeatures: Swift.Set<Swift.String>
+  public init(_ appConfig: AFMobileShellCore.AppConfig, shellEventDelegate: any AFMobileShellCore.ShellEventDelegate, sandbox: (any AppShellWidgetInterface.Sandbox)? = nil)
+  public func loadAppShellConfig(_ appShellConfig: AFMobileShellCore.AppShellConfig) throws
+  public func loadAppShellConfig(with jsonString: Swift.String) throws
+  public func registerExtensionHandler(extensionType: AFMobileShellCore.ExtensionType, extensionHandler: any AFMobileShellCore.ExtensionHandler)
+  public func unregisterExtensionHandler(extensionType: AFMobileShellCore.ExtensionType, extensionHandler: any AFMobileShellCore.ExtensionHandler)
+  public func clearWebSessions()
+  public func hydrateWebSession(hydrationConfig: AFMobileShellCore.HydrationConfig, completion: @escaping ((_ error: AFMobileShellCore.AppShellError?) -> Swift.Void))
+  public func prepareWebSessions(webSessionConfigs: [AFMobileShellCore.WebSessionConfig]? = nil, callback: @escaping (_ errors: [AFMobileShellCore.WebSessionError]?) -> Swift.Void)
+  public func createWidget(path: Swift.String, sandbox: (any AppShellWidgetInterface.Sandbox)? = nil, completion: @escaping (_ result: AppShellWidgetInterface.AppShellResult<any AppShellWidgetInterface.Widget>) -> Swift.Void)
+  public func createWidget(withId id: Swift.String, sandbox: (any AppShellWidgetInterface.Sandbox)? = nil, version: Swift.String? = nil, completion: @escaping (_ result: AppShellWidgetInterface.AppShellResult<any AppShellWidgetInterface.Widget>) -> Swift.Void)
+  public func suspend()
+  public func resume()
+  @objc deinit
+}
+extension AFMobileShellCore.AppShell {
+  @_hasMissingDesignatedInitializers public class FeatureFlag {
+    public static func enable(feature: AFMobileShellCore.FeatureList)
+    public static func disable(feature: AFMobileShellCore.FeatureList)
+    public static func update(_ feature: AFMobileShellCore.FeatureList, enable: Swift.Bool)
+    public static func isEnabled(feature: AFMobileShellCore.FeatureList) -> Swift.Bool
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers public class BridgedExtensionManager {
+    public static func registerBridgedExtensionDelegate(_ delegate: any AFMobileShellCore.BridgedExtensionDelegate)
+    public static func unregisterBridgedExtensionDelegate(_ delegate: any AFMobileShellCore.BridgedExtensionDelegate)
+    public static func getBridgedActions() -> [[Swift.String : Swift.String]]
+    public static func getBridgedExtensionDelegate(_ actionHandled: AFMobileShellCore.ActionsHandled) -> (any AFMobileShellCore.BridgedExtensionDelegate)?
+    @objc deinit
+  }
+}
+public enum FeatureList : Swift.String {
+  case AppShellInstrumentation
+  case UseHydrateWebSessionAsync
+  case ConcurrentHydrationQueue
+  case AppShellInstrumentationDetailed
+  case InSessionCustomerEngagement
+  case CaptureShellInstrumentationInAppSplunk
+  case CaptureRumEventsInAppDynamics
+  case CaptureRumEventsInObservability
+  case SupportWebviewWithEmptyUrl
+  case SendMetricsToSplunk
+  case EnableNetworkErrorLogging
+  case IsMonetizationServicesExperienceEnabled
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers open class AppShellAsynchronousOperation : Foundation.Operation {
+  public enum State {
+    case initialized
+    case ready
+    case executing
+    case finished
+    public static func == (a: AFMobileShellCore.AppShellAsynchronousOperation.State, b: AFMobileShellCore.AppShellAsynchronousOperation.State) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  open var state: AFMobileShellCore.AppShellAsynchronousOperation.State {
+    get
+    set
+  }
+  @objc override dynamic open var isAsynchronous: Swift.Bool {
+    @objc get
+  }
+  @objc override dynamic open var isReady: Swift.Bool {
+    @objc get
+  }
+  @objc override dynamic open var isExecuting: Swift.Bool {
+    @objc get
+  }
+  @objc override dynamic open var isFinished: Swift.Bool {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct AppShellConfig {
+}
+extension AFMobileShellCore.AppShellConfig {
+  public init(jsonString: Swift.String) throws
+}
+public typealias AppShellError = Foundation.NSError
+@_hasMissingDesignatedInitializers public class AppShellErrorDomain {
+  public static let AppShellErrorDomain: Swift.String
+  public static let WidgetErrorDomain: Swift.String
+  public static let HydrationErrorDomain: Swift.String
+  public static let WebShellErrorDomain: Swift.String
+  public static let BridgeErrorDomain: Swift.String
+  @objc deinit
+}
+public enum AppShellErrorCode : Swift.Int {
+  case shellNotInitialized
+  case pluginsHaveNotBeenLoaded
+  case networkRequestError
+  case unauthorizedError
+  case missingAuthDelegate
+  case invalidInput
+  case unknownError
+  case sampleError
+  case missingAppConfig
+  case authorizationHeadersNotFound
+  case invalidDataDelegate
+  case invalidCounterDecreament
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum WidgetErrorCode : Swift.Int {
+  case invalidDescriptor
+  case invalidInterface
+  case unsupportedConfiguration
+  case missingParameter
+  case descriptorNotFound
+  case interfaceNotFound
+  case invalidState
+  case createFailed
+  case preloadFailed
+  case loadFailed
+  case renderFailed
+  case unloadFailed
+  case releaseFailed
+  case uiDelegateNotRegistered
+  case displayNativeElementTimeout
+  case webSessionNotAvailable
+  case descriptorNotCompatible
+  case sandboxNotCompatible
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum HydrationErrorCode : Swift.Int {
+  case internalError
+  case unauthorizedError
+  case requestError
+  case serverError
+  case unknownError
+  case missingRealmId
+  case captchaRequired
+  case invalidInput
+  case unknownHydrationStrategy
+  case networkConnectionError
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum WebShellErrorCode : Swift.Int {
+  case webShellLoadFailed
+  case webShellError
+  case sessionExpiryFailed
+  case invalidProcessPool
+  case webSessionNotAvailable
+  case networkConnectionError
+  case serverError
+  case webViewNotFound
+  case webViewNotInAnyWindowViewHierarchy
+  case webViewNotInValidWindowViewHierarchy
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum BridgeErrorCode : Swift.Int {
+  case unknownCategory
+  case categoryNotSupported
+  case invalidMessage
+  case promiseRejected
+  case promiseTimedOut
+  case invalidProfile
+  case noBridgedExtensionFound
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct AppError : Swift.Error {
+}
+public enum ICEError : Swift.Error {
+  case iceURLNotFound(message: Swift.String, underlyingError: (any Swift.Error)?)
+  case FeatureFlagDisabled(message: Swift.String, underlyingError: (any Swift.Error)?)
+  case iceAPINotInitialized(message: Swift.String, underlyingError: (any Swift.Error)?)
+  case icePublishEventFail(message: Swift.String, underlyingError: (any Swift.Error)?)
+}
+@available(iOS 12.0, *)
+public struct AppShellNetworkMonitor {
+  public static var connectionType: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class AppShellReachability {
+  public var connectionType: Swift.String {
+    get
+  }
+  convenience public init(queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main) throws
+  @objc deinit
+}
+extension AFMobileLoggingInterface.Source {
+  public static func shellSource(file: Swift.String = #file, function: Swift.String = #function, line: Swift.UInt = #line) -> AFMobileLoggingInterface.Source
+}
+@_hasMissingDesignatedInitializers public class AppShellUtils {
+  public static func convertJSONStringToDictionary(_ text: Swift.String) -> [Swift.String : Any]?
+  public static func serializeToJsonString(_ inputDictionary: [Swift.String : Swift.AnyObject]) throws -> Swift.String
+  public static func filePathFromBundle(_ fileNameWithExt: Swift.String) -> Swift.String?
+  public static func readFileFromBundle(fileNameWithExt: Swift.String) -> Swift.String?
+  public static func findFileInBundle(_ bundle: Foundation.Bundle, name: Swift.String, withExtension: Swift.String) -> Swift.String?
+  public static func findFileInDirectory(_ path: Swift.String, name: Swift.String, withExtension: Swift.String) -> Swift.String?
+  public static func loadTextResource(_ path: Swift.String, encoding: Swift.UInt = String.Encoding.utf8.rawValue) -> Swift.String
+  public static func getMobileShellVersion() -> Swift.String
+  public static func toL10FormattedLocaleIdentifier(localeIdentifier: Swift.String) -> Swift.String
+  public static func appendQueryToUrlString(url: Swift.String, queryKey: Swift.String, queryValue: Swift.String) -> Swift.String
+  public static func appendQueryToUrlString(url: Swift.String, queryParams: [Swift.String : Swift.String]) -> Swift.String
+  public static func findWidgetType(inJson json: [Swift.String : Any]) throws -> AppShellWidgetInterface.WidgetType
+  public static func getHydrationTargetUrlDefault(forEnvironment environment: AFMobileContextInterface.AuthEnvironmentType) throws -> Swift.String
+  public static func addShellGeneratedEventInfo(additionalInfo: [Swift.String : Swift.String]?) -> [Swift.String : Swift.String]
+  public static func startInstrumentationTimer(feature: AFMobileShellCore.FeatureList, eventName: Swift.String, additionalInfo: [Swift.String : Swift.String]? = nil, tag: Swift.Int? = nil)
+  public static func endInstrumentationTimer(feature: AFMobileShellCore.FeatureList, eventName: Swift.String, tag: Swift.Int? = nil)
+  public static func sendInstrumentationMetrics(feature: AFMobileShellCore.FeatureList, eventName: Swift.String, start: Foundation.Date, end: Foundation.Date, additionalInfo: [Swift.String : Swift.String]? = nil)
+  public static func creatEmbededAppInfoJsonString(appConfig: AFMobileShellCore.AppConfig) -> Swift.String
+  public static func versionAsAdditionalInfo(for moduleName: Swift.String) -> [Swift.String : Swift.String]
+  public static func getVersion(for moduleName: Swift.String) -> Swift.String
+  @objc deinit
+}
+@objc open class BaseSandboxDelegate : ObjectiveC.NSObject, AppShellWidgetInterface.SandboxDelegate {
+  weak open var sandbox: (any AppShellWidgetInterface.Sandbox)?
+  public init(sandbox: (any AppShellWidgetInterface.Sandbox)? = nil)
+  @objc open func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  public func getSandbox() -> (any AppShellWidgetInterface.Sandbox)?
+  public func setSandbox(sandbox: any AppShellWidgetInterface.Sandbox)
+  @objc deinit
+}
+public enum PerformanceHandlerKey : Swift.String {
+  case customerInteraction
+  case parentSpanName
+  case overrideTraceId
+  case overrideSpanId
+  case overrideParentSpanId
+  case overrideStartTime
+  case overrideEndTime
+  case clientMode
+  case pluginId
+  case widgetId
+  case widgetVersion
+  case widgetInstanceId
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum PerformanceHandlerValue : Swift.String {
+  case webViewMobile
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct BridgedAction {
+  public var nameSpace: Swift.String
+  public var action: Swift.String
+  public var data: [Swift.String : Swift.AnyObject?]
+  public init(nameSpace: Swift.String, action: Swift.String, data: [Swift.String : Swift.AnyObject?])
+}
+public protocol BridgedExtensionDelegate {
+  func actionNamesHandled() -> [AFMobileShellCore.ActionsHandled]
+  func handleBridgeAction(bridgedAction: AFMobileShellCore.BridgedAction, context: [Swift.String : Swift.AnyObject]?, completion: @escaping (_ data: Swift.AnyObject?, _ error: Foundation.NSError?) -> Swift.Void)
+}
+public enum MessageName : Swift.String {
+  case MobileShell
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum BridgeMessageKeyword : Swift.String {
+  case callbackID
+  case category
+  case command
+  case payload
+  case context
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum MessageCategory : Swift.String, Swift.CaseIterable {
+  case actions
+  case analytics
+  case context
+  case data
+  case extensionAction
+  case help
+  case logging
+  case performance
+  case promise
+  case pubsub
+  case webShellEvent
+  case widgetEvent
+  case ui
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [AFMobileShellCore.MessageCategory]
+  public typealias RawValue = Swift.String
+  public static var allCases: [AFMobileShellCore.MessageCategory] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum MessageCommand : Swift.String {
+  case displayShellElements
+  case doAction
+  case getData
+  case getEmbeddedAppInfo
+  case getHostAppInfo
+  case getServerInfo
+  case handle
+  case invokeAction
+  case log
+  case resolve
+  case reject
+  case showTopic
+  case trackEvent
+  case track
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum PromiseVerb : Swift.String {
+  case resolve
+  case reject
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum PromiseKeyword : Swift.String {
+  case verb
+  case promiseCallbackID
+  case functionCallStr
+  case result
+  case reason
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public typealias BridgeMessagePayload = [Swift.String : Swift.AnyObject]
+public typealias BridgeMessageContext = [Swift.String : Swift.AnyObject]
+public enum BridgeMessageConstant : Swift.String {
+  case data
+  case end
+  case event
+  case start
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct BridgeMessage : Swift.CustomDebugStringConvertible {
+  public init(name: Swift.String, body: Swift.AnyObject)
+  public init(body: Swift.AnyObject)
+  public var callbackID: Swift.String {
+    get
+  }
+  public var category: Swift.String {
+    get
+  }
+  public var command: Swift.String {
+    get
+  }
+  public var payload: AFMobileShellCore.BridgeMessagePayload? {
+    get
+  }
+  public var context: AFMobileShellCore.BridgeMessageContext? {
+    get
+  }
+  public static func validateMessage(_ body: Swift.AnyObject) -> AFMobileShellCore.AppShellError?
+  public static func getCallbackID(_ messageBody: Swift.AnyObject) -> Swift.String
+  public var debugDescription: Swift.String {
+    get
+  }
+}
+public enum AppShellEvent : Swift.String {
+  case HydrationStarted
+  case HydrationDone
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum WebShellEvent : Swift.String {
+  case loaded
+  case ShellUILoaded
+  case webShellCoreDownloaded
+  case loadError
+  case networkRequestError
+  case error
+  case sessionExpired
+  case onReady
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum ErrorKeyword : Swift.String {
+  case code
+  case message
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct ShellConstants {
+  public static let mobileShellBundleId: Swift.String
+  public static let AppDContentType: Swift.String
+  public static let AppDPublishURL: Swift.String
+  public static let platform: Swift.String
+  public static let platformDefaultValue: Swift.String
+  public static let appId: Swift.String
+  public static let appVersion: Swift.String
+  public static let osVersion: Swift.String
+  public static let osVersionDefaultValue: Swift.String
+  public static let region: Swift.String
+  public static let source: Swift.String
+  public static let sourceDefaultValue: Swift.String
+  public static let userId: Swift.String
+  public static let realmId: Swift.String
+  public static let sku: Swift.String
+  public static let widgetId: Swift.String
+  public static let widgetVersion: Swift.String
+  public static let offeringId: Swift.String
+  public static let performaceEventType: Swift.String
+  public static let customerInteractionEventType: Swift.String
+  public static let interruptionEventType: Swift.String
+  public static let hydrationName: Swift.String
+  public static let webshellName: Swift.String
+  public static let webAppName: Swift.String
+  public static let extendedProperties: Swift.String
+  public static let extendedPropertyLoggingV2: Swift.String
+  public static let extendedPropertyoil: Swift.String
+  public static let loggingAssetAlias: Swift.String
+  public static let widgets: Swift.String
+}
+public protocol DynamicPerformanceDelegate : AppShellWidgetInterface.AFMobilePerformanceDelegate {
+  init(perfConfig: AFMobileShellCore.PerformanceConfig)
+  func updateCustomerInteraction(_ interactionName: Swift.String, interaction: AFMobilePerformanceInterface.CustomerInteraction, replaceIfExists: Swift.Bool, completionHandler: (_ customerInteraction: AFMobilePerformanceInterface.CustomerInteraction?, _ error: Foundation.NSError?, _ sender: any AFMobilePerformanceInterface.PerformanceDelegate) -> Swift.Void)
+}
+public enum ExtensionType : Swift.Hashable {
+  case navItems
+  case globalHeader
+  case routes
+  case webSessions
+  case custom(Swift.String)
+  public init(name: Swift.String)
+  public var name: Swift.String {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (lhs: AFMobileShellCore.ExtensionType, rhs: AFMobileShellCore.ExtensionType) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct Extension {
+  public let extensionType: AFMobileShellCore.ExtensionType
+  public let extensionData: [[Swift.String : Any]]
+}
+public protocol ExtensionHandler : AnyObject {
+  func handleExtensionAdded(shellExtension: AFMobileShellCore.Extension)
+  func handleExtensionRemoved(extensionType: AFMobileShellCore.ExtensionType)
+}
+extension AFMobileLoggingInterface.Source {
+  public func toDictionary() -> [Swift.String : Swift.String]
+}
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor(unsafe) public var deviceName: Swift.String {
+    get
+  }
+}
+extension Foundation.HTTPURLResponse {
+  public var isSuccessful: Swift.Bool {
+    get
+  }
+  public var statusCodeDescription: Swift.String {
+    get
+  }
+  public var textEncoding: Swift.String.Encoding? {
+    get
+  }
+}
+public enum HydrationStrategy : Swift.String {
+  case qbo
+  case ius
+  case none
+  public init(rawValue: Swift.String)
+  public static func fromString(_ string: Swift.String) -> AFMobileShellCore.HydrationStrategy
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum JSONDeserializationError : Swift.Error, Foundation.CustomNSError, Swift.CustomStringConvertible {
+  case failedToCastJSONObjectToDictionary(Any)
+  case failedToConvertStringToData(Swift.String)
+  case failedToConvertJsonDataToString(Any)
+  case illegalKeypath(keys: [Swift.String], json: Swift.String)
+  case missing((model: any Any.Type, key: Swift.String))
+  case invalid((model: any Any.Type, key: Swift.String))
+  public static var errorDomain: Swift.String {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class Logger {
+  public static let shared: AFMobileShellCore.Logger
+  @objc deinit
+}
+extension AFMobileShellCore.Logger {
+  public class func sandboxLogger(_ sandbox: (any AppShellWidgetInterface.Sandbox)?) -> AFMobileShellCore.Logger
+  public class func sandboxLogger(_ logger: (any AppShellWidgetInterface.AFMobileLogDelegate)?) -> AFMobileShellCore.Logger
+  public class func logError(error: AFMobileShellCore.AppShellError, source: AFMobileLoggingInterface.Source, additionalInfo: [Swift.String : Swift.String]? = nil)
+  public class func logDebug(_ message: Swift.String, source: AFMobileLoggingInterface.Source, additionalInfo: [Swift.String : Swift.String]? = nil)
+  public class func logInfo(_ message: Swift.String, source: AFMobileLoggingInterface.Source, additionalInfo: [Swift.String : Swift.String]? = nil)
+  public class func logWarning(_ message: Swift.String, source: AFMobileLoggingInterface.Source, additionalInfo: [Swift.String : Swift.String]? = nil)
+  public class func logError(_ message: Swift.String, source: AFMobileLoggingInterface.Source, additionalInfo: [Swift.String : Swift.String]? = nil)
+  public class func logFatal(_ message: Swift.String, source: AFMobileLoggingInterface.Source, additionalInfo: [Swift.String : Swift.String]? = nil)
+  public class func log(_ level: AFMobileLoggingInterface.LogLevelType, _ message: Swift.String, source: AFMobileLoggingInterface.Source, additionalInfo: [Swift.String : Swift.String]? = nil)
+  public func log(_ level: AFMobileLoggingInterface.LogLevelType, _ message: Swift.String, source: AFMobileLoggingInterface.Source, additionalInfo: [Swift.String : Swift.String]? = nil)
+}
+public struct MetricRequest : Swift.Codable {
+  public func jsonObjectRepresentation() -> [Swift.String : Any]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class MetricRequestManager {
+  public static func getMetricRequest(perfEvent: AFMobilePerformanceInterface.PerformanceEvent, sandbox: (any AppShellWidgetInterface.Sandbox)?) -> AFMobileShellCore.MetricRequest
+  public static func getConnectionType() -> Swift.String
+  @objc deinit
+}
+open class MobileSandbox : AppShellWidgetInterface.Sandbox, Foundation.NSCopying {
+  public var sandboxSource: AppShellWidgetInterface.SandboxSource
+  public var currentWidget: (any AppShellWidgetInterface.Widget)?
+  public init()
+  public func registerDelegate<DelegateImplementation>(ofType type: AppShellWidgetInterface.AFMobileDelegateType, withImplementation implementation: DelegateImplementation) throws
+  public func unregisterDelegate<Delegate>(ofType type: Delegate.Type)
+  public func getDelegate<Delegate>(ofType type: Delegate.Type) -> Delegate?
+  @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  public func clone() -> any AppShellWidgetInterface.Sandbox
+  @objc deinit
+}
+extension AppShellWidgetInterface.Sandbox {
+  public var shellEventDelegate: (any AFMobileShellCore.ShellEventDelegate)? {
+    get
+    set
+  }
+  public var webViewControllersDelegate: (any AFMobileShellCore.WebViewControllersDelegate)? {
+    get
+    set
+  }
+}
+public enum RegisterDelegateError : Swift.Error {
+  case uncompatibleImplementationForDelegate
+  public static func == (a: AFMobileShellCore.RegisterDelegateError, b: AFMobileShellCore.RegisterDelegateError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public typealias PromiseCallback = (_ result: Swift.AnyObject?, _ error: AFMobileShellCore.AppShellError?) -> Swift.Void
+public struct NavItem {
+  public let label: Swift.String
+  public let path: Swift.String
+  public let priority: Swift.Int
+  public let icon: Swift.String?
+  public let navItems: [AFMobileShellCore.NavItem]?
+}
+extension AFMobileShellCore.NavItem {
+  public init(dict: [Swift.String : Any]) throws
+}
+extension Swift.Optional {
+  public var descriptionOrEmpty: Swift.String {
+    get
+  }
+  public var descriptionOrNil: Swift.String {
+    get
+  }
+}
+extension Foundation.Date {
+  public var epochTime_ms: Swift.String {
+    get
+  }
+}
+public protocol AppShellRemoteConfigurationProviding : AnyObject {
+  var environment: AFMobileContextInterface.AuthEnvironmentType { get }
+  var assetAlias: Swift.String { get }
+  var configuration: AFMobileShellCore.RemoteConfiguration? { get }
+  func isEnabled(feature flag: AFMobileShellCore.RemoteConfigurationFeatureFlag) -> Swift.Bool
+  func fetch(completion: @escaping (AFMobileShellCore.RemoteConfiguration?) -> Swift.Void)
+}
+public class AppShellRemoteConfigurationProvider : AFMobileShellCore.AppShellRemoteConfigurationProviding {
+  final public let environment: AFMobileContextInterface.AuthEnvironmentType
+  final public let assetAlias: Swift.String
+  public init(assetAlias: Swift.String, environment: AFMobileContextInterface.AuthEnvironmentType)
+  public var configuration: AFMobileShellCore.RemoteConfiguration? {
+    get
+  }
+  public func isEnabled(feature flag: AFMobileShellCore.RemoteConfigurationFeatureFlag) -> Swift.Bool
+  public func fetch(completion: @escaping (AFMobileShellCore.RemoteConfiguration?) -> Swift.Void)
+  @objc deinit
+}
+extension Foundation.NSNotification.Name {
+  public static let didFinishRemoteConfigurationFetch: Foundation.NSNotification.Name
+}
+public enum RemoteConfigurationFeatureFlag : Swift.String {
+  case fci
+  case smartLook
+  case networkMetrics
+  case networkErrorLogging
+  case frameTrace
+  public var isEnabled: Swift.Bool {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class RemoteConfigurationFeature {
+  public static func isEnabled(flag: AFMobileShellCore.RemoteConfigurationFeatureFlag) -> Swift.Bool
+  public static func enable(flag: AFMobileShellCore.RemoteConfigurationFeatureFlag)
+  public static func disable(flag: AFMobileShellCore.RemoteConfigurationFeatureFlag)
+  public static func set(flag: AFMobileShellCore.RemoteConfigurationFeatureFlag, value: Swift.Bool)
+  @objc deinit
+}
+public struct RemoteConfiguration : Swift.Decodable {
+  public struct FCIConfig : Swift.Decodable {
+    public let enabled: Swift.Bool?
+    public let sampling: [Swift.String : Swift.Double]?
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct PerformanceConfig : Swift.Decodable {
+    public struct Cache : Swift.Decodable {
+      public let limit: Swift.Int
+      public init(from decoder: any Swift.Decoder) throws
+    }
+    public let cache: AFMobileShellCore.RemoteConfiguration.PerformanceConfig.Cache
+    public let enableNetworkMetrics: Swift.Bool?
+    public let enableFrameTrace: Swift.Bool?
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct SmartLookConfig : Swift.Decodable {
+    public let isEnabled: Swift.Bool?
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct NetworkErrorLoggingConfig : Swift.Decodable {
+    public let isEnabled: Swift.Bool?
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public let fciObservability: AFMobileShellCore.RemoteConfiguration.FCIConfig?
+  public let performance: AFMobileShellCore.RemoteConfiguration.PerformanceConfig?
+  public let smartLook: AFMobileShellCore.RemoteConfiguration.SmartLookConfig?
+  public let networkErrorLogging: AFMobileShellCore.RemoteConfiguration.NetworkErrorLoggingConfig?
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol ShellAuthClientDelegate {
+  #if compiler(>=5.3) && $AsyncAwait
+  func getApplicationAuthHeaders() async throws -> [Swift.String : Swift.String]
+  #endif
+  var clientAuthenticatedURLSession: Foundation.URLSession { get }
+  @available(*, deprecated, message: "        getApplicationAuthHeaders() is deprecated and usage is highly not recommended. use the ` clientAuthenticatedURLSession: URLSession ` to make requests that require authentication or `func getApplicationAuthHeaders() async throws -> [String: String] `.")
+  func getApplicationAuthHeaders() -> [Swift.String : Swift.String]?
+}
+extension AFMobileShellCore.ShellAuthClientDelegate {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func getApplicationAuthHeaders() async throws -> [Swift.String : Swift.String]
+  #endif
+  public var clientAuthenticatedURLSession: Foundation.URLSession {
+    get
+  }
+}
+extension AFMobileShellCore.ShellAuthClientDelegate {
+  @available(*, deprecated, message: "        getApplicationAuthHeaders() will be deprecated in future versions and usage is highly not recommended. use the ` clientAuthenticatedURLSession: URLSession ` to make requests that require authentication or `func getApplicationAuthHeaders() async throws -> [String: String] `.")
+  public func getApplicationAuthHeaders() -> [Swift.String : Swift.String]?
+}
+public protocol ShellEventDelegate : AppShellWidgetInterface.SandboxDelegate {
+  func handleShellEvent(_ eventName: Swift.String, eventData: [Swift.String : Swift.AnyObject]?, context: [Swift.String : Swift.AnyObject]?)
+}
+@objc public class ShellLocalPubSubDelegate : AFMobileShellCore.BaseSandboxDelegate, AppShellWidgetInterface.AFMobileLocalPubSubDelegate {
+  weak public var appShell: AFMobileShellCore.AppShell?
+  @objc override public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  weak override public var sandbox: (any AppShellWidgetInterface.Sandbox)? {
+    get
+    set
+  }
+  public init()
+  public func publish(topic: AFMobilePubSubInterface.LocalPubSubTopic, data: Any, isMessageFromWebWidget: Swift.Bool) throws
+  public func publish<T>(type: T.Type, data: T.Data) throws where T : AFMobilePubSubInterface.PubSubDataSource
+  public func subscribe(topic: AFMobilePubSubInterface.LocalPubSubTopic, onData: @escaping (_ data: Any?) -> Swift.Void) -> Swift.String?
+  public func subscribe<T>(type: T.Type, onData: @escaping (T.Data) -> Swift.Void) -> Swift.String? where T : AFMobilePubSubInterface.PubSubDataSource
+  public func unsubscribe(subscription: AFMobilePubSubInterface.LocalPubSubId) -> Swift.Bool
+  public func destroy()
+  @objc deinit
+}
+extension UIKit.UIWindow {
+  @_Concurrency.MainActor(unsafe) public static var key: UIKit.UIWindow? {
+    get
+  }
+}
+public class WeakReference<T> : Swift.Hashable, Swift.CustomStringConvertible where T : AnyObject, T : Swift.Hashable {
+  weak public var value: T? {
+    get
+  }
+  public init(_ object: T)
+  public static func == (lhs: AFMobileShellCore.WeakReference<T>, rhs: AFMobileShellCore.WeakReference<T>) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var description: Swift.String {
+    get
+  }
+  @objc deinit
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct HydrationConfig : Swift.Hashable, Swift.CustomStringConvertible {
+  public let hydrationStrategy: AFMobileShellCore.HydrationStrategy
+  public let targetUrl: Swift.String?
+  public let captchaToken: Swift.String?
+  public init(hydrationStrategy: AFMobileShellCore.HydrationStrategy, targetUrl: Swift.String? = nil, captchaToken: Swift.String?)
+  public func hash(into hasher: inout Swift.Hasher)
+  public var description: Swift.String {
+    get
+  }
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public func == (lhs: AFMobileShellCore.HydrationConfig, rhs: AFMobileShellCore.HydrationConfig) -> Swift.Bool
+public struct WebShellConfig : Swift.Hashable, Swift.CustomStringConvertible {
+  public let webShellUrl: Swift.String
+  public let webShellType: AFMobileShellCore.WebShellType
+  public init(webShellUrl: Swift.String, webShellType: AFMobileShellCore.WebShellType)
+  public func hash(into hasher: inout Swift.Hasher)
+  public var description: Swift.String {
+    get
+  }
+  public static func == (a: AFMobileShellCore.WebShellConfig, b: AFMobileShellCore.WebShellConfig) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct WebAppConfig : Swift.Hashable, Swift.CustomStringConvertible {
+  public let webAppUrl: Swift.String
+  public let webAppName: Swift.String
+  public init(webAppUrl: Swift.String, webAppName: Swift.String)
+  public func hash(into hasher: inout Swift.Hasher)
+  public var description: Swift.String {
+    get
+  }
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public func == (lhs: AFMobileShellCore.WebAppConfig, rhs: AFMobileShellCore.WebAppConfig) -> Swift.Bool
+public struct WebSessionConfig {
+  public let hydrationConfig: AFMobileShellCore.HydrationConfig?
+  public let webShellConfig: AFMobileShellCore.WebShellConfig?
+  public let webAppConfig: AFMobileShellCore.WebAppConfig?
+  public init(hydrationConfig: AFMobileShellCore.HydrationConfig?, webShellConfig: AFMobileShellCore.WebShellConfig?)
+  public init(hydrationConfig: AFMobileShellCore.HydrationConfig?, webShellConfig: AFMobileShellCore.WebShellConfig? = nil, webAppConfig: AFMobileShellCore.WebAppConfig? = nil) throws
+}
+extension AFMobileShellCore.WebSessionConfig : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public func == (lhs: AFMobileShellCore.WebSessionConfig, rhs: AFMobileShellCore.WebSessionConfig) -> Swift.Bool
+public struct WebSession {
+}
+extension AFMobileShellCore.WebSession : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public func == (lhs: AFMobileShellCore.WebSession, rhs: AFMobileShellCore.WebSession) -> Swift.Bool
+@objc @_hasMissingDesignatedInitializers public class WebSessionError : AFMobileShellCore.AppShellError {
+  final public let webSessionConfig: AFMobileShellCore.WebSessionConfig
+  @objc deinit
+}
+public enum WebShellType : Swift.String {
+  case qbo
+  case mint
+  case intuit
+  public init?(rawValue: Swift.String)
+  public static func fromString(_ string: Swift.String) -> AFMobileShellCore.WebShellType?
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class WebView : WebKit.WKWebView {
+  @_Concurrency.MainActor(unsafe) @objc override final public func evaluateJavaScript(_ javaScriptString: Swift.String, completionHandler: ((Any?, (any Swift.Error)?) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) @objc override final public func willMove(toSuperview newSuperview: UIKit.UIView?)
+  @_Concurrency.MainActor(unsafe) @objc override final public func didMoveToSuperview()
+  @_Concurrency.MainActor(unsafe) @objc override final public func willMove(toWindow newWindow: UIKit.UIWindow?)
+  @_Concurrency.MainActor(unsafe) @objc override final public func didMoveToWindow()
+  @objc deinit
+}
+extension AFMobileShellCore.WebView {
+  @_Concurrency.MainActor(unsafe) @objc override final public var description: Swift.String {
+    @objc get
+  }
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class WebViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) final public var webView: AFMobileShellCore.WebView
+  @_Concurrency.MainActor(unsafe) @objc override final public func loadView()
+  @objc deinit
+}
+extension AFMobileShellCore.WebViewController : UIKit.UIScrollViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc override final public var description: Swift.String {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc final public func viewForZooming(in: UIKit.UIScrollView) -> UIKit.UIView?
+}
+public typealias WebViewWindowViewHierarchyValidationResult = AppShellWidgetInterface.AppShellResult<Swift.Void>
+public protocol WebViewControllersDelegate : AppShellWidgetInterface.SandboxDelegate {
+  func validateWindowViewHierarchy(for webViewController: UIKit.UIViewController) -> AFMobileShellCore.WebViewWindowViewHierarchyValidationResult
+  func addToWindowViewHierarchy(webViewController: UIKit.UIViewController)
+}
+public class DefaultWebViewControllersDelegate : AFMobileShellCore.WebViewControllersDelegate {
+  public var sandbox: (any AppShellWidgetInterface.Sandbox)?
+  @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  public init()
+  @objc deinit
+}
+extension AFMobileShellCore.WebViewControllersDelegate {
+  public func validateWindowViewHierarchy(for webViewController: UIKit.UIViewController) -> AFMobileShellCore.WebViewWindowViewHierarchyValidationResult
+  public func addToWindowViewHierarchy(webViewController: UIKit.UIViewController)
+}
+extension AFMobileShellCore.WebViewControllersDelegate {
+  public static func validateWindowViewHierarchy(for webViewController: UIKit.UIViewController) -> AFMobileShellCore.WebViewWindowViewHierarchyValidationResult
+  public static func addToWindowViewHierarchy(webViewController: UIKit.UIViewController)
+}
+@objc final public class WebWidgetProxy : ObjectiveC.NSObject, AppShellWidgetInterface.Widget, AppShellWidgetInterface.WidgetElementActionDelegate {
+  final public var sandbox: any AppShellWidgetInterface.Sandbox
+  final public var widgetId: Swift.String {
+    get
+  }
+  final public var widgetVersion: Swift.String {
+    get
+  }
+  final public var viewController: AFMobileShellCore.WebViewController? {
+    get
+  }
+  required public init(widgetDescriptor: any AppShellWidgetInterface.WidgetDescriptor, sandbox: any AppShellWidgetInterface.Sandbox) throws
+  final public func preload(_ widgetLoadCompletionBlock: @escaping (_ error: (any Swift.Error)?) -> Swift.Void)
+  final public func load(uiDelegate: (any AppShellWidgetInterface.AFMobileUIDelegate)?, initialProperties: [Swift.String : Swift.AnyObject]?, widgetLoadCompletionBlock: @escaping (_ viewController: UIKit.UIViewController?, _ error: (any Swift.Error)?) -> Swift.Void)
+  final public func load(widgetId: Swift.String, widgetVersion: Swift.String, uiDelegate: (any AppShellWidgetInterface.UIDelegate)?, initialProperties: [Swift.String : Swift.AnyObject]?, widgetLoadCompletionBlock: @escaping (_ viewController: UIKit.UIViewController?, _ error: (any Swift.Error)?) -> Swift.Void)
+  final public func handleWidgetElementAction(_ widgetElement: AppShellWidgetInterface.WidgetElement, completion: @escaping ((any Swift.Error)?) -> Swift.Void)
+  final public func prepareToUnload(_ completionBlock: @escaping (_ canUnload: Swift.Bool, _ error: (any Swift.Error)?) -> Swift.Void)
+  final public func unload(completionBlock: @escaping (_ error: (any Swift.Error)?) -> Swift.Void)
+  final public func release(completionBlock: @escaping (_ error: (any Swift.Error)?) -> Swift.Void)
+  final public func getTrackingContext() -> [Swift.String : Any]
+  final public func invokeJavascriptExtension(jsFunctionToCall: Swift.String, jsonArrayOfArguments: Swift.String, completionHandler: ((Any?, (any Swift.Error)?) -> Swift.Void)? = nil)
+  @objc deinit
+}
+extension AFMobileShellCore.FeatureList : Swift.Equatable {}
+extension AFMobileShellCore.FeatureList : Swift.Hashable {}
+extension AFMobileShellCore.FeatureList : Swift.RawRepresentable {}
+extension AFMobileShellCore.AppShellAsynchronousOperation.State : Swift.Equatable {}
+extension AFMobileShellCore.AppShellAsynchronousOperation.State : Swift.Hashable {}
+extension AFMobileShellCore.AppShellErrorCode : Swift.Equatable {}
+extension AFMobileShellCore.AppShellErrorCode : Swift.Hashable {}
+extension AFMobileShellCore.AppShellErrorCode : Swift.RawRepresentable {}
+extension AFMobileShellCore.WidgetErrorCode : Swift.Equatable {}
+extension AFMobileShellCore.WidgetErrorCode : Swift.Hashable {}
+extension AFMobileShellCore.WidgetErrorCode : Swift.RawRepresentable {}
+extension AFMobileShellCore.HydrationErrorCode : Swift.Equatable {}
+extension AFMobileShellCore.HydrationErrorCode : Swift.Hashable {}
+extension AFMobileShellCore.HydrationErrorCode : Swift.RawRepresentable {}
+extension AFMobileShellCore.WebShellErrorCode : Swift.Equatable {}
+extension AFMobileShellCore.WebShellErrorCode : Swift.Hashable {}
+extension AFMobileShellCore.WebShellErrorCode : Swift.RawRepresentable {}
+extension AFMobileShellCore.BridgeErrorCode : Swift.Equatable {}
+extension AFMobileShellCore.BridgeErrorCode : Swift.Hashable {}
+extension AFMobileShellCore.BridgeErrorCode : Swift.RawRepresentable {}
+extension AFMobileShellCore.PerformanceHandlerKey : Swift.Equatable {}
+extension AFMobileShellCore.PerformanceHandlerKey : Swift.Hashable {}
+extension AFMobileShellCore.PerformanceHandlerKey : Swift.RawRepresentable {}
+extension AFMobileShellCore.PerformanceHandlerValue : Swift.Equatable {}
+extension AFMobileShellCore.PerformanceHandlerValue : Swift.Hashable {}
+extension AFMobileShellCore.PerformanceHandlerValue : Swift.RawRepresentable {}
+extension AFMobileShellCore.MessageName : Swift.Equatable {}
+extension AFMobileShellCore.MessageName : Swift.Hashable {}
+extension AFMobileShellCore.MessageName : Swift.RawRepresentable {}
+extension AFMobileShellCore.BridgeMessageKeyword : Swift.Equatable {}
+extension AFMobileShellCore.BridgeMessageKeyword : Swift.Hashable {}
+extension AFMobileShellCore.BridgeMessageKeyword : Swift.RawRepresentable {}
+extension AFMobileShellCore.MessageCategory : Swift.Equatable {}
+extension AFMobileShellCore.MessageCategory : Swift.Hashable {}
+extension AFMobileShellCore.MessageCategory : Swift.RawRepresentable {}
+extension AFMobileShellCore.MessageCommand : Swift.Equatable {}
+extension AFMobileShellCore.MessageCommand : Swift.Hashable {}
+extension AFMobileShellCore.MessageCommand : Swift.RawRepresentable {}
+extension AFMobileShellCore.PromiseVerb : Swift.Equatable {}
+extension AFMobileShellCore.PromiseVerb : Swift.Hashable {}
+extension AFMobileShellCore.PromiseVerb : Swift.RawRepresentable {}
+extension AFMobileShellCore.PromiseKeyword : Swift.Equatable {}
+extension AFMobileShellCore.PromiseKeyword : Swift.Hashable {}
+extension AFMobileShellCore.PromiseKeyword : Swift.RawRepresentable {}
+extension AFMobileShellCore.BridgeMessageConstant : Swift.Equatable {}
+extension AFMobileShellCore.BridgeMessageConstant : Swift.Hashable {}
+extension AFMobileShellCore.BridgeMessageConstant : Swift.RawRepresentable {}
+extension AFMobileShellCore.AppShellEvent : Swift.Equatable {}
+extension AFMobileShellCore.AppShellEvent : Swift.Hashable {}
+extension AFMobileShellCore.AppShellEvent : Swift.RawRepresentable {}
+extension AFMobileShellCore.WebShellEvent : Swift.Equatable {}
+extension AFMobileShellCore.WebShellEvent : Swift.Hashable {}
+extension AFMobileShellCore.WebShellEvent : Swift.RawRepresentable {}
+extension AFMobileShellCore.ErrorKeyword : Swift.Equatable {}
+extension AFMobileShellCore.ErrorKeyword : Swift.Hashable {}
+extension AFMobileShellCore.ErrorKeyword : Swift.RawRepresentable {}
+extension AFMobileShellCore.HydrationStrategy : Swift.Equatable {}
+extension AFMobileShellCore.HydrationStrategy : Swift.Hashable {}
+extension AFMobileShellCore.HydrationStrategy : Swift.RawRepresentable {}
+extension AFMobileShellCore.RegisterDelegateError : Swift.Equatable {}
+extension AFMobileShellCore.RegisterDelegateError : Swift.Hashable {}
+extension AFMobileShellCore.RemoteConfigurationFeatureFlag : Swift.Equatable {}
+extension AFMobileShellCore.RemoteConfigurationFeatureFlag : Swift.Hashable {}
+extension AFMobileShellCore.RemoteConfigurationFeatureFlag : Swift.RawRepresentable {}
+extension AFMobileShellCore.WebShellType : Swift.Equatable {}
+extension AFMobileShellCore.WebShellType : Swift.Hashable {}
+extension AFMobileShellCore.WebShellType : Swift.RawRepresentable {}

@@ -1,0 +1,11 @@
+framework module AFMobileAnalyticsInterface {
+  umbrella header "AFMobileAnalyticsInterface-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AFMobileAnalyticsInterface.Swift {
+  header "AFMobileAnalyticsInterface-Swift.h"
+  requires objc
+}

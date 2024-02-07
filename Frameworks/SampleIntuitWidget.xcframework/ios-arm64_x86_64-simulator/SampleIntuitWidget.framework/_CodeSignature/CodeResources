@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/NP/9bYnIaHuE4hS/D3ON5bBT/o=
+		PM0PRE1gWPAsWJlnJ1jkAKOBgp8=
 		</data>
 		<key>Modules/SampleIntuitWidget.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		jPNYLdhFeYmH8vCGqzJGJhfxkFE=
+		Q3/vlxOYwRNslzd+apQTrHO8dfI=
 		</data>
 		<key>Modules/SampleIntuitWidget.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		rL/LPy0WSohCAf6pzfVOsfMhUn4=
+		BlfOWqq/m7gOexGWp152xSJek8c=
 		</data>
 		<key>Modules/SampleIntuitWidget.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/SampleIntuitWidget.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		rL/LPy0WSohCAf6pzfVOsfMhUn4=
+		BlfOWqq/m7gOexGWp152xSJek8c=
 		</data>
 		<key>Modules/SampleIntuitWidget.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mRzdJ5NQ6uUEYO1URpIFKqXnDJg=
+		GIw9gdF59Mp791xUCcLOa289klQ=
 		</data>
 		<key>Modules/SampleIntuitWidget.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		jPNYLdhFeYmH8vCGqzJGJhfxkFE=
+		Q3/vlxOYwRNslzd+apQTrHO8dfI=
 		</data>
 		<key>Modules/SampleIntuitWidget.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		s0YpAi/WWuciLW7C1ktvDWeNhHw=
+		Xah8Rcgkz9qeA7x8TFWhxXWAUbQ=
 		</data>
 		<key>Modules/SampleIntuitWidget.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/SampleIntuitWidget.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		s0YpAi/WWuciLW7C1ktvDWeNhHw=
+		Xah8Rcgkz9qeA7x8TFWhxXWAUbQ=
 		</data>
 		<key>Modules/SampleIntuitWidget.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		F4TU7hOvRZZmFQWb7d1p02zqomo=
+		vzMo+GHkLBYIE3VX+G9Ph+ODHBM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PEllDthGi5LBWj3Zrwd6IjOw4UL9/m8UCJPzSyubafI=
+			1R/M3qpBoq/xtFiMde72Y4tBfrMgNDhO6opVNa/KCrA=
 			</data>
 		</dict>
 		<key>Modules/SampleIntuitWidget.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bu+3P6Y+N/hcruVAY3FhXAP+hfzfNlHzMNR2V4RYZcU=
+			1t8em8FWBGl1ycIBXXKBpP3LOUElicx0WE3Bzag84b0=
 			</data>
 		</dict>
 		<key>Modules/SampleIntuitWidget.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bu+3P6Y+N/hcruVAY3FhXAP+hfzfNlHzMNR2V4RYZcU=
+			1t8em8FWBGl1ycIBXXKBpP3LOUElicx0WE3Bzag84b0=
 			</data>
 		</dict>
 		<key>Modules/SampleIntuitWidget.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xaNcUKIQTcFPlW1hEiCkFBFW5E+B0/iikgAMUBFILUk=
+			STfx0SGL2lTk1yNmvfOz1qjp/xrDyjKc2IpaeudFTmg=
 			</data>
 		</dict>
 		<key>Modules/SampleIntuitWidget.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PEllDthGi5LBWj3Zrwd6IjOw4UL9/m8UCJPzSyubafI=
+			1R/M3qpBoq/xtFiMde72Y4tBfrMgNDhO6opVNa/KCrA=
 			</data>
 		</dict>
 		<key>Modules/SampleIntuitWidget.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pc5AY7dqXAgH0V05I2VPXlNkLLj7aZkX0+EZCsamVf4=
+			RMgVplxYcS9r3/w7yzkpRt/WMqfNiAyfkHglwvS0Hvo=
 			</data>
 		</dict>
 		<key>Modules/SampleIntuitWidget.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pc5AY7dqXAgH0V05I2VPXlNkLLj7aZkX0+EZCsamVf4=
+			RMgVplxYcS9r3/w7yzkpRt/WMqfNiAyfkHglwvS0Hvo=
 			</data>
 		</dict>
 		<key>Modules/SampleIntuitWidget.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fpehJh6NktvN7UNCMN24uteHWvpnQhZKfQXnQQKIivo=
+			Dmj4S4b5yvIlQtZ9gPMlg18BspGFuY7NYDDkx/+Vfrc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

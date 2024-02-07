@@ -1,0 +1,11 @@
+framework module AppShellWidgetInterface {
+  umbrella header "AppShellWidgetInterface-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AppShellWidgetInterface.Swift {
+  header "AppShellWidgetInterface-Swift.h"
+  requires objc
+}

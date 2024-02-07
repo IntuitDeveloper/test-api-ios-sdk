@@ -2,8 +2,8 @@
 // swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IntuitPlugin
 // swift-module-flags-ignorable: -enable-bare-slash-regex
-import AFMobileAuthenticationInterface
-import AFMobileContextInterface
+import AFMobileShellCore
+import AppShellWidgetInterface
 import Foundation
 @_exported import IntuitPlugin
 import Swift
@@ -15,32 +15,31 @@ public protocol AppContext {
   var offeringId: Swift.String? { get }
 }
 public protocol AppFabricWrapper {
-  init(config: Config)
-  func getContext() -> any AFMobileContextInterface.ContextDelegate
-  func getAuthDelegate() -> any AFMobileAuthenticationInterface.AuthenticationDelegate
+  var sandbox: IntuitPlugin.IntuitSDKSandbox { get set }
+  init(config: IntuitPlugin.Config)
 }
 public class Config {
   public var appName: Swift.String
   public var appAuthToken: Swift.String
   public var offeringId: Swift.String
-  public var pluginAssetId: Swift.String
-  public var pluginAssetAlias: Swift.String
+  public var sdkAssetId: Swift.String
+  public var sdkAssetAlias: Swift.String
   public init(appName: Swift.String, appAuthToken: Swift.String, offeringId: Swift.String, assetId: Swift.String, assetAlias: Swift.String)
   @objc deinit
 }
 public protocol Event {
   associatedtype Data
-  var source: EventSource { get }
+  var source: IntuitPlugin.EventSource { get }
   var data: Self.Data { get }
 }
 public struct EventSource {
   public init(name: Swift.String)
 }
-public protocol ErrorEvent : Event where Self.Data == any Swift.Error {
+public protocol ErrorEvent : IntuitPlugin.Event where Self.Data == any Swift.Error {
   var data: any Swift.Error { get }
   var error: any Swift.Error { get }
 }
-public protocol URLEvent : Event where Self.Data == Foundation.URL {
+public protocol URLEvent : IntuitPlugin.Event where Self.Data == Foundation.URL {
   var data: Foundation.URL { get }
   var url: Foundation.URL { get }
 }
@@ -48,16 +47,20 @@ public struct Response {
   public var message: Swift.String
   public init(message: Swift.String)
 }
-public typealias CompletionHandler = (any Event, Response) -> Swift.Void
-public protocol IntuitPlugin {
-  static func load<T>(config: any PluginConfiguration) throws -> T where T : IntuitPlugin
-  func unload(_ completion: (any Event, Response) -> Swift.Void)
-  func handleAppEvent(_ event: any Event, completion: (any Event, Response) -> Swift.Void)
+public typealias CompletionHandler = (any IntuitPlugin.Event, IntuitPlugin.Response) -> Swift.Void
+public protocol IntuitSDK {
+  static func load<T>(config: any IntuitPlugin.SDKConfiguration) throws -> T where T : IntuitPlugin.IntuitSDK
+  func unload(_ completion: (any IntuitPlugin.Event, IntuitPlugin.Response) -> Swift.Void)
+  func handleAppEvent(_ event: any IntuitPlugin.Event, completion: (any IntuitPlugin.Event, IntuitPlugin.Response) -> Swift.Void)
 }
-public protocol PluginConfiguration {
-  var appContext: any AppContext { get }
-  var eventHandler: any PluginEventHandler { get }
+public class IntuitSDKSandbox : AFMobileShellCore.MobileSandbox {
+  public init(contextDelegate: any AppShellWidgetInterface.AFMobileContextDelegate, authenticationDelegate: any AppShellWidgetInterface.AFMobileAuthenticationDelegate)
+  @objc deinit
 }
-public protocol PluginEventHandler {
-  func handlePluginEvent(_ event: any Event, completion: (any Event, Response) -> Swift.Void)
+public protocol SDKConfiguration {
+  var appContext: any IntuitPlugin.AppContext { get }
+  var eventHandler: any IntuitPlugin.SDKEventHandler { get }
+}
+public protocol SDKEventHandler {
+  func handleSDKEvent(_ event: any IntuitPlugin.Event, completion: (any IntuitPlugin.Event, IntuitPlugin.Response) -> Swift.Void)
 }
