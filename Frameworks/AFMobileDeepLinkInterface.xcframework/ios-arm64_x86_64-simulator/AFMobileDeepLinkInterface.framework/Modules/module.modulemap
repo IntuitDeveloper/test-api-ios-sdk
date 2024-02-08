@@ -1,0 +1,11 @@
+framework module AFMobileDeepLinkInterface {
+  umbrella header "AFMobileDeepLinkInterface-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AFMobileDeepLinkInterface.Swift {
+  header "AFMobileDeepLinkInterface-Swift.h"
+  requires objc
+}

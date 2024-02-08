@@ -1,0 +1,165 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name EventCollectionStandard
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import EventCollectionStandard
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct AnalyticsEventTracking {
+  public static func getBaseECSPayload(eventName: Swift.String, eventPayload: [Swift.String : Any], applicationContext: [Swift.String : Any]) -> [Swift.String : Any]
+}
+@objc @_inheritsConvenienceInitializers public class ECS : ObjectiveC.NSObject {
+  @objc @_inheritsConvenienceInitializers public class Field : ObjectiveC.NSObject {
+    public static let action: Swift.String
+    public static let appContext: Swift.String
+    public static let authId: Swift.String
+    public static let campaign: Swift.String
+    public static let companyId: Swift.String
+    public static let componentIds: Swift.String
+    public static let ecsVersion: Swift.String
+    public static let event: Swift.String
+    public static let eventFull: Swift.String
+    public static let eventSenderAlias: Swift.String
+    public static let eventSenderAssetAlias: Swift.String
+    public static let eventSenderAssetId: Swift.String
+    public static let eventSenderAssetVersion: Swift.String
+    public static let eventSenderName: Swift.String
+    public static let eventSenderPath: Swift.String
+    public static let eventSenderPurpose: Swift.String
+    public static let eventSenderVersion: Swift.String
+    public static let eventSenderXrefId: Swift.String
+    public static let exitDestination: Swift.String
+    public static let experimentIds: Swift.String
+    public static let experimentPlatform: Swift.String
+    public static let firmId: Swift.String
+    public static let groupId: Swift.String
+    public static let isServer: Swift.String
+    public static let ivid: Swift.String
+    public static let locale: Swift.String
+    public static let object: Swift.String
+    public static let object_detail: Swift.String
+    public static let org: Swift.String
+    public static let pageCategoryParameter: Swift.String
+    public static let pageExperience: Swift.String
+    public static let pageGeography: Swift.String
+    public static let pageLanguage: Swift.String
+    public static let pageNameParameter: Swift.String
+    public static let personalizationIds: Swift.String
+    public static let platform: Swift.String
+    public static let pseudonymId: Swift.String
+    public static let purpose: Swift.String
+    public static let realmId: Swift.String
+    public static let region: Swift.String
+    public static let regionId: Swift.String
+    public static let scope: Swift.String
+    public static let scopeArea: Swift.String
+    public static let scopeTag: Swift.String
+    public static let screen: Swift.String
+    public static let screenPath: Swift.String
+    public static let taskName: Swift.String
+    public static let typeKey: Swift.String
+    @objc @_inheritsConvenienceInitializers public class UI : ObjectiveC.NSObject {
+      public static let accessPoint: Swift.String
+      public static let action: Swift.String
+      public static let object: Swift.String
+      public static let objectDetail: Swift.String
+      @objc override dynamic public init()
+      @objc deinit
+    }
+    @objc @_inheritsConvenienceInitializers public class AdobeAnalytics : ObjectiveC.NSObject {
+      public static let events: Swift.String
+      public static let linkName: Swift.String
+      public static let linkType: Swift.String
+      public static let linkURL: Swift.String
+      public static let marketingCloudVisitorId: Swift.String
+      public static let visitorId: Swift.String
+      @objc override dynamic public init()
+      @objc deinit
+    }
+    @objc @_inheritsConvenienceInitializers public class Extended : ObjectiveC.NSObject {
+      public static let options: Swift.String
+      public static let integrations: Swift.String
+      @objc override dynamic public init()
+      @objc deinit
+    }
+    @objc override dynamic public init()
+    @objc deinit
+  }
+  public static let NoValueProvided: Swift.String
+  public enum Integration : Swift.Int, Swift.RawRepresentable {
+    case adobeAnalytics
+    public typealias RawValue = Swift.String
+    public var rawValue: EventCollectionStandard.ECS.Integration.RawValue {
+      get
+    }
+    public init?(rawValue: EventCollectionStandard.ECS.Integration.RawValue)
+  }
+  public enum Org : Swift.Int, Swift.RawRepresentable {
+    case sbseg
+    case cg
+    case mint
+    case ptg
+    case ip
+    case cto
+    case t4i
+    public typealias RawValue = Swift.String
+    public var rawValue: EventCollectionStandard.ECS.Org.RawValue {
+      get
+    }
+    public init?(rawValue: EventCollectionStandard.ECS.Org.RawValue)
+  }
+  public enum Purpose : Swift.Int, Swift.RawRepresentable {
+    case prod
+    case mktg
+    case care
+    public typealias RawValue = Swift.String
+    public var rawValue: EventCollectionStandard.ECS.Purpose.RawValue {
+      get
+    }
+    public init?(rawValue: EventCollectionStandard.ECS.Purpose.RawValue)
+  }
+  public enum Platform : Swift.Int, Swift.RawRepresentable {
+    case iOS
+    case iPadOS
+    case tvOS
+    case watchOS
+    case macOS
+    case ios
+    case ipados
+    case tvos
+    case watchos
+    case macos
+    public typealias RawValue = Swift.String
+    public var rawValue: EventCollectionStandard.ECS.Platform.RawValue {
+      get
+    }
+    public init?(rawValue: EventCollectionStandard.ECS.Platform.RawValue)
+  }
+  public enum SegmentType : Swift.Int, Swift.RawRepresentable {
+    case track
+    case screen
+    case identify
+    case group
+    case alias
+    public typealias RawValue = Swift.String
+    public var rawValue: EventCollectionStandard.ECS.SegmentType.RawValue {
+      get
+    }
+    public init?(rawValue: EventCollectionStandard.ECS.SegmentType.RawValue)
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension EventCollectionStandard.ECS.Integration : Swift.Equatable {}
+extension EventCollectionStandard.ECS.Integration : Swift.Hashable {}
+extension EventCollectionStandard.ECS.Org : Swift.Equatable {}
+extension EventCollectionStandard.ECS.Org : Swift.Hashable {}
+extension EventCollectionStandard.ECS.Purpose : Swift.Equatable {}
+extension EventCollectionStandard.ECS.Purpose : Swift.Hashable {}
+extension EventCollectionStandard.ECS.Platform : Swift.Equatable {}
+extension EventCollectionStandard.ECS.Platform : Swift.Hashable {}
+extension EventCollectionStandard.ECS.SegmentType : Swift.Equatable {}
+extension EventCollectionStandard.ECS.SegmentType : Swift.Hashable {}

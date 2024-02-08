@@ -1,0 +1,1540 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AFMobileNetworkInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkAPIConfiguration",
+        "printedName": "NetworkAPIConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkAPIConfiguration",
+                "printedName": "AFMobileNetworkInterface.NetworkAPIConfiguration",
+                "usr": "s:24AFMobileNetworkInterface0B16APIConfigurationV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AFMobileNetworkInterface0B16APIConfigurationV7defaultACvpZ",
+            "mangledName": "$s24AFMobileNetworkInterface0B16APIConfigurationV7defaultACvpZ",
+            "moduleName": "AFMobileNetworkInterface",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkAPIConfiguration",
+                    "printedName": "AFMobileNetworkInterface.NetworkAPIConfiguration",
+                    "usr": "s:24AFMobileNetworkInterface0B16APIConfigurationV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AFMobileNetworkInterface0B16APIConfigurationV7defaultACvgZ",
+                "mangledName": "$s24AFMobileNetworkInterface0B16APIConfigurationV7defaultACvgZ",
+                "moduleName": "AFMobileNetworkInterface",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "captureNetworkMetrics",
+            "printedName": "captureNetworkMetrics",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AFMobileNetworkInterface0B16APIConfigurationV07captureB7MetricsSbvp",
+            "mangledName": "$s24AFMobileNetworkInterface0B16APIConfigurationV07captureB7MetricsSbvp",
+            "moduleName": "AFMobileNetworkInterface",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AFMobileNetworkInterface0B16APIConfigurationV07captureB7MetricsSbvg",
+                "mangledName": "$s24AFMobileNetworkInterface0B16APIConfigurationV07captureB7MetricsSbvg",
+                "moduleName": "AFMobileNetworkInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "networkReportConfiguration",
+            "printedName": "networkReportConfiguration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkReportConfiguration",
+                "printedName": "AFMobileNetworkInterface.NetworkReportConfiguration",
+                "usr": "s:24AFMobileNetworkInterface0B19ReportConfigurationO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AFMobileNetworkInterface0B16APIConfigurationV26networkReportConfigurationAA0bfG0Ovp",
+            "mangledName": "$s24AFMobileNetworkInterface0B16APIConfigurationV26networkReportConfigurationAA0bfG0Ovp",
+            "moduleName": "AFMobileNetworkInterface",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkReportConfiguration",
+                    "printedName": "AFMobileNetworkInterface.NetworkReportConfiguration",
+                    "usr": "s:24AFMobileNetworkInterface0B19ReportConfigurationO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AFMobileNetworkInterface0B16APIConfigurationV26networkReportConfigurationAA0bfG0Ovg",
+                "mangledName": "$s24AFMobileNetworkInterface0B16APIConfigurationV26networkReportConfigurationAA0bfG0Ovg",
+                "moduleName": "AFMobileNetworkInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(captureNetworkMetrics:networkReportConfiguration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkAPIConfiguration",
+                "printedName": "AFMobileNetworkInterface.NetworkAPIConfiguration",
+                "usr": "s:24AFMobileNetworkInterface0B16APIConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkReportConfiguration",
+                "printedName": "AFMobileNetworkInterface.NetworkReportConfiguration",
+                "usr": "s:24AFMobileNetworkInterface0B19ReportConfigurationO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24AFMobileNetworkInterface0B16APIConfigurationV07captureB7Metrics26networkReportConfigurationACSb_AA0bhI0Otcfc",
+            "mangledName": "$s24AFMobileNetworkInterface0B16APIConfigurationV07captureB7Metrics26networkReportConfigurationACSb_AA0bhI0Otcfc",
+            "moduleName": "AFMobileNetworkInterface",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:24AFMobileNetworkInterface0B16APIConfigurationV",
+        "mangledName": "$s24AFMobileNetworkInterface0B16APIConfigurationV",
+        "moduleName": "AFMobileNetworkInterface",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkReportConfiguration",
+        "printedName": "NetworkReportConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "defaultDestination",
+            "printedName": "defaultDestination",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AFMobileNetworkInterface.NetworkReportConfiguration.Type) -> AFMobileNetworkInterface.NetworkReportConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkReportConfiguration",
+                    "printedName": "AFMobileNetworkInterface.NetworkReportConfiguration",
+                    "usr": "s:24AFMobileNetworkInterface0B19ReportConfigurationO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AFMobileNetworkInterface.NetworkReportConfiguration.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkReportConfiguration",
+                        "printedName": "AFMobileNetworkInterface.NetworkReportConfiguration",
+                        "usr": "s:24AFMobileNetworkInterface0B19ReportConfigurationO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24AFMobileNetworkInterface0B19ReportConfigurationO18defaultDestinationyA2CmF",
+            "mangledName": "$s24AFMobileNetworkInterface0B19ReportConfigurationO18defaultDestinationyA2CmF",
+            "moduleName": "AFMobileNetworkInterface",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "retrievedFromServer",
+            "printedName": "retrievedFromServer",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AFMobileNetworkInterface.NetworkReportConfiguration.Type) -> (Swift.Bool) -> AFMobileNetworkInterface.NetworkReportConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> AFMobileNetworkInterface.NetworkReportConfiguration",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkReportConfiguration",
+                        "printedName": "AFMobileNetworkInterface.NetworkReportConfiguration",
+                        "usr": "s:24AFMobileNetworkInterface0B19ReportConfigurationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(stopAfterDeliveringToOneDestination: Swift.Bool)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AFMobileNetworkInterface.NetworkReportConfiguration.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkReportConfiguration",
+                        "printedName": "AFMobileNetworkInterface.NetworkReportConfiguration",
+                        "usr": "s:24AFMobileNetworkInterface0B19ReportConfigurationO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24AFMobileNetworkInterface0B19ReportConfigurationO19retrievedFromServeryACSb_tcACmF",
+            "mangledName": "$s24AFMobileNetworkInterface0B19ReportConfigurationO19retrievedFromServeryACSb_tcACmF",
+            "moduleName": "AFMobileNetworkInterface",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AFMobileNetworkInterface.NetworkReportConfiguration.Type) -> AFMobileNetworkInterface.NetworkReportConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkReportConfiguration",
+                    "printedName": "AFMobileNetworkInterface.NetworkReportConfiguration",
+                    "usr": "s:24AFMobileNetworkInterface0B19ReportConfigurationO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AFMobileNetworkInterface.NetworkReportConfiguration.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkReportConfiguration",
+                        "printedName": "AFMobileNetworkInterface.NetworkReportConfiguration",
+                        "usr": "s:24AFMobileNetworkInterface0B19ReportConfigurationO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24AFMobileNetworkInterface0B19ReportConfigurationO4noneyA2CmF",
+            "mangledName": "$s24AFMobileNetworkInterface0B19ReportConfigurationO4noneyA2CmF",
+            "moduleName": "AFMobileNetworkInterface",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkReportConfiguration",
+                "printedName": "AFMobileNetworkInterface.NetworkReportConfiguration",
+                "usr": "s:24AFMobileNetworkInterface0B19ReportConfigurationO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkReportConfiguration",
+                "printedName": "AFMobileNetworkInterface.NetworkReportConfiguration",
+                "usr": "s:24AFMobileNetworkInterface0B19ReportConfigurationO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileNetworkInterface0B19ReportConfigurationO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s24AFMobileNetworkInterface0B19ReportConfigurationO2eeoiySbAC_ACtFZ",
+            "moduleName": "AFMobileNetworkInterface",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:24AFMobileNetworkInterface0B19ReportConfigurationO",
+        "mangledName": "$s24AFMobileNetworkInterface0B19ReportConfigurationO",
+        "moduleName": "AFMobileNetworkInterface",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AFMobileNetworkInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AFMobilePerformanceInterface",
+        "printedName": "AFMobilePerformanceInterface",
+        "declKind": "Import",
+        "moduleName": "AFMobileNetworkInterface"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkDelegate",
+        "printedName": "NetworkDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "disableNetworkMetrics",
+            "printedName": "disableNetworkMetrics(for:disable:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileNetworkInterface0B8DelegateP07disableB7Metrics3for0E0y10Foundation3URLV_SbtF",
+            "mangledName": "$s24AFMobileNetworkInterface0B8DelegateP07disableB7Metrics3for0E0y10Foundation3URLV_SbtF",
+            "moduleName": "AFMobileNetworkInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileNetworkInterface.NetworkDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileNetworkInterface.NetworkDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerAppNetworkErrorReportingDestination",
+            "printedName": "registerAppNetworkErrorReportingDestination(withAppAssetId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileNetworkInterface0B8DelegateP011registerAppB25ErrorReportingDestination04withF7AssetIdySS_tF",
+            "mangledName": "$s24AFMobileNetworkInterface0B8DelegateP011registerAppB25ErrorReportingDestination04withF7AssetIdySS_tF",
+            "moduleName": "AFMobileNetworkInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileNetworkInterface.NetworkDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileNetworkInterface.NetworkDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregisterAppNetworkErrorReportingDestination",
+            "printedName": "unregisterAppNetworkErrorReportingDestination()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileNetworkInterface0B8DelegateP013unregisterAppB25ErrorReportingDestinationyyF",
+            "mangledName": "$s24AFMobileNetworkInterface0B8DelegateP013unregisterAppB25ErrorReportingDestinationyyF",
+            "moduleName": "AFMobileNetworkInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileNetworkInterface.NetworkDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileNetworkInterface.NetworkDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerWidgetNetworkErrorReportingDestination",
+            "printedName": "registerWidgetNetworkErrorReportingDestination(forWidgetId:withWidgetAssetId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileNetworkInterface0B8DelegateP014registerWidgetB25ErrorReportingDestination03forF2Id04withf5AssetK0ySS_SStF",
+            "mangledName": "$s24AFMobileNetworkInterface0B8DelegateP014registerWidgetB25ErrorReportingDestination03forF2Id04withf5AssetK0ySS_SStF",
+            "moduleName": "AFMobileNetworkInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileNetworkInterface.NetworkDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileNetworkInterface.NetworkDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregisterWidgetNetworkErrorReportingDestination",
+            "printedName": "unregisterWidgetNetworkErrorReportingDestination(forWidgetId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileNetworkInterface0B8DelegateP016unregisterWidgetB25ErrorReportingDestination03forF2IdySS_tF",
+            "mangledName": "$s24AFMobileNetworkInterface0B8DelegateP016unregisterWidgetB25ErrorReportingDestination03forF2IdySS_tF",
+            "moduleName": "AFMobileNetworkInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileNetworkInterface.NetworkDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileNetworkInterface.NetworkDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dataTask",
+            "printedName": "dataTask(withUrlRequest:nameOfCustomerInteractionToPropagate:configuration:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionDataTask",
+                "printedName": "Foundation.URLSessionDataTask",
+                "usr": "c:objc(cs)NSURLSessionDataTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkAPIConfiguration",
+                "printedName": "AFMobileNetworkInterface.NetworkAPIConfiguration",
+                "usr": "s:24AFMobileNetworkInterface0B16APIConfigurationV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URLResponse?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLResponse",
+                            "printedName": "Foundation.URLResponse",
+                            "usr": "c:objc(cs)NSURLResponse"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileNetworkInterface0B8DelegateP8dataTask14withUrlRequest36nameOfCustomerInteractionToPropagate13configuration17completionHandlerSo016NSURLSessionDataF0C10Foundation10URLRequestV_SSSgAA0B16APIConfigurationVyAK0T0VSg_So13NSURLResponseCSgs5Error_pSgtctF",
+            "mangledName": "$s24AFMobileNetworkInterface0B8DelegateP8dataTask14withUrlRequest36nameOfCustomerInteractionToPropagate13configuration17completionHandlerSo016NSURLSessionDataF0C10Foundation10URLRequestV_SSSgAA0B16APIConfigurationVyAK0T0VSg_So13NSURLResponseCSgs5Error_pSgtctF",
+            "moduleName": "AFMobileNetworkInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileNetworkInterface.NetworkDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileNetworkInterface.NetworkDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dataTask",
+            "printedName": "dataTask(withUrlRequest:customerInteractionToPropagate:configuration:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionDataTask",
+                "printedName": "Foundation.URLSessionDataTask",
+                "usr": "c:objc(cs)NSURLSessionDataTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AFMobilePerformanceInterface.CustomerInteraction?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CustomerInteraction",
+                    "printedName": "AFMobilePerformanceInterface.CustomerInteraction",
+                    "usr": "c:@M@AFMobilePerformanceInterface@objc(cs)CustomerInteraction"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkAPIConfiguration",
+                "printedName": "AFMobileNetworkInterface.NetworkAPIConfiguration",
+                "usr": "s:24AFMobileNetworkInterface0B16APIConfigurationV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URLResponse?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLResponse",
+                            "printedName": "Foundation.URLResponse",
+                            "usr": "c:objc(cs)NSURLResponse"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileNetworkInterface0B8DelegateP8dataTask14withUrlRequest30customerInteractionToPropagate13configuration17completionHandlerSo016NSURLSessionDataF0C10Foundation10URLRequestV_0a11PerformanceC008CustomerK0CSgAA0B16APIConfigurationVyAK0R0VSg_So13NSURLResponseCSgs5Error_pSgtctF",
+            "mangledName": "$s24AFMobileNetworkInterface0B8DelegateP8dataTask14withUrlRequest30customerInteractionToPropagate13configuration17completionHandlerSo016NSURLSessionDataF0C10Foundation10URLRequestV_0a11PerformanceC008CustomerK0CSgAA0B16APIConfigurationVyAK0R0VSg_So13NSURLResponseCSgs5Error_pSgtctF",
+            "moduleName": "AFMobileNetworkInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileNetworkInterface.NetworkDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileNetworkInterface.NetworkDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dataTask",
+            "printedName": "dataTask(withUrl:nameOfCustomerInteractionToPropagate:configuration:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionDataTask",
+                "printedName": "Foundation.URLSessionDataTask",
+                "usr": "c:objc(cs)NSURLSessionDataTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkAPIConfiguration",
+                "printedName": "AFMobileNetworkInterface.NetworkAPIConfiguration",
+                "usr": "s:24AFMobileNetworkInterface0B16APIConfigurationV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URLResponse?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLResponse",
+                            "printedName": "Foundation.URLResponse",
+                            "usr": "c:objc(cs)NSURLResponse"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileNetworkInterface0B8DelegateP8dataTask7withUrl36nameOfCustomerInteractionToPropagate13configuration17completionHandlerSo016NSURLSessionDataF0C10Foundation3URLV_SSSgAA0B16APIConfigurationVyAK0S0VSg_So13NSURLResponseCSgs5Error_pSgtctF",
+            "mangledName": "$s24AFMobileNetworkInterface0B8DelegateP8dataTask7withUrl36nameOfCustomerInteractionToPropagate13configuration17completionHandlerSo016NSURLSessionDataF0C10Foundation3URLV_SSSgAA0B16APIConfigurationVyAK0S0VSg_So13NSURLResponseCSgs5Error_pSgtctF",
+            "moduleName": "AFMobileNetworkInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileNetworkInterface.NetworkDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileNetworkInterface.NetworkDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dataTask",
+            "printedName": "dataTask(withUrl:customerInteractionToPropagate:configuration:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionDataTask",
+                "printedName": "Foundation.URLSessionDataTask",
+                "usr": "c:objc(cs)NSURLSessionDataTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AFMobilePerformanceInterface.CustomerInteraction?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CustomerInteraction",
+                    "printedName": "AFMobilePerformanceInterface.CustomerInteraction",
+                    "usr": "c:@M@AFMobilePerformanceInterface@objc(cs)CustomerInteraction"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkAPIConfiguration",
+                "printedName": "AFMobileNetworkInterface.NetworkAPIConfiguration",
+                "usr": "s:24AFMobileNetworkInterface0B16APIConfigurationV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URLResponse?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLResponse",
+                            "printedName": "Foundation.URLResponse",
+                            "usr": "c:objc(cs)NSURLResponse"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileNetworkInterface0B8DelegateP8dataTask7withUrl30customerInteractionToPropagate13configuration17completionHandlerSo016NSURLSessionDataF0C10Foundation3URLV_0a11PerformanceC008CustomerJ0CSgAA0B16APIConfigurationVyAK0Q0VSg_So13NSURLResponseCSgs5Error_pSgtctF",
+            "mangledName": "$s24AFMobileNetworkInterface0B8DelegateP8dataTask7withUrl30customerInteractionToPropagate13configuration17completionHandlerSo016NSURLSessionDataF0C10Foundation3URLV_0a11PerformanceC008CustomerJ0CSgAA0B16APIConfigurationVyAK0Q0VSg_So13NSURLResponseCSgs5Error_pSgtctF",
+            "moduleName": "AFMobileNetworkInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileNetworkInterface.NetworkDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileNetworkInterface.NetworkDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "downloadTask",
+            "printedName": "downloadTask(withURLRequest:nameOfCustomerInteractionToPropagate:configuration:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionDownloadTask",
+                "printedName": "Foundation.URLSessionDownloadTask",
+                "usr": "c:objc(cs)NSURLSessionDownloadTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkAPIConfiguration",
+                "printedName": "AFMobileNetworkInterface.NetworkAPIConfiguration",
+                "usr": "s:24AFMobileNetworkInterface0B16APIConfigurationV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URL?, Foundation.URLResponse?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.URL?, Foundation.URLResponse?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URL?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URLResponse?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLResponse",
+                            "printedName": "Foundation.URLResponse",
+                            "usr": "c:objc(cs)NSURLResponse"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileNetworkInterface0B8DelegateP12downloadTask14withURLRequest36nameOfCustomerInteractionToPropagate13configuration17completionHandlerSo020NSURLSessionDownloadF0C10Foundation0H0V_SSSgAA0B16APIConfigurationVyAK3URLVSg_So13NSURLResponseCSgs5Error_pSgtctF",
+            "mangledName": "$s24AFMobileNetworkInterface0B8DelegateP12downloadTask14withURLRequest36nameOfCustomerInteractionToPropagate13configuration17completionHandlerSo020NSURLSessionDownloadF0C10Foundation0H0V_SSSgAA0B16APIConfigurationVyAK3URLVSg_So13NSURLResponseCSgs5Error_pSgtctF",
+            "moduleName": "AFMobileNetworkInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileNetworkInterface.NetworkDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileNetworkInterface.NetworkDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "downloadTask",
+            "printedName": "downloadTask(withURLRequest:customerInteractionToPropagate:configuration:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionDownloadTask",
+                "printedName": "Foundation.URLSessionDownloadTask",
+                "usr": "c:objc(cs)NSURLSessionDownloadTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AFMobilePerformanceInterface.CustomerInteraction?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CustomerInteraction",
+                    "printedName": "AFMobilePerformanceInterface.CustomerInteraction",
+                    "usr": "c:@M@AFMobilePerformanceInterface@objc(cs)CustomerInteraction"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkAPIConfiguration",
+                "printedName": "AFMobileNetworkInterface.NetworkAPIConfiguration",
+                "usr": "s:24AFMobileNetworkInterface0B16APIConfigurationV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URL?, Foundation.URLResponse?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.URL?, Foundation.URLResponse?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URL?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URLResponse?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLResponse",
+                            "printedName": "Foundation.URLResponse",
+                            "usr": "c:objc(cs)NSURLResponse"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileNetworkInterface0B8DelegateP12downloadTask14withURLRequest30customerInteractionToPropagate13configuration17completionHandlerSo020NSURLSessionDownloadF0C10Foundation0H0V_0a11PerformanceC008CustomerJ0CSgAA0B16APIConfigurationVyAK3URLVSg_So13NSURLResponseCSgs5Error_pSgtctF",
+            "mangledName": "$s24AFMobileNetworkInterface0B8DelegateP12downloadTask14withURLRequest30customerInteractionToPropagate13configuration17completionHandlerSo020NSURLSessionDownloadF0C10Foundation0H0V_0a11PerformanceC008CustomerJ0CSgAA0B16APIConfigurationVyAK3URLVSg_So13NSURLResponseCSgs5Error_pSgtctF",
+            "moduleName": "AFMobileNetworkInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileNetworkInterface.NetworkDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileNetworkInterface.NetworkDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "uploadTask",
+            "printedName": "uploadTask(withURLRequest:from:nameOfCustomerInteractionToPropagate:configuration:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionUploadTask",
+                "printedName": "Foundation.URLSessionUploadTask",
+                "usr": "c:objc(cs)NSURLSessionUploadTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkAPIConfiguration",
+                "printedName": "AFMobileNetworkInterface.NetworkAPIConfiguration",
+                "usr": "s:24AFMobileNetworkInterface0B16APIConfigurationV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URLResponse?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLResponse",
+                            "printedName": "Foundation.URLResponse",
+                            "usr": "c:objc(cs)NSURLResponse"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileNetworkInterface0B8DelegateP10uploadTask14withURLRequest4from36nameOfCustomerInteractionToPropagate13configuration17completionHandlerSo018NSURLSessionUploadF0C10Foundation0H0V_AL4DataVSgSSSgAA0B16APIConfigurationVyAQ_So13NSURLResponseCSgs5Error_pSgtctF",
+            "mangledName": "$s24AFMobileNetworkInterface0B8DelegateP10uploadTask14withURLRequest4from36nameOfCustomerInteractionToPropagate13configuration17completionHandlerSo018NSURLSessionUploadF0C10Foundation0H0V_AL4DataVSgSSSgAA0B16APIConfigurationVyAQ_So13NSURLResponseCSgs5Error_pSgtctF",
+            "moduleName": "AFMobileNetworkInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileNetworkInterface.NetworkDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileNetworkInterface.NetworkDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "uploadTask",
+            "printedName": "uploadTask(withURLRequest:from:customerInteractionToPropagate:configuration:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionUploadTask",
+                "printedName": "Foundation.URLSessionUploadTask",
+                "usr": "c:objc(cs)NSURLSessionUploadTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AFMobilePerformanceInterface.CustomerInteraction?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CustomerInteraction",
+                    "printedName": "AFMobilePerformanceInterface.CustomerInteraction",
+                    "usr": "c:@M@AFMobilePerformanceInterface@objc(cs)CustomerInteraction"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkAPIConfiguration",
+                "printedName": "AFMobileNetworkInterface.NetworkAPIConfiguration",
+                "usr": "s:24AFMobileNetworkInterface0B16APIConfigurationV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URLResponse?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLResponse",
+                            "printedName": "Foundation.URLResponse",
+                            "usr": "c:objc(cs)NSURLResponse"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileNetworkInterface0B8DelegateP10uploadTask14withURLRequest4from30customerInteractionToPropagate13configuration17completionHandlerSo018NSURLSessionUploadF0C10Foundation0H0V_AL4DataVSg0a11PerformanceC008CustomerK0CSgAA0B16APIConfigurationVyAQ_So13NSURLResponseCSgs5Error_pSgtctF",
+            "mangledName": "$s24AFMobileNetworkInterface0B8DelegateP10uploadTask14withURLRequest4from30customerInteractionToPropagate13configuration17completionHandlerSo018NSURLSessionUploadF0C10Foundation0H0V_AL4DataVSg0a11PerformanceC008CustomerK0CSgAA0B16APIConfigurationVyAQ_So13NSURLResponseCSgs5Error_pSgtctF",
+            "moduleName": "AFMobileNetworkInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileNetworkInterface.NetworkDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileNetworkInterface.NetworkDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:24AFMobileNetworkInterface0B8DelegateP",
+        "mangledName": "$s24AFMobileNetworkInterface0B8DelegateP",
+        "moduleName": "AFMobileNetworkInterface",
+        "genericSig": "<τ_0_0 : Foundation.NSCopying>",
+        "sugared_genericSig": "<Self : Foundation.NSCopying>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Network\/NetworkAPIConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 409,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Network\/NetworkAPIConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2445,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Network\/NetworkAPIConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2739,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

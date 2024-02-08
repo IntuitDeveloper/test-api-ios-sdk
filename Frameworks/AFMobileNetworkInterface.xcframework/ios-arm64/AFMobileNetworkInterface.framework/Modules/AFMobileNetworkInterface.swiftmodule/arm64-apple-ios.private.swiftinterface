@@ -1,0 +1,40 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AFMobileNetworkInterface
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AFMobileNetworkInterface
+import AFMobilePerformanceInterface
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct NetworkAPIConfiguration {
+  public static let `default`: AFMobileNetworkInterface.NetworkAPIConfiguration
+  public let captureNetworkMetrics: Swift.Bool
+  public let networkReportConfiguration: AFMobileNetworkInterface.NetworkReportConfiguration
+  public init(captureNetworkMetrics: Swift.Bool, networkReportConfiguration: AFMobileNetworkInterface.NetworkReportConfiguration)
+}
+public enum NetworkReportConfiguration {
+  case defaultDestination
+  case retrievedFromServer(stopAfterDeliveringToOneDestination: Swift.Bool)
+  case none
+}
+extension AFMobileNetworkInterface.NetworkReportConfiguration : Swift.Equatable {
+  public static func == (lhs: AFMobileNetworkInterface.NetworkReportConfiguration, rhs: AFMobileNetworkInterface.NetworkReportConfiguration) -> Swift.Bool
+}
+public protocol NetworkDelegate : Foundation.NSCopying {
+  func disableNetworkMetrics(for url: Foundation.URL, disable: Swift.Bool)
+  func registerAppNetworkErrorReportingDestination(withAppAssetId assetId: Swift.String)
+  func unregisterAppNetworkErrorReportingDestination()
+  func registerWidgetNetworkErrorReportingDestination(forWidgetId widgetId: Swift.String, withWidgetAssetId assetId: Swift.String)
+  func unregisterWidgetNetworkErrorReportingDestination(forWidgetId widgetId: Swift.String)
+  func dataTask(withUrlRequest request: Foundation.URLRequest, nameOfCustomerInteractionToPropagate customerInteractionName: Swift.String?, configuration: AFMobileNetworkInterface.NetworkAPIConfiguration, completionHandler: @escaping (Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void) -> Foundation.URLSessionDataTask
+  func dataTask(withUrlRequest request: Foundation.URLRequest, customerInteractionToPropagate customerInteraction: AFMobilePerformanceInterface.CustomerInteraction?, configuration: AFMobileNetworkInterface.NetworkAPIConfiguration, completionHandler: @escaping (Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void) -> Foundation.URLSessionDataTask
+  func dataTask(withUrl url: Foundation.URL, nameOfCustomerInteractionToPropagate customerInteractionName: Swift.String?, configuration: AFMobileNetworkInterface.NetworkAPIConfiguration, completionHandler: @escaping (Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void) -> Foundation.URLSessionDataTask
+  func dataTask(withUrl url: Foundation.URL, customerInteractionToPropagate customerInteraction: AFMobilePerformanceInterface.CustomerInteraction?, configuration: AFMobileNetworkInterface.NetworkAPIConfiguration, completionHandler: @escaping (Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void) -> Foundation.URLSessionDataTask
+  func downloadTask(withURLRequest urlRequest: Foundation.URLRequest, nameOfCustomerInteractionToPropagate customerInteractionName: Swift.String?, configuration: AFMobileNetworkInterface.NetworkAPIConfiguration, completionHandler: @escaping (Foundation.URL?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void) -> Foundation.URLSessionDownloadTask
+  func downloadTask(withURLRequest urlRequest: Foundation.URLRequest, customerInteractionToPropagate customerInteraction: AFMobilePerformanceInterface.CustomerInteraction?, configuration: AFMobileNetworkInterface.NetworkAPIConfiguration, completionHandler: @escaping (Foundation.URL?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void) -> Foundation.URLSessionDownloadTask
+  func uploadTask(withURLRequest urlRequest: Foundation.URLRequest, from bodyData: Foundation.Data?, nameOfCustomerInteractionToPropagate customerInteractionName: Swift.String?, configuration: AFMobileNetworkInterface.NetworkAPIConfiguration, completionHandler: @escaping (Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void) -> Foundation.URLSessionUploadTask
+  func uploadTask(withURLRequest urlRequest: Foundation.URLRequest, from bodyData: Foundation.Data?, customerInteractionToPropagate customerInteraction: AFMobilePerformanceInterface.CustomerInteraction?, configuration: AFMobileNetworkInterface.NetworkAPIConfiguration, completionHandler: @escaping (Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void) -> Foundation.URLSessionUploadTask
+}

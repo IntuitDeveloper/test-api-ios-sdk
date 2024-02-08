@@ -1,0 +1,11 @@
+framework module AFMobileLoggingInterface {
+  umbrella header "AFMobileLoggingInterface-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AFMobileLoggingInterface.Swift {
+  header "AFMobileLoggingInterface-Swift.h"
+  requires objc
+}

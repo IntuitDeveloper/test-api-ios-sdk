@@ -1,0 +1,11 @@
+framework module AFMobileSubscriptionInterface {
+  umbrella header "AFMobileSubscriptionInterface-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AFMobileSubscriptionInterface.Swift {
+  header "AFMobileSubscriptionInterface-Swift.h"
+  requires objc
+}

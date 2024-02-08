@@ -1,0 +1,65 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/jdomingo/Library/Developer/Xcode/DerivedData/IntuitAppShellSample-azyppdqhiuuwljazsarxkcgzzaum/Build/Intermediates.noindex/ArchiveIntermediates/AFMobileDeepLinkInterface/InstallationBuildProductsLocation/Library/Frameworks/AFMobileDeepLinkInterface.framework/AFMobileDeepLinkInterface'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x54964, size: 0x8, addend: 0x0, symName: _AFMobileDeepLinkInterfaceVersionString, symObjAddr: 0x0, symBinAddr: 0x7540, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x54999, size: 0x8, addend: 0x0, symName: _AFMobileDeepLinkInterfaceVersionNumber, symObjAddr: 0x50, symBinAddr: 0x7590, symSize: 0x0 }
+  - { offsetInCU: 0x2B, offset: 0x549DA, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface0bC0V15networkProtocol7urlHost0G7PatternACSS_S2StcfC', symObjAddr: 0x0, symBinAddr: 0x41A0, symSize: 0x20 }
+  - { offsetInCU: 0x4F, offset: 0x549FE, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface0bC0V15networkProtocol7urlHost0G7PatternACSS_S2StcfC', symObjAddr: 0x0, symBinAddr: 0x41A0, symSize: 0x20 }
+  - { offsetInCU: 0xAE, offset: 0x54A5D, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface0bC0V24constructComposedPattern33_E8DAF8D9BE7209B93CDDA3AA493B9358LLSSyF', symObjAddr: 0x20, symBinAddr: 0x41C0, symSize: 0xF0 }
+  - { offsetInCU: 0x247, offset: 0x54BF6, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface0bC0V7matches3uriSb10Foundation3URLV_tF', symObjAddr: 0x110, symBinAddr: 0x42B0, symSize: 0x1A0 }
+  - { offsetInCU: 0x34F, offset: 0x54CFE, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface0bC0V4hash4intoys6HasherVz_tF', symObjAddr: 0x2B0, symBinAddr: 0x4450, symSize: 0xA0 }
+  - { offsetInCU: 0x387, offset: 0x54D36, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface0bC0V2eeoiySbAC_ACtFZ', symObjAddr: 0x350, symBinAddr: 0x44F0, symSize: 0x10 }
+  - { offsetInCU: 0x3C4, offset: 0x54D73, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface0bC0V9hashValueSivg', symObjAddr: 0x360, symBinAddr: 0x4500, symSize: 0xB0 }
+  - { offsetInCU: 0x44D, offset: 0x54DFC, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface0bC0VSHAASH9hashValueSivgTW', symObjAddr: 0x410, symBinAddr: 0x45B0, symSize: 0xB0 }
+  - { offsetInCU: 0x4DC, offset: 0x54E8B, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface0bC0VSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x4C0, symBinAddr: 0x4660, symSize: 0xA0 }
+  - { offsetInCU: 0x530, offset: 0x54EDF, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface0bC0VSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x610, symBinAddr: 0x47B0, symSize: 0x10 }
+  - { offsetInCU: 0x561, offset: 0x54F10, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface0bC0V2eeoiySbAC_ACtFZTf4nnd_n', symObjAddr: 0x720, symBinAddr: 0x48C0, symSize: 0x110 }
+  - { offsetInCU: 0x606, offset: 0x54FB5, size: 0x8, addend: 0x0, symName: '_$sSo20NSTextCheckingResultCMa', symObjAddr: 0x6F0, symBinAddr: 0x4890, symSize: 0x30 }
+  - { offsetInCU: 0x625, offset: 0x54FD4, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface0bC0VSHAASQWb', symObjAddr: 0x830, symBinAddr: 0x49D0, symSize: 0x10 }
+  - { offsetInCU: 0x639, offset: 0x54FE8, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface0bC0VACSQAAWl', symObjAddr: 0x840, symBinAddr: 0x49E0, symSize: 0x30 }
+  - { offsetInCU: 0x64D, offset: 0x54FFC, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface0bC0VwCP', symObjAddr: 0x870, symBinAddr: 0x4A10, symSize: 0x30 }
+  - { offsetInCU: 0x661, offset: 0x55010, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface0bC0Vwxx', symObjAddr: 0x8A0, symBinAddr: 0x4A40, symSize: 0x30 }
+  - { offsetInCU: 0x675, offset: 0x55024, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface0bC0Vwcp', symObjAddr: 0x8D0, symBinAddr: 0x4A70, symSize: 0x60 }
+  - { offsetInCU: 0x689, offset: 0x55038, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface0bC0Vwca', symObjAddr: 0x930, symBinAddr: 0x4AD0, symSize: 0x80 }
+  - { offsetInCU: 0x69D, offset: 0x5504C, size: 0x8, addend: 0x0, symName: ___swift_memcpy48_8, symObjAddr: 0x9B0, symBinAddr: 0x4B50, symSize: 0x20 }
+  - { offsetInCU: 0x6B1, offset: 0x55060, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface0bC0Vwta', symObjAddr: 0x9D0, symBinAddr: 0x4B70, symSize: 0x60 }
+  - { offsetInCU: 0x6C5, offset: 0x55074, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface0bC0Vwet', symObjAddr: 0xA30, symBinAddr: 0x4BD0, symSize: 0x40 }
+  - { offsetInCU: 0x6D9, offset: 0x55088, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface0bC0Vwst', symObjAddr: 0xA70, symBinAddr: 0x4C10, symSize: 0x50 }
+  - { offsetInCU: 0x6ED, offset: 0x5509C, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface0bC0VMa', symObjAddr: 0xAC0, symBinAddr: 0x4C60, symSize: 0xA }
+  - { offsetInCU: 0x7B7, offset: 0x55166, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface0bC0VSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x560, symBinAddr: 0x4700, symSize: 0xB0 }
+  - { offsetInCU: 0x88B, offset: 0x5523A, size: 0x8, addend: 0x0, symName: '_$sSo19NSRegularExpressionC7pattern7optionsABSS_So0aB7OptionsVtKcfcTO', symObjAddr: 0x620, symBinAddr: 0x47C0, symSize: 0xD0 }
+  - { offsetInCU: 0x4B, offset: 0x5538A, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface20ViewDispatchResponseC14proposedActionAA11DispositionOvg', symObjAddr: 0x0, symBinAddr: 0x4CA0, symSize: 0x30 }
+  - { offsetInCU: 0x68, offset: 0x553A7, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface20ViewDispatchResponseC14proposedActionAA11DispositionOvs', symObjAddr: 0x30, symBinAddr: 0x4CD0, symSize: 0x30 }
+  - { offsetInCU: 0x8F, offset: 0x553CE, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface20ViewDispatchResponseC14proposedActionAA11DispositionOvM', symObjAddr: 0x60, symBinAddr: 0x4D00, symSize: 0x30 }
+  - { offsetInCU: 0xBC, offset: 0x553FB, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface20ViewDispatchResponseC14proposedActionAA11DispositionOvM.resume.0', symObjAddr: 0x90, symBinAddr: 0x4D30, symSize: 0x10 }
+  - { offsetInCU: 0x111, offset: 0x55450, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface20ViewDispatchResponseC14viewControllerSo06UIViewI0Cvg', symObjAddr: 0xF0, symBinAddr: 0x4D90, symSize: 0x30 }
+  - { offsetInCU: 0x12E, offset: 0x5546D, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface20ViewDispatchResponseC14viewControllerSo06UIViewI0Cvs', symObjAddr: 0x120, symBinAddr: 0x4DC0, symSize: 0x40 }
+  - { offsetInCU: 0x155, offset: 0x55494, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface20ViewDispatchResponseC14viewControllerSo06UIViewI0CvM', symObjAddr: 0x160, symBinAddr: 0x4E00, symSize: 0x30 }
+  - { offsetInCU: 0x1B8, offset: 0x554F7, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface20ViewDispatchResponseC14proposedAction14viewControllerAcA11DispositionO_So06UIViewK0CtcfC', symObjAddr: 0x190, symBinAddr: 0x4E30, symSize: 0x70 }
+  - { offsetInCU: 0x209, offset: 0x55548, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface20ViewDispatchResponseC14proposedAction14viewControllerAcA11DispositionO_So06UIViewK0Ctcfc', symObjAddr: 0x200, symBinAddr: 0x4EA0, symSize: 0x50 }
+  - { offsetInCU: 0x23A, offset: 0x55579, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface20ViewDispatchResponseCfd', symObjAddr: 0x250, symBinAddr: 0x4EF0, symSize: 0x20 }
+  - { offsetInCU: 0x275, offset: 0x555B4, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface20ViewDispatchResponseCfD', symObjAddr: 0x270, symBinAddr: 0x4F10, symSize: 0x30 }
+  - { offsetInCU: 0x2DE, offset: 0x5561D, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface20ViewDispatchResponseCAA0fG0A2aDP14proposedActionAA11DispositionOvgTW', symObjAddr: 0x2A0, symBinAddr: 0x4F40, symSize: 0x40 }
+  - { offsetInCU: 0x337, offset: 0x55676, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface20ViewDispatchResponseCAA0fG0A2aDP14viewControllerSo06UIViewI0CvgTW', symObjAddr: 0x2E0, symBinAddr: 0x4F80, symSize: 0x30 }
+  - { offsetInCU: 0x39F, offset: 0x556DE, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface20ViewDispatchResponseC14viewControllerSo06UIViewI0CvpACTk', symObjAddr: 0xA0, symBinAddr: 0x4D40, symSize: 0x50 }
+  - { offsetInCU: 0x3E9, offset: 0x55728, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface20ViewDispatchResponseCMa', symObjAddr: 0x400, symBinAddr: 0x50A0, symSize: 0x20 }
+  - { offsetInCU: 0x27, offset: 0x5581B, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface11DispositionO2eeoiySbAC_ACtFZ', symObjAddr: 0x0, symBinAddr: 0x5180, symSize: 0x10 }
+  - { offsetInCU: 0x4B, offset: 0x5583F, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface11DispositionO2eeoiySbAC_ACtFZ', symObjAddr: 0x0, symBinAddr: 0x5180, symSize: 0x10 }
+  - { offsetInCU: 0x7A, offset: 0x5586E, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface11DispositionO4hash4intoys6HasherVz_tF', symObjAddr: 0x10, symBinAddr: 0x5190, symSize: 0x20 }
+  - { offsetInCU: 0x110, offset: 0x55904, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface11DispositionO9hashValueSivg', symObjAddr: 0x30, symBinAddr: 0x51B0, symSize: 0x40 }
+  - { offsetInCU: 0x20B, offset: 0x559FF, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface11DispositionOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x70, symBinAddr: 0x51F0, symSize: 0x10 }
+  - { offsetInCU: 0x261, offset: 0x55A55, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface11DispositionOSHAASH9hashValueSivgTW', symObjAddr: 0x80, symBinAddr: 0x5200, symSize: 0x40 }
+  - { offsetInCU: 0x345, offset: 0x55B39, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface11DispositionOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0xC0, symBinAddr: 0x5240, symSize: 0x20 }
+  - { offsetInCU: 0x3CE, offset: 0x55BC2, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface11DispositionOSHAASQWb', symObjAddr: 0x120, symBinAddr: 0x52A0, symSize: 0x10 }
+  - { offsetInCU: 0x3E2, offset: 0x55BD6, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface11DispositionOACSQAAWl', symObjAddr: 0x130, symBinAddr: 0x52B0, symSize: 0x30 }
+  - { offsetInCU: 0x3F6, offset: 0x55BEA, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x160, symBinAddr: 0x52E0, symSize: 0x10 }
+  - { offsetInCU: 0x40A, offset: 0x55BFE, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x170, symBinAddr: 0x52F0, symSize: 0x10 }
+  - { offsetInCU: 0x41E, offset: 0x55C12, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface11DispositionOwet', symObjAddr: 0x180, symBinAddr: 0x5300, symSize: 0x80 }
+  - { offsetInCU: 0x432, offset: 0x55C26, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface11DispositionOwst', symObjAddr: 0x200, symBinAddr: 0x5380, symSize: 0xD0 }
+  - { offsetInCU: 0x446, offset: 0x55C3A, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface11DispositionOwug', symObjAddr: 0x2D0, symBinAddr: 0x5450, symSize: 0x10 }
+  - { offsetInCU: 0x45A, offset: 0x55C4E, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface11DispositionOwup', symObjAddr: 0x2E0, symBinAddr: 0x5460, symSize: 0x10 }
+  - { offsetInCU: 0x46E, offset: 0x55C62, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface11DispositionOwui', symObjAddr: 0x2F0, symBinAddr: 0x5470, symSize: 0x10 }
+  - { offsetInCU: 0x482, offset: 0x55C76, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface11DispositionOMa', symObjAddr: 0x300, symBinAddr: 0x5480, symSize: 0xA }
+  - { offsetInCU: 0x4FF, offset: 0x55CF3, size: 0x8, addend: 0x0, symName: '_$s25AFMobileDeepLinkInterface11DispositionOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0xE0, symBinAddr: 0x5260, symSize: 0x40 }
+...

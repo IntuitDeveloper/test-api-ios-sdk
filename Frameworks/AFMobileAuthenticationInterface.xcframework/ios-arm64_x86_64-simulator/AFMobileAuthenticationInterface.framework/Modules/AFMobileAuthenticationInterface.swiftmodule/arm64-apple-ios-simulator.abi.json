@@ -2111,252 +2111,252 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 8044,
       "length": 53,
       "value": "\"implement userAuthenticatedURLSession before using.\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 8779,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 8789,
       "length": 5,
       "value": "-1010"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 8807,
       "length": 7,
       "value": "\"Error\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 8815,
       "length": 18,
       "value": "\"no hydration url\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9729,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 9739,
       "length": 5,
       "value": "-1010"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9757,
       "length": 7,
       "value": "\"Error\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9765,
       "length": 23,
       "value": "\"no wkWebsiteDataStore\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 10465,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 10475,
       "length": 5,
       "value": "-1010"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 10493,
       "length": 7,
       "value": "\"Error\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 10501,
       "length": 11,
       "value": "\"no authID\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 10718,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
       "kind": "BooleanLiteral",
       "offset": 12343,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
       "kind": "BooleanLiteral",
       "offset": 12409,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
       "kind": "BooleanLiteral",
       "offset": 13157,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
       "kind": "BooleanLiteral",
       "offset": 13223,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthenticationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 13380,
       "length": 66,
       "value": "\"please provide implementation before using handleErrorResponse()\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
       "kind": "IntegerLiteral",
       "offset": 329,
       "length": 24,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
       "kind": "IntegerLiteral",
       "offset": 437,
       "length": 17,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
       "kind": "IntegerLiteral",
       "offset": 513,
       "length": 9,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
       "kind": "IntegerLiteral",
       "offset": 559,
       "length": 8,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
       "kind": "StringLiteral",
       "offset": 670,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
       "kind": "StringLiteral",
       "offset": 740,
       "length": 26,
       "value": "\"ProtectedDataUnavailable\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
       "kind": "StringLiteral",
       "offset": 820,
       "length": 19,
       "value": "\"ApplicationLocked\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
       "kind": "StringLiteral",
       "offset": 885,
       "length": 11,
       "value": "\"SignedOut\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
       "kind": "StringLiteral",
       "offset": 941,
       "length": 10,
       "value": "\"SignedIn\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
       "kind": "IntegerLiteral",
       "offset": 329,
       "length": 24,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
       "kind": "IntegerLiteral",
       "offset": 437,
       "length": 17,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
       "kind": "IntegerLiteral",
       "offset": 513,
       "length": 9,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
       "kind": "IntegerLiteral",
       "offset": 559,
       "length": 8,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
       "kind": "IntegerLiteral",
       "offset": 329,
       "length": 24,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
       "kind": "IntegerLiteral",
       "offset": 437,
       "length": 17,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
       "kind": "IntegerLiteral",
       "offset": 513,
       "length": 9,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAuthenticationInterface\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Authentication\/AuthorizationState.swift",
       "kind": "IntegerLiteral",
       "offset": 559,
       "length": 8,

@@ -21,7 +21,18 @@ Pod::Spec.new do |spec|
                                  'Frameworks/AppShellWidgetInterface.xcframework',
                                  'Frameworks/IntuitPlugin.xcframework',
                                  'Frameworks/SampleIntuitPlugin.xcframework',
-                                 'Frameworks/SampleIntuitWidget.xcframework'
+                                 'Frameworks/SampleIntuitWidget.xcframework',
+                                 'Frameworks/AFMobileLoggingInterface.xcframework',
+                                 'Frameworks/AFMobileABTestingInterface.xcframework',
+                                 'Frameworks/AFMobileDeepLinkInterface.xcframework',
+                                 'Frameworks/AFMobileIntuitDataLayerInterface.xcframework',
+                                 'Frameworks/AFMobileNetworkInterface.xcframework',
+                                 'Frameworks/AFMobilePerformanceInterface.xcframework',
+                                 'Frameworks/AFMobilePubSubInterface.xcframework',
+                                 'Frameworks/AFMobileSmartLookInterface.xcframework',
+                                 'Frameworks/AFMobileSubscriptionInterface.xcframework',
+                                 'Frameworks/EventCollectionStandard.xcframework'
+                                 
   spec.preserve_paths = 'Frameworks/*.xcframework'
   
   spec.dependency 'GzipSwift'

@@ -1,0 +1,51 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AFMobileIntuitDataLayerInterface
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AFMobileIntuitDataLayerInterface
+import Apollo
+import AppShellDataLayer
+import Foundation
+import IntuitDataLayer
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol DataLayer : AnyObject {
+  func perform<DataType>(_ operationType: AppShellDataLayer.DataLayerOperationType<DataType>) where DataType : IntuitDataLayer.AutoDynamicReferenceObject, DataType : Swift.Decodable, DataType : Swift.Encodable
+  func fetchSaveLastGraphQLOperation<Query>(operation: any AppShellDataLayer.SaveLastGraphQLOperation, query: Query, handleOn completionQueue: Dispatch.DispatchQueue, resultHandler: Apollo.GraphQLResultHandler<Query.Data>?) where Query : Apollo.GraphQLQuery
+  func performSaveLastGraphQLOperation<Mutation>(operation: any AppShellDataLayer.SaveLastGraphQLOperation, mutation: Mutation, handleOn completionQueue: Dispatch.DispatchQueue, resultHandler: Apollo.GraphQLResultHandler<Mutation.Data>?) where Mutation : Apollo.GraphQLMutation
+  func updateRepository<DataType>(forDataType dataType: DataType.Type, withDataModel dataModel: DataType?, dataForRepositoryDataIdentifier repositoryDataIdentifier: Swift.String, dataStoredIn storageStrategy: IntuitDataLayer.RepositoryDataStorageStrategy, lifetime: IntuitDataLayer.RepositoryDataLifetime, handleOn completionQueue: Dispatch.DispatchQueue, completion: (((any Swift.Error)?) -> Swift.Void)?) where DataType : IntuitDataLayer.AutoDynamicReferenceObject, DataType : Swift.Decodable, DataType : Swift.Encodable
+  func watchOnRepository<DataType>(forDataType dataType: DataType.Type, dataForRepositoryDataIdentifier repositoryDataIdentifier: Swift.String, dataStoredIn storageStrategy: IntuitDataLayer.RepositoryDataStorageStrategy, handleOn handlerQueue: Dispatch.DispatchQueue, handler: @escaping ((AppShellDataLayer.AppShellRepositoryQueryResult<DataType>) -> Swift.Void)) -> IntuitDataLayer.AnyCanceling? where DataType : IntuitDataLayer.AutoDynamicReferenceObject, DataType : Swift.Decodable, DataType : Swift.Encodable
+  func queryRepository<DataType, Query>(forDataType dataType: DataType.Type, dataForRepositoryDataIdentifier repositoryDataIdentifier: Swift.String, dataStoredIn storageStrategy: IntuitDataLayer.RepositoryDataStorageStrategy, query: Query, handleOn completionQueue: Dispatch.DispatchQueue, completion: @escaping (AppShellDataLayer.AppShellRepositoryQueryResult<DataType>) -> Swift.Void) where DataType : IntuitDataLayer.AutoDynamicReferenceObject, DataType : Swift.Decodable, DataType : Swift.Encodable, DataType == Query.QueriedDataType, Query : IntuitDataLayer.DynamicQuery
+  func clear<DataType>(dataForRepositoryDataIdentifier repositoryDataIdentifier: IntuitDataLayer.RepositoryDataIdentifier<DataType>, completionQueue: Dispatch.DispatchQueue, completion: (((any Swift.Error)?) -> Swift.Void)?) where DataType : IntuitDataLayer.AutoDynamicReferenceObject
+  func clearLocalCache<DataType>(forDataType dataType: DataType.Type, dataForRepositoryDataIdentifier repositoryDataIdentifier: Swift.String, completionQueue: Dispatch.DispatchQueue, completion: (((any Swift.Error)?) -> Swift.Void)?) where DataType : IntuitDataLayer.AutoDynamicReferenceObject
+  func clearPersistance<DataType>(forDataType dataType: DataType.Type, dataForRepositoryDataIdentifier repositoryDataIdentifier: Swift.String, completionQueue: Dispatch.DispatchQueue, completion: (((any Swift.Error)?) -> Swift.Void)?) where DataType : IntuitDataLayer.AutoDynamicReferenceObject
+  func clearAllStorage(handleOn completionQueue: Dispatch.DispatchQueue, completion: (((any Swift.Error)?) -> Swift.Void)?)
+}
+public class ShellDataLayer : AFMobileIntuitDataLayerInterface.DataLayer {
+  public init()
+  public func perform<DataType>(_ operationType: AppShellDataLayer.DataLayerOperationType<DataType>) where DataType : IntuitDataLayer.AutoDynamicReferenceObject, DataType : Swift.Decodable, DataType : Swift.Encodable
+  public func fetchSaveLastGraphQLOperation<Query>(operation: any AppShellDataLayer.SaveLastGraphQLOperation, query: Query, handleOn completionQueue: Dispatch.DispatchQueue = .main, resultHandler: Apollo.GraphQLResultHandler<Query.Data>? = nil) where Query : Apollo.GraphQLQuery
+  public func performSaveLastGraphQLOperation<Mutation>(operation: any AppShellDataLayer.SaveLastGraphQLOperation, mutation: Mutation, handleOn completionQueue: Dispatch.DispatchQueue = .main, resultHandler: Apollo.GraphQLResultHandler<Mutation.Data>?) where Mutation : Apollo.GraphQLMutation
+  public func updateRepository<DataType>(forDataType dataType: DataType.Type, withDataModel dataModel: DataType?, dataForRepositoryDataIdentifier repositoryDataIdentifier: Swift.String, dataStoredIn storageStrategy: IntuitDataLayer.RepositoryDataStorageStrategy, lifetime: IntuitDataLayer.RepositoryDataLifetime, handleOn completionQueue: Dispatch.DispatchQueue, completion: (((any Swift.Error)?) -> Swift.Void)?) where DataType : IntuitDataLayer.AutoDynamicReferenceObject, DataType : Swift.Decodable, DataType : Swift.Encodable
+  public func watchOnRepository<DataType>(forDataType dataType: DataType.Type, dataForRepositoryDataIdentifier repositoryDataIdentifier: Swift.String, dataStoredIn storageStrategy: IntuitDataLayer.RepositoryDataStorageStrategy, handleOn handlerQueue: Dispatch.DispatchQueue, handler: @escaping ((AppShellDataLayer.AppShellRepositoryQueryResult<DataType>) -> Swift.Void)) -> IntuitDataLayer.AnyCanceling? where DataType : IntuitDataLayer.AutoDynamicReferenceObject, DataType : Swift.Decodable, DataType : Swift.Encodable
+  public func queryRepository<DataType, Query>(forDataType dataType: DataType.Type, dataForRepositoryDataIdentifier repositoryDataIdentifier: Swift.String, dataStoredIn storageStrategy: IntuitDataLayer.RepositoryDataStorageStrategy, query: Query, handleOn completionQueue: Dispatch.DispatchQueue, completion: @escaping (AppShellDataLayer.AppShellRepositoryQueryResult<DataType>) -> Swift.Void) where DataType : IntuitDataLayer.AutoDynamicReferenceObject, DataType : Swift.Decodable, DataType : Swift.Encodable, DataType == Query.QueriedDataType, Query : IntuitDataLayer.DynamicQuery
+  public func clear<DataType>(dataForRepositoryDataIdentifier repositoryDataIdentifier: IntuitDataLayer.RepositoryDataIdentifier<DataType>, completionQueue: Dispatch.DispatchQueue, completion: (((any Swift.Error)?) -> Swift.Void)?) where DataType : IntuitDataLayer.AutoDynamicReferenceObject
+  public func clearLocalCache<DataType>(forDataType dataType: DataType.Type, dataForRepositoryDataIdentifier repositoryDataIdentifier: Swift.String, completionQueue: Dispatch.DispatchQueue, completion: (((any Swift.Error)?) -> Swift.Void)?) where DataType : IntuitDataLayer.AutoDynamicReferenceObject
+  public func clearPersistance<DataType>(forDataType dataType: DataType.Type, dataForRepositoryDataIdentifier repositoryDataIdentifier: Swift.String, completionQueue: Dispatch.DispatchQueue, completion: (((any Swift.Error)?) -> Swift.Void)?) where DataType : IntuitDataLayer.AutoDynamicReferenceObject
+  public func clearAllStorage(handleOn completionQueue: Dispatch.DispatchQueue, completion: (((any Swift.Error)?) -> Swift.Void)?)
+  @objc deinit
+}
+extension AFMobileIntuitDataLayerInterface.DataLayer {
+  public func queryRepository<DataType>(forDataType dataType: DataType.Type, dataForRepositoryDataIdentifier repositoryDataIdentifier: Swift.String, dataStoredIn storageStrategy: IntuitDataLayer.RepositoryDataStorageStrategy, handleOn completionQueue: Dispatch.DispatchQueue, completion: @escaping (AppShellDataLayer.AppShellRepositoryQueryResult<DataType>) -> Swift.Void) where DataType : IntuitDataLayer.AutoDynamicReferenceObject, DataType : Swift.Decodable, DataType : Swift.Encodable
+}
+public protocol IntuitDataDelegate : Foundation.NSCopying {
+  var dataLayer: any AFMobileIntuitDataLayerInterface.DataLayer { get }
+}
+open class ShellIntuitDataDelegate : AFMobileIntuitDataLayerInterface.IntuitDataDelegate {
+  public var dataLayer: any AFMobileIntuitDataLayerInterface.DataLayer
+  public init()
+  @objc open func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  @objc deinit
+}

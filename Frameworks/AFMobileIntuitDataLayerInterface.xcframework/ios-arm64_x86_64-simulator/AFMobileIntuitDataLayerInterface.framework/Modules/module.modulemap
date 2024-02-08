@@ -1,0 +1,11 @@
+framework module AFMobileIntuitDataLayerInterface {
+  umbrella header "AFMobileIntuitDataLayerInterface-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AFMobileIntuitDataLayerInterface.Swift {
+  header "AFMobileIntuitDataLayerInterface-Swift.h"
+  requires objc
+}

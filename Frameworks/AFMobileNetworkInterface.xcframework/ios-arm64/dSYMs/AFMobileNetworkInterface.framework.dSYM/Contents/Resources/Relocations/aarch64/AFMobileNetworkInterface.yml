@@ -1,0 +1,28 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/jdomingo/Library/Developer/Xcode/DerivedData/IntuitAppShellSample-azyppdqhiuuwljazsarxkcgzzaum/Build/Intermediates.noindex/ArchiveIntermediates/AFMobileNetworkInterface/InstallationBuildProductsLocation/Library/Frameworks/AFMobileNetworkInterface.framework/AFMobileNetworkInterface'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x53BCA, size: 0x8, addend: 0x0, symName: _AFMobileNetworkInterfaceVersionString, symObjAddr: 0x0, symBinAddr: 0x5430, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x53BFF, size: 0x8, addend: 0x0, symName: _AFMobileNetworkInterfaceVersionNumber, symObjAddr: 0x50, symBinAddr: 0x5480, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x53C3C, size: 0x8, addend: 0x0, symName: '_$s24AFMobileNetworkInterface0B16APIConfigurationV7default_WZ', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x14 }
+  - { offsetInCU: 0x4B, offset: 0x53C60, size: 0x8, addend: 0x0, symName: '_$s24AFMobileNetworkInterface0B16APIConfigurationV7defaultACvpZ', symObjAddr: 0x568, symBinAddr: 0xC200, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0x53C7A, size: 0x8, addend: 0x0, symName: '_$s24AFMobileNetworkInterface0B16APIConfigurationV07captureB7Metrics26networkReportConfigurationACSb_AA0bhI0OtcfC', symObjAddr: 0x14, symBinAddr: 0x4014, symSize: 0x10 }
+  - { offsetInCU: 0xA0, offset: 0x53CB5, size: 0x8, addend: 0x0, symName: '_$s24AFMobileNetworkInterface0B16APIConfigurationV7defaultACvgZ', symObjAddr: 0x24, symBinAddr: 0x4024, symSize: 0x5C }
+  - { offsetInCU: 0xD8, offset: 0x53CED, size: 0x8, addend: 0x0, symName: '_$s24AFMobileNetworkInterface0B16APIConfigurationV07captureB7MetricsSbvg', symObjAddr: 0x80, symBinAddr: 0x4080, symSize: 0x8 }
+  - { offsetInCU: 0xF6, offset: 0x53D0B, size: 0x8, addend: 0x0, symName: '_$s24AFMobileNetworkInterface0B16APIConfigurationV26networkReportConfigurationAA0bfG0Ovg', symObjAddr: 0x88, symBinAddr: 0x4088, symSize: 0xC }
+  - { offsetInCU: 0x115, offset: 0x53D2A, size: 0x8, addend: 0x0, symName: '_$s24AFMobileNetworkInterface0B16APIConfigurationV7default_WZ', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x14 }
+  - { offsetInCU: 0x140, offset: 0x53D55, size: 0x8, addend: 0x0, symName: '_$s24AFMobileNetworkInterface0B19ReportConfigurationO2eeoiySbAC_ACtFZ', symObjAddr: 0x94, symBinAddr: 0x4094, symSize: 0x60 }
+  - { offsetInCU: 0x206, offset: 0x53E1B, size: 0x8, addend: 0x0, symName: '_$s24AFMobileNetworkInterface0B19ReportConfigurationOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0xF4, symBinAddr: 0x40F4, symSize: 0x60 }
+  - { offsetInCU: 0x25A, offset: 0x53E6F, size: 0x8, addend: 0x0, symName: ___swift_memcpy2_1, symObjAddr: 0x154, symBinAddr: 0x4154, symSize: 0xC }
+  - { offsetInCU: 0x26E, offset: 0x53E83, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x160, symBinAddr: 0x4160, symSize: 0x4 }
+  - { offsetInCU: 0x282, offset: 0x53E97, size: 0x8, addend: 0x0, symName: '_$s24AFMobileNetworkInterface0B16APIConfigurationVwet', symObjAddr: 0x164, symBinAddr: 0x4164, symSize: 0xA4 }
+  - { offsetInCU: 0x296, offset: 0x53EAB, size: 0x8, addend: 0x0, symName: '_$s24AFMobileNetworkInterface0B16APIConfigurationVwst', symObjAddr: 0x208, symBinAddr: 0x4208, symSize: 0xBC }
+  - { offsetInCU: 0x2AA, offset: 0x53EBF, size: 0x8, addend: 0x0, symName: '_$s24AFMobileNetworkInterface0B16APIConfigurationVMa', symObjAddr: 0x2C4, symBinAddr: 0x42C4, symSize: 0x10 }
+  - { offsetInCU: 0x2BE, offset: 0x53ED3, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x2D4, symBinAddr: 0x42D4, symSize: 0xC }
+  - { offsetInCU: 0x2D2, offset: 0x53EE7, size: 0x8, addend: 0x0, symName: '_$s24AFMobileNetworkInterface0B19ReportConfigurationOwet', symObjAddr: 0x2E0, symBinAddr: 0x42E0, symSize: 0xA8 }
+  - { offsetInCU: 0x2E6, offset: 0x53EFB, size: 0x8, addend: 0x0, symName: '_$s24AFMobileNetworkInterface0B19ReportConfigurationOwst', symObjAddr: 0x388, symBinAddr: 0x4388, symSize: 0xC4 }
+  - { offsetInCU: 0x2FA, offset: 0x53F0F, size: 0x8, addend: 0x0, symName: '_$s24AFMobileNetworkInterface0B19ReportConfigurationOwug', symObjAddr: 0x44C, symBinAddr: 0x444C, symSize: 0x1C }
+  - { offsetInCU: 0x30E, offset: 0x53F23, size: 0x8, addend: 0x0, symName: '_$s24AFMobileNetworkInterface0B19ReportConfigurationOwup', symObjAddr: 0x468, symBinAddr: 0x4468, symSize: 0x4 }
+  - { offsetInCU: 0x322, offset: 0x53F37, size: 0x8, addend: 0x0, symName: '_$s24AFMobileNetworkInterface0B19ReportConfigurationOwui', symObjAddr: 0x46C, symBinAddr: 0x446C, symSize: 0x18 }
+  - { offsetInCU: 0x336, offset: 0x53F4B, size: 0x8, addend: 0x0, symName: '_$s24AFMobileNetworkInterface0B19ReportConfigurationOMa', symObjAddr: 0x484, symBinAddr: 0x4484, symSize: 0x10 }
+...

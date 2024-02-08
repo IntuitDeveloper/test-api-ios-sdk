@@ -1,0 +1,11 @@
+framework module AFMobileSmartLookInterface {
+  umbrella header "AFMobileSmartLookInterface-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AFMobileSmartLookInterface.Swift {
+  header "AFMobileSmartLookInterface-Swift.h"
+  requires objc
+}

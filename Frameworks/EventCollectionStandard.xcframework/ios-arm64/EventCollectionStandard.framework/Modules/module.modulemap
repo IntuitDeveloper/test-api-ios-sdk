@@ -1,0 +1,11 @@
+framework module EventCollectionStandard {
+  umbrella header "EventCollectionStandard-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module EventCollectionStandard.Swift {
+  header "EventCollectionStandard-Swift.h"
+  requires objc
+}

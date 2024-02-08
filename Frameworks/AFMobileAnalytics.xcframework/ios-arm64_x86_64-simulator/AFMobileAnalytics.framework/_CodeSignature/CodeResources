@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AFMobileAnalytics-Swift.h</key>
 		<data>
-		Plgt4U80UDOfhOpDBDwTBO6l95g=
+		EX/q5m6kWG3+ZSNS+7A+I0d21W4=
 		</data>
 		<key>Headers/AFMobileAnalytics-umbrella.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		u6K3OT/fE0RDkx3b/j0kDWn7eKI=
+		nAw1vFjp20IOabHB5o1FSI8MA9U=
 		</data>
 		<key>Modules/AFMobileAnalytics.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		MDnV5OVixmSyJzWAopYzJKwsI1w=
+		XFHs9c7L5b9CDBrIK89cWQvYEEM=
 		</data>
 		<key>Modules/AFMobileAnalytics.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		4cHGbvA3nAIZZUuP9233D3wChEs=
+		E+PFJePtUAcoRYQBSNccUou3deI=
 		</data>
 		<key>Modules/AFMobileAnalytics.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		iQyWa0h1uSsjxnbcpg1f/mVV4bw=
+		OdctXst7+lyGDTWlLORmuAtZW+8=
 		</data>
 		<key>Modules/AFMobileAnalytics.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		4cHGbvA3nAIZZUuP9233D3wChEs=
+		E+PFJePtUAcoRYQBSNccUou3deI=
 		</data>
 		<key>Modules/AFMobileAnalytics.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		W5jOPTkBwv6jLzYMtpgOpsWdo0I=
+		2tXE9PyTJKbeFntWJ5q0DeXoMXo=
 		</data>
 		<key>Modules/AFMobileAnalytics.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		MDnV5OVixmSyJzWAopYzJKwsI1w=
+		XFHs9c7L5b9CDBrIK89cWQvYEEM=
 		</data>
 		<key>Modules/AFMobileAnalytics.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		z0oWiXFUBGNP4JkMfi3zuofzQ7M=
+		Xgx29SUAB/YY3KVyOLDwhNmOn6M=
 		</data>
 		<key>Modules/AFMobileAnalytics.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		xRYh2PJRM81F1+ocU6sHWeblhjM=
+		yFkKQAT7ExRmFOrsQ1gyBE6JkEI=
 		</data>
 		<key>Modules/AFMobileAnalytics.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		z0oWiXFUBGNP4JkMfi3zuofzQ7M=
+		Xgx29SUAB/YY3KVyOLDwhNmOn6M=
 		</data>
 		<key>Modules/AFMobileAnalytics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		m3VcLIjdC/U08riTme3mFa72sDE=
+		LXNczvtALxGgw6MwjsPoxQrpM1w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1wo8Y57zWlcHEU17EeC2CoZlenxuvkGD7XZxv56XSso=
+			ryi0s/d3JpyuoQYjVHeaFpuuVXTTFOa4IfzhPZVTInI=
 			</data>
 		</dict>
 		<key>Headers/AFMobileAnalytics-umbrella.h</key>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SKugIDm8lZr+nVychu/WGN+2lp87FepMuX6iT8Qzmu4=
+			c5qYtjzNf8wsLQgzfkUM+T9dX9OH+kKR+UrK8F4VPGQ=
 			</data>
 		</dict>
 		<key>Modules/AFMobileAnalytics.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ih3Yy8MXk5GJXPo3mQtisEvZqZQ2ad1W8sQwZu8ivuQ=
+			Duk4FboJy5RJibRGOv4NwN0Zl4CZrDr4wmYU4hOjDV0=
 			</data>
 		</dict>
 		<key>Modules/AFMobileAnalytics.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GnbQ8aSVVcNIkZdvZIgxBTdE58pa0oFVE2V+jJOcR0c=
+			M0zt+HiltnpSs9iMkWJjHK7XDw1EZaeukjb7A2/tIxg=
 			</data>
 		</dict>
 		<key>Modules/AFMobileAnalytics.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ih3Yy8MXk5GJXPo3mQtisEvZqZQ2ad1W8sQwZu8ivuQ=
+			Duk4FboJy5RJibRGOv4NwN0Zl4CZrDr4wmYU4hOjDV0=
 			</data>
 		</dict>
 		<key>Modules/AFMobileAnalytics.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			twIzy8AUNCHD+c0rFwiKtsIiKsJXYh1Jbtse7vAC/k0=
+			0C+qM0MFGkjQpze/U3S78dwaquEynS8P3NAqGSlcC5U=
 			</data>
 		</dict>
 		<key>Modules/AFMobileAnalytics.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SKugIDm8lZr+nVychu/WGN+2lp87FepMuX6iT8Qzmu4=
+			c5qYtjzNf8wsLQgzfkUM+T9dX9OH+kKR+UrK8F4VPGQ=
 			</data>
 		</dict>
 		<key>Modules/AFMobileAnalytics.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OH0tLRswkJeBio5MGEcEE0Enmx7O6K/wCfZDEMFnDvE=
+			1rHdjACB169EoRhTv87yYBSyMLrX5A/Iewft5yhvJng=
 			</data>
 		</dict>
 		<key>Modules/AFMobileAnalytics.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c2wiCZAjv7lg3GoUaqDtJ6SBg4ZmzQoMgtrFk/mTflc=
+			XCkJ5ON6RIIcF6fx+VVtAjPRAJ3eY1jKxEJGJ5SjliA=
 			</data>
 		</dict>
 		<key>Modules/AFMobileAnalytics.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OH0tLRswkJeBio5MGEcEE0Enmx7O6K/wCfZDEMFnDvE=
+			1rHdjACB169EoRhTv87yYBSyMLrX5A/Iewft5yhvJng=
 			</data>
 		</dict>
 		<key>Modules/AFMobileAnalytics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yFLitofFARw/VSGCIjUyPUStsNNrD/D8pXjXtbOqNlc=
+			gC8n11zyaga61Nnqjp0GFrzv51lPjFtzrMU41XwBxr4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -1,0 +1,11 @@
+framework module AFMobileNetworkInterface {
+  umbrella header "AFMobileNetworkInterface-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AFMobileNetworkInterface.Swift {
+  header "AFMobileNetworkInterface-Swift.h"
+  requires objc
+}

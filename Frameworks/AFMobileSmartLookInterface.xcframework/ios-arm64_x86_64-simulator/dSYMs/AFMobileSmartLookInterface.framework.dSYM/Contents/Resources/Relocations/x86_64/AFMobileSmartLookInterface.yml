@@ -1,0 +1,7 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/jdomingo/Library/Developer/Xcode/DerivedData/IntuitAppShellSample-azyppdqhiuuwljazsarxkcgzzaum/Build/Intermediates.noindex/ArchiveIntermediates/AFMobileSmartLookInterface/InstallationBuildProductsLocation/Library/Frameworks/AFMobileSmartLookInterface.framework/AFMobileSmartLookInterface'
+relocations:
+  - { offsetInCU: 0x33, offset: 0x33, size: 0x8, addend: 0x0, symName: _AFMobileSmartLookInterfaceVersionString, symObjAddr: 0x0, symBinAddr: 0x3C10, symSize: 0x0 }
+  - { offsetInCU: 0x67, offset: 0x67, size: 0x8, addend: 0x0, symName: _AFMobileSmartLookInterfaceVersionNumber, symObjAddr: 0x50, symBinAddr: 0x3C60, symSize: 0x0 }
+...

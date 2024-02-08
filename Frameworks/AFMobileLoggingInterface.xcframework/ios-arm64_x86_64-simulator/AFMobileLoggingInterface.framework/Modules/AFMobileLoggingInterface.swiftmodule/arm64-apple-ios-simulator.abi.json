@@ -1,0 +1,3995 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "Source",
+        "printedName": "Source",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AFMobileLoggingInterface6SourceC4nameSSvp",
+            "mangledName": "$s24AFMobileLoggingInterface6SourceC4nameSSvp",
+            "moduleName": "AFMobileLoggingInterface",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AFMobileLoggingInterface6SourceC4nameSSvg",
+                "mangledName": "$s24AFMobileLoggingInterface6SourceC4nameSSvg",
+                "moduleName": "AFMobileLoggingInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AFMobileLoggingInterface6SourceC7versionSSSgvp",
+            "mangledName": "$s24AFMobileLoggingInterface6SourceC7versionSSSgvp",
+            "moduleName": "AFMobileLoggingInterface",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AFMobileLoggingInterface6SourceC7versionSSSgvg",
+                "mangledName": "$s24AFMobileLoggingInterface6SourceC7versionSSSgvg",
+                "moduleName": "AFMobileLoggingInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "file",
+            "printedName": "file",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AFMobileLoggingInterface6SourceC4fileSSvp",
+            "mangledName": "$s24AFMobileLoggingInterface6SourceC4fileSSvp",
+            "moduleName": "AFMobileLoggingInterface",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AFMobileLoggingInterface6SourceC4fileSSvg",
+                "mangledName": "$s24AFMobileLoggingInterface6SourceC4fileSSvg",
+                "moduleName": "AFMobileLoggingInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "function",
+            "printedName": "function",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AFMobileLoggingInterface6SourceC8functionSSvp",
+            "mangledName": "$s24AFMobileLoggingInterface6SourceC8functionSSvp",
+            "moduleName": "AFMobileLoggingInterface",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AFMobileLoggingInterface6SourceC8functionSSvg",
+                "mangledName": "$s24AFMobileLoggingInterface6SourceC8functionSSvg",
+                "moduleName": "AFMobileLoggingInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "line",
+            "printedName": "line",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AFMobileLoggingInterface6SourceC4lineSuvp",
+            "mangledName": "$s24AFMobileLoggingInterface6SourceC4lineSuvp",
+            "moduleName": "AFMobileLoggingInterface",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AFMobileLoggingInterface6SourceC4lineSuvg",
+                "mangledName": "$s24AFMobileLoggingInterface6SourceC4lineSuvg",
+                "moduleName": "AFMobileLoggingInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "thread",
+            "printedName": "thread",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AFMobileLoggingInterface6SourceC6threadSSvp",
+            "mangledName": "$s24AFMobileLoggingInterface6SourceC6threadSSvp",
+            "moduleName": "AFMobileLoggingInterface",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AFMobileLoggingInterface6SourceC6threadSSvg",
+                "mangledName": "$s24AFMobileLoggingInterface6SourceC6threadSSvg",
+                "moduleName": "AFMobileLoggingInterface",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:version:file:function:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Source",
+                "printedName": "AFMobileLoggingInterface.Source",
+                "usr": "c:@M@AFMobileLoggingInterface@objc(cs)Source"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24AFMobileLoggingInterface6SourceC4name7version4file8function4lineACSS_SSSgS2SSutcfc",
+            "mangledName": "$s24AFMobileLoggingInterface6SourceC4name7version4file8function4lineACSS_SSSgS2SSutcfc",
+            "moduleName": "AFMobileLoggingInterface",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Source",
+                "printedName": "AFMobileLoggingInterface.Source",
+                "usr": "c:@M@AFMobileLoggingInterface@objc(cs)Source"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AFMobileLoggingInterface@objc(cs)Source(im)init",
+            "mangledName": "$s24AFMobileLoggingInterface6SourceCACycfc",
+            "moduleName": "AFMobileLoggingInterface",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AFMobileLoggingInterface@objc(cs)Source",
+        "mangledName": "$s24AFMobileLoggingInterface6SourceC",
+        "moduleName": "AFMobileLoggingInterface",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogLevelType",
+        "printedName": "LogLevelType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "fatal",
+            "printedName": "fatal",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AFMobileLoggingInterface.LogLevelType.Type) -> AFMobileLoggingInterface.LogLevelType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevelType",
+                    "printedName": "AFMobileLoggingInterface.LogLevelType",
+                    "usr": "s:24AFMobileLoggingInterface12LogLevelTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AFMobileLoggingInterface.LogLevelType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevelType",
+                        "printedName": "AFMobileLoggingInterface.LogLevelType",
+                        "usr": "s:24AFMobileLoggingInterface12LogLevelTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24AFMobileLoggingInterface12LogLevelTypeO5fatalyA2CmF",
+            "mangledName": "$s24AFMobileLoggingInterface12LogLevelTypeO5fatalyA2CmF",
+            "moduleName": "AFMobileLoggingInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AFMobileLoggingInterface.LogLevelType.Type) -> AFMobileLoggingInterface.LogLevelType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevelType",
+                    "printedName": "AFMobileLoggingInterface.LogLevelType",
+                    "usr": "s:24AFMobileLoggingInterface12LogLevelTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AFMobileLoggingInterface.LogLevelType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevelType",
+                        "printedName": "AFMobileLoggingInterface.LogLevelType",
+                        "usr": "s:24AFMobileLoggingInterface12LogLevelTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24AFMobileLoggingInterface12LogLevelTypeO5erroryA2CmF",
+            "mangledName": "$s24AFMobileLoggingInterface12LogLevelTypeO5erroryA2CmF",
+            "moduleName": "AFMobileLoggingInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "warn",
+            "printedName": "warn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AFMobileLoggingInterface.LogLevelType.Type) -> AFMobileLoggingInterface.LogLevelType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevelType",
+                    "printedName": "AFMobileLoggingInterface.LogLevelType",
+                    "usr": "s:24AFMobileLoggingInterface12LogLevelTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AFMobileLoggingInterface.LogLevelType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevelType",
+                        "printedName": "AFMobileLoggingInterface.LogLevelType",
+                        "usr": "s:24AFMobileLoggingInterface12LogLevelTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24AFMobileLoggingInterface12LogLevelTypeO4warnyA2CmF",
+            "mangledName": "$s24AFMobileLoggingInterface12LogLevelTypeO4warnyA2CmF",
+            "moduleName": "AFMobileLoggingInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AFMobileLoggingInterface.LogLevelType.Type) -> AFMobileLoggingInterface.LogLevelType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevelType",
+                    "printedName": "AFMobileLoggingInterface.LogLevelType",
+                    "usr": "s:24AFMobileLoggingInterface12LogLevelTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AFMobileLoggingInterface.LogLevelType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevelType",
+                        "printedName": "AFMobileLoggingInterface.LogLevelType",
+                        "usr": "s:24AFMobileLoggingInterface12LogLevelTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24AFMobileLoggingInterface12LogLevelTypeO4infoyA2CmF",
+            "mangledName": "$s24AFMobileLoggingInterface12LogLevelTypeO4infoyA2CmF",
+            "moduleName": "AFMobileLoggingInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AFMobileLoggingInterface.LogLevelType.Type) -> AFMobileLoggingInterface.LogLevelType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevelType",
+                    "printedName": "AFMobileLoggingInterface.LogLevelType",
+                    "usr": "s:24AFMobileLoggingInterface12LogLevelTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AFMobileLoggingInterface.LogLevelType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevelType",
+                        "printedName": "AFMobileLoggingInterface.LogLevelType",
+                        "usr": "s:24AFMobileLoggingInterface12LogLevelTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24AFMobileLoggingInterface12LogLevelTypeO5debugyA2CmF",
+            "mangledName": "$s24AFMobileLoggingInterface12LogLevelTypeO5debugyA2CmF",
+            "moduleName": "AFMobileLoggingInterface"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AFMobileLoggingInterface.LogLevelType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevelType",
+                    "printedName": "AFMobileLoggingInterface.LogLevelType",
+                    "usr": "s:24AFMobileLoggingInterface12LogLevelTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24AFMobileLoggingInterface12LogLevelTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s24AFMobileLoggingInterface12LogLevelTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "AFMobileLoggingInterface",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AFMobileLoggingInterface12LogLevelTypeO8rawValueSivp",
+            "mangledName": "$s24AFMobileLoggingInterface12LogLevelTypeO8rawValueSivp",
+            "moduleName": "AFMobileLoggingInterface",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AFMobileLoggingInterface12LogLevelTypeO8rawValueSivg",
+                "mangledName": "$s24AFMobileLoggingInterface12LogLevelTypeO8rawValueSivg",
+                "moduleName": "AFMobileLoggingInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:24AFMobileLoggingInterface12LogLevelTypeO",
+        "mangledName": "$s24AFMobileLoggingInterface12LogLevelTypeO",
+        "moduleName": "AFMobileLoggingInterface",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogDelegate",
+        "printedName": "LogDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "logFatal",
+            "printedName": "logFatal(_:source:addInfo:shouldInjectContextDelegateInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Source",
+                "printedName": "AFMobileLoggingInterface.Source",
+                "usr": "c:@M@AFMobileLoggingInterface@objc(cs)Source"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegateP8logFatal_6source7addInfo019shouldInjectContexteJ0ySS_AA6SourceCSDySSypGSgSbtF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegateP8logFatal_6source7addInfo019shouldInjectContexteJ0ySS_AA6SourceCSDySSypGSgSbtF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logError",
+            "printedName": "logError(_:source:addInfo:shouldInjectContextDelegateInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Source",
+                "printedName": "AFMobileLoggingInterface.Source",
+                "usr": "c:@M@AFMobileLoggingInterface@objc(cs)Source"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegateP8logError_6source7addInfo019shouldInjectContexteJ0ySS_AA6SourceCSDySSypGSgSbtF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegateP8logError_6source7addInfo019shouldInjectContexteJ0ySS_AA6SourceCSDySSypGSgSbtF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logWarning",
+            "printedName": "logWarning(_:source:addInfo:shouldInjectContextDelegateInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Source",
+                "printedName": "AFMobileLoggingInterface.Source",
+                "usr": "c:@M@AFMobileLoggingInterface@objc(cs)Source"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegateP10logWarning_6source7addInfo019shouldInjectContexteJ0ySS_AA6SourceCSDySSypGSgSbtF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegateP10logWarning_6source7addInfo019shouldInjectContexteJ0ySS_AA6SourceCSDySSypGSgSbtF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logInfo",
+            "printedName": "logInfo(_:source:addInfo:shouldInjectContextDelegateInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Source",
+                "printedName": "AFMobileLoggingInterface.Source",
+                "usr": "c:@M@AFMobileLoggingInterface@objc(cs)Source"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegateP7logInfo_6source03addG0019shouldInjectContexteG0ySS_AA6SourceCSDySSypGSgSbtF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegateP7logInfo_6source03addG0019shouldInjectContexteG0ySS_AA6SourceCSDySSypGSgSbtF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logDebug",
+            "printedName": "logDebug(_:source:addInfo:shouldInjectContextDelegateInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Source",
+                "printedName": "AFMobileLoggingInterface.Source",
+                "usr": "c:@M@AFMobileLoggingInterface@objc(cs)Source"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegateP8logDebug_6source7addInfo019shouldInjectContexteJ0ySS_AA6SourceCSDySSypGSgSbtF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegateP8logDebug_6source7addInfo019shouldInjectContexteJ0ySS_AA6SourceCSDySSypGSgSbtF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logAssert",
+            "printedName": "logAssert(_:_:source:addInfo:shouldInjectContextDelegateInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Source",
+                "printedName": "AFMobileLoggingInterface.Source",
+                "usr": "c:@M@AFMobileLoggingInterface@objc(cs)Source"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegateP9logAssert__6source7addInfo019shouldInjectContexteJ0ySb_SSAA6SourceCSDySSypGSgSbtF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegateP9logAssert__6source7addInfo019shouldInjectContexteJ0ySb_SSAA6SourceCSDySSypGSgSbtF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerAppDestinationAlias",
+            "printedName": "registerAppDestinationAlias(assetAlias:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegateP27registerAppDestinationAlias05assetI0ySS_tF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegateP27registerAppDestinationAlias05assetI0ySS_tF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregisterAppDestinationAlias",
+            "printedName": "unregisterAppDestinationAlias()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegateP29unregisterAppDestinationAliasyyF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegateP29unregisterAppDestinationAliasyyF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerWidgetDestinationAlias",
+            "printedName": "registerWidgetDestinationAlias(widgetId:assetAlias:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegateP30registerWidgetDestinationAlias8widgetId05assetI0ySS_SStF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegateP30registerWidgetDestinationAlias8widgetId05assetI0ySS_SStF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregisterWidgetDestinationAlias",
+            "printedName": "unregisterWidgetDestinationAlias(widgetId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegateP32unregisterWidgetDestinationAlias8widgetIdySS_tF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegateP32unregisterWidgetDestinationAlias8widgetIdySS_tF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(_:message:sourceName:version:file:function:line:info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevelType",
+                "printedName": "AFMobileLoggingInterface.LogLevelType",
+                "usr": "s:24AFMobileLoggingInterface12LogLevelTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegatePAAE3log_7message10sourceName7version4file8function4line4infoyAA0D9LevelTypeO_S3SSgS2SSuSDySSypGtF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegatePAAE3log_7message10sourceName7version4file8function4line4infoyAA0D9LevelTypeO_S3SSgS2SSuSDySSypGtF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(_:message:source:info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevelType",
+                "printedName": "AFMobileLoggingInterface.LogLevelType",
+                "usr": "s:24AFMobileLoggingInterface12LogLevelTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Source",
+                "printedName": "AFMobileLoggingInterface.Source",
+                "usr": "c:@M@AFMobileLoggingInterface@objc(cs)Source"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegatePAAE3log_7message6source4infoyAA0D9LevelTypeO_SSAA6SourceCSDySSypGtF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegatePAAE3log_7message6source4infoyAA0D9LevelTypeO_SSAA6SourceCSDySSypGtF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logFatal",
+            "printedName": "logFatal(_:source:addInfo:shouldInjectContextDelegateInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Source",
+                "printedName": "AFMobileLoggingInterface.Source",
+                "usr": "c:@M@AFMobileLoggingInterface@objc(cs)Source"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegatePAAE8logFatal_6source7addInfo019shouldInjectContexteJ0ySS_AA6SourceCSDySSypGSgSbtF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegatePAAE8logFatal_6source7addInfo019shouldInjectContexteJ0ySS_AA6SourceCSDySSypGSgSbtF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logError",
+            "printedName": "logError(_:source:addInfo:shouldInjectContextDelegateInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Source",
+                "printedName": "AFMobileLoggingInterface.Source",
+                "usr": "c:@M@AFMobileLoggingInterface@objc(cs)Source"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegatePAAE8logError_6source7addInfo019shouldInjectContexteJ0ySS_AA6SourceCSDySSypGSgSbtF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegatePAAE8logError_6source7addInfo019shouldInjectContexteJ0ySS_AA6SourceCSDySSypGSgSbtF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logWarning",
+            "printedName": "logWarning(_:source:addInfo:shouldInjectContextDelegateInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Source",
+                "printedName": "AFMobileLoggingInterface.Source",
+                "usr": "c:@M@AFMobileLoggingInterface@objc(cs)Source"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegatePAAE10logWarning_6source7addInfo019shouldInjectContexteJ0ySS_AA6SourceCSDySSypGSgSbtF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegatePAAE10logWarning_6source7addInfo019shouldInjectContexteJ0ySS_AA6SourceCSDySSypGSgSbtF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logInfo",
+            "printedName": "logInfo(_:source:addInfo:shouldInjectContextDelegateInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Source",
+                "printedName": "AFMobileLoggingInterface.Source",
+                "usr": "c:@M@AFMobileLoggingInterface@objc(cs)Source"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegatePAAE7logInfo_6source03addG0019shouldInjectContexteG0ySS_AA6SourceCSDySSypGSgSbtF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegatePAAE7logInfo_6source03addG0019shouldInjectContexteG0ySS_AA6SourceCSDySSypGSgSbtF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logDebug",
+            "printedName": "logDebug(_:source:addInfo:shouldInjectContextDelegateInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Source",
+                "printedName": "AFMobileLoggingInterface.Source",
+                "usr": "c:@M@AFMobileLoggingInterface@objc(cs)Source"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegatePAAE8logDebug_6source7addInfo019shouldInjectContexteJ0ySS_AA6SourceCSDySSypGSgSbtF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegatePAAE8logDebug_6source7addInfo019shouldInjectContexteJ0ySS_AA6SourceCSDySSypGSgSbtF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logAssert",
+            "printedName": "logAssert(_:_:source:addInfo:shouldInjectContextDelegateInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Source",
+                "printedName": "AFMobileLoggingInterface.Source",
+                "usr": "c:@M@AFMobileLoggingInterface@objc(cs)Source"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegatePAAE9logAssert__6source7addInfo019shouldInjectContexteJ0ySb_SSAA6SourceCSDySSypGSgSbtF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegatePAAE9logAssert__6source7addInfo019shouldInjectContexteJ0ySb_SSAA6SourceCSDySSypGSgSbtF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerAppDestinationAlias",
+            "printedName": "registerAppDestinationAlias(assetAlias:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegatePAAE27registerAppDestinationAlias05assetI0ySS_tF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegatePAAE27registerAppDestinationAlias05assetI0ySS_tF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregisterAppDestinationAlias",
+            "printedName": "unregisterAppDestinationAlias()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegatePAAE29unregisterAppDestinationAliasyyF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegatePAAE29unregisterAppDestinationAliasyyF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerWidgetDestinationAlias",
+            "printedName": "registerWidgetDestinationAlias(widgetId:assetAlias:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegatePAAE30registerWidgetDestinationAlias8widgetId05assetI0ySS_SStF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegatePAAE30registerWidgetDestinationAlias8widgetId05assetI0ySS_SStF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregisterWidgetDestinationAlias",
+            "printedName": "unregisterWidgetDestinationAlias(widgetId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegatePAAE32unregisterWidgetDestinationAlias8widgetIdySS_tF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegatePAAE32unregisterWidgetDestinationAlias8widgetIdySS_tF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logFatal",
+            "printedName": "logFatal(_:source:addInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Source",
+                "printedName": "AFMobileLoggingInterface.Source",
+                "usr": "c:@M@AFMobileLoggingInterface@objc(cs)Source"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegatePAAE8logFatal_6source7addInfoySS_AA6SourceCSDySSypGSgtF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegatePAAE8logFatal_6source7addInfoySS_AA6SourceCSDySSypGSgtF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logError",
+            "printedName": "logError(_:source:addInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Source",
+                "printedName": "AFMobileLoggingInterface.Source",
+                "usr": "c:@M@AFMobileLoggingInterface@objc(cs)Source"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegatePAAE8logError_6source7addInfoySS_AA6SourceCSDySSypGSgtF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegatePAAE8logError_6source7addInfoySS_AA6SourceCSDySSypGSgtF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logWarning",
+            "printedName": "logWarning(_:source:addInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Source",
+                "printedName": "AFMobileLoggingInterface.Source",
+                "usr": "c:@M@AFMobileLoggingInterface@objc(cs)Source"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegatePAAE10logWarning_6source7addInfoySS_AA6SourceCSDySSypGSgtF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegatePAAE10logWarning_6source7addInfoySS_AA6SourceCSDySSypGSgtF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logInfo",
+            "printedName": "logInfo(_:source:addInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Source",
+                "printedName": "AFMobileLoggingInterface.Source",
+                "usr": "c:@M@AFMobileLoggingInterface@objc(cs)Source"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegatePAAE7logInfo_6source03addG0ySS_AA6SourceCSDySSypGSgtF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegatePAAE7logInfo_6source03addG0ySS_AA6SourceCSDySSypGSgtF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logDebug",
+            "printedName": "logDebug(_:source:addInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Source",
+                "printedName": "AFMobileLoggingInterface.Source",
+                "usr": "c:@M@AFMobileLoggingInterface@objc(cs)Source"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegatePAAE8logDebug_6source7addInfoySS_AA6SourceCSDySSypGSgtF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegatePAAE8logDebug_6source7addInfoySS_AA6SourceCSDySSypGSgtF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logAssert",
+            "printedName": "logAssert(_:_:source:addInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Source",
+                "printedName": "AFMobileLoggingInterface.Source",
+                "usr": "c:@M@AFMobileLoggingInterface@objc(cs)Source"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface11LogDelegatePAAE9logAssert__6source7addInfoySb_SSAA6SourceCSDySSypGSgtF",
+            "mangledName": "$s24AFMobileLoggingInterface11LogDelegatePAAE9logAssert__6source7addInfoySb_SSAA6SourceCSDySSypGSgtF",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LogDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LogDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:24AFMobileLoggingInterface11LogDelegateP",
+        "mangledName": "$s24AFMobileLoggingInterface11LogDelegateP",
+        "moduleName": "AFMobileLoggingInterface",
+        "genericSig": "<τ_0_0 : Foundation.NSCopying>",
+        "sugared_genericSig": "<Self : Foundation.NSCopying>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AFMobileLoggingInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LoggerProtocol",
+        "printedName": "LoggerProtocol",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "moduleName",
+            "printedName": "moduleName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AFMobileLoggingInterface14LoggerProtocolP10moduleNameSSvpZ",
+            "mangledName": "$s24AFMobileLoggingInterface14LoggerProtocolP10moduleNameSSvpZ",
+            "moduleName": "AFMobileLoggingInterface",
+            "static": true,
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AFMobileLoggingInterface14LoggerProtocolP10moduleNameSSvgZ",
+                "mangledName": "$s24AFMobileLoggingInterface14LoggerProtocolP10moduleNameSSvgZ",
+                "moduleName": "AFMobileLoggingInterface",
+                "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LoggerProtocol>",
+                "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LoggerProtocol>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "moduleVersion",
+            "printedName": "moduleVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AFMobileLoggingInterface14LoggerProtocolP13moduleVersionSSvpZ",
+            "mangledName": "$s24AFMobileLoggingInterface14LoggerProtocolP13moduleVersionSSvpZ",
+            "moduleName": "AFMobileLoggingInterface",
+            "static": true,
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AFMobileLoggingInterface14LoggerProtocolP13moduleVersionSSvgZ",
+                "mangledName": "$s24AFMobileLoggingInterface14LoggerProtocolP13moduleVersionSSvgZ",
+                "moduleName": "AFMobileLoggingInterface",
+                "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LoggerProtocol>",
+                "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LoggerProtocol>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logDelegate",
+            "printedName": "logDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogDelegate",
+                "printedName": "AFMobileLoggingInterface.LogDelegate",
+                "usr": "s:24AFMobileLoggingInterface11LogDelegateP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24AFMobileLoggingInterface14LoggerProtocolP11logDelegateAA03LogG0_pvpZ",
+            "mangledName": "$s24AFMobileLoggingInterface14LoggerProtocolP11logDelegateAA03LogG0_pvpZ",
+            "moduleName": "AFMobileLoggingInterface",
+            "static": true,
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogDelegate",
+                    "printedName": "AFMobileLoggingInterface.LogDelegate",
+                    "usr": "s:24AFMobileLoggingInterface11LogDelegateP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24AFMobileLoggingInterface14LoggerProtocolP11logDelegateAA03LogG0_pvgZ",
+                "mangledName": "$s24AFMobileLoggingInterface14LoggerProtocolP11logDelegateAA03LogG0_pvgZ",
+                "moduleName": "AFMobileLoggingInterface",
+                "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LoggerProtocol>",
+                "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LoggerProtocol>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "logFatal",
+            "printedName": "logFatal(_:file:function:line:additionalInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface14LoggerProtocolPAAE8logFatal_4file8function4line14additionalInfoySS_S2SSuSDyS2SGSgtFZ",
+            "mangledName": "$s24AFMobileLoggingInterface14LoggerProtocolPAAE8logFatal_4file8function4line14additionalInfoySS_S2SSuSDyS2SGSgtFZ",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LoggerProtocol>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LoggerProtocol>",
+            "static": true,
+            "deprecated": true,
+            "declAttributes": [
+              "Available"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logError",
+            "printedName": "logError(_:file:function:line:additionalInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface14LoggerProtocolPAAE8logError_4file8function4line14additionalInfoySS_S2SSuSDyS2SGSgtFZ",
+            "mangledName": "$s24AFMobileLoggingInterface14LoggerProtocolPAAE8logError_4file8function4line14additionalInfoySS_S2SSuSDyS2SGSgtFZ",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LoggerProtocol>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LoggerProtocol>",
+            "static": true,
+            "deprecated": true,
+            "declAttributes": [
+              "Available"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logWarning",
+            "printedName": "logWarning(_:file:function:line:additionalInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface14LoggerProtocolPAAE10logWarning_4file8function4line14additionalInfoySS_S2SSuSDyS2SGSgtFZ",
+            "mangledName": "$s24AFMobileLoggingInterface14LoggerProtocolPAAE10logWarning_4file8function4line14additionalInfoySS_S2SSuSDyS2SGSgtFZ",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LoggerProtocol>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LoggerProtocol>",
+            "static": true,
+            "deprecated": true,
+            "declAttributes": [
+              "Available"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logInfo",
+            "printedName": "logInfo(_:file:function:line:additionalInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface14LoggerProtocolPAAE7logInfo_4file8function4line010additionalG0ySS_S2SSuSDyS2SGSgtFZ",
+            "mangledName": "$s24AFMobileLoggingInterface14LoggerProtocolPAAE7logInfo_4file8function4line010additionalG0ySS_S2SSuSDyS2SGSgtFZ",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LoggerProtocol>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LoggerProtocol>",
+            "static": true,
+            "deprecated": true,
+            "declAttributes": [
+              "Available"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logDebug",
+            "printedName": "logDebug(_:file:function:line:additionalInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface14LoggerProtocolPAAE8logDebug_4file8function4line14additionalInfoySS_S2SSuSDyS2SGSgtFZ",
+            "mangledName": "$s24AFMobileLoggingInterface14LoggerProtocolPAAE8logDebug_4file8function4line14additionalInfoySS_S2SSuSDyS2SGSgtFZ",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LoggerProtocol>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LoggerProtocol>",
+            "static": true,
+            "deprecated": true,
+            "declAttributes": [
+              "Available"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logAssert",
+            "printedName": "logAssert(_:message:file:function:line:additionalInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface14LoggerProtocolPAAE9logAssert_7message4file8function4line14additionalInfoySb_S3SSuSDyS2SGSgtFZ",
+            "mangledName": "$s24AFMobileLoggingInterface14LoggerProtocolPAAE9logAssert_7message4file8function4line14additionalInfoySb_S3SSuSDyS2SGSgtFZ",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LoggerProtocol>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LoggerProtocol>",
+            "static": true,
+            "deprecated": true,
+            "declAttributes": [
+              "Available"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logFatal",
+            "printedName": "logFatal(_:file:function:line:addInfo:shouldInjectContextDelegateInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface14LoggerProtocolPAAE8logFatal_4file8function4line7addInfo027shouldInjectContextDelegateL0ySS_S2SSuSDySSypGSgSbtFZ",
+            "mangledName": "$s24AFMobileLoggingInterface14LoggerProtocolPAAE8logFatal_4file8function4line7addInfo027shouldInjectContextDelegateL0ySS_S2SSuSDySSypGSgSbtFZ",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LoggerProtocol>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LoggerProtocol>",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logError",
+            "printedName": "logError(_:file:function:line:addInfo:shouldInjectContextDelegateInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface14LoggerProtocolPAAE8logError_4file8function4line7addInfo027shouldInjectContextDelegateL0ySS_S2SSuSDySSypGSgSbtFZ",
+            "mangledName": "$s24AFMobileLoggingInterface14LoggerProtocolPAAE8logError_4file8function4line7addInfo027shouldInjectContextDelegateL0ySS_S2SSuSDySSypGSgSbtFZ",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LoggerProtocol>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LoggerProtocol>",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logWarning",
+            "printedName": "logWarning(_:file:function:line:addInfo:shouldInjectContextDelegateInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface14LoggerProtocolPAAE10logWarning_4file8function4line7addInfo027shouldInjectContextDelegateL0ySS_S2SSuSDySSypGSgSbtFZ",
+            "mangledName": "$s24AFMobileLoggingInterface14LoggerProtocolPAAE10logWarning_4file8function4line7addInfo027shouldInjectContextDelegateL0ySS_S2SSuSDySSypGSgSbtFZ",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LoggerProtocol>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LoggerProtocol>",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logInfo",
+            "printedName": "logInfo(_:file:function:line:addInfo:shouldInjectContextDelegateInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface14LoggerProtocolPAAE7logInfo_4file8function4line03addG0027shouldInjectContextDelegateG0ySS_S2SSuSDySSypGSgSbtFZ",
+            "mangledName": "$s24AFMobileLoggingInterface14LoggerProtocolPAAE7logInfo_4file8function4line03addG0027shouldInjectContextDelegateG0ySS_S2SSuSDySSypGSgSbtFZ",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LoggerProtocol>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LoggerProtocol>",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logDebug",
+            "printedName": "logDebug(_:file:function:line:addInfo:shouldInjectContextDelegateInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface14LoggerProtocolPAAE8logDebug_4file8function4line7addInfo027shouldInjectContextDelegateL0ySS_S2SSuSDySSypGSgSbtFZ",
+            "mangledName": "$s24AFMobileLoggingInterface14LoggerProtocolPAAE8logDebug_4file8function4line7addInfo027shouldInjectContextDelegateL0ySS_S2SSuSDySSypGSgSbtFZ",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LoggerProtocol>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LoggerProtocol>",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logAssert",
+            "printedName": "logAssert(_:message:file:function:line:addInfo:shouldInjectContextDelegateInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24AFMobileLoggingInterface14LoggerProtocolPAAE9logAssert_7message4file8function4line7addInfo027shouldInjectContextDelegateM0ySb_S3SSuSDySSypGSgSbtFZ",
+            "mangledName": "$s24AFMobileLoggingInterface14LoggerProtocolPAAE9logAssert_7message4file8function4line7addInfo027shouldInjectContextDelegateM0ySb_S3SSuSDySSypGSgSbtFZ",
+            "moduleName": "AFMobileLoggingInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileLoggingInterface.LoggerProtocol>",
+            "sugared_genericSig": "<Self where Self : AFMobileLoggingInterface.LoggerProtocol>",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:24AFMobileLoggingInterface14LoggerProtocolP",
+        "mangledName": "$s24AFMobileLoggingInterface14LoggerProtocolP",
+        "moduleName": "AFMobileLoggingInterface",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1078,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1118,
+      "length": 10,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1127,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1181,
+      "length": 6,
+      "value": "\"main\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1190,
+      "length": 19,
+      "value": "\"background\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1208,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 6,
+      "value": "\"AFMobileLoggingInterface.Source\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1630,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1645,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1659,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1673,
+      "length": 5,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1630,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1645,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1659,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1673,
+      "length": 5,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1630,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1645,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1659,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1673,
+      "length": 5,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 5981,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "Dictionary",
+      "offset": 6103,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "Dictionary",
+      "offset": 6387,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6531,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6652,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6773,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6892,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7014,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 7427,
+      "length": 112,
+      "value": "\"Default implementaion logFatal LoggingDelegate - logFatal. \""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 7497,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 7507,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 7538,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 7681,
+      "length": 112,
+      "value": "\"Default implementaion logError LoggingDelegate - logError. \""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 7751,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 7761,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 7792,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 7937,
+      "length": 116,
+      "value": "\"Default implementaion logWarning LoggingDelegate - logWarning. \""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 8011,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 8021,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 8052,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 8194,
+      "length": 110,
+      "value": "\"Default implementaion logInfo LoggingDelegate - logInfo. \""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 8262,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 8272,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 8303,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 8446,
+      "length": 112,
+      "value": "\"Default implementaion logDebug LoggingDelegate - logDebug. \""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 8516,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 8526,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 8557,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 8720,
+      "length": 114,
+      "value": "\"Default implementaion logAssert LoggingDelegate - logAssert. \""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 8792,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 8802,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 8833,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 8951,
+      "length": 98,
+      "value": "\"Default implementaion registerAppDestinationAlias LoggingDelegate - registerAppDestinationAlias.\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 9115,
+      "length": 102,
+      "value": "\"Default implementaion unregisterAppDestinationAlias LoggingDelegate - unregisterAppDestinationAlias.\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 9320,
+      "length": 104,
+      "value": "\"Default implementaion registerWidgetDestinationAlias LoggingDelegate - registerWidgetDestinationAlias.\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 9509,
+      "length": 108,
+      "value": "\"Default implementaion unregisterWidgetDestinationAlias LoggingDelegate - unregisterWidgetDestinationAlias.\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9976,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10168,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10364,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10554,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10746,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LogDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10970,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LoggerProtocol.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5175,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LoggerProtocol.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5683,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LoggerProtocol.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6193,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LoggerProtocol.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6702,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LoggerProtocol.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7209,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/Logging\/LoggerProtocol.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7743,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

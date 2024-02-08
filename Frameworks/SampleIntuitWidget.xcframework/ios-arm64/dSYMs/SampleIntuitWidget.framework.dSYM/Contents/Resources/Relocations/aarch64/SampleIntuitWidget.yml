@@ -1,0 +1,32 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/jdomingo/Library/Developer/Xcode/DerivedData/SampleIntuitWidget-guepcrbtutwcpzdidanqonacxsbh/Build/Intermediates.noindex/ArchiveIntermediates/SampleIntuitWidget/InstallationBuildProductsLocation/Library/Frameworks/SampleIntuitWidget.framework/SampleIntuitWidget'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x53E1E, size: 0x8, addend: 0x0, symName: _SampleIntuitWidgetVersionString, symObjAddr: 0x0, symBinAddr: 0x56D0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x53E53, size: 0x8, addend: 0x0, symName: _SampleIntuitWidgetVersionNumber, symObjAddr: 0x30, symBinAddr: 0x5700, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x53E90, size: 0x8, addend: 0x0, symName: '_$s18SampleIntuitWidgetAAVABycfC', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x2C }
+  - { offsetInCU: 0x4B, offset: 0x53EB4, size: 0x8, addend: 0x0, symName: '_$s18SampleIntuitWidgetAAVABycfC', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x2C }
+  - { offsetInCU: 0x7A, offset: 0x53EE3, size: 0x8, addend: 0x0, symName: '_$s18SampleIntuitWidgetAAV4bodyQrvg', symObjAddr: 0x2C, symBinAddr: 0x402C, symSize: 0x94 }
+  - { offsetInCU: 0xE1, offset: 0x53F4A, size: 0x8, addend: 0x0, symName: '_$s18SampleIntuitWidgetAAV4bodyQrvg7SwiftUI9TupleViewVyAD0H0PADE15foregroundColoryQrAD0J0VSgFQOyAhDE5frame5width6height9alignmentQr12CoreGraphics7CGFloatVSg_AtD9AlignmentVtFQOyAD5ImageV_Qo__Qo__AD4TextVtGyXEfU_', symObjAddr: 0xC0, symBinAddr: 0x40C0, symSize: 0x27C }
+  - { offsetInCU: 0x1D2, offset: 0x5403B, size: 0x8, addend: 0x0, symName: '_$s18SampleIntuitWidgetAAV7SwiftUI4ViewAacDP4body4BodyQzvgTW', symObjAddr: 0x36C, symBinAddr: 0x436C, symSize: 0x94 }
+  - { offsetInCU: 0x264, offset: 0x540CD, size: 0x8, addend: 0x0, symName: '_$s18SampleIntuitWidgetAAV7SwiftUI4ViewAA4BodyAcDP_AFWT', symObjAddr: 0x33C, symBinAddr: 0x433C, symSize: 0x10 }
+  - { offsetInCU: 0x278, offset: 0x540E1, size: 0x8, addend: 0x0, symName: '_$s18SampleIntuitWidgetAAVwCP', symObjAddr: 0x400, symBinAddr: 0x4400, symSize: 0x30 }
+  - { offsetInCU: 0x28C, offset: 0x540F5, size: 0x8, addend: 0x0, symName: '_$s18SampleIntuitWidgetAAVwxx', symObjAddr: 0x430, symBinAddr: 0x4430, symSize: 0x28 }
+  - { offsetInCU: 0x2A0, offset: 0x54109, size: 0x8, addend: 0x0, symName: '_$s18SampleIntuitWidgetAAVwcp', symObjAddr: 0x458, symBinAddr: 0x4458, symSize: 0x3C }
+  - { offsetInCU: 0x2B4, offset: 0x5411D, size: 0x8, addend: 0x0, symName: '_$s18SampleIntuitWidgetAAVwca', symObjAddr: 0x494, symBinAddr: 0x4494, symSize: 0x68 }
+  - { offsetInCU: 0x2C8, offset: 0x54131, size: 0x8, addend: 0x0, symName: ___swift_memcpy32_8, symObjAddr: 0x4FC, symBinAddr: 0x44FC, symSize: 0xC }
+  - { offsetInCU: 0x2DC, offset: 0x54145, size: 0x8, addend: 0x0, symName: '_$s18SampleIntuitWidgetAAVwta', symObjAddr: 0x508, symBinAddr: 0x4508, symSize: 0x48 }
+  - { offsetInCU: 0x2F0, offset: 0x54159, size: 0x8, addend: 0x0, symName: '_$s18SampleIntuitWidgetAAVwet', symObjAddr: 0x550, symBinAddr: 0x4550, symSize: 0x48 }
+  - { offsetInCU: 0x304, offset: 0x5416D, size: 0x8, addend: 0x0, symName: '_$s18SampleIntuitWidgetAAVwst', symObjAddr: 0x598, symBinAddr: 0x4598, symSize: 0x40 }
+  - { offsetInCU: 0x318, offset: 0x54181, size: 0x8, addend: 0x0, symName: '_$s18SampleIntuitWidgetAAVMa', symObjAddr: 0x5D8, symBinAddr: 0x45D8, symSize: 0x10 }
+  - { offsetInCU: 0x32C, offset: 0x54195, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAA5ImageVAA12_FrameLayoutVGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGG_AA4TextVtGGACyxGAA0E0AAWl', symObjAddr: 0x5EC, symBinAddr: 0x45EC, symSize: 0x4C }
+  - { offsetInCU: 0x340, offset: 0x541A9, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameAbstract, symObjAddr: 0x638, symBinAddr: 0x4638, symSize: 0x44 }
+  - { offsetInCU: 0x354, offset: 0x541BD, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvpACTKq', symObjAddr: 0x67C, symBinAddr: 0x467C, symSize: 0x28 }
+  - { offsetInCU: 0x36C, offset: 0x541D5, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvpACTkq', symObjAddr: 0x6A4, symBinAddr: 0x46A4, symSize: 0x28 }
+  - { offsetInCU: 0x384, offset: 0x541ED, size: 0x8, addend: 0x0, symName: '_$sS2SSysWl', symObjAddr: 0x6CC, symBinAddr: 0x46CC, symSize: 0x44 }
+  - { offsetInCU: 0x398, offset: 0x54201, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI4TextV7StorageOWOe', symObjAddr: 0x710, symBinAddr: 0x4710, symSize: 0x10 }
+  - { offsetInCU: 0x3AC, offset: 0x54215, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI4TextV7StorageOWOy', symObjAddr: 0x720, symBinAddr: 0x4720, symSize: 0x10 }
+  - { offsetInCU: 0x4BA, offset: 0x54323, size: 0x8, addend: 0x0, symName: '_$s18SampleIntuitWidgetAAV7SwiftUI4ViewAacDP05_makeF04view6inputsAC01_F7OutputsVAC11_GraphValueVyxG_AC01_F6InputsVtFZTW', symObjAddr: 0x34C, symBinAddr: 0x434C, symSize: 0x4 }
+  - { offsetInCU: 0x4D6, offset: 0x5433F, size: 0x8, addend: 0x0, symName: '_$s18SampleIntuitWidgetAAV7SwiftUI4ViewAacDP05_makeF4List4view6inputsAC01_fH7OutputsVAC11_GraphValueVyxG_AC01_fH6InputsVtFZTW', symObjAddr: 0x350, symBinAddr: 0x4350, symSize: 0x4 }
+  - { offsetInCU: 0x4F2, offset: 0x5435B, size: 0x8, addend: 0x0, symName: '_$s18SampleIntuitWidgetAAV7SwiftUI4ViewAacDP14_viewListCount6inputsSiSgAC01_fhI6InputsV_tFZTW', symObjAddr: 0x354, symBinAddr: 0x4354, symSize: 0x18 }
+...

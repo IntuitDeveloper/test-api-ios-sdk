@@ -1,0 +1,646 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "SmartLookDelegate",
+        "printedName": "SmartLookDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isScreenshareActive",
+            "printedName": "isScreenshareActive()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AFMobileSmartLookInterface0bC8DelegateP19isScreenshareActiveSbyF",
+            "mangledName": "$s26AFMobileSmartLookInterface0bC8DelegateP19isScreenshareActiveSbyF",
+            "moduleName": "AFMobileSmartLookInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isMeetingActive",
+            "printedName": "isMeetingActive()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AFMobileSmartLookInterface0bC8DelegateP15isMeetingActiveSbyF",
+            "mangledName": "$s26AFMobileSmartLookInterface0bC8DelegateP15isMeetingActiveSbyF",
+            "moduleName": "AFMobileSmartLookInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subscribe",
+            "printedName": "subscribe(topic:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AFMobileSmartLookInterface0bC8DelegateP9subscribe5topic8callbackSSSgSS_yypSgctF",
+            "mangledName": "$s26AFMobileSmartLookInterface0bC8DelegateP9subscribe5topic8callbackSSSgSS_yypSgctF",
+            "moduleName": "AFMobileSmartLookInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "publish",
+            "printedName": "publish(topic:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AFMobileSmartLookInterface0bC8DelegateP7publish5topic4dataySS_SStF",
+            "mangledName": "$s26AFMobileSmartLookInterface0bC8DelegateP7publish5topic4dataySS_SStF",
+            "moduleName": "AFMobileSmartLookInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsubscribe",
+            "printedName": "unsubscribe(topic:subscriptionID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AFMobileSmartLookInterface0bC8DelegateP11unsubscribe5topic14subscriptionIDSbSS_SStF",
+            "mangledName": "$s26AFMobileSmartLookInterface0bC8DelegateP11unsubscribe5topic14subscriptionIDSbSS_SStF",
+            "moduleName": "AFMobileSmartLookInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resumeScreenshare",
+            "printedName": "resumeScreenshare()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AFMobileSmartLookInterface0bC8DelegateP17resumeScreenshareyyF",
+            "mangledName": "$s26AFMobileSmartLookInterface0bC8DelegateP17resumeScreenshareyyF",
+            "moduleName": "AFMobileSmartLookInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pauseScreenshare",
+            "printedName": "pauseScreenshare()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AFMobileSmartLookInterface0bC8DelegateP16pauseScreenshareyyF",
+            "mangledName": "$s26AFMobileSmartLookInterface0bC8DelegateP16pauseScreenshareyyF",
+            "moduleName": "AFMobileSmartLookInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLogging",
+            "printedName": "setLogging(enabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AFMobileSmartLookInterface0bC8DelegateP10setLogging7enabledySb_tFZ",
+            "mangledName": "$s26AFMobileSmartLookInterface0bC8DelegateP10setLogging7enabledySb_tFZ",
+            "moduleName": "AFMobileSmartLookInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPrimaryButtonColor",
+            "printedName": "setPrimaryButtonColor(color:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AFMobileSmartLookInterface0bC8DelegateP21setPrimaryButtonColor5colorySo7UIColorC_tF",
+            "mangledName": "$s26AFMobileSmartLookInterface0bC8DelegateP21setPrimaryButtonColor5colorySo7UIColorC_tF",
+            "moduleName": "AFMobileSmartLookInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMinimizedViewBottomPadding",
+            "printedName": "setMinimizedViewBottomPadding(bottomPadding:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AFMobileSmartLookInterface0bC8DelegateP29setMinimizedViewBottomPadding06bottomJ0y14CoreFoundation7CGFloatV_tF",
+            "mangledName": "$s26AFMobileSmartLookInterface0bC8DelegateP29setMinimizedViewBottomPadding06bottomJ0y12CoreGraphics7CGFloatV_tF",
+            "moduleName": "AFMobileSmartLookInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setExpertText",
+            "printedName": "setExpertText(text:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AFMobileSmartLookInterface0bC8DelegateP13setExpertText4textySS_tF",
+            "mangledName": "$s26AFMobileSmartLookInterface0bC8DelegateP13setExpertText4textySS_tF",
+            "moduleName": "AFMobileSmartLookInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleEvent",
+            "printedName": "handleEvent(withPayload:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AFMobileSmartLookInterface0bC8DelegateP11handleEvent11withPayloadySS_tF",
+            "mangledName": "$s26AFMobileSmartLookInterface0bC8DelegateP11handleEvent11withPayloadySS_tF",
+            "moduleName": "AFMobileSmartLookInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPersistentUI",
+            "printedName": "setPersistentUI(enabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AFMobileSmartLookInterface0bC8DelegateP15setPersistentUI7enabledySb_tF",
+            "mangledName": "$s26AFMobileSmartLookInterface0bC8DelegateP15setPersistentUI7enabledySb_tF",
+            "moduleName": "AFMobileSmartLookInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setProductSku",
+            "printedName": "setProductSku(sku:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AFMobileSmartLookInterface0bC8DelegateP13setProductSku3skuySS_tF",
+            "mangledName": "$s26AFMobileSmartLookInterface0bC8DelegateP13setProductSku3skuySS_tF",
+            "moduleName": "AFMobileSmartLookInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "joinMeeting",
+            "printedName": "joinMeeting(withConversationId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AFMobileSmartLookInterface0bC8DelegateP11joinMeeting18withConversationIdySSSg_tF",
+            "mangledName": "$s26AFMobileSmartLookInterface0bC8DelegateP11joinMeeting18withConversationIdySSSg_tF",
+            "moduleName": "AFMobileSmartLookInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "joinMeeting",
+            "printedName": "joinMeeting(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AFMobileSmartLookInterface0bC8DelegateP11joinMeeting4withySDySSypG_tF",
+            "mangledName": "$s26AFMobileSmartLookInterface0bC8DelegateP11joinMeeting4withySDySSypG_tF",
+            "moduleName": "AFMobileSmartLookInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setExpertPlaceholderImage",
+            "printedName": "setExpertPlaceholderImage(resourceNamed:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AFMobileSmartLookInterface0bC8DelegateP25setExpertPlaceholderImage13resourceNamed6bundleySS_So8NSBundleCtF",
+            "mangledName": "$s26AFMobileSmartLookInterface0bC8DelegateP25setExpertPlaceholderImage13resourceNamed6bundleySS_So8NSBundleCtF",
+            "moduleName": "AFMobileSmartLookInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAutoDisplayPIIMaskingToast",
+            "printedName": "setAutoDisplayPIIMaskingToast(enabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AFMobileSmartLookInterface0bC8DelegateP29setAutoDisplayPIIMaskingToast7enabledySb_tF",
+            "mangledName": "$s26AFMobileSmartLookInterface0bC8DelegateP29setAutoDisplayPIIMaskingToast7enabledySb_tF",
+            "moduleName": "AFMobileSmartLookInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enableAutoMaskingDocUploadScreens",
+            "printedName": "enableAutoMaskingDocUploadScreens()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26AFMobileSmartLookInterface0bC8DelegateP33enableAutoMaskingDocUploadScreensyyFZ",
+            "mangledName": "$s26AFMobileSmartLookInterface0bC8DelegateP33enableAutoMaskingDocUploadScreensyyFZ",
+            "moduleName": "AFMobileSmartLookInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSmartLookInterface.SmartLookDelegate>",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:26AFMobileSmartLookInterface0bC8DelegateP",
+        "mangledName": "$s26AFMobileSmartLookInterface0bC8DelegateP",
+        "moduleName": "AFMobileSmartLookInterface",
+        "genericSig": "<τ_0_0 : Foundation.NSCopying>",
+        "sugared_genericSig": "<Self : Foundation.NSCopying>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

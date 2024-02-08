@@ -2095,240 +2095,261 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsFilters.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsFilters.swift",
       "kind": "Dictionary",
       "offset": 2747,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsFilters.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsFilters.swift",
       "kind": "Dictionary",
       "offset": 2783,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsFilters.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsFilters.swift",
       "kind": "Dictionary",
       "offset": 4019,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsFilters.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsFilters.swift",
       "kind": "Dictionary",
       "offset": 4907,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsFilters.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsFilters.swift",
       "kind": "Dictionary",
       "offset": 4940,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsFilters.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsFilters.swift",
       "kind": "BooleanLiteral",
       "offset": 9091,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsFilters.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsFilters.swift",
       "kind": "StringLiteral",
       "offset": 9405,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsHelpers.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/AnalyticsHelpers.swift",
       "kind": "StringLiteral",
       "offset": 1970,
       "length": 31,
       "value": "\"SEGAnalytics singleton is nil\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "StringLiteral",
       "offset": 695,
       "length": 56,
       "value": "\"https:\/\/eventbus-ENV.intuit.com\/v2\/segment\/TOPIC\/batch\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "StringLiteral",
       "offset": 1100,
       "length": 6,
       "value": "\"-ENV\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "StringLiteral",
       "offset": 1114,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "StringLiteral",
       "offset": 1223,
       "length": 5,
       "value": "\"ENV\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "StringLiteral",
       "offset": 1236,
       "length": 5,
       "value": "\"e2e\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "StringLiteral",
       "offset": 1298,
       "length": 7,
       "value": "\"TOPIC\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "BooleanLiteral",
       "offset": 1647,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "StringLiteral",
       "offset": 3018,
       "length": 19,
       "value": "\"AFMobileAnalytics\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "StringLiteral",
       "offset": 3421,
       "length": 26,
       "value": "\"SegmentAnalyticsDelegate\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 3529,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 3555,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 3529,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 3555,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 3529,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "IntegerLiteral",
       "offset": 3555,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "StringLiteral",
       "offset": 5227,
       "length": 10,
       "value": "\"settings\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 5639,
+      "length": 52,
+      "value": "\"Basic \""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 5690,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 5756,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "BooleanLiteral",
-      "offset": 6295,
+      "offset": 6498,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "StringLiteral",
-      "offset": 7925,
+      "offset": 8128,
       "length": 28,
       "value": "\"intuit-general-clickstream\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "StringLiteral",
-      "offset": 8147,
+      "offset": 8350,
       "length": 28,
       "value": "\"intuit-general-clickstream\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "StringLiteral",
-      "offset": 10661,
+      "offset": 10864,
       "length": 26,
       "value": "\"SegmentAnalyticsDelegate\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "StringLiteral",
-      "offset": 11504,
+      "offset": 11707,
       "length": 54,
       "value": "\"Unable to create copy of segment analytics delegate.\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "Dictionary",
-      "offset": 13541,
+      "offset": 13744,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "StringLiteral",
-      "offset": 13770,
+      "offset": 13973,
       "length": 9,
       "value": "\"context\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "StringLiteral",
       "offset": 1536,
       "length": 24,
       "value": "\"AFMobileAnalytics.SegmentAnalyticsDelegate\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "StringLiteral",
-      "offset": 15895,
+      "offset": 16098,
       "length": 34,
       "value": "\"ShellAnalyticsDelegateInitialize\""
     },
     {
-      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/IntuitAppShellSample\/Pods\/AFMobileAnalytics\/IntuitiOSShell\/Sources\/Analytics\/SegmentAnalyticsDelegate.swift",
       "kind": "StringLiteral",
-      "offset": 15987,
+      "offset": 16190,
       "length": 38,
       "value": "\"ShellAnalyticsDelegateInitializeFail\""
     }

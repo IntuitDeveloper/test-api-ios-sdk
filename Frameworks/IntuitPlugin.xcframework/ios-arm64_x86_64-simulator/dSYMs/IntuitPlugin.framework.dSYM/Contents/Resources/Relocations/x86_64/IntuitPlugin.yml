@@ -1,0 +1,58 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/jdomingo/Library/Developer/Xcode/DerivedData/IntuitPluginApp-eqkgbdedgiskbdewyiwybrukbcqa/Build/Intermediates.noindex/ArchiveIntermediates/IntuitPlugin/InstallationBuildProductsLocation/Library/Frameworks/IntuitPlugin.framework/IntuitPlugin'
+relocations:
+  - { offsetInCU: 0x33, offset: 0x33, size: 0x8, addend: 0x0, symName: _IntuitPluginVersionString, symObjAddr: 0x0, symBinAddr: 0x3460, symSize: 0x0 }
+  - { offsetInCU: 0x67, offset: 0x67, size: 0x8, addend: 0x0, symName: _IntuitPluginVersionNumber, symObjAddr: 0x30, symBinAddr: 0x3490, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0xA3, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC7appNameSSvpACTK', symObjAddr: 0x0, symBinAddr: 0x12F0, symSize: 0x40 }
+  - { offsetInCU: 0x8B, offset: 0x107, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC7appNameSSvg', symObjAddr: 0xA0, symBinAddr: 0x1390, symSize: 0x40 }
+  - { offsetInCU: 0xA6, offset: 0x122, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC7appNameSSvs', symObjAddr: 0xE0, symBinAddr: 0x13D0, symSize: 0x40 }
+  - { offsetInCU: 0xCA, offset: 0x146, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC7appNameSSvM', symObjAddr: 0x120, symBinAddr: 0x1410, symSize: 0x30 }
+  - { offsetInCU: 0x138, offset: 0x1B4, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC12appAuthTokenSSvg', symObjAddr: 0x1F0, symBinAddr: 0x14E0, symSize: 0x40 }
+  - { offsetInCU: 0x153, offset: 0x1CF, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC12appAuthTokenSSvs', symObjAddr: 0x230, symBinAddr: 0x1520, symSize: 0x40 }
+  - { offsetInCU: 0x177, offset: 0x1F3, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC12appAuthTokenSSvM', symObjAddr: 0x270, symBinAddr: 0x1560, symSize: 0x30 }
+  - { offsetInCU: 0x1E5, offset: 0x261, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC10offeringIdSSvg', symObjAddr: 0x340, symBinAddr: 0x1630, symSize: 0x40 }
+  - { offsetInCU: 0x200, offset: 0x27C, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC10offeringIdSSvs', symObjAddr: 0x380, symBinAddr: 0x1670, symSize: 0x40 }
+  - { offsetInCU: 0x224, offset: 0x2A0, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC10offeringIdSSvM', symObjAddr: 0x3C0, symBinAddr: 0x16B0, symSize: 0x30 }
+  - { offsetInCU: 0x24F, offset: 0x2CB, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC10offeringIdSSvM.resume.0', symObjAddr: 0x3F0, symBinAddr: 0x16E0, symSize: 0x10 }
+  - { offsetInCU: 0x2BB, offset: 0x337, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC10sdkAssetIdSSvg', symObjAddr: 0x4A0, symBinAddr: 0x1790, symSize: 0x40 }
+  - { offsetInCU: 0x2D6, offset: 0x352, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC10sdkAssetIdSSvs', symObjAddr: 0x4E0, symBinAddr: 0x17D0, symSize: 0x40 }
+  - { offsetInCU: 0x2FA, offset: 0x376, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC10sdkAssetIdSSvM', symObjAddr: 0x520, symBinAddr: 0x1810, symSize: 0x30 }
+  - { offsetInCU: 0x368, offset: 0x3E4, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC13sdkAssetAliasSSvg', symObjAddr: 0x5F0, symBinAddr: 0x18E0, symSize: 0x40 }
+  - { offsetInCU: 0x383, offset: 0x3FF, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC13sdkAssetAliasSSvs', symObjAddr: 0x630, symBinAddr: 0x1920, symSize: 0x40 }
+  - { offsetInCU: 0x3A7, offset: 0x423, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC13sdkAssetAliasSSvM', symObjAddr: 0x670, symBinAddr: 0x1960, symSize: 0x30 }
+  - { offsetInCU: 0x425, offset: 0x4A1, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC7appName0D9AuthToken10offeringId05assetI00J5AliasACSS_S4StcfC', symObjAddr: 0x6A0, symBinAddr: 0x1990, symSize: 0xF0 }
+  - { offsetInCU: 0x47A, offset: 0x4F6, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC7appName0D9AuthToken10offeringId05assetI00J5AliasACSS_S4Stcfc', symObjAddr: 0x790, symBinAddr: 0x1A80, symSize: 0xE0 }
+  - { offsetInCU: 0x4C2, offset: 0x53E, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigCfd', symObjAddr: 0x870, symBinAddr: 0x1B60, symSize: 0x40 }
+  - { offsetInCU: 0x4F9, offset: 0x575, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigCfD', symObjAddr: 0x8B0, symBinAddr: 0x1BA0, symSize: 0x50 }
+  - { offsetInCU: 0x539, offset: 0x5B5, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC7appNameSSvpACTK', symObjAddr: 0x0, symBinAddr: 0x12F0, symSize: 0x40 }
+  - { offsetInCU: 0x56C, offset: 0x5E8, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC7appNameSSvpACTk', symObjAddr: 0x40, symBinAddr: 0x1330, symSize: 0x60 }
+  - { offsetInCU: 0x5A8, offset: 0x624, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC12appAuthTokenSSvpACTK', symObjAddr: 0x150, symBinAddr: 0x1440, symSize: 0x40 }
+  - { offsetInCU: 0x5DB, offset: 0x657, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC12appAuthTokenSSvpACTk', symObjAddr: 0x190, symBinAddr: 0x1480, symSize: 0x60 }
+  - { offsetInCU: 0x617, offset: 0x693, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC10offeringIdSSvpACTK', symObjAddr: 0x2A0, symBinAddr: 0x1590, symSize: 0x40 }
+  - { offsetInCU: 0x64A, offset: 0x6C6, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC10offeringIdSSvpACTk', symObjAddr: 0x2E0, symBinAddr: 0x15D0, symSize: 0x60 }
+  - { offsetInCU: 0x686, offset: 0x702, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC10sdkAssetIdSSvpACTK', symObjAddr: 0x400, symBinAddr: 0x16F0, symSize: 0x40 }
+  - { offsetInCU: 0x6B9, offset: 0x735, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC10sdkAssetIdSSvpACTk', symObjAddr: 0x440, symBinAddr: 0x1730, symSize: 0x60 }
+  - { offsetInCU: 0x6F5, offset: 0x771, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC13sdkAssetAliasSSvpACTK', symObjAddr: 0x550, symBinAddr: 0x1840, symSize: 0x40 }
+  - { offsetInCU: 0x728, offset: 0x7A4, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigC13sdkAssetAliasSSvpACTk', symObjAddr: 0x590, symBinAddr: 0x1880, symSize: 0x60 }
+  - { offsetInCU: 0x764, offset: 0x7E0, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin6ConfigCMa', symObjAddr: 0x9A0, symBinAddr: 0x1C90, symSize: 0x20 }
+  - { offsetInCU: 0x48, offset: 0x929, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin11EventSourceV4nameACSS_tcfC', symObjAddr: 0x0, symBinAddr: 0x1EB0, symSize: 0x10 }
+  - { offsetInCU: 0x90, offset: 0x971, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin8ResponseV7messageSSvg', symObjAddr: 0x10, symBinAddr: 0x1EC0, symSize: 0x30 }
+  - { offsetInCU: 0xAD, offset: 0x98E, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin8ResponseV7messageSSvs', symObjAddr: 0x40, symBinAddr: 0x1EF0, symSize: 0x30 }
+  - { offsetInCU: 0xE8, offset: 0x9C9, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin8ResponseV7messageSSvM', symObjAddr: 0x70, symBinAddr: 0x1F20, symSize: 0x10 }
+  - { offsetInCU: 0x105, offset: 0x9E6, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin8ResponseV7messageSSvM.resume.0', symObjAddr: 0x80, symBinAddr: 0x1F30, symSize: 0x10 }
+  - { offsetInCU: 0x12F, offset: 0xA10, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin11EventSourceVwxx', symObjAddr: 0xC0, symBinAddr: 0x1F70, symSize: 0x10 }
+  - { offsetInCU: 0x142, offset: 0xA23, size: 0x8, addend: 0x0, symName: ___swift_memcpy16_8, symObjAddr: 0xF0, symBinAddr: 0x1FA0, symSize: 0x10 }
+  - { offsetInCU: 0x155, offset: 0xA36, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin11EventSourceVMa', symObjAddr: 0x130, symBinAddr: 0x1FE0, symSize: 0x10 }
+  - { offsetInCU: 0x168, offset: 0xA49, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin8ResponseVMa', symObjAddr: 0x310, symBinAddr: 0x21C0, symSize: 0x10 }
+  - { offsetInCU: 0x7A, offset: 0xB79, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin0A10SDKSandboxC15contextDelegate014authenticationE0AC23AppShellWidgetInterface015AFMobileContextE0_p_AF0k14AuthenticationE0_ptcfC', symObjAddr: 0x0, symBinAddr: 0x2220, symSize: 0x70 }
+  - { offsetInCU: 0xC8, offset: 0xBC7, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin0A10SDKSandboxC15contextDelegate014authenticationE0AC23AppShellWidgetInterface015AFMobileContextE0_p_AF0k14AuthenticationE0_ptcfc', symObjAddr: 0x70, symBinAddr: 0x2290, symSize: 0x30 }
+  - { offsetInCU: 0x111, offset: 0xC10, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin0A10SDKSandboxCACycfC', symObjAddr: 0xA0, symBinAddr: 0x22C0, symSize: 0x30 }
+  - { offsetInCU: 0x16C, offset: 0xC6B, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin0A10SDKSandboxCACycfc', symObjAddr: 0xD0, symBinAddr: 0x22F0, symSize: 0x30 }
+  - { offsetInCU: 0x1AD, offset: 0xCAC, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin0A10SDKSandboxCfd', symObjAddr: 0x130, symBinAddr: 0x2350, symSize: 0x40 }
+  - { offsetInCU: 0x1E4, offset: 0xCE3, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin0A10SDKSandboxCfD', symObjAddr: 0x170, symBinAddr: 0x2390, symSize: 0x50 }
+  - { offsetInCU: 0x238, offset: 0xD37, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin0A10SDKSandboxCfE', symObjAddr: 0x100, symBinAddr: 0x2320, symSize: 0x30 }
+  - { offsetInCU: 0x263, offset: 0xD62, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin0A10SDKSandboxCMa', symObjAddr: 0x1C0, symBinAddr: 0x23E0, symSize: 0x30 }
+  - { offsetInCU: 0x276, offset: 0xD75, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin0A10SDKSandboxCMr', symObjAddr: 0x1F0, symBinAddr: 0x2410, symSize: 0x40 }
+  - { offsetInCU: 0x289, offset: 0xD88, size: 0x8, addend: 0x0, symName: '_$s12IntuitPlugin0A10SDKSandboxCMU', symObjAddr: 0x270, symBinAddr: 0x2490, symSize: 0xC }
+...

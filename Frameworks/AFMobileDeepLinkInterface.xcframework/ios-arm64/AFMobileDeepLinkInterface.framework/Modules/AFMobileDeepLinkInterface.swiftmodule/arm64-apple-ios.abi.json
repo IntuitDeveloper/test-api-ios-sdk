@@ -1,0 +1,1117 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AFMobileDeepLinkInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeepLink",
+        "printedName": "DeepLink",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(networkProtocol:urlHost:urlPattern:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeepLink",
+                "printedName": "AFMobileDeepLinkInterface.DeepLink",
+                "usr": "s:25AFMobileDeepLinkInterface0bC0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25AFMobileDeepLinkInterface0bC0V15networkProtocol7urlHost0G7PatternACSS_S2Stcfc",
+            "mangledName": "$s25AFMobileDeepLinkInterface0bC0V15networkProtocol7urlHost0G7PatternACSS_S2Stcfc",
+            "moduleName": "AFMobileDeepLinkInterface",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "matches",
+            "printedName": "matches(uri:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25AFMobileDeepLinkInterface0bC0V7matches3uriSb10Foundation3URLV_tF",
+            "mangledName": "$s25AFMobileDeepLinkInterface0bC0V7matches3uriSb10Foundation3URLV_tF",
+            "moduleName": "AFMobileDeepLinkInterface",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25AFMobileDeepLinkInterface0bC0V9hashValueSivp",
+            "mangledName": "$s25AFMobileDeepLinkInterface0bC0V9hashValueSivp",
+            "moduleName": "AFMobileDeepLinkInterface",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25AFMobileDeepLinkInterface0bC0V9hashValueSivg",
+                "mangledName": "$s25AFMobileDeepLinkInterface0bC0V9hashValueSivg",
+                "moduleName": "AFMobileDeepLinkInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25AFMobileDeepLinkInterface0bC0V4hash4intoys6HasherVz_tF",
+            "mangledName": "$s25AFMobileDeepLinkInterface0bC0V4hash4intoys6HasherVz_tF",
+            "moduleName": "AFMobileDeepLinkInterface",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DeepLink",
+                "printedName": "AFMobileDeepLinkInterface.DeepLink",
+                "usr": "s:25AFMobileDeepLinkInterface0bC0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DeepLink",
+                "printedName": "AFMobileDeepLinkInterface.DeepLink",
+                "usr": "s:25AFMobileDeepLinkInterface0bC0V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25AFMobileDeepLinkInterface0bC0V2eeoiySbAC_ACtFZ",
+            "mangledName": "$s25AFMobileDeepLinkInterface0bC0V2eeoiySbAC_ACtFZ",
+            "moduleName": "AFMobileDeepLinkInterface",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:25AFMobileDeepLinkInterface0bC0V",
+        "mangledName": "$s25AFMobileDeepLinkInterface0bC0V",
+        "moduleName": "AFMobileDeepLinkInterface",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AFMobileDeepLinkInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeepLinkDelegate",
+        "printedName": "DeepLinkDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(links:linkHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AFMobileDeepLinkInterface.DeepLink]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeepLink",
+                    "printedName": "AFMobileDeepLinkInterface.DeepLink",
+                    "usr": "s:25AFMobileDeepLinkInterface0bC0V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DeepLinkHandler",
+                "printedName": "AFMobileDeepLinkInterface.DeepLinkHandler",
+                "usr": "s:25AFMobileDeepLinkInterface0bC7HandlerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25AFMobileDeepLinkInterface0bC8DelegateP8register5links11linkHandlerySayAA0bC0VG_AA0bcI0_ptF",
+            "mangledName": "$s25AFMobileDeepLinkInterface0bC8DelegateP8register5links11linkHandlerySayAA0bC0VG_AA0bcI0_ptF",
+            "moduleName": "AFMobileDeepLinkInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileDeepLinkInterface.DeepLinkDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileDeepLinkInterface.DeepLinkDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dispatch",
+            "printedName": "dispatch(uri:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AFMobileDeepLinkInterface.DispatchResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchResponse",
+                    "printedName": "AFMobileDeepLinkInterface.DispatchResponse",
+                    "usr": "s:25AFMobileDeepLinkInterface16DispatchResponseP"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25AFMobileDeepLinkInterface0bC8DelegateP8dispatch3uriAA16DispatchResponse_pSg10Foundation3URLV_tF",
+            "mangledName": "$s25AFMobileDeepLinkInterface0bC8DelegateP8dispatch3uriAA16DispatchResponse_pSg10Foundation3URLV_tF",
+            "moduleName": "AFMobileDeepLinkInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileDeepLinkInterface.DeepLinkDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileDeepLinkInterface.DeepLinkDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:25AFMobileDeepLinkInterface0bC8DelegateP",
+        "mangledName": "$s25AFMobileDeepLinkInterface0bC8DelegateP",
+        "moduleName": "AFMobileDeepLinkInterface",
+        "genericSig": "<τ_0_0 : Foundation.NSCopying>",
+        "sugared_genericSig": "<Self : Foundation.NSCopying>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AFMobileDeepLinkInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeepLinkHandler",
+        "printedName": "DeepLinkHandler",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "handleURI",
+            "printedName": "handleURI(uri:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchResponse",
+                "printedName": "AFMobileDeepLinkInterface.DispatchResponse",
+                "usr": "s:25AFMobileDeepLinkInterface16DispatchResponseP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25AFMobileDeepLinkInterface0bC7HandlerP9handleURI3uriAA16DispatchResponse_p10Foundation3URLV_tF",
+            "mangledName": "$s25AFMobileDeepLinkInterface0bC7HandlerP9handleURI3uriAA16DispatchResponse_p10Foundation3URLV_tF",
+            "moduleName": "AFMobileDeepLinkInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileDeepLinkInterface.DeepLinkHandler>",
+            "sugared_genericSig": "<Self where Self : AFMobileDeepLinkInterface.DeepLinkHandler>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:25AFMobileDeepLinkInterface0bC7HandlerP",
+        "mangledName": "$s25AFMobileDeepLinkInterface0bC7HandlerP",
+        "moduleName": "AFMobileDeepLinkInterface",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AFMobileDeepLinkInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AFMobileDeepLinkInterface"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DispatchResponse",
+        "printedName": "DispatchResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "proposedAction",
+            "printedName": "proposedAction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Disposition",
+                "printedName": "AFMobileDeepLinkInterface.Disposition",
+                "usr": "s:25AFMobileDeepLinkInterface11DispositionO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25AFMobileDeepLinkInterface16DispatchResponseP14proposedActionAA11DispositionOvp",
+            "mangledName": "$s25AFMobileDeepLinkInterface16DispatchResponseP14proposedActionAA11DispositionOvp",
+            "moduleName": "AFMobileDeepLinkInterface",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Disposition",
+                    "printedName": "AFMobileDeepLinkInterface.Disposition",
+                    "usr": "s:25AFMobileDeepLinkInterface11DispositionO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25AFMobileDeepLinkInterface16DispatchResponseP14proposedActionAA11DispositionOvg",
+                "mangledName": "$s25AFMobileDeepLinkInterface16DispatchResponseP14proposedActionAA11DispositionOvg",
+                "moduleName": "AFMobileDeepLinkInterface",
+                "genericSig": "<τ_0_0 where τ_0_0 : AFMobileDeepLinkInterface.DispatchResponse>",
+                "sugared_genericSig": "<Self where Self : AFMobileDeepLinkInterface.DispatchResponse>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "viewController",
+            "printedName": "viewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25AFMobileDeepLinkInterface16DispatchResponseP14viewControllerSo06UIViewH0Cvp",
+            "mangledName": "$s25AFMobileDeepLinkInterface16DispatchResponseP14viewControllerSo06UIViewH0Cvp",
+            "moduleName": "AFMobileDeepLinkInterface",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25AFMobileDeepLinkInterface16DispatchResponseP14viewControllerSo06UIViewH0Cvg",
+                "mangledName": "$s25AFMobileDeepLinkInterface16DispatchResponseP14viewControllerSo06UIViewH0Cvg",
+                "moduleName": "AFMobileDeepLinkInterface",
+                "genericSig": "<τ_0_0 where τ_0_0 : AFMobileDeepLinkInterface.DispatchResponse>",
+                "sugared_genericSig": "<Self where Self : AFMobileDeepLinkInterface.DispatchResponse>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:25AFMobileDeepLinkInterface16DispatchResponseP",
+        "mangledName": "$s25AFMobileDeepLinkInterface16DispatchResponseP",
+        "moduleName": "AFMobileDeepLinkInterface",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ViewDispatchResponse",
+        "printedName": "ViewDispatchResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "proposedAction",
+            "printedName": "proposedAction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Disposition",
+                "printedName": "AFMobileDeepLinkInterface.Disposition",
+                "usr": "s:25AFMobileDeepLinkInterface11DispositionO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25AFMobileDeepLinkInterface20ViewDispatchResponseC14proposedActionAA11DispositionOvp",
+            "mangledName": "$s25AFMobileDeepLinkInterface20ViewDispatchResponseC14proposedActionAA11DispositionOvp",
+            "moduleName": "AFMobileDeepLinkInterface",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Disposition",
+                    "printedName": "AFMobileDeepLinkInterface.Disposition",
+                    "usr": "s:25AFMobileDeepLinkInterface11DispositionO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25AFMobileDeepLinkInterface20ViewDispatchResponseC14proposedActionAA11DispositionOvg",
+                "mangledName": "$s25AFMobileDeepLinkInterface20ViewDispatchResponseC14proposedActionAA11DispositionOvg",
+                "moduleName": "AFMobileDeepLinkInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Disposition",
+                    "printedName": "AFMobileDeepLinkInterface.Disposition",
+                    "usr": "s:25AFMobileDeepLinkInterface11DispositionO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25AFMobileDeepLinkInterface20ViewDispatchResponseC14proposedActionAA11DispositionOvs",
+                "mangledName": "$s25AFMobileDeepLinkInterface20ViewDispatchResponseC14proposedActionAA11DispositionOvs",
+                "moduleName": "AFMobileDeepLinkInterface",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25AFMobileDeepLinkInterface20ViewDispatchResponseC14proposedActionAA11DispositionOvM",
+                "mangledName": "$s25AFMobileDeepLinkInterface20ViewDispatchResponseC14proposedActionAA11DispositionOvM",
+                "moduleName": "AFMobileDeepLinkInterface",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "viewController",
+            "printedName": "viewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25AFMobileDeepLinkInterface20ViewDispatchResponseC14viewControllerSo06UIViewI0Cvp",
+            "mangledName": "$s25AFMobileDeepLinkInterface20ViewDispatchResponseC14viewControllerSo06UIViewI0Cvp",
+            "moduleName": "AFMobileDeepLinkInterface",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25AFMobileDeepLinkInterface20ViewDispatchResponseC14viewControllerSo06UIViewI0Cvg",
+                "mangledName": "$s25AFMobileDeepLinkInterface20ViewDispatchResponseC14viewControllerSo06UIViewI0Cvg",
+                "moduleName": "AFMobileDeepLinkInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25AFMobileDeepLinkInterface20ViewDispatchResponseC14viewControllerSo06UIViewI0Cvs",
+                "mangledName": "$s25AFMobileDeepLinkInterface20ViewDispatchResponseC14viewControllerSo06UIViewI0Cvs",
+                "moduleName": "AFMobileDeepLinkInterface",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25AFMobileDeepLinkInterface20ViewDispatchResponseC14viewControllerSo06UIViewI0CvM",
+                "mangledName": "$s25AFMobileDeepLinkInterface20ViewDispatchResponseC14viewControllerSo06UIViewI0CvM",
+                "moduleName": "AFMobileDeepLinkInterface",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(proposedAction:viewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ViewDispatchResponse",
+                "printedName": "AFMobileDeepLinkInterface.ViewDispatchResponse",
+                "usr": "s:25AFMobileDeepLinkInterface20ViewDispatchResponseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Disposition",
+                "printedName": "AFMobileDeepLinkInterface.Disposition",
+                "usr": "s:25AFMobileDeepLinkInterface11DispositionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25AFMobileDeepLinkInterface20ViewDispatchResponseC14proposedAction14viewControllerAcA11DispositionO_So06UIViewK0Ctcfc",
+            "mangledName": "$s25AFMobileDeepLinkInterface20ViewDispatchResponseC14proposedAction14viewControllerAcA11DispositionO_So06UIViewK0Ctcfc",
+            "moduleName": "AFMobileDeepLinkInterface",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:25AFMobileDeepLinkInterface20ViewDispatchResponseC",
+        "mangledName": "$s25AFMobileDeepLinkInterface20ViewDispatchResponseC",
+        "moduleName": "AFMobileDeepLinkInterface",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "DispatchResponse",
+            "printedName": "DispatchResponse",
+            "usr": "s:25AFMobileDeepLinkInterface16DispatchResponseP",
+            "mangledName": "$s25AFMobileDeepLinkInterface16DispatchResponseP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AFMobileDeepLinkInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Disposition",
+        "printedName": "Disposition",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "presentView",
+            "printedName": "presentView",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AFMobileDeepLinkInterface.Disposition.Type) -> AFMobileDeepLinkInterface.Disposition",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Disposition",
+                    "printedName": "AFMobileDeepLinkInterface.Disposition",
+                    "usr": "s:25AFMobileDeepLinkInterface11DispositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AFMobileDeepLinkInterface.Disposition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Disposition",
+                        "printedName": "AFMobileDeepLinkInterface.Disposition",
+                        "usr": "s:25AFMobileDeepLinkInterface11DispositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25AFMobileDeepLinkInterface11DispositionO11presentViewyA2CmF",
+            "mangledName": "$s25AFMobileDeepLinkInterface11DispositionO11presentViewyA2CmF",
+            "moduleName": "AFMobileDeepLinkInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "focusView",
+            "printedName": "focusView",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AFMobileDeepLinkInterface.Disposition.Type) -> AFMobileDeepLinkInterface.Disposition",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Disposition",
+                    "printedName": "AFMobileDeepLinkInterface.Disposition",
+                    "usr": "s:25AFMobileDeepLinkInterface11DispositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AFMobileDeepLinkInterface.Disposition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Disposition",
+                        "printedName": "AFMobileDeepLinkInterface.Disposition",
+                        "usr": "s:25AFMobileDeepLinkInterface11DispositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25AFMobileDeepLinkInterface11DispositionO9focusViewyA2CmF",
+            "mangledName": "$s25AFMobileDeepLinkInterface11DispositionO9focusViewyA2CmF",
+            "moduleName": "AFMobileDeepLinkInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "presentViewModally",
+            "printedName": "presentViewModally",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AFMobileDeepLinkInterface.Disposition.Type) -> AFMobileDeepLinkInterface.Disposition",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Disposition",
+                    "printedName": "AFMobileDeepLinkInterface.Disposition",
+                    "usr": "s:25AFMobileDeepLinkInterface11DispositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AFMobileDeepLinkInterface.Disposition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Disposition",
+                        "printedName": "AFMobileDeepLinkInterface.Disposition",
+                        "usr": "s:25AFMobileDeepLinkInterface11DispositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25AFMobileDeepLinkInterface11DispositionO18presentViewModallyyA2CmF",
+            "mangledName": "$s25AFMobileDeepLinkInterface11DispositionO18presentViewModallyyA2CmF",
+            "moduleName": "AFMobileDeepLinkInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "passiveSuccess",
+            "printedName": "passiveSuccess",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AFMobileDeepLinkInterface.Disposition.Type) -> AFMobileDeepLinkInterface.Disposition",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Disposition",
+                    "printedName": "AFMobileDeepLinkInterface.Disposition",
+                    "usr": "s:25AFMobileDeepLinkInterface11DispositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AFMobileDeepLinkInterface.Disposition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Disposition",
+                        "printedName": "AFMobileDeepLinkInterface.Disposition",
+                        "usr": "s:25AFMobileDeepLinkInterface11DispositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25AFMobileDeepLinkInterface11DispositionO14passiveSuccessyA2CmF",
+            "mangledName": "$s25AFMobileDeepLinkInterface11DispositionO14passiveSuccessyA2CmF",
+            "moduleName": "AFMobileDeepLinkInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "noHandlerError",
+            "printedName": "noHandlerError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AFMobileDeepLinkInterface.Disposition.Type) -> AFMobileDeepLinkInterface.Disposition",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Disposition",
+                    "printedName": "AFMobileDeepLinkInterface.Disposition",
+                    "usr": "s:25AFMobileDeepLinkInterface11DispositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AFMobileDeepLinkInterface.Disposition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Disposition",
+                        "printedName": "AFMobileDeepLinkInterface.Disposition",
+                        "usr": "s:25AFMobileDeepLinkInterface11DispositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25AFMobileDeepLinkInterface11DispositionO14noHandlerErroryA2CmF",
+            "mangledName": "$s25AFMobileDeepLinkInterface11DispositionO14noHandlerErroryA2CmF",
+            "moduleName": "AFMobileDeepLinkInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AFMobileDeepLinkInterface.Disposition.Type) -> AFMobileDeepLinkInterface.Disposition",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Disposition",
+                    "printedName": "AFMobileDeepLinkInterface.Disposition",
+                    "usr": "s:25AFMobileDeepLinkInterface11DispositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AFMobileDeepLinkInterface.Disposition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Disposition",
+                        "printedName": "AFMobileDeepLinkInterface.Disposition",
+                        "usr": "s:25AFMobileDeepLinkInterface11DispositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:25AFMobileDeepLinkInterface11DispositionO5erroryA2CmF",
+            "mangledName": "$s25AFMobileDeepLinkInterface11DispositionO5erroryA2CmF",
+            "moduleName": "AFMobileDeepLinkInterface"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Disposition",
+                "printedName": "AFMobileDeepLinkInterface.Disposition",
+                "usr": "s:25AFMobileDeepLinkInterface11DispositionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Disposition",
+                "printedName": "AFMobileDeepLinkInterface.Disposition",
+                "usr": "s:25AFMobileDeepLinkInterface11DispositionO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25AFMobileDeepLinkInterface11DispositionO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s25AFMobileDeepLinkInterface11DispositionO2eeoiySbAC_ACtFZ",
+            "moduleName": "AFMobileDeepLinkInterface",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25AFMobileDeepLinkInterface11DispositionO9hashValueSivp",
+            "mangledName": "$s25AFMobileDeepLinkInterface11DispositionO9hashValueSivp",
+            "moduleName": "AFMobileDeepLinkInterface",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25AFMobileDeepLinkInterface11DispositionO9hashValueSivg",
+                "mangledName": "$s25AFMobileDeepLinkInterface11DispositionO9hashValueSivg",
+                "moduleName": "AFMobileDeepLinkInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25AFMobileDeepLinkInterface11DispositionO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s25AFMobileDeepLinkInterface11DispositionO4hash4intoys6HasherVz_tF",
+            "moduleName": "AFMobileDeepLinkInterface",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:25AFMobileDeepLinkInterface11DispositionO",
+        "mangledName": "$s25AFMobileDeepLinkInterface11DispositionO",
+        "moduleName": "AFMobileDeepLinkInterface",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/DeepLink\/DeepLink.swift",
+      "kind": "StringLiteral",
+      "offset": 525,
+      "length": 49,
+      "value": "\"^\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/DeepLink\/DeepLink.swift",
+      "kind": "StringLiteral",
+      "offset": 545,
+      "length": 1,
+      "value": "\":\/\/\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/DeepLink\/DeepLink.swift",
+      "kind": "StringLiteral",
+      "offset": 558,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/DeepLink\/DeepLink.swift",
+      "kind": "StringLiteral",
+      "offset": 572,
+      "length": 1,
+      "value": "\"$\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/DeepLink\/DeepLink.swift",
+      "kind": "BooleanLiteral",
+      "offset": 863,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/DeepLink\/DeepLink.swift",
+      "kind": "IntegerLiteral",
+      "offset": 954,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/mobile-shell-ios\/mobile-shell-widget-interface-ios\/AppShellWidgetInterface\/AppShellWidgetInterface\/src\/Core\/DeepLink\/DeepLink.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1097,
+      "length": 1,
+      "value": "1"
+    }
+  ]
+}

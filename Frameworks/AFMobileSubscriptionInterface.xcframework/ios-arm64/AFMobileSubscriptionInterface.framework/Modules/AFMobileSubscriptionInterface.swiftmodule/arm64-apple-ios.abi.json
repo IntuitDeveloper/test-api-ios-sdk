@@ -1,0 +1,360 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AFMobileSubscriptionInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BillingiOSInterface",
+        "printedName": "BillingiOSInterface",
+        "declKind": "Import",
+        "moduleName": "AFMobileSubscriptionInterface"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BillingSubscribingDelegate",
+        "printedName": "BillingSubscribingDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "subscriptionDidUpdate",
+            "printedName": "subscriptionDidUpdate(for:subscriptionInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BillingSubscriptionUpdateReason",
+                "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason",
+                "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BillingSubscriptionInfo",
+                "printedName": "BillingiOSInterface.BillingSubscriptionInfo",
+                "usr": "s:19BillingiOSInterface23BillingSubscriptionInfoV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29AFMobileSubscriptionInterface26BillingSubscribingDelegateP21subscriptionDidUpdate3for0G4Infoy19BillingiOSInterface0dbI6ReasonO_AG0dbK0VtF",
+            "mangledName": "$s29AFMobileSubscriptionInterface26BillingSubscribingDelegateP21subscriptionDidUpdate3for0G4Infoy19BillingiOSInterface0dbI6ReasonO_AG0dbK0VtF",
+            "moduleName": "AFMobileSubscriptionInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSubscriptionInterface.BillingSubscribingDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSubscriptionInterface.BillingSubscribingDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:29AFMobileSubscriptionInterface26BillingSubscribingDelegateP",
+        "mangledName": "$s29AFMobileSubscriptionInterface26BillingSubscribingDelegateP",
+        "moduleName": "AFMobileSubscriptionInterface",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AFMobileSubscriptionInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BillingiOSInterface",
+        "printedName": "BillingiOSInterface",
+        "declKind": "Import",
+        "moduleName": "AFMobileSubscriptionInterface"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SubscriptionDelegate",
+        "printedName": "SubscriptionDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "startSubscription",
+            "printedName": "startSubscription(_:shouldOptToBuyNow:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Product",
+                "printedName": "BillingiOSInterface.BillingProduct.Product",
+                "usr": "s:19BillingiOSInterface14BillingProductV0D0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29AFMobileSubscriptionInterface0B8DelegateP05startB0_17shouldOptToBuyNowy19BillingiOSInterface14BillingProductV0N0V_SbtF",
+            "mangledName": "$s29AFMobileSubscriptionInterface0B8DelegateP05startB0_17shouldOptToBuyNowy19BillingiOSInterface14BillingProductV0N0V_SbtF",
+            "moduleName": "AFMobileSubscriptionInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSubscriptionInterface.SubscriptionDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSubscriptionInterface.SubscriptionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getEntitlements",
+            "printedName": "getEntitlements(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[BillingiOSInterface.BillingSubscriptionInfo], Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[BillingiOSInterface.BillingSubscriptionInfo], Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[BillingiOSInterface.BillingSubscriptionInfo]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "BillingSubscriptionInfo",
+                            "printedName": "BillingiOSInterface.BillingSubscriptionInfo",
+                            "usr": "s:19BillingiOSInterface23BillingSubscriptionInfoV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29AFMobileSubscriptionInterface0B8DelegateP15getEntitlementsyyys6ResultOySay19BillingiOSInterface07BillingB4InfoVGs5Error_pGcF",
+            "mangledName": "$s29AFMobileSubscriptionInterface0B8DelegateP15getEntitlementsyyys6ResultOySay19BillingiOSInterface07BillingB4InfoVGs5Error_pGcF",
+            "moduleName": "AFMobileSubscriptionInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSubscriptionInterface.SubscriptionDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSubscriptionInterface.SubscriptionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "redeem",
+            "printedName": "redeem()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29AFMobileSubscriptionInterface0B8DelegateP6redeemyyF",
+            "mangledName": "$s29AFMobileSubscriptionInterface0B8DelegateP6redeemyyF",
+            "moduleName": "AFMobileSubscriptionInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSubscriptionInterface.SubscriptionDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSubscriptionInterface.SubscriptionDelegate>",
+            "protocolReq": true,
+            "intro_iOS": "14.0",
+            "declAttributes": [
+              "Available",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "restore",
+            "printedName": "restore()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29AFMobileSubscriptionInterface0B8DelegateP7restoreyyF",
+            "mangledName": "$s29AFMobileSubscriptionInterface0B8DelegateP7restoreyyF",
+            "moduleName": "AFMobileSubscriptionInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSubscriptionInterface.SubscriptionDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSubscriptionInterface.SubscriptionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "manageSubscription",
+            "printedName": "manageSubscription()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29AFMobileSubscriptionInterface0B8DelegateP06manageB0yyF",
+            "mangledName": "$s29AFMobileSubscriptionInterface0B8DelegateP06manageB0yyF",
+            "moduleName": "AFMobileSubscriptionInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSubscriptionInterface.SubscriptionDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSubscriptionInterface.SubscriptionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subscribeToBillingSubscribingDelegate",
+            "printedName": "subscribeToBillingSubscribingDelegate(_:productId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BillingSubscribingDelegate",
+                "printedName": "AFMobileSubscriptionInterface.BillingSubscribingDelegate",
+                "usr": "s:29AFMobileSubscriptionInterface26BillingSubscribingDelegateP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29AFMobileSubscriptionInterface0B8DelegateP029subscribeToBillingSubscribingD0_9productIdyAA0ghD0_p_SStF",
+            "mangledName": "$s29AFMobileSubscriptionInterface0B8DelegateP029subscribeToBillingSubscribingD0_9productIdyAA0ghD0_p_SStF",
+            "moduleName": "AFMobileSubscriptionInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSubscriptionInterface.SubscriptionDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSubscriptionInterface.SubscriptionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsubscribeToBillingSubscribingDelegate",
+            "printedName": "unsubscribeToBillingSubscribingDelegate(_:productId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BillingSubscribingDelegate",
+                "printedName": "AFMobileSubscriptionInterface.BillingSubscribingDelegate",
+                "usr": "s:29AFMobileSubscriptionInterface26BillingSubscribingDelegateP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29AFMobileSubscriptionInterface0B8DelegateP031unsubscribeToBillingSubscribingD0_9productIdyAA0ghD0_p_SStF",
+            "mangledName": "$s29AFMobileSubscriptionInterface0B8DelegateP031unsubscribeToBillingSubscribingD0_9productIdyAA0ghD0_p_SStF",
+            "moduleName": "AFMobileSubscriptionInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobileSubscriptionInterface.SubscriptionDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobileSubscriptionInterface.SubscriptionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:29AFMobileSubscriptionInterface0B8DelegateP",
+        "mangledName": "$s29AFMobileSubscriptionInterface0B8DelegateP",
+        "moduleName": "AFMobileSubscriptionInterface",
+        "genericSig": "<τ_0_0 : Foundation.NSCopying>",
+        "sugared_genericSig": "<Self : Foundation.NSCopying>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

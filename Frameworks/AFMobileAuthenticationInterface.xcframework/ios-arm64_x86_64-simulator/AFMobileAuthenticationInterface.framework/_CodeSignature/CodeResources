@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AFMobileAuthenticationInterface-Swift.h</key>
 		<data>
-		OHg/sUMHMUqFwcKHbLFNMZMFVIo=
+		UvA2ic9S2lDeke+N0+Yq5iEm0KY=
 		</data>
 		<key>Headers/AFMobileAuthenticationInterface-umbrella.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		16f9FFise2ophGUgft2eevnXs+Y=
+		y+6dco3pEwNymVFc1NwveoRIg6k=
 		</data>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		/Kuc2x1u7d2FBVMtcvHnnhqfcKw=
+		mMzEhmXwPKQwSL9TPmdIT1oNv6Q=
 		</data>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		aBwaIraM9JZgUG9pd9TlcIOj5MY=
+		XE98QBa+W7ZXmjPG3mCnxWx2uoU=
 		</data>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		YpYGWJVRUtax6grzNNKkvC45Grc=
+		e3dyUsZfOm/LgBDUQ8jeydqCGJE=
 		</data>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		aBwaIraM9JZgUG9pd9TlcIOj5MY=
+		XE98QBa+W7ZXmjPG3mCnxWx2uoU=
 		</data>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pNbdJPRPUjRfBua3Fic5a0mqwiQ=
+		uE1TWqlOd9PGQvK21CIh2wlouCE=
 		</data>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		/Kuc2x1u7d2FBVMtcvHnnhqfcKw=
+		mMzEhmXwPKQwSL9TPmdIT1oNv6Q=
 		</data>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		JM+93/gsWsklh+D660U620HKnlI=
+		f0DcPmoaDNHgf99YBK5cfnqHgxc=
 		</data>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		kO4TjttQiMu54cqZ5dkZhKv1zNc=
+		MUk5M5ZIBYcLx4zbG0ttKCjxWbE=
 		</data>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		JM+93/gsWsklh+D660U620HKnlI=
+		f0DcPmoaDNHgf99YBK5cfnqHgxc=
 		</data>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ooj7rW38U4STA+Ln6DgHksGu5IQ=
+		Hl4euB6Zg+2X2QdnToRnH3IQNYA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZDJGxjx3yv3KTPPg+3ajXxl+bbJCxbbiX5lVp0kcvzM=
+			YS8dC40CsNziJLX46p9eG2CatDzMQDWJBvpg/GAx8/4=
 			</data>
 		</dict>
 		<key>Headers/AFMobileAuthenticationInterface-umbrella.h</key>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pZNVrGFza5kWjutGA1V9Kav4bHKCTVNZ16oEIiANxKE=
+			yupev9n8Z/UGqCGUfuHZH0OZlmWqZiMls0GtOLYwApo=
 			</data>
 		</dict>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HyqZHnCnSCE3mZZ1svbUl2bMDn8PXPdWvV4+qv6VVms=
+			uigBwTUdU0NPTRHKoScoqIPRKTkHXDUOHEEb05VQpk8=
 			</data>
 		</dict>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z0k4MHBjdKnxGCjXIMA7vC/Lcoo+vUtI5ndSIQb14z4=
+			SabsfgDW96+wVjFK59DKX0prXm5G04bD45fA9hCbIWU=
 			</data>
 		</dict>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HyqZHnCnSCE3mZZ1svbUl2bMDn8PXPdWvV4+qv6VVms=
+			uigBwTUdU0NPTRHKoScoqIPRKTkHXDUOHEEb05VQpk8=
 			</data>
 		</dict>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HpQwdgQ/gX/MG8AAM2yxXDkmiVIw/P1wKN9k9au+mMI=
+			ZRUZWd6Bn3oTDSOKupiQWCDtdlHKHdyw/FDcESBBx9Y=
 			</data>
 		</dict>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pZNVrGFza5kWjutGA1V9Kav4bHKCTVNZ16oEIiANxKE=
+			yupev9n8Z/UGqCGUfuHZH0OZlmWqZiMls0GtOLYwApo=
 			</data>
 		</dict>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NTzCbIqrMqg3DWxpJ1dEaD60mfpDuhmf2JZncf/Htec=
+			6B8V4pFqazYRVIL7BPQ7MgGza7u3pHhtQab6j2kqQXc=
 			</data>
 		</dict>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T3XjZTc44BYwME7idiAUmh7qzPI3cwX0ITlVXzvTwM4=
+			w+ZpaSPYCS0+VpzUQhPEOn1ElwdS+ZDLCcsIduyoLEE=
 			</data>
 		</dict>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NTzCbIqrMqg3DWxpJ1dEaD60mfpDuhmf2JZncf/Htec=
+			6B8V4pFqazYRVIL7BPQ7MgGza7u3pHhtQab6j2kqQXc=
 			</data>
 		</dict>
 		<key>Modules/AFMobileAuthenticationInterface.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ogRhSanzwP4LP9MuWAmk+w+ch9SefgMQQkZOrlfVW3E=
+			rkNpBjQLTq1m2GEzF5j/W48rP75PwOH2MX8jA5jiDk0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

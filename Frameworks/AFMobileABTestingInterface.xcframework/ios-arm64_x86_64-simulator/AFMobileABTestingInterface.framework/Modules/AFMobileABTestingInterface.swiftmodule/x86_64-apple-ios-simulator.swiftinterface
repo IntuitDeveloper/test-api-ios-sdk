@@ -1,0 +1,117 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AFMobileABTestingInterface
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AFMobileABTestingInterface
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol ABTestingDelegate : Foundation.NSCopying {
+  func getAssignment(assignmentID: any AFMobileABTestingInterface.AssignmentID, filter: any AFMobileABTestingInterface.ExperimentFilter, completion: @escaping (((any AFMobileABTestingInterface.AssignmentResult)?, (any Swift.Error)?) -> Swift.Void))
+  func getAssignments(assignmentID: any AFMobileABTestingInterface.AssignmentID, filter: any AFMobileABTestingInterface.ExperimentFilter, completion: @escaping (([any AFMobileABTestingInterface.AssignmentResult]?, (any Swift.Error)?) -> Swift.Void))
+  func trackUserData(map: [Swift.String : Any]) -> Swift.Bool
+}
+public protocol AssignmentID {
+  var typeToId: [Swift.String : Swift.String] { get set }
+}
+public enum AssignmentIdType : Swift.String {
+  case IVID
+  case IXP_IVID
+  case PSEUDONYM_ID
+  case ADOBE_MARKETING_CLOUD_VISITOR_ID
+  case ADOBE_VISITOR_ID
+  case REALM_OR_COMPANY_ID
+  case AUTH_ID
+  case MOBILE_DEVICE_ID
+  case MOBILE_ADVERTISING_ID
+  case HASHED_EMAIL_ID
+  case CAN_ID
+  case HASHED_PHONENUMBER_ID
+  case HASHED_TTDESKTOP_ID
+  case ACCOUNT_ID
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol AssignmentResult {
+  var experimentId: Swift.Int { get set }
+  var experimentKey: Swift.String? { get set }
+  var experimentVersion: Swift.String? { get set }
+  var treatmentId: Swift.Int { get set }
+  var treatmentKey: Swift.String { get set }
+  var payload: Swift.String? { get set }
+}
+public protocol ExperimentFilter {
+  func filter() -> [Swift.String : [Any]]
+}
+public protocol FeatureFlagDelegate : Foundation.NSCopying {
+  func evaluateBooleanVariation(assignmentID: any AFMobileABTestingInterface.AssignmentID, subEnvironment: Swift.String, featureFlagKey: Swift.String, defaultValue: Swift.Bool, featureFlagParams: AFMobileABTestingInterface.FeatureFlagParams?, completionHandler: @escaping (Swift.Bool) -> Swift.Void)
+  func evaluateStringVariation(assignmentID: any AFMobileABTestingInterface.AssignmentID, subEnvironment: Swift.String, featureFlagKey: Swift.String, defaultValue: Swift.String, featureFlagParams: AFMobileABTestingInterface.FeatureFlagParams?, completionHandler: @escaping (Swift.String?) -> Swift.Void)
+  func evaluateIntVariation(assignmentID: any AFMobileABTestingInterface.AssignmentID, subEnvironment: Swift.String, featureFlagKey: Swift.String, defaultValue: Swift.Int, featureFlagParams: AFMobileABTestingInterface.FeatureFlagParams?, completionHandler: @escaping (Swift.Int) -> Swift.Void)
+  func evaluateDoubleVariation(assignmentID: any AFMobileABTestingInterface.AssignmentID, subEnvironment: Swift.String, featureFlagKey: Swift.String, defaultValue: Swift.Double, featureFlagParams: AFMobileABTestingInterface.FeatureFlagParams?, completionHandler: @escaping (Swift.Double) -> Swift.Void)
+  func evaluateJsonVariation(assignmentID: any AFMobileABTestingInterface.AssignmentID, subEnvironment: Swift.String, featureFlagKey: Swift.String, defaultValue: [Swift.String : Any], featureFlagParams: AFMobileABTestingInterface.FeatureFlagParams?, completionHandler: @escaping ([Swift.String : Any]) -> Swift.Void)
+  func evaluateJsonVariation(assignmentID: any AFMobileABTestingInterface.AssignmentID, subEnvironment: Swift.String, featureFlagKey: Swift.String, defaultValue: [[Swift.String : Any]], featureFlagParams: AFMobileABTestingInterface.FeatureFlagParams?, completionHandler: @escaping ([[Swift.String : Any]]) -> Swift.Void)
+  func evaluateFeatureFlagsWithType(assignmentID: any AFMobileABTestingInterface.AssignmentID, subEnvironment: Swift.String, flagsToBeEvaluated: [any AFMobileABTestingInterface.FeatureFlagVariation], featureFlagParams: AFMobileABTestingInterface.FeatureFlagParams?, completionHandler: @escaping ([Swift.String : any AFMobileABTestingInterface.FeatureFlagVariation]) -> Swift.Void)
+  func isFeatureFlagKeyActive(featureFlagKey: Swift.String, subEnvironment: Swift.String) -> Swift.Bool
+  func variation<T>(featureFlagKey: Swift.String, defaultValue: T, completionHandler: @escaping (T) -> Swift.Void) where T : AFMobileABTestingInterface.ValidVariationType
+}
+public struct FeatureFlagParams {
+  public let context: [Swift.String : Any]
+  public var enableRemoteEvaluations: Swift.Bool
+  public var dedupePrefix: Swift.String?
+  public var transactionId: Swift.String?
+  public init(context: [Swift.String : Any] = [:], enableRemoteEvaluations: Swift.Bool = true, dedupePrefix: Swift.String? = nil, transactionId: Swift.String? = nil)
+}
+public protocol FeatureFlagVariation {
+  var id: Swift.Int? { get }
+  var value: AFMobileABTestingInterface.FeatureFlagVariationValue? { get }
+  var flagKey: Swift.String { get }
+  var isDefault: Swift.Bool { get set }
+}
+public enum FeatureFlagVariationValue {
+  case string(Swift.String)
+  case int(Swift.Int)
+  case double(Swift.Double)
+  case bool(Swift.Bool)
+  case json([Swift.String : Any])
+  case jsonArray([[Swift.String : Any]])
+}
+public protocol ValidVariationType {
+}
+extension Swift.Bool : AFMobileABTestingInterface.ValidVariationType {
+}
+extension Swift.String : AFMobileABTestingInterface.ValidVariationType {
+}
+extension Swift.Int : AFMobileABTestingInterface.ValidVariationType {
+}
+extension Swift.Double : AFMobileABTestingInterface.ValidVariationType {
+}
+extension Swift.Dictionary : AFMobileABTestingInterface.ValidVariationType where Key == Swift.String, Value == Any {
+}
+extension Swift.Array : AFMobileABTestingInterface.ValidVariationType where Element == [Swift.String : Any] {
+}
+public class IXPExperimentIdFilter : AFMobileABTestingInterface.ExperimentFilter {
+  final public let context: [Swift.String : Any]
+  final public let options: AFMobileABTestingInterface.RemoteOptions
+  final public let experimentId: Swift.Int
+  public init(experimentId: Swift.Int, context: [Swift.String : Any] = [:], options: AFMobileABTestingInterface.RemoteOptions = RemoteOptions())
+  public func filter() -> [Swift.String : [Any]]
+  @objc deinit
+}
+public class RemoteOptions {
+  public var allowRemoteAssignments: Swift.Bool
+  public var includeTaggedIds: Swift.Bool
+  public var includePersistentAssignments: Swift.Bool
+  public var allowDynamicIlEl: Swift.Bool
+  public var existingPersistentAssgmntsOnly: Swift.Bool
+  public var runningPersistentExptsOnly: Swift.Bool
+  public init(allowRemoteAssignment: Swift.Bool = true, includeTaggedIds: Swift.Bool = true, includePersistentAssignments: Swift.Bool = false, allowDynamicIlEl: Swift.Bool = false, existingPersistentAssgmntsOnly: Swift.Bool = false, runningPersistentExptsOnly: Swift.Bool = false)
+  @objc deinit
+}
+extension AFMobileABTestingInterface.AssignmentIdType : Swift.Equatable {}
+extension AFMobileABTestingInterface.AssignmentIdType : Swift.Hashable {}
+extension AFMobileABTestingInterface.AssignmentIdType : Swift.RawRepresentable {}

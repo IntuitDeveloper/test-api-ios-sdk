@@ -1,0 +1,52 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AFMobileDeepLinkInterface
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AFMobileDeepLinkInterface
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct DeepLink : Swift.Hashable {
+  public init(networkProtocol: Swift.String, urlHost: Swift.String, urlPattern: Swift.String)
+  public func matches(uri: Foundation.URL) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: AFMobileDeepLinkInterface.DeepLink, b: AFMobileDeepLinkInterface.DeepLink) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol DeepLinkDelegate : Foundation.NSCopying {
+  func register(links: [AFMobileDeepLinkInterface.DeepLink], linkHandler: any AFMobileDeepLinkInterface.DeepLinkHandler)
+  func dispatch(uri: Foundation.URL) -> (any AFMobileDeepLinkInterface.DispatchResponse)?
+}
+public protocol DeepLinkHandler {
+  func handleURI(uri: Foundation.URL) -> any AFMobileDeepLinkInterface.DispatchResponse
+}
+public protocol DispatchResponse {
+  var proposedAction: AFMobileDeepLinkInterface.Disposition { get }
+  var viewController: UIKit.UIViewController { get }
+}
+public class ViewDispatchResponse : AFMobileDeepLinkInterface.DispatchResponse {
+  public var proposedAction: AFMobileDeepLinkInterface.Disposition
+  public var viewController: UIKit.UIViewController
+  public init(proposedAction: AFMobileDeepLinkInterface.Disposition, viewController: UIKit.UIViewController)
+  @objc deinit
+}
+public enum Disposition {
+  case presentView
+  case focusView
+  case presentViewModally
+  case passiveSuccess
+  case noHandlerError
+  case error
+  public static func == (a: AFMobileDeepLinkInterface.Disposition, b: AFMobileDeepLinkInterface.Disposition) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension AFMobileDeepLinkInterface.Disposition : Swift.Equatable {}
+extension AFMobileDeepLinkInterface.Disposition : Swift.Hashable {}

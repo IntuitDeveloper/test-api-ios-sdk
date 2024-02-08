@@ -1,0 +1,98 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AFMobileLoggingInterface
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AFMobileLoggingInterface
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public class Source : ObjectiveC.NSObject {
+  final public let name: Swift.String
+  final public let version: Swift.String?
+  final public let file: Swift.String
+  final public let function: Swift.String
+  final public let line: Swift.UInt
+  final public let thread: Swift.String
+  public init(name: Swift.String, version: Swift.String? = nil, file: Swift.String = #file, function: Swift.String = #function, line: Swift.UInt = #line)
+  @objc deinit
+}
+public enum LogLevelType : Swift.Int {
+  case fatal
+  case error
+  case warn
+  case info
+  case debug
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol LogDelegate : Foundation.NSCopying {
+  func logFatal(_ message: Swift.String, source: AFMobileLoggingInterface.Source, addInfo: [Swift.String : Any]?, shouldInjectContextDelegateInfo: Swift.Bool)
+  func logError(_ message: Swift.String, source: AFMobileLoggingInterface.Source, addInfo: [Swift.String : Any]?, shouldInjectContextDelegateInfo: Swift.Bool)
+  func logWarning(_ message: Swift.String, source: AFMobileLoggingInterface.Source, addInfo: [Swift.String : Any]?, shouldInjectContextDelegateInfo: Swift.Bool)
+  func logInfo(_ message: Swift.String, source: AFMobileLoggingInterface.Source, addInfo: [Swift.String : Any]?, shouldInjectContextDelegateInfo: Swift.Bool)
+  func logDebug(_ message: Swift.String, source: AFMobileLoggingInterface.Source, addInfo: [Swift.String : Any]?, shouldInjectContextDelegateInfo: Swift.Bool)
+  func logAssert(_ condition: Swift.Bool, _ message: Swift.String, source: AFMobileLoggingInterface.Source, addInfo: [Swift.String : Any]?, shouldInjectContextDelegateInfo: Swift.Bool)
+  func registerAppDestinationAlias(assetAlias: Swift.String)
+  func unregisterAppDestinationAlias()
+  func registerWidgetDestinationAlias(widgetId: Swift.String, assetAlias: Swift.String)
+  func unregisterWidgetDestinationAlias(widgetId: Swift.String)
+}
+extension AFMobileLoggingInterface.LogDelegate {
+  public func log(_ type: AFMobileLoggingInterface.LogLevelType, message: Swift.String, sourceName: Swift.String = "", version: Swift.String? = nil, file: Swift.String = #file, function: Swift.String = #function, line: Swift.UInt = #line, info: [Swift.String : Any] = [:])
+  public func log(_ type: AFMobileLoggingInterface.LogLevelType, message: Swift.String, source: AFMobileLoggingInterface.Source, info: [Swift.String : Any] = [:])
+}
+extension AFMobileLoggingInterface.LogDelegate {
+  public func logFatal(_ message: Swift.String, source: AFMobileLoggingInterface.Source, addInfo: [Swift.String : Any]?, shouldInjectContextDelegateInfo: Swift.Bool)
+  public func logError(_ message: Swift.String, source: AFMobileLoggingInterface.Source, addInfo: [Swift.String : Any]?, shouldInjectContextDelegateInfo: Swift.Bool)
+  public func logWarning(_ message: Swift.String, source: AFMobileLoggingInterface.Source, addInfo: [Swift.String : Any]?, shouldInjectContextDelegateInfo: Swift.Bool)
+  public func logInfo(_ message: Swift.String, source: AFMobileLoggingInterface.Source, addInfo: [Swift.String : Any]?, shouldInjectContextDelegateInfo: Swift.Bool)
+  public func logDebug(_ message: Swift.String, source: AFMobileLoggingInterface.Source, addInfo: [Swift.String : Any]?, shouldInjectContextDelegateInfo: Swift.Bool)
+  public func logAssert(_ condition: Swift.Bool, _ message: Swift.String, source: AFMobileLoggingInterface.Source, addInfo: [Swift.String : Any]?, shouldInjectContextDelegateInfo: Swift.Bool)
+  public func registerAppDestinationAlias(assetAlias: Swift.String)
+  public func unregisterAppDestinationAlias()
+  public func registerWidgetDestinationAlias(widgetId: Swift.String, assetAlias: Swift.String)
+  public func unregisterWidgetDestinationAlias(widgetId: Swift.String)
+}
+extension AFMobileLoggingInterface.LogDelegate {
+  public func logFatal(_ message: Swift.String, source: AFMobileLoggingInterface.Source, addInfo: [Swift.String : Any]? = nil)
+  public func logError(_ message: Swift.String, source: AFMobileLoggingInterface.Source, addInfo: [Swift.String : Any]? = nil)
+  public func logWarning(_ message: Swift.String, source: AFMobileLoggingInterface.Source, addInfo: [Swift.String : Any]? = nil)
+  public func logInfo(_ message: Swift.String, source: AFMobileLoggingInterface.Source, addInfo: [Swift.String : Any]? = nil)
+  public func logDebug(_ message: Swift.String, source: AFMobileLoggingInterface.Source, addInfo: [Swift.String : Any]? = nil)
+  public func logAssert(_ condition: Swift.Bool, _ message: Swift.String, source: AFMobileLoggingInterface.Source, addInfo: [Swift.String : Any]? = nil)
+}
+public protocol LoggerProtocol {
+  static var moduleName: Swift.String { get }
+  static var moduleVersion: Swift.String { get }
+  static var logDelegate: any AFMobileLoggingInterface.LogDelegate { get }
+}
+extension AFMobileLoggingInterface.LoggerProtocol {
+  @available(*, deprecated, message: "please use logFatal(_ message: String, file: String = #file, function: String = #function, line: UInt = #line, addInfo: [String: Any]? = nil, shouldInjectContextDelegateInfo: Bool = true")
+  public static func logFatal(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.UInt = #line, additionalInfo: [Swift.String : Swift.String]? = nil)
+  @available(*, deprecated, message: "please use logError(_ message: String, file: String = #file, function: String = #function, line: UInt = #line, addInfo: [String: Any]? = nil, shouldInjectContextDelegateInfo: Bool = true")
+  public static func logError(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.UInt = #line, additionalInfo: [Swift.String : Swift.String]? = nil)
+  @available(*, deprecated, message: "please use logWarning(_ message: String, file: String = #file, function: String = #function, line: UInt = #line, addInfo: [String: Any]? = nil, shouldInjectContextDelegateInfo: Bool = true")
+  public static func logWarning(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.UInt = #line, additionalInfo: [Swift.String : Swift.String]? = nil)
+  @available(*, deprecated, message: "please use logInfo(_ message: String, file: String = #file, function: String = #function, line: UInt = #line, addInfo: [String: Any]? = nil, shouldInjectContextDelegateInfo: Bool = true")
+  public static func logInfo(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.UInt = #line, additionalInfo: [Swift.String : Swift.String]? = nil)
+  @available(*, deprecated, message: "please use logDebug(_ message: String, file: String = #file, function: String = #function, line: UInt = #line, addInfo: [String: Any]? = nil, shouldInjectContextDelegateInfo: Bool = true")
+  public static func logDebug(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.UInt = #line, additionalInfo: [Swift.String : Swift.String]? = nil)
+  @available(*, deprecated, message: "please use logAssert(_ message: String, file: String = #file, function: String = #function, line: UInt = #line, addInfo: [String: Any]? = nil, shouldInjectContextDelegateInfo: Bool = true")
+  public static func logAssert(_ condition: Swift.Bool, message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.UInt = #line, additionalInfo: [Swift.String : Swift.String]? = nil)
+}
+extension AFMobileLoggingInterface.LoggerProtocol {
+  public static func logFatal(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.UInt = #line, addInfo: [Swift.String : Any]? = nil, shouldInjectContextDelegateInfo: Swift.Bool = true)
+  public static func logError(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.UInt = #line, addInfo: [Swift.String : Any]? = nil, shouldInjectContextDelegateInfo: Swift.Bool = true)
+  public static func logWarning(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.UInt = #line, addInfo: [Swift.String : Any]? = nil, shouldInjectContextDelegateInfo: Swift.Bool = true)
+  public static func logInfo(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.UInt = #line, addInfo: [Swift.String : Any]? = nil, shouldInjectContextDelegateInfo: Swift.Bool = true)
+  public static func logDebug(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.UInt = #line, addInfo: [Swift.String : Any]? = nil, shouldInjectContextDelegateInfo: Swift.Bool = true)
+  public static func logAssert(_ condition: Swift.Bool, message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.UInt = #line, addInfo: [Swift.String : Any]? = nil, shouldInjectContextDelegateInfo: Swift.Bool = true)
+}
+extension AFMobileLoggingInterface.LogLevelType : Swift.Equatable {}
+extension AFMobileLoggingInterface.LogLevelType : Swift.Hashable {}
+extension AFMobileLoggingInterface.LogLevelType : Swift.RawRepresentable {}

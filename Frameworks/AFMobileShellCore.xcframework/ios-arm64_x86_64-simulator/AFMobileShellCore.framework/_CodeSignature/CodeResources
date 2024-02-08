@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/AFMobileShellCore-Swift.h</key>
 		<data>
-		NNwxAX2OLtpdhLy3NU8SRfetU+s=
+		EAxXLgV/tBw2ycn+7AYy6LRQNiw=
 		</data>
 		<key>Headers/AFMobileShellCore-umbrella.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bYd7THL5LrJDhVSvQDrJ17zQYZA=
+		0fCpOQg/gGhI7Z3Yl+zaEuSROC4=
 		</data>
 		<key>MobileShell.js</key>
 		<data>
@@ -26,43 +26,43 @@
 		</data>
 		<key>Modules/AFMobileShellCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		vjznO/bslGFLSGJfvMHke/cQhVQ=
+		q81kV77tnoKH0CpHiBDHaS2ctQM=
 		</data>
 		<key>Modules/AFMobileShellCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		XY95elMPM5462iFPJTvzhSQX/Ac=
+		9VO+IOOi1dVzVZrDSt21d84l7gw=
 		</data>
 		<key>Modules/AFMobileShellCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		x5TRI1TzicmkKeNYjHZGgSlNvZw=
+		Lg959goj8mdjrWvGAl+5EFSscfs=
 		</data>
 		<key>Modules/AFMobileShellCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		XY95elMPM5462iFPJTvzhSQX/Ac=
+		9VO+IOOi1dVzVZrDSt21d84l7gw=
 		</data>
 		<key>Modules/AFMobileShellCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OpJ8qZYZ0imw2C7ER2VvRudYuvM=
+		l//h3e3kuKqrFnk6WWvK4A6NJN8=
 		</data>
 		<key>Modules/AFMobileShellCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		vjznO/bslGFLSGJfvMHke/cQhVQ=
+		q81kV77tnoKH0CpHiBDHaS2ctQM=
 		</data>
 		<key>Modules/AFMobileShellCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Cf9/Zi/Kdu7FzBdbLZeVnUItSzc=
+		EqMvNQ+J82PVbHjY/hTqBl8JfVY=
 		</data>
 		<key>Modules/AFMobileShellCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		8v15yW8tZuCGw/8gD/wQmv+stQE=
+		x/FqEtqvVKh+Rc5/V+8wgGfQ7EU=
 		</data>
 		<key>Modules/AFMobileShellCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Cf9/Zi/Kdu7FzBdbLZeVnUItSzc=
+		EqMvNQ+J82PVbHjY/hTqBl8JfVY=
 		</data>
 		<key>Modules/AFMobileShellCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		t+qcLQ/ZNf3oCckF17APS9sU7Xw=
+		E/p5MJOaLpWnl1bS+tNYLAV6o/E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -90,7 +90,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+E3iygAQE36x8QJjCWQgmgKYUgLEvJLy9Y5Q/UnJT8o=
+			yCl3xGE2jCctIGYEC5z5o90IFlXdAnEUkFDLqQadC+A=
 			</data>
 		</dict>
 		<key>Headers/AFMobileShellCore-umbrella.h</key>
@@ -111,70 +111,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V6JaA+KSm5XJMBfRx/GjHBKEcbXFgtk55XDLjLnmwvc=
+			kb3O9/6oC/KAHYZFmiHGGF+7r00J6fjpb/zNknX+xTM=
 			</data>
 		</dict>
 		<key>Modules/AFMobileShellCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			riB3IiatDHUnPCBIuCbYEylVR+aQ2I37+/XZ8qu4wXo=
+			Rn0rtFW5iqa5Q9sdGd4J1uoe5QDnzMmEmLCAZMlquuE=
 			</data>
 		</dict>
 		<key>Modules/AFMobileShellCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ersuMQORlBPDvwiIwOxsXisMdQ+LPcpufLryXhBNUyM=
+			CbXmYZ+2cz3Puw6DHt3CiYuy13H8I7G27nwD2zSfYoc=
 			</data>
 		</dict>
 		<key>Modules/AFMobileShellCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			riB3IiatDHUnPCBIuCbYEylVR+aQ2I37+/XZ8qu4wXo=
+			Rn0rtFW5iqa5Q9sdGd4J1uoe5QDnzMmEmLCAZMlquuE=
 			</data>
 		</dict>
 		<key>Modules/AFMobileShellCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vHJ8/+x4SoeypCzkCaCf1ghmMjcOGNZ5JqrtzJ68V+Y=
+			nXQg//9eep2tD1MnCjR1BGRDijizG7eHxRUaB3v6mG0=
 			</data>
 		</dict>
 		<key>Modules/AFMobileShellCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V6JaA+KSm5XJMBfRx/GjHBKEcbXFgtk55XDLjLnmwvc=
+			kb3O9/6oC/KAHYZFmiHGGF+7r00J6fjpb/zNknX+xTM=
 			</data>
 		</dict>
 		<key>Modules/AFMobileShellCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			626uhbszglhmRxm5ndPG2rctEh0l3ObQXr597unBOnQ=
+			wBE5/wEjxqJYFK/0rMDuZubTdNCwyeIYNiP/LDZ0dYs=
 			</data>
 		</dict>
 		<key>Modules/AFMobileShellCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G03VX4d8/lwGbRS66VPHLohiY8r59Q8y86/mZe+8tmE=
+			Z8BReBj0MP8VdaNRQ55PTtAaSYgGoSMQLdNSsoEeBso=
 			</data>
 		</dict>
 		<key>Modules/AFMobileShellCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			626uhbszglhmRxm5ndPG2rctEh0l3ObQXr597unBOnQ=
+			wBE5/wEjxqJYFK/0rMDuZubTdNCwyeIYNiP/LDZ0dYs=
 			</data>
 		</dict>
 		<key>Modules/AFMobileShellCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XF5LtK6sFFeE4wJ6V9PU6pgrJEVNZ9HClIK0/Syx5iQ=
+			GZgCSxmfKrNhL7o24Yy2yqPYgRh+gs7rAkKwmveULaA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

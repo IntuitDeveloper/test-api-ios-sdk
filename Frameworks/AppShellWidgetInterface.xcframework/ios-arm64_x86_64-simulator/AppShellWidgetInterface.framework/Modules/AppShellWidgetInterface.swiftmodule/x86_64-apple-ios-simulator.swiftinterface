@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AppShellWidgetInterface
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AFMobileABTestingInterface
@@ -25,6 +25,7 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 import iOSPlayer
 public protocol ActionDelegate : AppShellWidgetInterface.SandboxDelegate {
   func doAction(_ action: Swift.String, data: Swift.AnyObject?, context: [Swift.String : Swift.AnyObject]?, completionHandler: @escaping (_ data: Swift.AnyObject?, _ error: Foundation.NSError?) -> Swift.Void)

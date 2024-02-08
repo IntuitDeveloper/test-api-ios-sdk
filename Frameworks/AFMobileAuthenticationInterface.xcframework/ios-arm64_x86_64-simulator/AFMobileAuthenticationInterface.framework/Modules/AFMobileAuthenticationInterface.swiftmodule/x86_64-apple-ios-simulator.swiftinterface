@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AFMobileAuthenticationInterface
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import AFMobileAuthenticationInterface
@@ -8,6 +8,7 @@ import Swift
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 public protocol AuthenticationDelegate : Foundation.NSCopying {
   func getAuthHeaders(completionHandler: @escaping (_ authHeaders: [Swift.String : Swift.String]?, _ error: (any Swift.Error)?) -> Swift.Void)
   func retrieveWebSessionHydrationUrlAsync(targetUrl: Foundation.URL, realmId: Swift.String?, captchaToken: Swift.String?, queue: Foundation.OperationQueue, completion: @escaping (_ url: Foundation.URL?, _ captchaRequired: Swift.Bool, _ error: Foundation.NSError?) -> Swift.Void)

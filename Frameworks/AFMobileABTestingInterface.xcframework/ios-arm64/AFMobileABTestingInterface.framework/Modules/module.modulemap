@@ -1,0 +1,11 @@
+framework module AFMobileABTestingInterface {
+  umbrella header "AFMobileABTestingInterface-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AFMobileABTestingInterface.Swift {
+  header "AFMobileABTestingInterface-Swift.h"
+  requires objc
+}
