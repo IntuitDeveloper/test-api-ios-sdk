@@ -1,6 +1,6 @@
 # Test SDK Package Dependencies
 ### Immediate dependencies
-* AppShellWidgetInterface (20.7.0) - no IntuitDataLayer dependency
+* AppShellWidgetInterface (20.7.0) - no IntuitDataLayer/AppShellDataLayer, DynamicCache, Player dependency
 * AFMobileContextInterface (1.0.0)
 * AFMobileAuthenticationInterface (1.2.0)
 * AFMobileAnalyticsInterface (1.0.0)

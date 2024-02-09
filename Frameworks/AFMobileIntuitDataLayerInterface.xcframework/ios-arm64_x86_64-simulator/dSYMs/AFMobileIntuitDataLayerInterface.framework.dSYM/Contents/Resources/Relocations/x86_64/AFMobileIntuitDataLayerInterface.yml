@@ -2,29 +2,29 @@
 triple:          'x86_64-apple-darwin'
 binary-path:     '/Users/jdomingo/Library/Developer/Xcode/DerivedData/IntuitAppShellSample-azyppdqhiuuwljazsarxkcgzzaum/Build/Intermediates.noindex/ArchiveIntermediates/AFMobileIntuitDataLayerInterface/InstallationBuildProductsLocation/Library/Frameworks/AFMobileIntuitDataLayerInterface.framework/AFMobileIntuitDataLayerInterface'
 relocations:
-  - { offsetInCU: 0x34, offset: 0x54964, size: 0x8, addend: 0x0, symName: _AFMobileIntuitDataLayerInterfaceVersionString, symObjAddr: 0x0, symBinAddr: 0x38F0, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x54999, size: 0x8, addend: 0x0, symName: _AFMobileIntuitDataLayerInterfaceVersionNumber, symObjAddr: 0x60, symBinAddr: 0x3950, symSize: 0x0 }
-  - { offsetInCU: 0x27, offset: 0x549D6, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellcD0C6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x1420, symSize: 0x40 }
-  - { offsetInCU: 0x4B, offset: 0x549FA, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellcD0C6sharedAA0cD0_pvpZ', symObjAddr: 0x19D8, symBinAddr: 0x88A8, symSize: 0x0 }
-  - { offsetInCU: 0x82, offset: 0x54A31, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellcD0CACycfC', symObjAddr: 0x40, symBinAddr: 0x1460, symSize: 0x20 }
-  - { offsetInCU: 0x96, offset: 0x54A45, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellcD0CACycfc', symObjAddr: 0x60, symBinAddr: 0x1480, symSize: 0x10 }
-  - { offsetInCU: 0xC3, offset: 0x54A72, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellcD0Cfd', symObjAddr: 0x70, symBinAddr: 0x1490, symSize: 0x10 }
-  - { offsetInCU: 0xF0, offset: 0x54A9F, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellcD0CfD', symObjAddr: 0x80, symBinAddr: 0x14A0, symSize: 0x20 }
-  - { offsetInCU: 0x11E, offset: 0x54ACD, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellcD0C6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x1420, symSize: 0x40 }
-  - { offsetInCU: 0x14E, offset: 0x54AFD, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellcD0CMa', symObjAddr: 0xA0, symBinAddr: 0x14C0, symSize: 0x20 }
-  - { offsetInCU: 0x27, offset: 0x54BD0, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateC04dataD0AA0cD0_pvpACTK', symObjAddr: 0x0, symBinAddr: 0x1520, symSize: 0x40 }
-  - { offsetInCU: 0x93, offset: 0x54C3C, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateC04dataD0AA0cD0_pvg', symObjAddr: 0xA0, symBinAddr: 0x15C0, symSize: 0x40 }
-  - { offsetInCU: 0xB0, offset: 0x54C59, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateC04dataD0AA0cD0_pvs', symObjAddr: 0xE0, symBinAddr: 0x1600, symSize: 0x40 }
-  - { offsetInCU: 0xD7, offset: 0x54C80, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateC04dataD0AA0cD0_pvM', symObjAddr: 0x120, symBinAddr: 0x1640, symSize: 0x30 }
-  - { offsetInCU: 0x104, offset: 0x54CAD, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateC04dataD0AA0cD0_pvM.resume.0', symObjAddr: 0x150, symBinAddr: 0x1670, symSize: 0x10 }
-  - { offsetInCU: 0x14D, offset: 0x54CF6, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateCACycfC', symObjAddr: 0x160, symBinAddr: 0x1680, symSize: 0x60 }
-  - { offsetInCU: 0x187, offset: 0x54D30, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateCACycfc', symObjAddr: 0x1C0, symBinAddr: 0x16E0, symSize: 0x50 }
-  - { offsetInCU: 0x1C2, offset: 0x54D6B, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateC4copy4withyp10ObjectiveC6NSZoneVSg_tF', symObjAddr: 0x210, symBinAddr: 0x1730, symSize: 0x80 }
-  - { offsetInCU: 0x240, offset: 0x54DE9, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateC4copy4withyp10ObjectiveC6NSZoneVSg_tFTo', symObjAddr: 0x2B0, symBinAddr: 0x17D0, symSize: 0x90 }
-  - { offsetInCU: 0x2B2, offset: 0x54E5B, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateCfd', symObjAddr: 0x340, symBinAddr: 0x1860, symSize: 0x20 }
-  - { offsetInCU: 0x2ED, offset: 0x54E96, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateCfD', symObjAddr: 0x360, symBinAddr: 0x1880, symSize: 0x20 }
-  - { offsetInCU: 0x338, offset: 0x54EE1, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateCAA0bcG0A2aDP04dataD0AA0cD0_pvgTW', symObjAddr: 0x380, symBinAddr: 0x18A0, symSize: 0x40 }
-  - { offsetInCU: 0x374, offset: 0x54F1D, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateC04dataD0AA0cD0_pvpACTK', symObjAddr: 0x0, symBinAddr: 0x1520, symSize: 0x40 }
-  - { offsetInCU: 0x3AA, offset: 0x54F53, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateC04dataD0AA0cD0_pvpACTk', symObjAddr: 0x40, symBinAddr: 0x1560, symSize: 0x60 }
-  - { offsetInCU: 0x3FB, offset: 0x54FA4, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateCMa', symObjAddr: 0x290, symBinAddr: 0x17B0, symSize: 0x20 }
+  - { offsetInCU: 0x34, offset: 0x54964, size: 0x8, addend: 0x0, symName: _AFMobileIntuitDataLayerInterfaceVersionString, symObjAddr: 0x0, symBinAddr: 0x39B0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x54999, size: 0x8, addend: 0x0, symName: _AFMobileIntuitDataLayerInterfaceVersionNumber, symObjAddr: 0x60, symBinAddr: 0x3A10, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x549D6, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellcD0C6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x2500, symSize: 0x40 }
+  - { offsetInCU: 0x4B, offset: 0x549FA, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellcD0C6sharedAA0cD0_pvpZ', symObjAddr: 0x19D0, symBinAddr: 0x8760, symSize: 0x0 }
+  - { offsetInCU: 0x82, offset: 0x54A31, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellcD0CACycfC', symObjAddr: 0x40, symBinAddr: 0x2540, symSize: 0x20 }
+  - { offsetInCU: 0x96, offset: 0x54A45, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellcD0CACycfc', symObjAddr: 0x60, symBinAddr: 0x2560, symSize: 0x10 }
+  - { offsetInCU: 0xC3, offset: 0x54A72, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellcD0Cfd', symObjAddr: 0x70, symBinAddr: 0x2570, symSize: 0x10 }
+  - { offsetInCU: 0xF0, offset: 0x54A9F, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellcD0CfD', symObjAddr: 0x80, symBinAddr: 0x2580, symSize: 0x20 }
+  - { offsetInCU: 0x11E, offset: 0x54ACD, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellcD0C6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x2500, symSize: 0x40 }
+  - { offsetInCU: 0x14E, offset: 0x54AFD, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellcD0CMa', symObjAddr: 0xA0, symBinAddr: 0x25A0, symSize: 0x20 }
+  - { offsetInCU: 0x27, offset: 0x54BD0, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateC04dataD0AA0cD0_pvpACTK', symObjAddr: 0x0, symBinAddr: 0x2600, symSize: 0x40 }
+  - { offsetInCU: 0x93, offset: 0x54C3C, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateC04dataD0AA0cD0_pvg', symObjAddr: 0xA0, symBinAddr: 0x26A0, symSize: 0x40 }
+  - { offsetInCU: 0xB0, offset: 0x54C59, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateC04dataD0AA0cD0_pvs', symObjAddr: 0xE0, symBinAddr: 0x26E0, symSize: 0x40 }
+  - { offsetInCU: 0xD7, offset: 0x54C80, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateC04dataD0AA0cD0_pvM', symObjAddr: 0x120, symBinAddr: 0x2720, symSize: 0x30 }
+  - { offsetInCU: 0x104, offset: 0x54CAD, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateC04dataD0AA0cD0_pvM.resume.0', symObjAddr: 0x150, symBinAddr: 0x2750, symSize: 0x10 }
+  - { offsetInCU: 0x14D, offset: 0x54CF6, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateCACycfC', symObjAddr: 0x160, symBinAddr: 0x2760, symSize: 0x60 }
+  - { offsetInCU: 0x187, offset: 0x54D30, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateCACycfc', symObjAddr: 0x1C0, symBinAddr: 0x27C0, symSize: 0x50 }
+  - { offsetInCU: 0x1C2, offset: 0x54D6B, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateC4copy4withyp10ObjectiveC6NSZoneVSg_tF', symObjAddr: 0x210, symBinAddr: 0x2810, symSize: 0x80 }
+  - { offsetInCU: 0x240, offset: 0x54DE9, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateC4copy4withyp10ObjectiveC6NSZoneVSg_tFTo', symObjAddr: 0x2B0, symBinAddr: 0x28B0, symSize: 0x90 }
+  - { offsetInCU: 0x2B2, offset: 0x54E5B, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateCfd', symObjAddr: 0x340, symBinAddr: 0x2940, symSize: 0x20 }
+  - { offsetInCU: 0x2ED, offset: 0x54E96, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateCfD', symObjAddr: 0x360, symBinAddr: 0x2960, symSize: 0x20 }
+  - { offsetInCU: 0x338, offset: 0x54EE1, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateCAA0bcG0A2aDP04dataD0AA0cD0_pvgTW', symObjAddr: 0x380, symBinAddr: 0x2980, symSize: 0x40 }
+  - { offsetInCU: 0x374, offset: 0x54F1D, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateC04dataD0AA0cD0_pvpACTK', symObjAddr: 0x0, symBinAddr: 0x2600, symSize: 0x40 }
+  - { offsetInCU: 0x3AA, offset: 0x54F53, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateC04dataD0AA0cD0_pvpACTk', symObjAddr: 0x40, symBinAddr: 0x2640, symSize: 0x60 }
+  - { offsetInCU: 0x3FB, offset: 0x54FA4, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellbC8DelegateCMa', symObjAddr: 0x290, symBinAddr: 0x2890, symSize: 0x20 }
 ...

@@ -2,10 +2,10 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/jdomingo/Library/Developer/Xcode/DerivedData/IntuitAppShellSample-azyppdqhiuuwljazsarxkcgzzaum/Build/Intermediates.noindex/ArchiveIntermediates/AFMobileIntuitDataLayerInterface/InstallationBuildProductsLocation/Library/Frameworks/AFMobileIntuitDataLayerInterface.framework/AFMobileIntuitDataLayerInterface'
 relocations:
-  - { offsetInCU: 0x34, offset: 0x538D4, size: 0x8, addend: 0x0, symName: _AFMobileIntuitDataLayerInterfaceVersionString, symObjAddr: 0x0, symBinAddr: 0x65C0, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x53909, size: 0x8, addend: 0x0, symName: _AFMobileIntuitDataLayerInterfaceVersionNumber, symObjAddr: 0x60, symBinAddr: 0x6620, symSize: 0x0 }
+  - { offsetInCU: 0x34, offset: 0x538D4, size: 0x8, addend: 0x0, symName: _AFMobileIntuitDataLayerInterfaceVersionString, symObjAddr: 0x0, symBinAddr: 0x53D0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x53909, size: 0x8, addend: 0x0, symName: _AFMobileIntuitDataLayerInterfaceVersionNumber, symObjAddr: 0x60, symBinAddr: 0x5430, symSize: 0x0 }
   - { offsetInCU: 0x27, offset: 0x53946, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellcD0C6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x34 }
-  - { offsetInCU: 0x4B, offset: 0x5396A, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellcD0C6sharedAA0cD0_pvpZ', symObjAddr: 0x1838, symBinAddr: 0xC8A8, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x5396A, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellcD0C6sharedAA0cD0_pvpZ', symObjAddr: 0x1838, symBinAddr: 0xC6A8, symSize: 0x0 }
   - { offsetInCU: 0x82, offset: 0x539A1, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellcD0CACycfC', symObjAddr: 0x34, symBinAddr: 0x4034, symSize: 0x10 }
   - { offsetInCU: 0x96, offset: 0x539B5, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellcD0CACycfc', symObjAddr: 0x44, symBinAddr: 0x4044, symSize: 0x8 }
   - { offsetInCU: 0xC5, offset: 0x539E4, size: 0x8, addend: 0x0, symName: '_$s32AFMobileIntuitDataLayerInterface05ShellcD0Cfd', symObjAddr: 0x4C, symBinAddr: 0x404C, symSize: 0x8 }
