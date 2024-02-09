@@ -1,0 +1,11 @@
+framework module MobileEventsControllerInterface {
+  umbrella header "MobileEventsControllerInterface-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module MobileEventsControllerInterface.Swift {
+  header "MobileEventsControllerInterface-Swift.h"
+  requires objc
+}

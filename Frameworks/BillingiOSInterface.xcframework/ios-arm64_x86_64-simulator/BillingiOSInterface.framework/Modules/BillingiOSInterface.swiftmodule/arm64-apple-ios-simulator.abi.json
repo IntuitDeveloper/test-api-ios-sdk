@@ -1,0 +1,4595 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BillingiOSInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BillingConstants",
+        "printedName": "BillingConstants",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isUserEligibleForFreeTrialKey",
+            "printedName": "isUserEligibleForFreeTrialKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19BillingiOSInterface16BillingConstantsO29isUserEligibleForFreeTrialKeySSvpZ",
+            "mangledName": "$s19BillingiOSInterface16BillingConstantsO29isUserEligibleForFreeTrialKeySSvpZ",
+            "moduleName": "BillingiOSInterface",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BillingiOSInterface16BillingConstantsO29isUserEligibleForFreeTrialKeySSvgZ",
+                "mangledName": "$s19BillingiOSInterface16BillingConstantsO29isUserEligibleForFreeTrialKeySSvgZ",
+                "moduleName": "BillingiOSInterface",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "upgradePollingTimeoutInSecondsKey",
+            "printedName": "upgradePollingTimeoutInSecondsKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19BillingiOSInterface16BillingConstantsO33upgradePollingTimeoutInSecondsKeySSvpZ",
+            "mangledName": "$s19BillingiOSInterface16BillingConstantsO33upgradePollingTimeoutInSecondsKeySSvpZ",
+            "moduleName": "BillingiOSInterface",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BillingiOSInterface16BillingConstantsO33upgradePollingTimeoutInSecondsKeySSvgZ",
+                "mangledName": "$s19BillingiOSInterface16BillingConstantsO33upgradePollingTimeoutInSecondsKeySSvgZ",
+                "moduleName": "BillingiOSInterface",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19BillingiOSInterface16BillingConstantsO",
+        "mangledName": "$s19BillingiOSInterface16BillingConstantsO",
+        "moduleName": "BillingiOSInterface",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BillingiOSInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BillingRegisterStatus",
+        "printedName": "BillingRegisterStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ready",
+            "printedName": "ready",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingRegisterStatus.Type) -> BillingiOSInterface.BillingRegisterStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingRegisterStatus",
+                    "printedName": "BillingiOSInterface.BillingRegisterStatus",
+                    "usr": "s:19BillingiOSInterface21BillingRegisterStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingRegisterStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingRegisterStatus",
+                        "printedName": "BillingiOSInterface.BillingRegisterStatus",
+                        "usr": "s:19BillingiOSInterface21BillingRegisterStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface21BillingRegisterStatusO5readyyA2CmF",
+            "mangledName": "$s19BillingiOSInterface21BillingRegisterStatusO5readyyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "unauthorizedForPurchases",
+            "printedName": "unauthorizedForPurchases",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingRegisterStatus.Type) -> BillingiOSInterface.BillingRegisterStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingRegisterStatus",
+                    "printedName": "BillingiOSInterface.BillingRegisterStatus",
+                    "usr": "s:19BillingiOSInterface21BillingRegisterStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingRegisterStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingRegisterStatus",
+                        "printedName": "BillingiOSInterface.BillingRegisterStatus",
+                        "usr": "s:19BillingiOSInterface21BillingRegisterStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface21BillingRegisterStatusO24unauthorizedForPurchasesyA2CmF",
+            "mangledName": "$s19BillingiOSInterface21BillingRegisterStatusO24unauthorizedForPurchasesyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "tryAgainLater",
+            "printedName": "tryAgainLater",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingRegisterStatus.Type) -> BillingiOSInterface.BillingRegisterStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingRegisterStatus",
+                    "printedName": "BillingiOSInterface.BillingRegisterStatus",
+                    "usr": "s:19BillingiOSInterface21BillingRegisterStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingRegisterStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingRegisterStatus",
+                        "printedName": "BillingiOSInterface.BillingRegisterStatus",
+                        "usr": "s:19BillingiOSInterface21BillingRegisterStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface21BillingRegisterStatusO13tryAgainLateryA2CmF",
+            "mangledName": "$s19BillingiOSInterface21BillingRegisterStatusO13tryAgainLateryA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BillingiOSInterface.BillingRegisterStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingRegisterStatus",
+                    "printedName": "BillingiOSInterface.BillingRegisterStatus",
+                    "usr": "s:19BillingiOSInterface21BillingRegisterStatusO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19BillingiOSInterface21BillingRegisterStatusO8rawValueACSgSS_tcfc",
+            "mangledName": "$s19BillingiOSInterface21BillingRegisterStatusO8rawValueACSgSS_tcfc",
+            "moduleName": "BillingiOSInterface",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19BillingiOSInterface21BillingRegisterStatusO8rawValueSSvp",
+            "mangledName": "$s19BillingiOSInterface21BillingRegisterStatusO8rawValueSSvp",
+            "moduleName": "BillingiOSInterface",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BillingiOSInterface21BillingRegisterStatusO8rawValueSSvg",
+                "mangledName": "$s19BillingiOSInterface21BillingRegisterStatusO8rawValueSSvg",
+                "moduleName": "BillingiOSInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19BillingiOSInterface21BillingRegisterStatusO",
+        "mangledName": "$s19BillingiOSInterface21BillingRegisterStatusO",
+        "moduleName": "BillingiOSInterface",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BillingSubscriptionUpdateReason",
+        "printedName": "BillingSubscriptionUpdateReason",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "purchase",
+            "printedName": "purchase",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingSubscriptionUpdateReason.Type) -> BillingiOSInterface.BillingSubscriptionUpdateReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionUpdateReason",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason",
+                    "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionUpdateReason",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason",
+                        "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO8purchaseyA2CmF",
+            "mangledName": "$s19BillingiOSInterface31BillingSubscriptionUpdateReasonO8purchaseyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "purchaseFailed",
+            "printedName": "purchaseFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingSubscriptionUpdateReason.Type) -> (Swift.Error?) -> BillingiOSInterface.BillingSubscriptionUpdateReason",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error?) -> BillingiOSInterface.BillingSubscriptionUpdateReason",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionUpdateReason",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason",
+                        "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(error: Swift.Error?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Error?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionUpdateReason",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason",
+                        "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO14purchaseFailedyACs5Error_pSg_tcACmF",
+            "mangledName": "$s19BillingiOSInterface31BillingSubscriptionUpdateReasonO14purchaseFailedyACs5Error_pSg_tcACmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "purchaseFailedVerification",
+            "printedName": "purchaseFailedVerification",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingSubscriptionUpdateReason.Type) -> (Swift.Error?) -> BillingiOSInterface.BillingSubscriptionUpdateReason",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error?) -> BillingiOSInterface.BillingSubscriptionUpdateReason",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionUpdateReason",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason",
+                        "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(error: Swift.Error?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Error?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionUpdateReason",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason",
+                        "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO26purchaseFailedVerificationyACs5Error_pSg_tcACmF",
+            "mangledName": "$s19BillingiOSInterface31BillingSubscriptionUpdateReasonO26purchaseFailedVerificationyACs5Error_pSg_tcACmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "restore",
+            "printedName": "restore",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingSubscriptionUpdateReason.Type) -> BillingiOSInterface.BillingSubscriptionUpdateReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionUpdateReason",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason",
+                    "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionUpdateReason",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason",
+                        "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO7restoreyA2CmF",
+            "mangledName": "$s19BillingiOSInterface31BillingSubscriptionUpdateReasonO7restoreyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "restoreFailed",
+            "printedName": "restoreFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingSubscriptionUpdateReason.Type) -> BillingiOSInterface.BillingSubscriptionUpdateReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionUpdateReason",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason",
+                    "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionUpdateReason",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason",
+                        "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO13restoreFailedyA2CmF",
+            "mangledName": "$s19BillingiOSInterface31BillingSubscriptionUpdateReasonO13restoreFailedyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "purchaseVerificationTakingTooLong",
+            "printedName": "purchaseVerificationTakingTooLong",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingSubscriptionUpdateReason.Type) -> BillingiOSInterface.BillingSubscriptionUpdateReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionUpdateReason",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason",
+                    "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionUpdateReason",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason",
+                        "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO33purchaseVerificationTakingTooLongyA2CmF",
+            "mangledName": "$s19BillingiOSInterface31BillingSubscriptionUpdateReasonO33purchaseVerificationTakingTooLongyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "upgrade",
+            "printedName": "upgrade",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingSubscriptionUpdateReason.Type) -> BillingiOSInterface.BillingSubscriptionUpdateReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionUpdateReason",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason",
+                    "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionUpdateReason",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason",
+                        "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO7upgradeyA2CmF",
+            "mangledName": "$s19BillingiOSInterface31BillingSubscriptionUpdateReasonO7upgradeyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "downgrade",
+            "printedName": "downgrade",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingSubscriptionUpdateReason.Type) -> BillingiOSInterface.BillingSubscriptionUpdateReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionUpdateReason",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason",
+                    "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionUpdateReason",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason",
+                        "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO9downgradeyA2CmF",
+            "mangledName": "$s19BillingiOSInterface31BillingSubscriptionUpdateReasonO9downgradeyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BillingSubscriptionUpdateReason",
+                "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason",
+                "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BillingSubscriptionUpdateReason",
+                "printedName": "BillingiOSInterface.BillingSubscriptionUpdateReason",
+                "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s19BillingiOSInterface31BillingSubscriptionUpdateReasonO2eeoiySbAC_ACtFZ",
+            "moduleName": "BillingiOSInterface",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19BillingiOSInterface31BillingSubscriptionUpdateReasonO",
+        "mangledName": "$s19BillingiOSInterface31BillingSubscriptionUpdateReasonO",
+        "moduleName": "BillingiOSInterface",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BillingSubscriptionPurchaseFailedReason",
+        "printedName": "BillingSubscriptionPurchaseFailedReason",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "deviceCannotMakePayments",
+            "printedName": "deviceCannotMakePayments",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingSubscriptionPurchaseFailedReason.Type) -> BillingiOSInterface.BillingSubscriptionPurchaseFailedReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionPurchaseFailedReason",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionPurchaseFailedReason",
+                    "usr": "s:19BillingiOSInterface39BillingSubscriptionPurchaseFailedReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionPurchaseFailedReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionPurchaseFailedReason",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionPurchaseFailedReason",
+                        "usr": "s:19BillingiOSInterface39BillingSubscriptionPurchaseFailedReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface39BillingSubscriptionPurchaseFailedReasonO24deviceCannotMakePaymentsyA2CmF",
+            "mangledName": "$s19BillingiOSInterface39BillingSubscriptionPurchaseFailedReasonO24deviceCannotMakePaymentsyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "tryAgainLater",
+            "printedName": "tryAgainLater",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingSubscriptionPurchaseFailedReason.Type) -> BillingiOSInterface.BillingSubscriptionPurchaseFailedReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionPurchaseFailedReason",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionPurchaseFailedReason",
+                    "usr": "s:19BillingiOSInterface39BillingSubscriptionPurchaseFailedReasonO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionPurchaseFailedReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionPurchaseFailedReason",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionPurchaseFailedReason",
+                        "usr": "s:19BillingiOSInterface39BillingSubscriptionPurchaseFailedReasonO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface39BillingSubscriptionPurchaseFailedReasonO13tryAgainLateryA2CmF",
+            "mangledName": "$s19BillingiOSInterface39BillingSubscriptionPurchaseFailedReasonO13tryAgainLateryA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BillingSubscriptionPurchaseFailedReason",
+                "printedName": "BillingiOSInterface.BillingSubscriptionPurchaseFailedReason",
+                "usr": "s:19BillingiOSInterface39BillingSubscriptionPurchaseFailedReasonO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BillingSubscriptionPurchaseFailedReason",
+                "printedName": "BillingiOSInterface.BillingSubscriptionPurchaseFailedReason",
+                "usr": "s:19BillingiOSInterface39BillingSubscriptionPurchaseFailedReasonO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19BillingiOSInterface39BillingSubscriptionPurchaseFailedReasonO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s19BillingiOSInterface39BillingSubscriptionPurchaseFailedReasonO2eeoiySbAC_ACtFZ",
+            "moduleName": "BillingiOSInterface",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19BillingiOSInterface39BillingSubscriptionPurchaseFailedReasonO9hashValueSivp",
+            "mangledName": "$s19BillingiOSInterface39BillingSubscriptionPurchaseFailedReasonO9hashValueSivp",
+            "moduleName": "BillingiOSInterface",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BillingiOSInterface39BillingSubscriptionPurchaseFailedReasonO9hashValueSivg",
+                "mangledName": "$s19BillingiOSInterface39BillingSubscriptionPurchaseFailedReasonO9hashValueSivg",
+                "moduleName": "BillingiOSInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19BillingiOSInterface39BillingSubscriptionPurchaseFailedReasonO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s19BillingiOSInterface39BillingSubscriptionPurchaseFailedReasonO4hash4intoys6HasherVz_tF",
+            "moduleName": "BillingiOSInterface",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19BillingiOSInterface39BillingSubscriptionPurchaseFailedReasonO",
+        "mangledName": "$s19BillingiOSInterface39BillingSubscriptionPurchaseFailedReasonO",
+        "moduleName": "BillingiOSInterface",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BillingSubscriptionStatus",
+        "printedName": "BillingSubscriptionStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingSubscriptionStatus.Type) -> BillingiOSInterface.BillingSubscriptionStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionStatus",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionStatus",
+                    "usr": "s:19BillingiOSInterface25BillingSubscriptionStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionStatus",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionStatus",
+                        "usr": "s:19BillingiOSInterface25BillingSubscriptionStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface25BillingSubscriptionStatusO4noneyA2CmF",
+            "mangledName": "$s19BillingiOSInterface25BillingSubscriptionStatusO4noneyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "active",
+            "printedName": "active",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingSubscriptionStatus.Type) -> BillingiOSInterface.BillingSubscriptionStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionStatus",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionStatus",
+                    "usr": "s:19BillingiOSInterface25BillingSubscriptionStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionStatus",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionStatus",
+                        "usr": "s:19BillingiOSInterface25BillingSubscriptionStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface25BillingSubscriptionStatusO6activeyA2CmF",
+            "mangledName": "$s19BillingiOSInterface25BillingSubscriptionStatusO6activeyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "expired",
+            "printedName": "expired",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingSubscriptionStatus.Type) -> BillingiOSInterface.BillingSubscriptionStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionStatus",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionStatus",
+                    "usr": "s:19BillingiOSInterface25BillingSubscriptionStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionStatus",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionStatus",
+                        "usr": "s:19BillingiOSInterface25BillingSubscriptionStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface25BillingSubscriptionStatusO7expiredyA2CmF",
+            "mangledName": "$s19BillingiOSInterface25BillingSubscriptionStatusO7expiredyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "gracePeriod",
+            "printedName": "gracePeriod",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingSubscriptionStatus.Type) -> BillingiOSInterface.BillingSubscriptionStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionStatus",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionStatus",
+                    "usr": "s:19BillingiOSInterface25BillingSubscriptionStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionStatus",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionStatus",
+                        "usr": "s:19BillingiOSInterface25BillingSubscriptionStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface25BillingSubscriptionStatusO11gracePeriodyA2CmF",
+            "mangledName": "$s19BillingiOSInterface25BillingSubscriptionStatusO11gracePeriodyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingSubscriptionStatus.Type) -> BillingiOSInterface.BillingSubscriptionStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionStatus",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionStatus",
+                    "usr": "s:19BillingiOSInterface25BillingSubscriptionStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionStatus",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionStatus",
+                        "usr": "s:19BillingiOSInterface25BillingSubscriptionStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface25BillingSubscriptionStatusO7unknownyA2CmF",
+            "mangledName": "$s19BillingiOSInterface25BillingSubscriptionStatusO7unknownyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BillingiOSInterface.BillingSubscriptionStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionStatus",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionStatus",
+                    "usr": "s:19BillingiOSInterface25BillingSubscriptionStatusO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19BillingiOSInterface25BillingSubscriptionStatusO8rawValueACSgSS_tcfc",
+            "mangledName": "$s19BillingiOSInterface25BillingSubscriptionStatusO8rawValueACSgSS_tcfc",
+            "moduleName": "BillingiOSInterface",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19BillingiOSInterface25BillingSubscriptionStatusO8rawValueSSvp",
+            "mangledName": "$s19BillingiOSInterface25BillingSubscriptionStatusO8rawValueSSvp",
+            "moduleName": "BillingiOSInterface",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BillingiOSInterface25BillingSubscriptionStatusO8rawValueSSvg",
+                "mangledName": "$s19BillingiOSInterface25BillingSubscriptionStatusO8rawValueSSvg",
+                "moduleName": "BillingiOSInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19BillingiOSInterface25BillingSubscriptionStatusO",
+        "mangledName": "$s19BillingiOSInterface25BillingSubscriptionStatusO",
+        "moduleName": "BillingiOSInterface",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BillingSubscriptionServiceState",
+        "printedName": "BillingSubscriptionServiceState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "paid",
+            "printedName": "paid",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingSubscriptionServiceState.Type) -> BillingiOSInterface.BillingSubscriptionServiceState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionServiceState",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionServiceState",
+                    "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionServiceState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionServiceState",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionServiceState",
+                        "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO4paidyA2CmF",
+            "mangledName": "$s19BillingiOSInterface31BillingSubscriptionServiceStateO4paidyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "pendingCancel",
+            "printedName": "pendingCancel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingSubscriptionServiceState.Type) -> BillingiOSInterface.BillingSubscriptionServiceState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionServiceState",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionServiceState",
+                    "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionServiceState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionServiceState",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionServiceState",
+                        "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO13pendingCancelyA2CmF",
+            "mangledName": "$s19BillingiOSInterface31BillingSubscriptionServiceStateO13pendingCancelyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "canceled",
+            "printedName": "canceled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingSubscriptionServiceState.Type) -> BillingiOSInterface.BillingSubscriptionServiceState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionServiceState",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionServiceState",
+                    "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionServiceState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionServiceState",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionServiceState",
+                        "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO8canceledyA2CmF",
+            "mangledName": "$s19BillingiOSInterface31BillingSubscriptionServiceStateO8canceledyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "inProgress",
+            "printedName": "inProgress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingSubscriptionServiceState.Type) -> BillingiOSInterface.BillingSubscriptionServiceState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionServiceState",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionServiceState",
+                    "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionServiceState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionServiceState",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionServiceState",
+                        "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO10inProgressyA2CmF",
+            "mangledName": "$s19BillingiOSInterface31BillingSubscriptionServiceStateO10inProgressyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingSubscriptionServiceState.Type) -> BillingiOSInterface.BillingSubscriptionServiceState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionServiceState",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionServiceState",
+                    "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionServiceState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionServiceState",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionServiceState",
+                        "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO7unknownyA2CmF",
+            "mangledName": "$s19BillingiOSInterface31BillingSubscriptionServiceStateO7unknownyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "notSubscribed",
+            "printedName": "notSubscribed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingSubscriptionServiceState.Type) -> BillingiOSInterface.BillingSubscriptionServiceState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionServiceState",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionServiceState",
+                    "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionServiceState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionServiceState",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionServiceState",
+                        "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO13notSubscribedyA2CmF",
+            "mangledName": "$s19BillingiOSInterface31BillingSubscriptionServiceStateO13notSubscribedyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "free",
+            "printedName": "free",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingSubscriptionServiceState.Type) -> BillingiOSInterface.BillingSubscriptionServiceState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionServiceState",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionServiceState",
+                    "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionServiceState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingSubscriptionServiceState",
+                        "printedName": "BillingiOSInterface.BillingSubscriptionServiceState",
+                        "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO4freeyA2CmF",
+            "mangledName": "$s19BillingiOSInterface31BillingSubscriptionServiceStateO4freeyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BillingiOSInterface.BillingSubscriptionServiceState?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionServiceState",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionServiceState",
+                    "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO8rawValueACSgSS_tcfc",
+            "mangledName": "$s19BillingiOSInterface31BillingSubscriptionServiceStateO8rawValueACSgSS_tcfc",
+            "moduleName": "BillingiOSInterface",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO8rawValueSSvp",
+            "mangledName": "$s19BillingiOSInterface31BillingSubscriptionServiceStateO8rawValueSSvp",
+            "moduleName": "BillingiOSInterface",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO8rawValueSSvg",
+                "mangledName": "$s19BillingiOSInterface31BillingSubscriptionServiceStateO8rawValueSSvg",
+                "moduleName": "BillingiOSInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO",
+        "mangledName": "$s19BillingiOSInterface31BillingSubscriptionServiceStateO",
+        "moduleName": "BillingiOSInterface",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BillingLogEvent",
+        "printedName": "BillingLogEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "register",
+            "printedName": "register",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingLogEvent.Type) -> BillingiOSInterface.BillingLogEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingLogEvent",
+                    "printedName": "BillingiOSInterface.BillingLogEvent",
+                    "usr": "s:19BillingiOSInterface15BillingLogEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingLogEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingLogEvent",
+                        "printedName": "BillingiOSInterface.BillingLogEvent",
+                        "usr": "s:19BillingiOSInterface15BillingLogEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface15BillingLogEventO8registeryA2CmF",
+            "mangledName": "$s19BillingiOSInterface15BillingLogEventO8registeryA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "restore",
+            "printedName": "restore",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingLogEvent.Type) -> BillingiOSInterface.BillingLogEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingLogEvent",
+                    "printedName": "BillingiOSInterface.BillingLogEvent",
+                    "usr": "s:19BillingiOSInterface15BillingLogEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingLogEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingLogEvent",
+                        "printedName": "BillingiOSInterface.BillingLogEvent",
+                        "usr": "s:19BillingiOSInterface15BillingLogEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface15BillingLogEventO7restoreyA2CmF",
+            "mangledName": "$s19BillingiOSInterface15BillingLogEventO7restoreyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "setup",
+            "printedName": "setup",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingLogEvent.Type) -> BillingiOSInterface.BillingLogEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingLogEvent",
+                    "printedName": "BillingiOSInterface.BillingLogEvent",
+                    "usr": "s:19BillingiOSInterface15BillingLogEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingLogEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingLogEvent",
+                        "printedName": "BillingiOSInterface.BillingLogEvent",
+                        "usr": "s:19BillingiOSInterface15BillingLogEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface15BillingLogEventO5setupyA2CmF",
+            "mangledName": "$s19BillingiOSInterface15BillingLogEventO5setupyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "purchase",
+            "printedName": "purchase",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingLogEvent.Type) -> BillingiOSInterface.BillingLogEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingLogEvent",
+                    "printedName": "BillingiOSInterface.BillingLogEvent",
+                    "usr": "s:19BillingiOSInterface15BillingLogEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingLogEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingLogEvent",
+                        "printedName": "BillingiOSInterface.BillingLogEvent",
+                        "usr": "s:19BillingiOSInterface15BillingLogEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface15BillingLogEventO8purchaseyA2CmF",
+            "mangledName": "$s19BillingiOSInterface15BillingLogEventO8purchaseyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "unregister",
+            "printedName": "unregister",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingLogEvent.Type) -> BillingiOSInterface.BillingLogEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingLogEvent",
+                    "printedName": "BillingiOSInterface.BillingLogEvent",
+                    "usr": "s:19BillingiOSInterface15BillingLogEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingLogEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingLogEvent",
+                        "printedName": "BillingiOSInterface.BillingLogEvent",
+                        "usr": "s:19BillingiOSInterface15BillingLogEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface15BillingLogEventO10unregisteryA2CmF",
+            "mangledName": "$s19BillingiOSInterface15BillingLogEventO10unregisteryA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "purchaseFailed",
+            "printedName": "purchaseFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingLogEvent.Type) -> BillingiOSInterface.BillingLogEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingLogEvent",
+                    "printedName": "BillingiOSInterface.BillingLogEvent",
+                    "usr": "s:19BillingiOSInterface15BillingLogEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingLogEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingLogEvent",
+                        "printedName": "BillingiOSInterface.BillingLogEvent",
+                        "usr": "s:19BillingiOSInterface15BillingLogEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface15BillingLogEventO14purchaseFailedyA2CmF",
+            "mangledName": "$s19BillingiOSInterface15BillingLogEventO14purchaseFailedyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "receiptFetch",
+            "printedName": "receiptFetch",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingLogEvent.Type) -> BillingiOSInterface.BillingLogEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingLogEvent",
+                    "printedName": "BillingiOSInterface.BillingLogEvent",
+                    "usr": "s:19BillingiOSInterface15BillingLogEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingLogEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingLogEvent",
+                        "printedName": "BillingiOSInterface.BillingLogEvent",
+                        "usr": "s:19BillingiOSInterface15BillingLogEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface15BillingLogEventO12receiptFetchyA2CmF",
+            "mangledName": "$s19BillingiOSInterface15BillingLogEventO12receiptFetchyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "transactionTracing",
+            "printedName": "transactionTracing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingLogEvent.Type) -> BillingiOSInterface.BillingLogEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingLogEvent",
+                    "printedName": "BillingiOSInterface.BillingLogEvent",
+                    "usr": "s:19BillingiOSInterface15BillingLogEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingLogEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingLogEvent",
+                        "printedName": "BillingiOSInterface.BillingLogEvent",
+                        "usr": "s:19BillingiOSInterface15BillingLogEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface15BillingLogEventO18transactionTracingyA2CmF",
+            "mangledName": "$s19BillingiOSInterface15BillingLogEventO18transactionTracingyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "network",
+            "printedName": "network",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingLogEvent.Type) -> BillingiOSInterface.BillingLogEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingLogEvent",
+                    "printedName": "BillingiOSInterface.BillingLogEvent",
+                    "usr": "s:19BillingiOSInterface15BillingLogEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingLogEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingLogEvent",
+                        "printedName": "BillingiOSInterface.BillingLogEvent",
+                        "usr": "s:19BillingiOSInterface15BillingLogEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface15BillingLogEventO7networkyA2CmF",
+            "mangledName": "$s19BillingiOSInterface15BillingLogEventO7networkyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "subscriptionInfo",
+            "printedName": "subscriptionInfo",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingLogEvent.Type) -> BillingiOSInterface.BillingLogEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingLogEvent",
+                    "printedName": "BillingiOSInterface.BillingLogEvent",
+                    "usr": "s:19BillingiOSInterface15BillingLogEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingLogEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingLogEvent",
+                        "printedName": "BillingiOSInterface.BillingLogEvent",
+                        "usr": "s:19BillingiOSInterface15BillingLogEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface15BillingLogEventO16subscriptionInfoyA2CmF",
+            "mangledName": "$s19BillingiOSInterface15BillingLogEventO16subscriptionInfoyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "getEntitlements",
+            "printedName": "getEntitlements",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingLogEvent.Type) -> BillingiOSInterface.BillingLogEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingLogEvent",
+                    "printedName": "BillingiOSInterface.BillingLogEvent",
+                    "usr": "s:19BillingiOSInterface15BillingLogEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingLogEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingLogEvent",
+                        "printedName": "BillingiOSInterface.BillingLogEvent",
+                        "usr": "s:19BillingiOSInterface15BillingLogEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface15BillingLogEventO15getEntitlementsyA2CmF",
+            "mangledName": "$s19BillingiOSInterface15BillingLogEventO15getEntitlementsyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BillingiOSInterface.BillingLogEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingLogEvent",
+                    "printedName": "BillingiOSInterface.BillingLogEvent",
+                    "usr": "s:19BillingiOSInterface15BillingLogEventO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19BillingiOSInterface15BillingLogEventO8rawValueACSgSS_tcfc",
+            "mangledName": "$s19BillingiOSInterface15BillingLogEventO8rawValueACSgSS_tcfc",
+            "moduleName": "BillingiOSInterface",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19BillingiOSInterface15BillingLogEventO8rawValueSSvp",
+            "mangledName": "$s19BillingiOSInterface15BillingLogEventO8rawValueSSvp",
+            "moduleName": "BillingiOSInterface",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BillingiOSInterface15BillingLogEventO8rawValueSSvg",
+                "mangledName": "$s19BillingiOSInterface15BillingLogEventO8rawValueSSvg",
+                "moduleName": "BillingiOSInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19BillingiOSInterface15BillingLogEventO",
+        "mangledName": "$s19BillingiOSInterface15BillingLogEventO",
+        "moduleName": "BillingiOSInterface",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BillingLogSeverity",
+        "printedName": "BillingLogSeverity",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingLogSeverity.Type) -> BillingiOSInterface.BillingLogSeverity",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingLogSeverity",
+                    "printedName": "BillingiOSInterface.BillingLogSeverity",
+                    "usr": "s:19BillingiOSInterface18BillingLogSeverityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingLogSeverity.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingLogSeverity",
+                        "printedName": "BillingiOSInterface.BillingLogSeverity",
+                        "usr": "s:19BillingiOSInterface18BillingLogSeverityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface18BillingLogSeverityO4infoyA2CmF",
+            "mangledName": "$s19BillingiOSInterface18BillingLogSeverityO4infoyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingLogSeverity.Type) -> BillingiOSInterface.BillingLogSeverity",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingLogSeverity",
+                    "printedName": "BillingiOSInterface.BillingLogSeverity",
+                    "usr": "s:19BillingiOSInterface18BillingLogSeverityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingLogSeverity.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingLogSeverity",
+                        "printedName": "BillingiOSInterface.BillingLogSeverity",
+                        "usr": "s:19BillingiOSInterface18BillingLogSeverityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface18BillingLogSeverityO5debugyA2CmF",
+            "mangledName": "$s19BillingiOSInterface18BillingLogSeverityO5debugyA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingLogSeverity.Type) -> BillingiOSInterface.BillingLogSeverity",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingLogSeverity",
+                    "printedName": "BillingiOSInterface.BillingLogSeverity",
+                    "usr": "s:19BillingiOSInterface18BillingLogSeverityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingLogSeverity.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingLogSeverity",
+                        "printedName": "BillingiOSInterface.BillingLogSeverity",
+                        "usr": "s:19BillingiOSInterface18BillingLogSeverityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface18BillingLogSeverityO5erroryA2CmF",
+            "mangledName": "$s19BillingiOSInterface18BillingLogSeverityO5erroryA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BillingLogSeverity",
+                "printedName": "BillingiOSInterface.BillingLogSeverity",
+                "usr": "s:19BillingiOSInterface18BillingLogSeverityO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BillingLogSeverity",
+                "printedName": "BillingiOSInterface.BillingLogSeverity",
+                "usr": "s:19BillingiOSInterface18BillingLogSeverityO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19BillingiOSInterface18BillingLogSeverityO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s19BillingiOSInterface18BillingLogSeverityO2eeoiySbAC_ACtFZ",
+            "moduleName": "BillingiOSInterface",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19BillingiOSInterface18BillingLogSeverityO9hashValueSivp",
+            "mangledName": "$s19BillingiOSInterface18BillingLogSeverityO9hashValueSivp",
+            "moduleName": "BillingiOSInterface",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BillingiOSInterface18BillingLogSeverityO9hashValueSivg",
+                "mangledName": "$s19BillingiOSInterface18BillingLogSeverityO9hashValueSivg",
+                "moduleName": "BillingiOSInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19BillingiOSInterface18BillingLogSeverityO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s19BillingiOSInterface18BillingLogSeverityO4hash4intoys6HasherVz_tF",
+            "moduleName": "BillingiOSInterface",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19BillingiOSInterface18BillingLogSeverityO",
+        "mangledName": "$s19BillingiOSInterface18BillingLogSeverityO",
+        "moduleName": "BillingiOSInterface",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BillingError",
+        "printedName": "BillingError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "networkError",
+            "printedName": "networkError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingError.Type) -> BillingiOSInterface.BillingError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingError",
+                    "printedName": "BillingiOSInterface.BillingError",
+                    "usr": "s:19BillingiOSInterface12BillingErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingError",
+                        "printedName": "BillingiOSInterface.BillingError",
+                        "usr": "s:19BillingiOSInterface12BillingErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface12BillingErrorO07networkD0yA2CmF",
+            "mangledName": "$s19BillingiOSInterface12BillingErrorO07networkD0yA2CmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "createSubscription",
+            "printedName": "createSubscription",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingError.Type) -> (Swift.String) -> BillingiOSInterface.BillingError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> BillingiOSInterface.BillingError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingError",
+                        "printedName": "BillingiOSInterface.BillingError",
+                        "usr": "s:19BillingiOSInterface12BillingErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingError",
+                        "printedName": "BillingiOSInterface.BillingError",
+                        "usr": "s:19BillingiOSInterface12BillingErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface12BillingErrorO18createSubscriptionyACSS_tcACmF",
+            "mangledName": "$s19BillingiOSInterface12BillingErrorO18createSubscriptionyACSS_tcACmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "resubscribe",
+            "printedName": "resubscribe",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingError.Type) -> (Swift.String) -> BillingiOSInterface.BillingError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> BillingiOSInterface.BillingError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingError",
+                        "printedName": "BillingiOSInterface.BillingError",
+                        "usr": "s:19BillingiOSInterface12BillingErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingError",
+                        "printedName": "BillingiOSInterface.BillingError",
+                        "usr": "s:19BillingiOSInterface12BillingErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface12BillingErrorO11resubscribeyACSS_tcACmF",
+            "mangledName": "$s19BillingiOSInterface12BillingErrorO11resubscribeyACSS_tcACmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "getEntitlements",
+            "printedName": "getEntitlements",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingError.Type) -> (Swift.String) -> BillingiOSInterface.BillingError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> BillingiOSInterface.BillingError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingError",
+                        "printedName": "BillingiOSInterface.BillingError",
+                        "usr": "s:19BillingiOSInterface12BillingErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingError",
+                        "printedName": "BillingiOSInterface.BillingError",
+                        "usr": "s:19BillingiOSInterface12BillingErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface12BillingErrorO15getEntitlementsyACSS_tcACmF",
+            "mangledName": "$s19BillingiOSInterface12BillingErrorO15getEntitlementsyACSS_tcACmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "getSubscription",
+            "printedName": "getSubscription",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingError.Type) -> (Swift.String) -> BillingiOSInterface.BillingError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> BillingiOSInterface.BillingError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingError",
+                        "printedName": "BillingiOSInterface.BillingError",
+                        "usr": "s:19BillingiOSInterface12BillingErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingError",
+                        "printedName": "BillingiOSInterface.BillingError",
+                        "usr": "s:19BillingiOSInterface12BillingErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface12BillingErrorO15getSubscriptionyACSS_tcACmF",
+            "mangledName": "$s19BillingiOSInterface12BillingErrorO15getSubscriptionyACSS_tcACmF",
+            "moduleName": "BillingiOSInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BillingiOSInterface.BillingError.Type) -> (Swift.Error) -> BillingiOSInterface.BillingError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> BillingiOSInterface.BillingError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingError",
+                        "printedName": "BillingiOSInterface.BillingError",
+                        "usr": "s:19BillingiOSInterface12BillingErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(error: Swift.Error)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BillingiOSInterface.BillingError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BillingError",
+                        "printedName": "BillingiOSInterface.BillingError",
+                        "usr": "s:19BillingiOSInterface12BillingErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19BillingiOSInterface12BillingErrorO7unknownyACs0D0_p_tcACmF",
+            "mangledName": "$s19BillingiOSInterface12BillingErrorO7unknownyACs0D0_p_tcACmF",
+            "moduleName": "BillingiOSInterface"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19BillingiOSInterface12BillingErrorO",
+        "mangledName": "$s19BillingiOSInterface12BillingErrorO",
+        "moduleName": "BillingiOSInterface",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BillingiOSInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BillingHostApp",
+        "printedName": "BillingHostApp",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "productCode",
+            "printedName": "productCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19BillingiOSInterface14BillingHostAppV11productCodeSSvp",
+            "mangledName": "$s19BillingiOSInterface14BillingHostAppV11productCodeSSvp",
+            "moduleName": "BillingiOSInterface",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BillingiOSInterface14BillingHostAppV11productCodeSSvg",
+                "mangledName": "$s19BillingiOSInterface14BillingHostAppV11productCodeSSvg",
+                "moduleName": "BillingiOSInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "companyType",
+            "printedName": "companyType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19BillingiOSInterface14BillingHostAppV11companyTypeSSvp",
+            "mangledName": "$s19BillingiOSInterface14BillingHostAppV11companyTypeSSvp",
+            "moduleName": "BillingiOSInterface",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BillingiOSInterface14BillingHostAppV11companyTypeSSvg",
+                "mangledName": "$s19BillingiOSInterface14BillingHostAppV11companyTypeSSvg",
+                "moduleName": "BillingiOSInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "billingOfferingId",
+            "printedName": "billingOfferingId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19BillingiOSInterface14BillingHostAppV17billingOfferingIdSSvp",
+            "mangledName": "$s19BillingiOSInterface14BillingHostAppV17billingOfferingIdSSvp",
+            "moduleName": "BillingiOSInterface",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BillingiOSInterface14BillingHostAppV17billingOfferingIdSSvg",
+                "mangledName": "$s19BillingiOSInterface14BillingHostAppV17billingOfferingIdSSvg",
+                "moduleName": "BillingiOSInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(productCode:companyType:billingOfferingId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BillingHostApp",
+                "printedName": "BillingiOSInterface.BillingHostApp",
+                "usr": "s:19BillingiOSInterface14BillingHostAppV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19BillingiOSInterface14BillingHostAppV11productCode11companyType17billingOfferingIdACSS_S2Stcfc",
+            "mangledName": "$s19BillingiOSInterface14BillingHostAppV11productCode11companyType17billingOfferingIdACSS_S2Stcfc",
+            "moduleName": "BillingiOSInterface",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "mint",
+            "printedName": "mint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BillingHostApp",
+                "printedName": "BillingiOSInterface.BillingHostApp",
+                "usr": "s:19BillingiOSInterface14BillingHostAppV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19BillingiOSInterface14BillingHostAppV4mintACvpZ",
+            "mangledName": "$s19BillingiOSInterface14BillingHostAppV4mintACvpZ",
+            "moduleName": "BillingiOSInterface",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingHostApp",
+                    "printedName": "BillingiOSInterface.BillingHostApp",
+                    "usr": "s:19BillingiOSInterface14BillingHostAppV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BillingiOSInterface14BillingHostAppV4mintACvgZ",
+                "mangledName": "$s19BillingiOSInterface14BillingHostAppV4mintACvgZ",
+                "moduleName": "BillingiOSInterface",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19BillingiOSInterface14BillingHostAppV",
+        "mangledName": "$s19BillingiOSInterface14BillingHostAppV",
+        "moduleName": "BillingiOSInterface",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BillingiOSInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BillingProduct",
+        "printedName": "BillingProduct",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Frequency",
+            "printedName": "Frequency",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "monthly",
+                "printedName": "monthly",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BillingiOSInterface.BillingProduct.Frequency.Type) -> BillingiOSInterface.BillingProduct.Frequency",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Frequency",
+                        "printedName": "BillingiOSInterface.BillingProduct.Frequency",
+                        "usr": "s:19BillingiOSInterface14BillingProductV9FrequencyO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BillingiOSInterface.BillingProduct.Frequency.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Frequency",
+                            "printedName": "BillingiOSInterface.BillingProduct.Frequency",
+                            "usr": "s:19BillingiOSInterface14BillingProductV9FrequencyO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19BillingiOSInterface14BillingProductV9FrequencyO7monthlyyA2EmF",
+                "mangledName": "$s19BillingiOSInterface14BillingProductV9FrequencyO7monthlyyA2EmF",
+                "moduleName": "BillingiOSInterface"
+              },
+              {
+                "kind": "Var",
+                "name": "yearly",
+                "printedName": "yearly",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BillingiOSInterface.BillingProduct.Frequency.Type) -> BillingiOSInterface.BillingProduct.Frequency",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Frequency",
+                        "printedName": "BillingiOSInterface.BillingProduct.Frequency",
+                        "usr": "s:19BillingiOSInterface14BillingProductV9FrequencyO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BillingiOSInterface.BillingProduct.Frequency.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Frequency",
+                            "printedName": "BillingiOSInterface.BillingProduct.Frequency",
+                            "usr": "s:19BillingiOSInterface14BillingProductV9FrequencyO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:19BillingiOSInterface14BillingProductV9FrequencyO6yearlyyA2EmF",
+                "mangledName": "$s19BillingiOSInterface14BillingProductV9FrequencyO6yearlyyA2EmF",
+                "moduleName": "BillingiOSInterface"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BillingiOSInterface.BillingProduct.Frequency?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Frequency",
+                        "printedName": "BillingiOSInterface.BillingProduct.Frequency",
+                        "usr": "s:19BillingiOSInterface14BillingProductV9FrequencyO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:19BillingiOSInterface14BillingProductV9FrequencyO8rawValueAESgSS_tcfc",
+                "mangledName": "$s19BillingiOSInterface14BillingProductV9FrequencyO8rawValueAESgSS_tcfc",
+                "moduleName": "BillingiOSInterface",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19BillingiOSInterface14BillingProductV9FrequencyO8rawValueSSvp",
+                "mangledName": "$s19BillingiOSInterface14BillingProductV9FrequencyO8rawValueSSvp",
+                "moduleName": "BillingiOSInterface",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19BillingiOSInterface14BillingProductV9FrequencyO8rawValueSSvg",
+                    "mangledName": "$s19BillingiOSInterface14BillingProductV9FrequencyO8rawValueSSvg",
+                    "moduleName": "BillingiOSInterface",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:19BillingiOSInterface14BillingProductV9FrequencyO",
+            "mangledName": "$s19BillingiOSInterface14BillingProductV9FrequencyO",
+            "moduleName": "BillingiOSInterface",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "products",
+            "printedName": "products",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[BillingiOSInterface.BillingProduct.Product]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Product",
+                    "printedName": "BillingiOSInterface.BillingProduct.Product",
+                    "usr": "s:19BillingiOSInterface14BillingProductV0D0V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19BillingiOSInterface14BillingProductV8productsSayAC0D0VGvp",
+            "mangledName": "$s19BillingiOSInterface14BillingProductV8productsSayAC0D0VGvp",
+            "moduleName": "BillingiOSInterface",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[BillingiOSInterface.BillingProduct.Product]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Product",
+                        "printedName": "BillingiOSInterface.BillingProduct.Product",
+                        "usr": "s:19BillingiOSInterface14BillingProductV0D0V"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BillingiOSInterface14BillingProductV8productsSayAC0D0VGvg",
+                "mangledName": "$s19BillingiOSInterface14BillingProductV8productsSayAC0D0VGvg",
+                "moduleName": "BillingiOSInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Product",
+            "printedName": "Product",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "name",
+                "printedName": "name",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19BillingiOSInterface14BillingProductV0D0V4nameSSvp",
+                "mangledName": "$s19BillingiOSInterface14BillingProductV0D0V4nameSSvp",
+                "moduleName": "BillingiOSInterface",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19BillingiOSInterface14BillingProductV0D0V4nameSSvg",
+                    "mangledName": "$s19BillingiOSInterface14BillingProductV0D0V4nameSSvg",
+                    "moduleName": "BillingiOSInterface",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "flavor",
+                "printedName": "flavor",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19BillingiOSInterface14BillingProductV0D0V6flavorSSvp",
+                "mangledName": "$s19BillingiOSInterface14BillingProductV0D0V6flavorSSvp",
+                "moduleName": "BillingiOSInterface",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19BillingiOSInterface14BillingProductV0D0V6flavorSSvg",
+                    "mangledName": "$s19BillingiOSInterface14BillingProductV0D0V6flavorSSvg",
+                    "moduleName": "BillingiOSInterface",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "appleSubscriptionProductId",
+                "printedName": "appleSubscriptionProductId",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19BillingiOSInterface14BillingProductV0D0V017appleSubscriptionD2IdSSvp",
+                "mangledName": "$s19BillingiOSInterface14BillingProductV0D0V017appleSubscriptionD2IdSSvp",
+                "moduleName": "BillingiOSInterface",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19BillingiOSInterface14BillingProductV0D0V017appleSubscriptionD2IdSSvg",
+                    "mangledName": "$s19BillingiOSInterface14BillingProductV0D0V017appleSubscriptionD2IdSSvg",
+                    "moduleName": "BillingiOSInterface",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "offerId",
+                "printedName": "offerId",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19BillingiOSInterface14BillingProductV0D0V7offerIdSSvp",
+                "mangledName": "$s19BillingiOSInterface14BillingProductV0D0V7offerIdSSvp",
+                "moduleName": "BillingiOSInterface",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19BillingiOSInterface14BillingProductV0D0V7offerIdSSvg",
+                    "mangledName": "$s19BillingiOSInterface14BillingProductV0D0V7offerIdSSvg",
+                    "moduleName": "BillingiOSInterface",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "trialOfferId",
+                "printedName": "trialOfferId",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19BillingiOSInterface14BillingProductV0D0V12trialOfferIdSSSgvp",
+                "mangledName": "$s19BillingiOSInterface14BillingProductV0D0V12trialOfferIdSSSgvp",
+                "moduleName": "BillingiOSInterface",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19BillingiOSInterface14BillingProductV0D0V12trialOfferIdSSSgvg",
+                    "mangledName": "$s19BillingiOSInterface14BillingProductV0D0V12trialOfferIdSSSgvg",
+                    "moduleName": "BillingiOSInterface",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "frequency",
+                "printedName": "frequency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BillingiOSInterface.BillingProduct.Frequency?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Frequency",
+                        "printedName": "BillingiOSInterface.BillingProduct.Frequency",
+                        "usr": "s:19BillingiOSInterface14BillingProductV9FrequencyO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19BillingiOSInterface14BillingProductV0D0V9frequencyAC9FrequencyOSgvp",
+                "mangledName": "$s19BillingiOSInterface14BillingProductV0D0V9frequencyAC9FrequencyOSgvp",
+                "moduleName": "BillingiOSInterface",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "BillingiOSInterface.BillingProduct.Frequency?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Frequency",
+                            "printedName": "BillingiOSInterface.BillingProduct.Frequency",
+                            "usr": "s:19BillingiOSInterface14BillingProductV9FrequencyO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19BillingiOSInterface14BillingProductV0D0V9frequencyAC9FrequencyOSgvg",
+                    "mangledName": "$s19BillingiOSInterface14BillingProductV0D0V9frequencyAC9FrequencyOSgvg",
+                    "moduleName": "BillingiOSInterface",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "levelOfService",
+                "printedName": "levelOfService",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19BillingiOSInterface14BillingProductV0D0V14levelOfServiceSivp",
+                "mangledName": "$s19BillingiOSInterface14BillingProductV0D0V14levelOfServiceSivp",
+                "moduleName": "BillingiOSInterface",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19BillingiOSInterface14BillingProductV0D0V14levelOfServiceSivg",
+                    "mangledName": "$s19BillingiOSInterface14BillingProductV0D0V14levelOfServiceSivg",
+                    "moduleName": "BillingiOSInterface",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(name:flavor:appleSubscriptionProductId:offerId:trialOfferId:frequency:levelOfService:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Product",
+                    "printedName": "BillingiOSInterface.BillingProduct.Product",
+                    "usr": "s:19BillingiOSInterface14BillingProductV0D0V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BillingiOSInterface.BillingProduct.Frequency?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Frequency",
+                        "printedName": "BillingiOSInterface.BillingProduct.Frequency",
+                        "usr": "s:19BillingiOSInterface14BillingProductV9FrequencyO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:19BillingiOSInterface14BillingProductV0D0V4name6flavor017appleSubscriptionD2Id05offerI0010trialOfferI09frequency14levelOfServiceAESS_S4SSgAC9FrequencyOSgSitcfc",
+                "mangledName": "$s19BillingiOSInterface14BillingProductV0D0V4name6flavor017appleSubscriptionD2Id05offerI0010trialOfferI09frequency14levelOfServiceAESS_S4SSgAC9FrequencyOSgSitcfc",
+                "moduleName": "BillingiOSInterface",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Product",
+                    "printedName": "BillingiOSInterface.BillingProduct.Product",
+                    "usr": "s:19BillingiOSInterface14BillingProductV0D0V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:19BillingiOSInterface14BillingProductV0D0V4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s19BillingiOSInterface14BillingProductV0D0V4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "BillingiOSInterface",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:19BillingiOSInterface14BillingProductV0D0V6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s19BillingiOSInterface14BillingProductV0D0V6encode2toys7Encoder_p_tKF",
+                "moduleName": "BillingiOSInterface",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19BillingiOSInterface14BillingProductV0D0V9hashValueSivp",
+                "mangledName": "$s19BillingiOSInterface14BillingProductV0D0V9hashValueSivp",
+                "moduleName": "BillingiOSInterface",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19BillingiOSInterface14BillingProductV0D0V9hashValueSivg",
+                    "mangledName": "$s19BillingiOSInterface14BillingProductV0D0V9hashValueSivg",
+                    "moduleName": "BillingiOSInterface",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:19BillingiOSInterface14BillingProductV0D0V4hash4intoys6HasherVz_tF",
+                "mangledName": "$s19BillingiOSInterface14BillingProductV0D0V4hash4intoys6HasherVz_tF",
+                "moduleName": "BillingiOSInterface",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Product",
+                    "printedName": "BillingiOSInterface.BillingProduct.Product",
+                    "usr": "s:19BillingiOSInterface14BillingProductV0D0V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Product",
+                    "printedName": "BillingiOSInterface.BillingProduct.Product",
+                    "usr": "s:19BillingiOSInterface14BillingProductV0D0V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:19BillingiOSInterface14BillingProductV0D0V2eeoiySbAE_AEtFZ",
+                "mangledName": "$s19BillingiOSInterface14BillingProductV0D0V2eeoiySbAE_AEtFZ",
+                "moduleName": "BillingiOSInterface",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:19BillingiOSInterface14BillingProductV0D0V",
+            "mangledName": "$s19BillingiOSInterface14BillingProductV0D0V",
+            "moduleName": "BillingiOSInterface",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BillingProduct",
+                "printedName": "BillingiOSInterface.BillingProduct",
+                "usr": "s:19BillingiOSInterface14BillingProductV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19BillingiOSInterface14BillingProductV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s19BillingiOSInterface14BillingProductV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "BillingiOSInterface",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19BillingiOSInterface14BillingProductV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s19BillingiOSInterface14BillingProductV6encode2toys7Encoder_p_tKF",
+            "moduleName": "BillingiOSInterface",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19BillingiOSInterface14BillingProductV",
+        "mangledName": "$s19BillingiOSInterface14BillingProductV",
+        "moduleName": "BillingiOSInterface",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BillingiOSInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BillingSubscriptionInfo",
+        "printedName": "BillingSubscriptionInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BillingSubscriptionStatus",
+                "printedName": "BillingiOSInterface.BillingSubscriptionStatus",
+                "usr": "s:19BillingiOSInterface25BillingSubscriptionStatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19BillingiOSInterface23BillingSubscriptionInfoV6statusAA0cD6StatusOvp",
+            "mangledName": "$s19BillingiOSInterface23BillingSubscriptionInfoV6statusAA0cD6StatusOvp",
+            "moduleName": "BillingiOSInterface",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionStatus",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionStatus",
+                    "usr": "s:19BillingiOSInterface25BillingSubscriptionStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BillingiOSInterface23BillingSubscriptionInfoV6statusAA0cD6StatusOvg",
+                "mangledName": "$s19BillingiOSInterface23BillingSubscriptionInfoV6statusAA0cD6StatusOvg",
+                "moduleName": "BillingiOSInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "serviceState",
+            "printedName": "serviceState",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BillingSubscriptionServiceState",
+                "printedName": "BillingiOSInterface.BillingSubscriptionServiceState",
+                "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19BillingiOSInterface23BillingSubscriptionInfoV12serviceStateAA0cd7ServiceG0Ovp",
+            "mangledName": "$s19BillingiOSInterface23BillingSubscriptionInfoV12serviceStateAA0cd7ServiceG0Ovp",
+            "moduleName": "BillingiOSInterface",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BillingSubscriptionServiceState",
+                    "printedName": "BillingiOSInterface.BillingSubscriptionServiceState",
+                    "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BillingiOSInterface23BillingSubscriptionInfoV12serviceStateAA0cd7ServiceG0Ovg",
+                "mangledName": "$s19BillingiOSInterface23BillingSubscriptionInfoV12serviceStateAA0cd7ServiceG0Ovg",
+                "moduleName": "BillingiOSInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expirationDate",
+            "printedName": "expirationDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19BillingiOSInterface23BillingSubscriptionInfoV14expirationDateSSSgvp",
+            "mangledName": "$s19BillingiOSInterface23BillingSubscriptionInfoV14expirationDateSSSgvp",
+            "moduleName": "BillingiOSInterface",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BillingiOSInterface23BillingSubscriptionInfoV14expirationDateSSSgvg",
+                "mangledName": "$s19BillingiOSInterface23BillingSubscriptionInfoV14expirationDateSSSgvg",
+                "moduleName": "BillingiOSInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "productId",
+            "printedName": "productId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19BillingiOSInterface23BillingSubscriptionInfoV9productIdSSvp",
+            "mangledName": "$s19BillingiOSInterface23BillingSubscriptionInfoV9productIdSSvp",
+            "moduleName": "BillingiOSInterface",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BillingiOSInterface23BillingSubscriptionInfoV9productIdSSvg",
+                "mangledName": "$s19BillingiOSInterface23BillingSubscriptionInfoV9productIdSSvg",
+                "moduleName": "BillingiOSInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(status:serviceState:expirationDate:productId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BillingSubscriptionInfo",
+                "printedName": "BillingiOSInterface.BillingSubscriptionInfo",
+                "usr": "s:19BillingiOSInterface23BillingSubscriptionInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BillingSubscriptionStatus",
+                "printedName": "BillingiOSInterface.BillingSubscriptionStatus",
+                "usr": "s:19BillingiOSInterface25BillingSubscriptionStatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BillingSubscriptionServiceState",
+                "printedName": "BillingiOSInterface.BillingSubscriptionServiceState",
+                "usr": "s:19BillingiOSInterface31BillingSubscriptionServiceStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19BillingiOSInterface23BillingSubscriptionInfoV6status12serviceState14expirationDate9productIdAcA0cD6StatusO_AA0cd7ServiceH0OSSSgSStcfc",
+            "mangledName": "$s19BillingiOSInterface23BillingSubscriptionInfoV6status12serviceState14expirationDate9productIdAcA0cD6StatusO_AA0cd7ServiceH0OSSSgSStcfc",
+            "moduleName": "BillingiOSInterface",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BillingSubscriptionInfo",
+                "printedName": "BillingiOSInterface.BillingSubscriptionInfo",
+                "usr": "s:19BillingiOSInterface23BillingSubscriptionInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BillingSubscriptionInfo",
+                "printedName": "BillingiOSInterface.BillingSubscriptionInfo",
+                "usr": "s:19BillingiOSInterface23BillingSubscriptionInfoV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19BillingiOSInterface23BillingSubscriptionInfoV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s19BillingiOSInterface23BillingSubscriptionInfoV2eeoiySbAC_ACtFZ",
+            "moduleName": "BillingiOSInterface",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19BillingiOSInterface23BillingSubscriptionInfoV",
+        "mangledName": "$s19BillingiOSInterface23BillingSubscriptionInfoV",
+        "moduleName": "BillingiOSInterface",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 225,
+      "length": 31,
+      "value": "\"isUserEligibleForFreeTrialKey\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 315,
+      "length": 32,
+      "value": "\"upgradePollingTimeoutInSeconds\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 602,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 695,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 786,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 901,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 978,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1067,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1196,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1273,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1340,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1375,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "StringLiteral",
+      "offset": 1731,
+      "length": 6,
+      "value": "\"PAID\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "StringLiteral",
+      "offset": 1763,
+      "length": 16,
+      "value": "\"PENDING_CANCEL\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "StringLiteral",
+      "offset": 1800,
+      "length": 10,
+      "value": "\"CANCELED\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "StringLiteral",
+      "offset": 1833,
+      "length": 13,
+      "value": "\"IN_PROGRESS\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "StringLiteral",
+      "offset": 1866,
+      "length": 9,
+      "value": "\"UNKNOWN\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "StringLiteral",
+      "offset": 1901,
+      "length": 16,
+      "value": "\"NOT_SUBSCRIBED\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "StringLiteral",
+      "offset": 1934,
+      "length": 6,
+      "value": "\"FREE\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "StringLiteral",
+      "offset": 1731,
+      "length": 6,
+      "value": "\"PAID\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "StringLiteral",
+      "offset": 1763,
+      "length": 16,
+      "value": "\"PENDING_CANCEL\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "StringLiteral",
+      "offset": 1800,
+      "length": 10,
+      "value": "\"CANCELED\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "StringLiteral",
+      "offset": 1833,
+      "length": 13,
+      "value": "\"IN_PROGRESS\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "StringLiteral",
+      "offset": 1866,
+      "length": 9,
+      "value": "\"UNKNOWN\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "StringLiteral",
+      "offset": 1901,
+      "length": 16,
+      "value": "\"NOT_SUBSCRIBED\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingEnumerations.swift",
+      "kind": "StringLiteral",
+      "offset": 1934,
+      "length": 6,
+      "value": "\"FREE\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingHostApp.swift",
+      "kind": "StringLiteral",
+      "offset": 594,
+      "length": 6,
+      "value": "\"MINT\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingHostApp.swift",
+      "kind": "StringLiteral",
+      "offset": 623,
+      "length": 3,
+      "value": "\"2\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingHostApp.swift",
+      "kind": "StringLiteral",
+      "offset": 655,
+      "length": 24,
+      "value": "\"Intuit.cg.mint.premium\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingProduct.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 9,
+      "value": "\"MONTHLY\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingProduct.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 8,
+      "value": "\"YEARLY\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingProduct.swift",
+      "kind": "StringLiteral",
+      "offset": 373,
+      "length": 9,
+      "value": "\"monthly\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingProduct.swift",
+      "kind": "StringLiteral",
+      "offset": 429,
+      "length": 8,
+      "value": "\"yearly\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingProduct.swift",
+      "kind": "StringLiteral",
+      "offset": 439,
+      "length": 8,
+      "value": "\"annual\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingProduct.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 9,
+      "value": "\"MONTHLY\""
+    },
+    {
+      "filePath": "\/Users\/jdomingo\/Dev\/support\/billing-ios-client\/Sources\/Interface\/Classes\/Models\/BillingProduct.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 8,
+      "value": "\"YEARLY\""
+    }
+  ]
+}

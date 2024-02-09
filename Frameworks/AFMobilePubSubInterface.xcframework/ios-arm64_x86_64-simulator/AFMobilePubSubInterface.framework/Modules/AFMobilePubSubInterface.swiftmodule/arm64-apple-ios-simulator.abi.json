@@ -1,0 +1,1341 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AFMobilePubSubInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PubSubDataSource",
+        "printedName": "PubSubDataSource",
+        "children": [
+          {
+            "kind": "AssociatedType",
+            "name": "Data",
+            "printedName": "Data",
+            "declKind": "AssociatedType",
+            "usr": "s:23AFMobilePubSubInterface0bC10DataSourceP0E0Qa",
+            "mangledName": "$s23AFMobilePubSubInterface0bC10DataSourceP0E0Qa",
+            "moduleName": "AFMobilePubSubInterface",
+            "protocolReq": true
+          },
+          {
+            "kind": "Var",
+            "name": "topic",
+            "printedName": "topic",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23AFMobilePubSubInterface0bC10DataSourceP5topicSSvpZ",
+            "mangledName": "$s23AFMobilePubSubInterface0bC10DataSourceP5topicSSvpZ",
+            "moduleName": "AFMobilePubSubInterface",
+            "static": true,
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23AFMobilePubSubInterface0bC10DataSourceP5topicSSvgZ",
+                "mangledName": "$s23AFMobilePubSubInterface0bC10DataSourceP5topicSSvgZ",
+                "moduleName": "AFMobilePubSubInterface",
+                "genericSig": "<τ_0_0 where τ_0_0 : AFMobilePubSubInterface.PubSubDataSource>",
+                "sugared_genericSig": "<Self where Self : AFMobilePubSubInterface.PubSubDataSource>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:23AFMobilePubSubInterface0bC10DataSourceP",
+        "mangledName": "$s23AFMobilePubSubInterface0bC10DataSourceP",
+        "moduleName": "AFMobilePubSubInterface",
+        "genericSig": "<τ_0_0.Data : Swift.Decodable, τ_0_0.Data : Swift.Encodable>",
+        "sugared_genericSig": "<Self.Data : Swift.Decodable, Self.Data : Swift.Encodable>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocalPubSubDelegate",
+        "printedName": "LocalPubSubDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "publish",
+            "printedName": "publish(topic:data:isMessageFromWebWidget:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AFMobilePubSubInterface05LocalbC8DelegateP7publish5topic4data22isMessageFromWebWidgetySS_ypSbtKF",
+            "mangledName": "$s23AFMobilePubSubInterface05LocalbC8DelegateP7publish5topic4data22isMessageFromWebWidgetySS_ypSbtKF",
+            "moduleName": "AFMobilePubSubInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobilePubSubInterface.LocalPubSubDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobilePubSubInterface.LocalPubSubDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "publish",
+            "printedName": "publish(type:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_1_0.Data"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AFMobilePubSubInterface05LocalbC8DelegateP7publish4type4datayqd__m_4DataQyd__tKAA0bcJ6SourceRd__lF",
+            "mangledName": "$s23AFMobilePubSubInterface05LocalbC8DelegateP7publish4type4datayqd__m_4DataQyd__tKAA0bcJ6SourceRd__lF",
+            "moduleName": "AFMobilePubSubInterface",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : AFMobilePubSubInterface.LocalPubSubDelegate, τ_1_0 : AFMobilePubSubInterface.PubSubDataSource>",
+            "sugared_genericSig": "<Self, T where Self : AFMobilePubSubInterface.LocalPubSubDelegate, T : AFMobilePubSubInterface.PubSubDataSource>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subscribe",
+            "printedName": "subscribe(topic:onData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AFMobilePubSubInterface05LocalbC8DelegateP9subscribe5topic6onDataSSSgSS_yypSgctF",
+            "mangledName": "$s23AFMobilePubSubInterface05LocalbC8DelegateP9subscribe5topic6onDataSSSgSS_yypSgctF",
+            "moduleName": "AFMobilePubSubInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobilePubSubInterface.LocalPubSubDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobilePubSubInterface.LocalPubSubDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subscribe",
+            "printedName": "subscribe(type:onData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_1_0.Data) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_1_0.Data"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AFMobilePubSubInterface05LocalbC8DelegateP9subscribe4type6onDataSSSgqd__m_y0J0Qyd__ctAA0bcJ6SourceRd__lF",
+            "mangledName": "$s23AFMobilePubSubInterface05LocalbC8DelegateP9subscribe4type6onDataSSSgqd__m_y0J0Qyd__ctAA0bcJ6SourceRd__lF",
+            "moduleName": "AFMobilePubSubInterface",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : AFMobilePubSubInterface.LocalPubSubDelegate, τ_1_0 : AFMobilePubSubInterface.PubSubDataSource>",
+            "sugared_genericSig": "<Self, T where Self : AFMobilePubSubInterface.LocalPubSubDelegate, T : AFMobilePubSubInterface.PubSubDataSource>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsubscribe",
+            "printedName": "unsubscribe(subscription:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AFMobilePubSubInterface05LocalbC8DelegateP11unsubscribe12subscriptionSbSS_tF",
+            "mangledName": "$s23AFMobilePubSubInterface05LocalbC8DelegateP11unsubscribe12subscriptionSbSS_tF",
+            "moduleName": "AFMobilePubSubInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobilePubSubInterface.LocalPubSubDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobilePubSubInterface.LocalPubSubDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:23AFMobilePubSubInterface05LocalbC8DelegateP",
+        "mangledName": "$s23AFMobilePubSubInterface05LocalbC8DelegateP",
+        "moduleName": "AFMobilePubSubInterface",
+        "genericSig": "<τ_0_0 : Foundation.NSCopying>",
+        "sugared_genericSig": "<Self : Foundation.NSCopying>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AFMobilePubSubInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MobileEventsControllerInterface",
+        "printedName": "MobileEventsControllerInterface",
+        "declKind": "Import",
+        "moduleName": "AFMobilePubSubInterface"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PubSubDelegate",
+        "printedName": "PubSubDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "publish",
+            "printedName": "publish(topic:data:transInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Topic",
+                "printedName": "MobileEventsControllerInterface.Topic",
+                "usr": "s:31MobileEventsControllerInterface5TopicV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MobileEventsControllerInterface.EventsMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventsMetadata",
+                    "printedName": "MobileEventsControllerInterface.EventsMetadata",
+                    "usr": "s:31MobileEventsControllerInterface0B8MetadataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AFMobilePubSubInterface0bC8DelegateP7publish5topic4data9transInfoSb022MobileEventsControllerD05TopicV_ypAH0L8MetadataVSgtKF",
+            "mangledName": "$s23AFMobilePubSubInterface0bC8DelegateP7publish5topic4data9transInfoSb022MobileEventsControllerD05TopicV_ypAH0L8MetadataVSgtKF",
+            "moduleName": "AFMobilePubSubInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobilePubSubInterface.PubSubDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobilePubSubInterface.PubSubDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "publish",
+            "printedName": "publish(topic:data:transInfo:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Topic",
+                "printedName": "MobileEventsControllerInterface.Topic",
+                "usr": "s:31MobileEventsControllerInterface5TopicV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MobileEventsControllerInterface.EventsMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventsMetadata",
+                    "printedName": "MobileEventsControllerInterface.EventsMetadata",
+                    "usr": "s:31MobileEventsControllerInterface0B8MetadataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.String, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.String, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AFMobilePubSubInterface0bC8DelegateP7publish5topic4data9transInfo17completionHandlery022MobileEventsControllerD05TopicV_ypAI0N8MetadataVSgys6ResultOySSs5Error_pGctF",
+            "mangledName": "$s23AFMobilePubSubInterface0bC8DelegateP7publish5topic4data9transInfo17completionHandlery022MobileEventsControllerD05TopicV_ypAI0N8MetadataVSgys6ResultOySSs5Error_pGctF",
+            "moduleName": "AFMobilePubSubInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobilePubSubInterface.PubSubDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobilePubSubInterface.PubSubDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subscribe",
+            "printedName": "subscribe(topic:onData:onError:transInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MobileEventsControllerInterface.Subscription?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Subscription",
+                    "printedName": "MobileEventsControllerInterface.Subscription",
+                    "usr": "s:31MobileEventsControllerInterface12SubscriptionV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Topic",
+                "printedName": "MobileEventsControllerInterface.Topic",
+                "usr": "s:31MobileEventsControllerInterface5TopicV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?, MobileEventsControllerInterface.EventsMetadata?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Any?, MobileEventsControllerInterface.EventsMetadata?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Any?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "MobileEventsControllerInterface.EventsMetadata?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventsMetadata",
+                            "printedName": "MobileEventsControllerInterface.EventsMetadata",
+                            "usr": "s:31MobileEventsControllerInterface0B8MetadataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Error) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MobileEventsControllerInterface.EventsMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventsMetadata",
+                    "printedName": "MobileEventsControllerInterface.EventsMetadata",
+                    "usr": "s:31MobileEventsControllerInterface0B8MetadataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AFMobilePubSubInterface0bC8DelegateP9subscribe5topic6onData0H5Error9transInfo022MobileEventsControllerD012SubscriptionVSgAI5TopicV_yypSg_AI0N8MetadataVSgtcys0J0_pcARtKF",
+            "mangledName": "$s23AFMobilePubSubInterface0bC8DelegateP9subscribe5topic6onData0H5Error9transInfo022MobileEventsControllerD012SubscriptionVSgAI5TopicV_yypSg_AI0N8MetadataVSgtcys0J0_pcARtKF",
+            "moduleName": "AFMobilePubSubInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobilePubSubInterface.PubSubDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobilePubSubInterface.PubSubDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subscribe",
+            "printedName": "subscribe(topic:onData:onError:transInfo:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Topic",
+                "printedName": "MobileEventsControllerInterface.Topic",
+                "usr": "s:31MobileEventsControllerInterface5TopicV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?, MobileEventsControllerInterface.EventsMetadata?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Any?, MobileEventsControllerInterface.EventsMetadata?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Any?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "MobileEventsControllerInterface.EventsMetadata?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventsMetadata",
+                            "printedName": "MobileEventsControllerInterface.EventsMetadata",
+                            "usr": "s:31MobileEventsControllerInterface0B8MetadataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Error) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MobileEventsControllerInterface.EventsMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventsMetadata",
+                    "printedName": "MobileEventsControllerInterface.EventsMetadata",
+                    "usr": "s:31MobileEventsControllerInterface0B8MetadataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<MobileEventsControllerInterface.Subscription, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<MobileEventsControllerInterface.Subscription, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Subscription",
+                        "printedName": "MobileEventsControllerInterface.Subscription",
+                        "usr": "s:31MobileEventsControllerInterface12SubscriptionV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AFMobilePubSubInterface0bC8DelegateP9subscribe5topic6onData0H5Error9transInfo17completionHandlery022MobileEventsControllerD05TopicV_yypSg_AJ0P8MetadataVSgtcys0J0_pcAPys6ResultOyAJ12SubscriptionVsAQ_pGctF",
+            "mangledName": "$s23AFMobilePubSubInterface0bC8DelegateP9subscribe5topic6onData0H5Error9transInfo17completionHandlery022MobileEventsControllerD05TopicV_yypSg_AJ0P8MetadataVSgtcys0J0_pcAPys6ResultOyAJ12SubscriptionVsAQ_pGctF",
+            "moduleName": "AFMobilePubSubInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobilePubSubInterface.PubSubDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobilePubSubInterface.PubSubDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsubscribe",
+            "printedName": "unsubscribe(subscription:transInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Subscription",
+                "printedName": "MobileEventsControllerInterface.Subscription",
+                "usr": "s:31MobileEventsControllerInterface12SubscriptionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MobileEventsControllerInterface.EventsMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventsMetadata",
+                    "printedName": "MobileEventsControllerInterface.EventsMetadata",
+                    "usr": "s:31MobileEventsControllerInterface0B8MetadataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AFMobilePubSubInterface0bC8DelegateP11unsubscribe12subscription9transInfoSb022MobileEventsControllerD012SubscriptionV_AG0K8MetadataVSgtKF",
+            "mangledName": "$s23AFMobilePubSubInterface0bC8DelegateP11unsubscribe12subscription9transInfoSb022MobileEventsControllerD012SubscriptionV_AG0K8MetadataVSgtKF",
+            "moduleName": "AFMobilePubSubInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobilePubSubInterface.PubSubDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobilePubSubInterface.PubSubDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsubscribe",
+            "printedName": "unsubscribe(subscription:transInfo:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Subscription",
+                "printedName": "MobileEventsControllerInterface.Subscription",
+                "usr": "s:31MobileEventsControllerInterface12SubscriptionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MobileEventsControllerInterface.EventsMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventsMetadata",
+                    "printedName": "MobileEventsControllerInterface.EventsMetadata",
+                    "usr": "s:31MobileEventsControllerInterface0B8MetadataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.String, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.String, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AFMobilePubSubInterface0bC8DelegateP11unsubscribe12subscription9transInfo17completionHandlery022MobileEventsControllerD012SubscriptionV_AH0M8MetadataVSgys6ResultOySSs5Error_pGctF",
+            "mangledName": "$s23AFMobilePubSubInterface0bC8DelegateP11unsubscribe12subscription9transInfo17completionHandlery022MobileEventsControllerD012SubscriptionV_AH0M8MetadataVSgys6ResultOySSs5Error_pGctF",
+            "moduleName": "AFMobilePubSubInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobilePubSubInterface.PubSubDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobilePubSubInterface.PubSubDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "publish",
+            "printedName": "publish(topic:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Topic",
+                "printedName": "MobileEventsControllerInterface.Topic",
+                "usr": "s:31MobileEventsControllerInterface5TopicV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AFMobilePubSubInterface0bC8DelegatePAAE7publish5topic4dataSb022MobileEventsControllerD05TopicV_yptKF",
+            "mangledName": "$s23AFMobilePubSubInterface0bC8DelegatePAAE7publish5topic4dataSb022MobileEventsControllerD05TopicV_yptKF",
+            "moduleName": "AFMobilePubSubInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobilePubSubInterface.PubSubDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobilePubSubInterface.PubSubDelegate>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "publish",
+            "printedName": "publish(topic:data:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Topic",
+                "printedName": "MobileEventsControllerInterface.Topic",
+                "usr": "s:31MobileEventsControllerInterface5TopicV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.String, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.String, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AFMobilePubSubInterface0bC8DelegatePAAE7publish5topic4data17completionHandlery022MobileEventsControllerD05TopicV_ypys6ResultOySSs5Error_pGctF",
+            "mangledName": "$s23AFMobilePubSubInterface0bC8DelegatePAAE7publish5topic4data17completionHandlery022MobileEventsControllerD05TopicV_ypys6ResultOySSs5Error_pGctF",
+            "moduleName": "AFMobilePubSubInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobilePubSubInterface.PubSubDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobilePubSubInterface.PubSubDelegate>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subscribe",
+            "printedName": "subscribe(topic:onData:onError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MobileEventsControllerInterface.Subscription?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Subscription",
+                    "printedName": "MobileEventsControllerInterface.Subscription",
+                    "usr": "s:31MobileEventsControllerInterface12SubscriptionV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Topic",
+                "printedName": "MobileEventsControllerInterface.Topic",
+                "usr": "s:31MobileEventsControllerInterface5TopicV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?, MobileEventsControllerInterface.EventsMetadata?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Any?, MobileEventsControllerInterface.EventsMetadata?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Any?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "MobileEventsControllerInterface.EventsMetadata?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventsMetadata",
+                            "printedName": "MobileEventsControllerInterface.EventsMetadata",
+                            "usr": "s:31MobileEventsControllerInterface0B8MetadataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Error) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "hasDefaultArg": true
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AFMobilePubSubInterface0bC8DelegatePAAE9subscribe5topic6onData0H5Error022MobileEventsControllerD012SubscriptionVSgAH5TopicV_yypSg_AH0L8MetadataVSgtcys0J0_pctKF",
+            "mangledName": "$s23AFMobilePubSubInterface0bC8DelegatePAAE9subscribe5topic6onData0H5Error022MobileEventsControllerD012SubscriptionVSgAH5TopicV_yypSg_AH0L8MetadataVSgtcys0J0_pctKF",
+            "moduleName": "AFMobilePubSubInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobilePubSubInterface.PubSubDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobilePubSubInterface.PubSubDelegate>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subscribe",
+            "printedName": "subscribe(topic:onData:onError:transInfo:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Topic",
+                "printedName": "MobileEventsControllerInterface.Topic",
+                "usr": "s:31MobileEventsControllerInterface5TopicV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?, MobileEventsControllerInterface.EventsMetadata?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Any?, MobileEventsControllerInterface.EventsMetadata?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Any?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "MobileEventsControllerInterface.EventsMetadata?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventsMetadata",
+                            "printedName": "MobileEventsControllerInterface.EventsMetadata",
+                            "usr": "s:31MobileEventsControllerInterface0B8MetadataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Error) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "hasDefaultArg": true
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MobileEventsControllerInterface.EventsMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventsMetadata",
+                    "printedName": "MobileEventsControllerInterface.EventsMetadata",
+                    "usr": "s:31MobileEventsControllerInterface0B8MetadataV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<MobileEventsControllerInterface.Subscription, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<MobileEventsControllerInterface.Subscription, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Subscription",
+                        "printedName": "MobileEventsControllerInterface.Subscription",
+                        "usr": "s:31MobileEventsControllerInterface12SubscriptionV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AFMobilePubSubInterface0bC8DelegatePAAE9subscribe5topic6onData0H5Error9transInfo17completionHandlery022MobileEventsControllerD05TopicV_yypSg_AJ0P8MetadataVSgtcys0J0_pcAPys6ResultOyAJ12SubscriptionVsAQ_pGctF",
+            "mangledName": "$s23AFMobilePubSubInterface0bC8DelegatePAAE9subscribe5topic6onData0H5Error9transInfo17completionHandlery022MobileEventsControllerD05TopicV_yypSg_AJ0P8MetadataVSgtcys0J0_pcAPys6ResultOyAJ12SubscriptionVsAQ_pGctF",
+            "moduleName": "AFMobilePubSubInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobilePubSubInterface.PubSubDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobilePubSubInterface.PubSubDelegate>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsubscribe",
+            "printedName": "unsubscribe(subscription:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Subscription",
+                "printedName": "MobileEventsControllerInterface.Subscription",
+                "usr": "s:31MobileEventsControllerInterface12SubscriptionV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AFMobilePubSubInterface0bC8DelegatePAAE11unsubscribe12subscriptionSb022MobileEventsControllerD012SubscriptionV_tKF",
+            "mangledName": "$s23AFMobilePubSubInterface0bC8DelegatePAAE11unsubscribe12subscriptionSb022MobileEventsControllerD012SubscriptionV_tKF",
+            "moduleName": "AFMobilePubSubInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobilePubSubInterface.PubSubDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobilePubSubInterface.PubSubDelegate>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsubscribe",
+            "printedName": "unsubscribe(subscription:transInfo:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Subscription",
+                "printedName": "MobileEventsControllerInterface.Subscription",
+                "usr": "s:31MobileEventsControllerInterface12SubscriptionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MobileEventsControllerInterface.EventsMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventsMetadata",
+                    "printedName": "MobileEventsControllerInterface.EventsMetadata",
+                    "usr": "s:31MobileEventsControllerInterface0B8MetadataV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.String, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.String, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23AFMobilePubSubInterface0bC8DelegatePAAE11unsubscribe12subscription9transInfo17completionHandlery022MobileEventsControllerD012SubscriptionV_AH0M8MetadataVSgys6ResultOySSs5Error_pGctF",
+            "mangledName": "$s23AFMobilePubSubInterface0bC8DelegatePAAE11unsubscribe12subscription9transInfo17completionHandlery022MobileEventsControllerD012SubscriptionV_AH0M8MetadataVSgys6ResultOySSs5Error_pGctF",
+            "moduleName": "AFMobilePubSubInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : AFMobilePubSubInterface.PubSubDelegate>",
+            "sugared_genericSig": "<Self where Self : AFMobilePubSubInterface.PubSubDelegate>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:23AFMobilePubSubInterface0bC8DelegateP",
+        "mangledName": "$s23AFMobilePubSubInterface0bC8DelegateP",
+        "moduleName": "AFMobilePubSubInterface",
+        "genericSig": "<τ_0_0 : Foundation.NSCopying>",
+        "sugared_genericSig": "<Self : Foundation.NSCopying>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

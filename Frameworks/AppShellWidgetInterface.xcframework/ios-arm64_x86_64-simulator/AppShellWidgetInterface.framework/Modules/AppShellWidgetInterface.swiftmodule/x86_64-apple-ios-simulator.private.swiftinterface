@@ -15,18 +15,13 @@ import AFMobilePubSubInterface
 import AFMobileSmartLookInterface
 import AFMobileSubscriptionInterface
 @_exported import AppShellWidgetInterface
-import CGPlayerPlugin
 import Combine
-import EventCollectionStandard
 import Foundation
-import IntuitDataLayer
-import JavaScriptCore
 import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-import iOSPlayer
 public protocol ActionDelegate : AppShellWidgetInterface.SandboxDelegate {
   func doAction(_ action: Swift.String, data: Swift.AnyObject?, context: [Swift.String : Swift.AnyObject]?, completionHandler: @escaping (_ data: Swift.AnyObject?, _ error: Foundation.NSError?) -> Swift.Void)
 }
@@ -328,79 +323,6 @@ final public class NetworkClient {
   final public func request(_ endpoint: any AppShellWidgetInterface.Endpoint, networkCallCompletion: @escaping (Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?) -> Swift.Void)
   @objc deinit
 }
-public protocol PlayerHandler : AnyObject, AppShellWidgetInterface.SandboxContainer {
-  var uuid: Foundation.UUID { get }
-  var player: iOSPlayer.Player? { get }
-  func playerPlugin() -> [any iOSPlayer.NativePlugin]
-  func setupPlayer(context: JavaScriptCore.JSContext) -> iOSPlayer.Player
-  func configurePlayer(_ player: iOSPlayer.Player)
-  func start(flow: Swift.String, flowId: Swift.String?, viewDidLayout: @escaping () -> Swift.Void, completion: ((Swift.Result<iOSPlayer.CompletedState, iOSPlayer.PlayerError>) -> Swift.Void)?)
-  func receivedFlow(result: Swift.Result<iOSPlayer.CompletedState, iOSPlayer.PlayerError>)
-  func receivedPlayerBeacon(beacon: iOSPlayer.DefaultBeacon)
-  func cleanup()
-  func analyticEvent(for beacon: iOSPlayer.DefaultBeacon) -> (name: Swift.String, details: [Swift.String : any Swift.Encodable])?
-  func trackAnalytic(name: Swift.String, details: [Swift.String : any Swift.Encodable])
-}
-extension AppShellWidgetInterface.PlayerHandler {
-  public func setupPlayer(context: JavaScriptCore.JSContext = JSContext()) -> iOSPlayer.Player
-  public func start(flow: Swift.String, flowId passedflowID: Swift.String? = nil, viewDidLayout layoutCallback: @escaping () -> Swift.Void = {}, completion: ((Swift.Result<iOSPlayer.CompletedState, iOSPlayer.PlayerError>) -> Swift.Void)? = nil)
-  public func cleanup()
-  public func analyticEvent(for beacon: iOSPlayer.DefaultBeacon) -> (name: Swift.String, details: [Swift.String : any Swift.Encodable])?
-  public func trackAnalytic(name: Swift.String, details: [Swift.String : any Swift.Encodable])
-}
-extension iOSPlayer.DefaultBeacon {
-  public var analyticDetails: [Swift.String : any Swift.Encodable] {
-    get
-  }
-}
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) open class PlayerViewController : UIKit.UIViewController, AppShellWidgetInterface.PlayerHandler, AppShellWidgetInterface.NativeWidget {
-  @_Concurrency.MainActor(unsafe) final public let sandbox: any AppShellWidgetInterface.Sandbox
-  @_Concurrency.MainActor(unsafe) final public let uuid: Foundation.UUID
-  @_Concurrency.MainActor(unsafe) public var scrollView: UIKit.UIScrollView {
-    get
-  }
-  @_Concurrency.MainActor(unsafe) public init(sandbox: any AppShellWidgetInterface.Sandbox)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
-  @objc deinit
-  @_Concurrency.MainActor(unsafe) open func setupUI()
-  @_Concurrency.MainActor(unsafe) public var player: iOSPlayer.Player? {
-    get
-  }
-  @_Concurrency.MainActor(unsafe) open func receivedFlow(result: Swift.Result<iOSPlayer.CompletedState, iOSPlayer.PlayerError>)
-  @_Concurrency.MainActor(unsafe) open func receivedPlayerBeacon(beacon: iOSPlayer.DefaultBeacon)
-  @_Concurrency.MainActor(unsafe) open func playerPlugin() -> [any iOSPlayer.NativePlugin]
-  @_Concurrency.MainActor(unsafe) open func configurePlayer(_ player: iOSPlayer.Player)
-}
-@objc open class PlayerWidget : ObjectiveC.NSObject, AppShellWidgetInterface.Widget, AppShellWidgetInterface.PlayerHandler {
-  final public let uuid: Foundation.UUID
-  final public let sandbox: any AppShellWidgetInterface.Sandbox
-  final public let widgetDescriptor: any AppShellWidgetInterface.WidgetDescriptor
-  open var widgetId: Swift.String {
-    get
-  }
-  open var widgetVersion: Swift.String {
-    get
-  }
-  open func getTrackingContext() -> [Swift.String : Any]
-  @discardableResult
-  public func setupViewController() -> AppShellWidgetInterface.PlayerViewController
-  required public init(widgetDescriptor: any AppShellWidgetInterface.WidgetDescriptor, sandbox: any AppShellWidgetInterface.Sandbox) throws
-  @objc deinit
-  open func preload(_ widgetLoadCompletionBlock: @escaping (_ error: (any Swift.Error)?) -> Swift.Void)
-  open func load(uiDelegate: (any AppShellWidgetInterface.AFMobileUIDelegate)?, initialProperties: [Swift.String : Swift.AnyObject]?, widgetLoadCompletionBlock: @escaping (_ viewController: UIKit.UIViewController?, _ error: (any Swift.Error)?) -> Swift.Void)
-  open func prepareToUnload(_ completionBlock: @escaping (_ canUnload: Swift.Bool, _ error: (any Swift.Error)?) -> Swift.Void)
-  open func unload(completionBlock: @escaping (_ error: (any Swift.Error)?) -> Swift.Void)
-  open func release(completionBlock: @escaping (_ error: (any Swift.Error)?) -> Swift.Void)
-  open var player: iOSPlayer.Player? {
-    get
-  }
-  open func receivedFlow(result: Swift.Result<iOSPlayer.CompletedState, iOSPlayer.PlayerError>)
-  open func receivedPlayerBeacon(beacon: iOSPlayer.DefaultBeacon)
-  open func playerPlugin() -> [any iOSPlayer.NativePlugin]
-  open func configurePlayer(_ player: iOSPlayer.Player)
-  open func trackAnalytic(name: Swift.String, details: [Swift.String : any Swift.Encodable])
-}
 public struct RemoteConfigurationConstants {
 }
 public protocol RemoteConfigDelegate : AppShellWidgetInterface.SandboxDelegate {
@@ -669,44 +591,10 @@ public protocol AFMobileWidgetDelegate : AppShellWidgetInterface.WidgetDelegate 
 public protocol SandboxDelegate : Foundation.NSCopying {
   var sandbox: (any AppShellWidgetInterface.Sandbox)? { get set }
 }
-public class ShellDynamicCacheDelegate : AppShellWidgetInterface.AFMobileDynamicCacheDelegate {
-  weak public var sandbox: (any AppShellWidgetInterface.Sandbox)? {
-    get
-    set
-  }
-  public var globalRepository: AppShellWidgetInterface.ShellRepository
-  public init(_ environment: AFMobileContextInterface.AuthEnvironmentType)
-  @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
-  public func createPublicRepository(named: Swift.String) -> AppShellWidgetInterface.ShellRepository
-  public func createPrivateRepository(for bundle: Foundation.Bundle) -> AppShellWidgetInterface.ShellRepository
-  @objc deinit
-}
-public class ShellRepository : IntuitDataLayer.Repository {
-  public struct Configuration {
-    public init(enableLogging: Swift.Bool, enableInstrumentation: Swift.Bool)
-  }
+public class ShellRepository {
   public init(_ publicRepoName: Swift.String, sandbox: (any AppShellWidgetInterface.Sandbox)?)
   public init(_ bundle: Foundation.Bundle, sandbox: (any AppShellWidgetInterface.Sandbox)?)
-  public func setSandbox(_ sandbox: any AppShellWidgetInterface.Sandbox)
-  public func update<DataIdentifier, Update>(for dataIdentifier: DataIdentifier, update: Update, lifetime: IntuitDataLayer.RepositoryDataLifetime, handleOn completionQueue: Dispatch.DispatchQueue = .main, completion: (((any Swift.Error)?) -> Swift.Void)? = nil) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying, Update : IntuitDataLayer.DynamicUpdate, DataIdentifier.DynamicDataType == Update.UpdatedDataType
-  public func query<DataIdentifier, Query>(for dataIdentifier: DataIdentifier, query: Query, handleOn completionQueue: Dispatch.DispatchQueue = .main, completion: @escaping (IntuitDataLayer.RepositoryQueryResult<DataIdentifier.DynamicDataType>) -> Swift.Void) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying, Query : IntuitDataLayer.DynamicQuery, DataIdentifier.DynamicDataType == Query.QueriedDataType
-  public func queryMetadata<DataIdentifier>(for dataIdentifier: DataIdentifier, handleOn completionQueue: Dispatch.DispatchQueue = .main, completion: @escaping (Swift.Result<IntuitDataLayer.RepositoryDataMetadata?, any Swift.Error>) -> Swift.Void) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying
-  public func updateLifetime<DataIdentifier>(for dataIdentifier: DataIdentifier, lifetime: IntuitDataLayer.RepositoryDataLifetime, handleOn completionQueue: Dispatch.DispatchQueue, completion: (((any Swift.Error)?) -> Swift.Void)?) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying
-  public func invalidate<DataIdentifier>(_ dataIdentifier: DataIdentifier, handleOn completionQueue: Dispatch.DispatchQueue, completion: (((any Swift.Error)?) -> Swift.Void)?) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying
-  public func delete<DataIdentifier>(for dataIdentifier: DataIdentifier, completionQueue: Dispatch.DispatchQueue, completion: (((any Swift.Error)?) -> Swift.Void)?) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying
-  public func clear(handleOn completionQueue: Dispatch.DispatchQueue = .main, completion: (((any Swift.Error)?) -> Swift.Void)? = nil)
-  public func watch<DataIdentifier, Query>(dataIdentifier: DataIdentifier, query: Query, handleOn handlerQueue: Dispatch.DispatchQueue = .main, handler: @escaping (IntuitDataLayer.RepositoryQueryResult<DataIdentifier.DynamicDataType>) -> Swift.Void) -> IntuitDataLayer.AnyCanceling? where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying, Query : IntuitDataLayer.DynamicQuery, DataIdentifier.DynamicDataType == Query.QueriedDataType
   @objc deinit
-}
-extension AppShellWidgetInterface.ShellRepository {
-  public func update<DataIdentifier, Update>(for dataIdentifier: DataIdentifier, update: Update, lifetime: IntuitDataLayer.RepositoryDataLifetime, shellConfiguration: AppShellWidgetInterface.ShellRepository.Configuration, handleOn completionQueue: Dispatch.DispatchQueue = .main, completion: (((any Swift.Error)?) -> Swift.Void)? = nil) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying, Update : IntuitDataLayer.DynamicUpdate, DataIdentifier.DynamicDataType == Update.UpdatedDataType
-  public func query<DataIdentifier, Query>(for dataIdentifier: DataIdentifier, query: Query, shellConfiguration: AppShellWidgetInterface.ShellRepository.Configuration, handleOn completionQueue: Dispatch.DispatchQueue = .main, completion: @escaping (IntuitDataLayer.RepositoryQueryResult<DataIdentifier.DynamicDataType>) -> Swift.Void) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying, Query : IntuitDataLayer.DynamicQuery, DataIdentifier.DynamicDataType == Query.QueriedDataType
-  public func queryMetadata<DataIdentifier>(for dataIdentifier: DataIdentifier, shellConfiguration: AppShellWidgetInterface.ShellRepository.Configuration, handleOn completionQueue: Dispatch.DispatchQueue = .main, completion: @escaping (Swift.Result<IntuitDataLayer.RepositoryDataMetadata?, any Swift.Error>) -> Swift.Void) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying
-  public func updateLifetime<DataIdentifier>(for dataIdentifier: DataIdentifier, lifetime: IntuitDataLayer.RepositoryDataLifetime, shellConfiguration: AppShellWidgetInterface.ShellRepository.Configuration, handleOn completionQueue: Dispatch.DispatchQueue, completion: (((any Swift.Error)?) -> Swift.Void)?) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying
-  public func invalidate<DataIdentifier>(_ dataIdentifier: DataIdentifier, shellConfiguration: AppShellWidgetInterface.ShellRepository.Configuration, handleOn completionQueue: Dispatch.DispatchQueue, completion: (((any Swift.Error)?) -> Swift.Void)?) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying
-  public func delete<DataIdentifier>(for dataIdentifier: DataIdentifier, shellConfiguration: AppShellWidgetInterface.ShellRepository.Configuration, completionQueue: Dispatch.DispatchQueue, completion: (((any Swift.Error)?) -> Swift.Void)?) where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying
-  public func clear(shellConfiguration: AppShellWidgetInterface.ShellRepository.Configuration, handleOn completionQueue: Dispatch.DispatchQueue = .main, completion: (((any Swift.Error)?) -> Swift.Void)? = nil)
-  public func watch<DataIdentifier, Query>(dataIdentifier: DataIdentifier, query: Query, shellConfiguration: AppShellWidgetInterface.ShellRepository.Configuration, handleOn handlerQueue: Dispatch.DispatchQueue = .main, handler: @escaping (IntuitDataLayer.RepositoryQueryResult<DataIdentifier.DynamicDataType>) -> Swift.Void) -> IntuitDataLayer.AnyCanceling? where DataIdentifier : IntuitDataLayer.RepositoryDataIdentifying, Query : IntuitDataLayer.DynamicQuery, DataIdentifier.DynamicDataType == Query.QueriedDataType
 }
 @available(iOS 13.0, *)
 public protocol SwiftUINativeWidget : AFMobileContextInterface.WidgetInfoProvider {

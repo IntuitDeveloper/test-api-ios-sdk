@@ -1,0 +1,11 @@
+framework module AFMobilePubSubInterface {
+  umbrella header "AFMobilePubSubInterface-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AFMobilePubSubInterface.Swift {
+  header "AFMobilePubSubInterface-Swift.h"
+  requires objc
+}

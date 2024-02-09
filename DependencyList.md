@@ -1,6 +1,6 @@
 # Test SDK Package Dependencies
 ### Immediate dependencies
-* AppShellWidgetInterface (20.7.0)
+* AppShellWidgetInterface (20.7.0) - no IntuitDataLayer dependency
 * AFMobileContextInterface (1.0.0)
 * AFMobileAuthenticationInterface (1.2.0)
 * AFMobileAnalyticsInterface (1.0.0)
@@ -14,12 +14,14 @@
 * AFMobileLoggingInterface (1.0.0)
 * AFMobileABTestingInterface(2.0.0)
 * AFMobileDeepLinkInterface (1.0.0)
-* AFMobileIntuitDataLayerInterface (1.0.0)
+* AFMobileIntuitDataLayerInterface (1.0.0) - no Apollo/AppShellDataLayer dependency
 * AFMobileNetworkInterface (1.0.0)
 * AFMobilePerformanceInterface (1.2.1)
 * AFMobilePubSubInterface (2.1.0)
 * AFMobileSmartLookInterface (2.5.0)
 * AFMobileSubscriptionInterface (1.0.0)
 * EventCollectionStandard (5.0.1)
+* BillingiOSInterface (5.1.0)
+* MobileEventsControllerInterface (5.7.0)
 
 *Note: packaged and compliled using Xcode 15.x and Swift 5.9. Not backwards compatible to older versions because of restrictions from macOS Sonoma and Xcode 15.*

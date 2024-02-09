@@ -1,0 +1,2863 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileEventsControllerInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReceiptProtocol",
+        "printedName": "ReceiptProtocol",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "SSE",
+            "printedName": "SSE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileEventsControllerInterface.ReceiptProtocol.Type) -> MobileEventsControllerInterface.ReceiptProtocol",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReceiptProtocol",
+                    "printedName": "MobileEventsControllerInterface.ReceiptProtocol",
+                    "usr": "s:31MobileEventsControllerInterface15ReceiptProtocolO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobileEventsControllerInterface.ReceiptProtocol.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReceiptProtocol",
+                        "printedName": "MobileEventsControllerInterface.ReceiptProtocol",
+                        "usr": "s:31MobileEventsControllerInterface15ReceiptProtocolO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:31MobileEventsControllerInterface15ReceiptProtocolO3SSEyA2CmF",
+            "mangledName": "$s31MobileEventsControllerInterface15ReceiptProtocolO3SSEyA2CmF",
+            "moduleName": "MobileEventsControllerInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "WSS",
+            "printedName": "WSS",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileEventsControllerInterface.ReceiptProtocol.Type) -> MobileEventsControllerInterface.ReceiptProtocol",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReceiptProtocol",
+                    "printedName": "MobileEventsControllerInterface.ReceiptProtocol",
+                    "usr": "s:31MobileEventsControllerInterface15ReceiptProtocolO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobileEventsControllerInterface.ReceiptProtocol.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReceiptProtocol",
+                        "printedName": "MobileEventsControllerInterface.ReceiptProtocol",
+                        "usr": "s:31MobileEventsControllerInterface15ReceiptProtocolO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:31MobileEventsControllerInterface15ReceiptProtocolO3WSSyA2CmF",
+            "mangledName": "$s31MobileEventsControllerInterface15ReceiptProtocolO3WSSyA2CmF",
+            "moduleName": "MobileEventsControllerInterface"
+          },
+          {
+            "kind": "Var",
+            "name": "PUSH",
+            "printedName": "PUSH",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MobileEventsControllerInterface.ReceiptProtocol.Type) -> MobileEventsControllerInterface.ReceiptProtocol",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReceiptProtocol",
+                    "printedName": "MobileEventsControllerInterface.ReceiptProtocol",
+                    "usr": "s:31MobileEventsControllerInterface15ReceiptProtocolO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MobileEventsControllerInterface.ReceiptProtocol.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReceiptProtocol",
+                        "printedName": "MobileEventsControllerInterface.ReceiptProtocol",
+                        "usr": "s:31MobileEventsControllerInterface15ReceiptProtocolO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:31MobileEventsControllerInterface15ReceiptProtocolO4PUSHyA2CmF",
+            "mangledName": "$s31MobileEventsControllerInterface15ReceiptProtocolO4PUSHyA2CmF",
+            "moduleName": "MobileEventsControllerInterface"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReceiptProtocol",
+                "printedName": "MobileEventsControllerInterface.ReceiptProtocol",
+                "usr": "s:31MobileEventsControllerInterface15ReceiptProtocolO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReceiptProtocol",
+                "printedName": "MobileEventsControllerInterface.ReceiptProtocol",
+                "usr": "s:31MobileEventsControllerInterface15ReceiptProtocolO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31MobileEventsControllerInterface15ReceiptProtocolO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s31MobileEventsControllerInterface15ReceiptProtocolO2eeoiySbAC_ACtFZ",
+            "moduleName": "MobileEventsControllerInterface",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31MobileEventsControllerInterface15ReceiptProtocolO9hashValueSivp",
+            "mangledName": "$s31MobileEventsControllerInterface15ReceiptProtocolO9hashValueSivp",
+            "moduleName": "MobileEventsControllerInterface",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface15ReceiptProtocolO9hashValueSivg",
+                "mangledName": "$s31MobileEventsControllerInterface15ReceiptProtocolO9hashValueSivg",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31MobileEventsControllerInterface15ReceiptProtocolO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s31MobileEventsControllerInterface15ReceiptProtocolO4hash4intoys6HasherVz_tF",
+            "moduleName": "MobileEventsControllerInterface",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReceiptProtocol",
+                "printedName": "MobileEventsControllerInterface.ReceiptProtocol",
+                "usr": "s:31MobileEventsControllerInterface15ReceiptProtocolO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:31MobileEventsControllerInterface15ReceiptProtocolO4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s31MobileEventsControllerInterface15ReceiptProtocolO4fromACs7Decoder_p_tKcfc",
+            "moduleName": "MobileEventsControllerInterface",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31MobileEventsControllerInterface15ReceiptProtocolO6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s31MobileEventsControllerInterface15ReceiptProtocolO6encode2toys7Encoder_p_tKF",
+            "moduleName": "MobileEventsControllerInterface",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:31MobileEventsControllerInterface15ReceiptProtocolO",
+        "mangledName": "$s31MobileEventsControllerInterface15ReceiptProtocolO",
+        "moduleName": "MobileEventsControllerInterface",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EventsMetadata",
+        "printedName": "EventsMetadata",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "txId",
+            "printedName": "txId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31MobileEventsControllerInterface0B8MetadataV4txIdSSSgvp",
+            "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV4txIdSSSgvp",
+            "moduleName": "MobileEventsControllerInterface",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV4txIdSSSgvg",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV4txIdSSSgvg",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV4txIdSSSgvs",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV4txIdSSSgvs",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV4txIdSSSgvM",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV4txIdSSSgvM",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "interactionId",
+            "printedName": "interactionId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31MobileEventsControllerInterface0B8MetadataV13interactionIdSSSgvp",
+            "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV13interactionIdSSSgvp",
+            "moduleName": "MobileEventsControllerInterface",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV13interactionIdSSSgvg",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV13interactionIdSSSgvg",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV13interactionIdSSSgvs",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV13interactionIdSSSgvs",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV13interactionIdSSSgvM",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV13interactionIdSSSgvM",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "intuitRealmId",
+            "printedName": "intuitRealmId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31MobileEventsControllerInterface0B8MetadataV13intuitRealmIdSSSgvp",
+            "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV13intuitRealmIdSSSgvp",
+            "moduleName": "MobileEventsControllerInterface",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV13intuitRealmIdSSSgvg",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV13intuitRealmIdSSSgvg",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV13intuitRealmIdSSSgvs",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV13intuitRealmIdSSSgvs",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV13intuitRealmIdSSSgvM",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV13intuitRealmIdSSSgvM",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "intuitUserId",
+            "printedName": "intuitUserId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31MobileEventsControllerInterface0B8MetadataV12intuitUserIdSSSgvp",
+            "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV12intuitUserIdSSSgvp",
+            "moduleName": "MobileEventsControllerInterface",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV12intuitUserIdSSSgvg",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV12intuitUserIdSSSgvg",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV12intuitUserIdSSSgvs",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV12intuitUserIdSSSgvs",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV12intuitUserIdSSSgvM",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV12intuitUserIdSSSgvM",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appId",
+            "printedName": "appId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31MobileEventsControllerInterface0B8MetadataV5appIdSSSgvp",
+            "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV5appIdSSSgvp",
+            "moduleName": "MobileEventsControllerInterface",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV5appIdSSSgvg",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV5appIdSSSgvg",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV5appIdSSSgvs",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV5appIdSSSgvs",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV5appIdSSSgvM",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV5appIdSSSgvM",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "iceEventId",
+            "printedName": "iceEventId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31MobileEventsControllerInterface0B8MetadataV10iceEventIdSSSgvp",
+            "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV10iceEventIdSSSgvp",
+            "moduleName": "MobileEventsControllerInterface",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV10iceEventIdSSSgvg",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV10iceEventIdSSSgvg",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV10iceEventIdSSSgvs",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV10iceEventIdSSSgvs",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV10iceEventIdSSSgvM",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV10iceEventIdSSSgvM",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31MobileEventsControllerInterface0B8MetadataV9timestampSSSgvp",
+            "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV9timestampSSSgvp",
+            "moduleName": "MobileEventsControllerInterface",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV9timestampSSSgvg",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV9timestampSSSgvg",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV9timestampSSSgvs",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV9timestampSSSgvs",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV9timestampSSSgvM",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV9timestampSSSgvM",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "receiptProtocol",
+            "printedName": "receiptProtocol",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MobileEventsControllerInterface.ReceiptProtocol?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReceiptProtocol",
+                    "printedName": "MobileEventsControllerInterface.ReceiptProtocol",
+                    "usr": "s:31MobileEventsControllerInterface15ReceiptProtocolO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31MobileEventsControllerInterface0B8MetadataV15receiptProtocolAA07ReceiptG0OSgvp",
+            "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV15receiptProtocolAA07ReceiptG0OSgvp",
+            "moduleName": "MobileEventsControllerInterface",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MobileEventsControllerInterface.ReceiptProtocol?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReceiptProtocol",
+                        "printedName": "MobileEventsControllerInterface.ReceiptProtocol",
+                        "usr": "s:31MobileEventsControllerInterface15ReceiptProtocolO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV15receiptProtocolAA07ReceiptG0OSgvg",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV15receiptProtocolAA07ReceiptG0OSgvg",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MobileEventsControllerInterface.ReceiptProtocol?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReceiptProtocol",
+                        "printedName": "MobileEventsControllerInterface.ReceiptProtocol",
+                        "usr": "s:31MobileEventsControllerInterface15ReceiptProtocolO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV15receiptProtocolAA07ReceiptG0OSgvs",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV15receiptProtocolAA07ReceiptG0OSgvs",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV15receiptProtocolAA07ReceiptG0OSgvM",
+                "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV15receiptProtocolAA07ReceiptG0OSgvM",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(txId:interactionId:intuitRealmId:intuitUserId:appId:iceEventId:timestamp:receiptProtocol:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EventsMetadata",
+                "printedName": "MobileEventsControllerInterface.EventsMetadata",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MobileEventsControllerInterface.ReceiptProtocol?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReceiptProtocol",
+                    "printedName": "MobileEventsControllerInterface.ReceiptProtocol",
+                    "usr": "s:31MobileEventsControllerInterface15ReceiptProtocolO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:31MobileEventsControllerInterface0B8MetadataV4txId011interactionG0011intuitRealmG00i4UserG003appG008iceEventG09timestamp15receiptProtocolACSSSg_A6lA07ReceiptQ0OSgtcfc",
+            "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV4txId011interactionG0011intuitRealmG00i4UserG003appG008iceEventG09timestamp15receiptProtocolACSSSg_A6lA07ReceiptQ0OSgtcfc",
+            "moduleName": "MobileEventsControllerInterface",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EventsMetadata",
+                "printedName": "MobileEventsControllerInterface.EventsMetadata",
+                "usr": "s:31MobileEventsControllerInterface0B8MetadataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:31MobileEventsControllerInterface0B8MetadataV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "MobileEventsControllerInterface",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31MobileEventsControllerInterface0B8MetadataV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV6encode2toys7Encoder_p_tKF",
+            "moduleName": "MobileEventsControllerInterface",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:31MobileEventsControllerInterface0B8MetadataV",
+        "mangledName": "$s31MobileEventsControllerInterface0B8MetadataV",
+        "moduleName": "MobileEventsControllerInterface",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileEventsControllerInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IAuthenticationDelegate",
+        "printedName": "IAuthenticationDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getAuthHeaders",
+            "printedName": "getAuthHeaders()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31MobileEventsControllerInterface23IAuthenticationDelegateP14getAuthHeadersSDyS2SGyF",
+            "mangledName": "$s31MobileEventsControllerInterface23IAuthenticationDelegateP14getAuthHeadersSDyS2SGyF",
+            "moduleName": "MobileEventsControllerInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : MobileEventsControllerInterface.IAuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : MobileEventsControllerInterface.IAuthenticationDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAuthHeaders",
+            "printedName": "getAuthHeaders(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[Swift.String : Swift.String], Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[Swift.String : Swift.String], Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31MobileEventsControllerInterface23IAuthenticationDelegateP14getAuthHeaders17completionHandleryys6ResultOySDyS2SGs5Error_pGc_tF",
+            "mangledName": "$s31MobileEventsControllerInterface23IAuthenticationDelegateP14getAuthHeaders17completionHandleryys6ResultOySDyS2SGs5Error_pGc_tF",
+            "moduleName": "MobileEventsControllerInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : MobileEventsControllerInterface.IAuthenticationDelegate>",
+            "sugared_genericSig": "<Self where Self : MobileEventsControllerInterface.IAuthenticationDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:31MobileEventsControllerInterface23IAuthenticationDelegateP",
+        "mangledName": "$s31MobileEventsControllerInterface23IAuthenticationDelegateP",
+        "moduleName": "MobileEventsControllerInterface",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileEventsControllerInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ILogger",
+        "printedName": "ILogger",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "info",
+            "printedName": "info(message:obj:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : AnyObject]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AnyObject]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31MobileEventsControllerInterface7ILoggerP4info7message3objySS_SDySSyXlGSgtF",
+            "mangledName": "$s31MobileEventsControllerInterface7ILoggerP4info7message3objySS_SDySSyXlGSgtF",
+            "moduleName": "MobileEventsControllerInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : MobileEventsControllerInterface.ILogger>",
+            "sugared_genericSig": "<Self where Self : MobileEventsControllerInterface.ILogger>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "warn",
+            "printedName": "warn(message:obj:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : AnyObject]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AnyObject]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31MobileEventsControllerInterface7ILoggerP4warn7message3objySS_SDySSyXlGSgtF",
+            "mangledName": "$s31MobileEventsControllerInterface7ILoggerP4warn7message3objySS_SDySSyXlGSgtF",
+            "moduleName": "MobileEventsControllerInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : MobileEventsControllerInterface.ILogger>",
+            "sugared_genericSig": "<Self where Self : MobileEventsControllerInterface.ILogger>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "debug",
+            "printedName": "debug(message:obj:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : AnyObject]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AnyObject]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31MobileEventsControllerInterface7ILoggerP5debug7message3objySS_SDySSyXlGSgtF",
+            "mangledName": "$s31MobileEventsControllerInterface7ILoggerP5debug7message3objySS_SDySSyXlGSgtF",
+            "moduleName": "MobileEventsControllerInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : MobileEventsControllerInterface.ILogger>",
+            "sugared_genericSig": "<Self where Self : MobileEventsControllerInterface.ILogger>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error(message:obj:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : AnyObject]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AnyObject]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31MobileEventsControllerInterface7ILoggerP5error7message3objySS_SDySSyXlGSgtF",
+            "mangledName": "$s31MobileEventsControllerInterface7ILoggerP5error7message3objySS_SDySSyXlGSgtF",
+            "moduleName": "MobileEventsControllerInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : MobileEventsControllerInterface.ILogger>",
+            "sugared_genericSig": "<Self where Self : MobileEventsControllerInterface.ILogger>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trace",
+            "printedName": "trace(message:obj:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : AnyObject]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AnyObject]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:31MobileEventsControllerInterface7ILoggerP5trace7message3objySS_SDySSyXlGSgtF",
+            "mangledName": "$s31MobileEventsControllerInterface7ILoggerP5trace7message3objySS_SDySSyXlGSgtF",
+            "moduleName": "MobileEventsControllerInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : MobileEventsControllerInterface.ILogger>",
+            "sugared_genericSig": "<Self where Self : MobileEventsControllerInterface.ILogger>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:31MobileEventsControllerInterface7ILoggerP",
+        "mangledName": "$s31MobileEventsControllerInterface7ILoggerP",
+        "moduleName": "MobileEventsControllerInterface",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileEventsControllerInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Subscription",
+        "printedName": "Subscription",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "subscriptionId",
+            "printedName": "subscriptionId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31MobileEventsControllerInterface12SubscriptionV14subscriptionIdSSvp",
+            "mangledName": "$s31MobileEventsControllerInterface12SubscriptionV14subscriptionIdSSvp",
+            "moduleName": "MobileEventsControllerInterface",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface12SubscriptionV14subscriptionIdSSvg",
+                "mangledName": "$s31MobileEventsControllerInterface12SubscriptionV14subscriptionIdSSvg",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface12SubscriptionV14subscriptionIdSSvs",
+                "mangledName": "$s31MobileEventsControllerInterface12SubscriptionV14subscriptionIdSSvs",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface12SubscriptionV14subscriptionIdSSvM",
+                "mangledName": "$s31MobileEventsControllerInterface12SubscriptionV14subscriptionIdSSvM",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "topic",
+            "printedName": "topic",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Topic",
+                "printedName": "MobileEventsControllerInterface.Topic",
+                "usr": "s:31MobileEventsControllerInterface5TopicV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31MobileEventsControllerInterface12SubscriptionV5topicAA5TopicVvp",
+            "mangledName": "$s31MobileEventsControllerInterface12SubscriptionV5topicAA5TopicVvp",
+            "moduleName": "MobileEventsControllerInterface",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Topic",
+                    "printedName": "MobileEventsControllerInterface.Topic",
+                    "usr": "s:31MobileEventsControllerInterface5TopicV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface12SubscriptionV5topicAA5TopicVvg",
+                "mangledName": "$s31MobileEventsControllerInterface12SubscriptionV5topicAA5TopicVvg",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Topic",
+                    "printedName": "MobileEventsControllerInterface.Topic",
+                    "usr": "s:31MobileEventsControllerInterface5TopicV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface12SubscriptionV5topicAA5TopicVvs",
+                "mangledName": "$s31MobileEventsControllerInterface12SubscriptionV5topicAA5TopicVvs",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface12SubscriptionV5topicAA5TopicVvM",
+                "mangledName": "$s31MobileEventsControllerInterface12SubscriptionV5topicAA5TopicVvM",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onData",
+            "printedName": "onData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?, MobileEventsControllerInterface.EventsMetadata?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Any?, MobileEventsControllerInterface.EventsMetadata?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Any?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "MobileEventsControllerInterface.EventsMetadata?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventsMetadata",
+                            "printedName": "MobileEventsControllerInterface.EventsMetadata",
+                            "usr": "s:31MobileEventsControllerInterface0B8MetadataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31MobileEventsControllerInterface12SubscriptionV6onDatayyypSg_AA0B8MetadataVSgtcvp",
+            "mangledName": "$s31MobileEventsControllerInterface12SubscriptionV6onDatayyypSg_AA0B8MetadataVSgtcvp",
+            "moduleName": "MobileEventsControllerInterface",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Any?, MobileEventsControllerInterface.EventsMetadata?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Any?, MobileEventsControllerInterface.EventsMetadata?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Any?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "MobileEventsControllerInterface.EventsMetadata?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "EventsMetadata",
+                                "printedName": "MobileEventsControllerInterface.EventsMetadata",
+                                "usr": "s:31MobileEventsControllerInterface0B8MetadataV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface12SubscriptionV6onDatayyypSg_AA0B8MetadataVSgtcvg",
+                "mangledName": "$s31MobileEventsControllerInterface12SubscriptionV6onDatayyypSg_AA0B8MetadataVSgtcvg",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Any?, MobileEventsControllerInterface.EventsMetadata?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Any?, MobileEventsControllerInterface.EventsMetadata?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Any?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "MobileEventsControllerInterface.EventsMetadata?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "EventsMetadata",
+                                "printedName": "MobileEventsControllerInterface.EventsMetadata",
+                                "usr": "s:31MobileEventsControllerInterface0B8MetadataV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface12SubscriptionV6onDatayyypSg_AA0B8MetadataVSgtcvs",
+                "mangledName": "$s31MobileEventsControllerInterface12SubscriptionV6onDatayyypSg_AA0B8MetadataVSgtcvs",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface12SubscriptionV6onDatayyypSg_AA0B8MetadataVSgtcvM",
+                "mangledName": "$s31MobileEventsControllerInterface12SubscriptionV6onDatayyypSg_AA0B8MetadataVSgtcvM",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onError",
+            "printedName": "onError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31MobileEventsControllerInterface12SubscriptionV7onErrorys0G0_pcSgvp",
+            "mangledName": "$s31MobileEventsControllerInterface12SubscriptionV7onErrorys0G0_pcSgvp",
+            "moduleName": "MobileEventsControllerInterface",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Error) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Error) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface12SubscriptionV7onErrorys0G0_pcSgvg",
+                "mangledName": "$s31MobileEventsControllerInterface12SubscriptionV7onErrorys0G0_pcSgvg",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Error) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Error) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface12SubscriptionV7onErrorys0G0_pcSgvs",
+                "mangledName": "$s31MobileEventsControllerInterface12SubscriptionV7onErrorys0G0_pcSgvs",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface12SubscriptionV7onErrorys0G0_pcSgvM",
+                "mangledName": "$s31MobileEventsControllerInterface12SubscriptionV7onErrorys0G0_pcSgvM",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "transInfo",
+            "printedName": "transInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MobileEventsControllerInterface.EventsMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventsMetadata",
+                    "printedName": "MobileEventsControllerInterface.EventsMetadata",
+                    "usr": "s:31MobileEventsControllerInterface0B8MetadataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31MobileEventsControllerInterface12SubscriptionV9transInfoAA0B8MetadataVSgvp",
+            "mangledName": "$s31MobileEventsControllerInterface12SubscriptionV9transInfoAA0B8MetadataVSgvp",
+            "moduleName": "MobileEventsControllerInterface",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MobileEventsControllerInterface.EventsMetadata?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventsMetadata",
+                        "printedName": "MobileEventsControllerInterface.EventsMetadata",
+                        "usr": "s:31MobileEventsControllerInterface0B8MetadataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface12SubscriptionV9transInfoAA0B8MetadataVSgvg",
+                "mangledName": "$s31MobileEventsControllerInterface12SubscriptionV9transInfoAA0B8MetadataVSgvg",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MobileEventsControllerInterface.EventsMetadata?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventsMetadata",
+                        "printedName": "MobileEventsControllerInterface.EventsMetadata",
+                        "usr": "s:31MobileEventsControllerInterface0B8MetadataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface12SubscriptionV9transInfoAA0B8MetadataVSgvs",
+                "mangledName": "$s31MobileEventsControllerInterface12SubscriptionV9transInfoAA0B8MetadataVSgvs",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface12SubscriptionV9transInfoAA0B8MetadataVSgvM",
+                "mangledName": "$s31MobileEventsControllerInterface12SubscriptionV9transInfoAA0B8MetadataVSgvM",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(subscriptionId:topic:onData:onError:transInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Subscription",
+                "printedName": "MobileEventsControllerInterface.Subscription",
+                "usr": "s:31MobileEventsControllerInterface12SubscriptionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Topic",
+                "printedName": "MobileEventsControllerInterface.Topic",
+                "usr": "s:31MobileEventsControllerInterface5TopicV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?, MobileEventsControllerInterface.EventsMetadata?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Any?, MobileEventsControllerInterface.EventsMetadata?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Any?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "MobileEventsControllerInterface.EventsMetadata?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventsMetadata",
+                            "printedName": "MobileEventsControllerInterface.EventsMetadata",
+                            "usr": "s:31MobileEventsControllerInterface0B8MetadataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MobileEventsControllerInterface.EventsMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventsMetadata",
+                    "printedName": "MobileEventsControllerInterface.EventsMetadata",
+                    "usr": "s:31MobileEventsControllerInterface0B8MetadataV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:31MobileEventsControllerInterface12SubscriptionV14subscriptionId5topic6onData0I5Error9transInfoACSS_AA5TopicVyypSg_AA0B8MetadataVSgtcys0K0_pcSgANtcfc",
+            "mangledName": "$s31MobileEventsControllerInterface12SubscriptionV14subscriptionId5topic6onData0I5Error9transInfoACSS_AA5TopicVyypSg_AA0B8MetadataVSgtcys0K0_pcSgANtcfc",
+            "moduleName": "MobileEventsControllerInterface",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:31MobileEventsControllerInterface12SubscriptionV",
+        "mangledName": "$s31MobileEventsControllerInterface12SubscriptionV",
+        "moduleName": "MobileEventsControllerInterface",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MobileEventsControllerInterface",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Topic",
+        "printedName": "Topic",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31MobileEventsControllerInterface5TopicV4nameSSvp",
+            "mangledName": "$s31MobileEventsControllerInterface5TopicV4nameSSvp",
+            "moduleName": "MobileEventsControllerInterface",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface5TopicV4nameSSvg",
+                "mangledName": "$s31MobileEventsControllerInterface5TopicV4nameSSvg",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface5TopicV4nameSSvs",
+                "mangledName": "$s31MobileEventsControllerInterface5TopicV4nameSSvs",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface5TopicV4nameSSvM",
+                "mangledName": "$s31MobileEventsControllerInterface5TopicV4nameSSvM",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "resourceOwner",
+            "printedName": "resourceOwner",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:31MobileEventsControllerInterface5TopicV13resourceOwnerSSvp",
+            "mangledName": "$s31MobileEventsControllerInterface5TopicV13resourceOwnerSSvp",
+            "moduleName": "MobileEventsControllerInterface",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface5TopicV13resourceOwnerSSvg",
+                "mangledName": "$s31MobileEventsControllerInterface5TopicV13resourceOwnerSSvg",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface5TopicV13resourceOwnerSSvs",
+                "mangledName": "$s31MobileEventsControllerInterface5TopicV13resourceOwnerSSvs",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:31MobileEventsControllerInterface5TopicV13resourceOwnerSSvM",
+                "mangledName": "$s31MobileEventsControllerInterface5TopicV13resourceOwnerSSvM",
+                "moduleName": "MobileEventsControllerInterface",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:resourceOwner:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Topic",
+                "printedName": "MobileEventsControllerInterface.Topic",
+                "usr": "s:31MobileEventsControllerInterface5TopicV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:31MobileEventsControllerInterface5TopicV4name13resourceOwnerACSS_SStcfc",
+            "mangledName": "$s31MobileEventsControllerInterface5TopicV4name13resourceOwnerACSS_SStcfc",
+            "moduleName": "MobileEventsControllerInterface",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:31MobileEventsControllerInterface5TopicV",
+        "mangledName": "$s31MobileEventsControllerInterface5TopicV",
+        "moduleName": "MobileEventsControllerInterface",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

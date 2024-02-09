@@ -1,0 +1,185 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AFMobilePerformanceInterface
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AFMobilePerformanceInterface
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum CIStatus : Swift.Int {
+  case SUCCESS
+  case FAILURE
+  case INCOMPLETE
+  public static func cistatus(from outcome: Swift.String?) -> AFMobilePerformanceInterface.CIStatus
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers public class CounterMetric : AFMobilePerformanceInterface.BaseMetric {
+  public var value: Swift.Int
+  public init(name: Swift.String, value: Swift.Int)
+  public func incrementValue() -> Swift.Int
+  public func decrementValue() -> Swift.Int
+  @objc deinit
+}
+@objc public class CustomerInteraction : AFMobilePerformanceInterface.PerformanceEvent {
+  final public let STATUS_KEY: Swift.String
+  final public let DEGRADED_KEY: Swift.String
+  public var status: AFMobilePerformanceInterface.CIStatus? {
+    get
+    set
+  }
+  public var degraded: Swift.Bool
+  public var hasChildInteractions: Swift.Bool {
+    get
+    set
+  }
+  public var parentInteractionName: Swift.String?
+  public init(metric: AFMobilePerformanceInterface.BaseMetric, additionalInfo: [Swift.String : Swift.String]? = nil, status: AFMobilePerformanceInterface.CIStatus? = nil, degraded: Swift.Bool = false, parentInteractionName: Swift.String? = nil, hasChildInteractions: Swift.Bool = false)
+  override public func start()
+  override public func end()
+  public var startTime: Foundation.Date {
+    get
+  }
+  public var endTime: Foundation.Date {
+    get
+  }
+  public func end(status: AFMobilePerformanceInterface.CIStatus, degraded: Swift.Bool)
+  @objc deinit
+}
+@objc public class InterruptMetric : AFMobilePerformanceInterface.PerformanceMetric {
+  public var interruptionReason: AFMobilePerformanceInterface.PerformanceMetric.InterruptReason
+  public init(name: Swift.String, startTime: Foundation.Date, endTime: Foundation.Date? = nil, reason: AFMobilePerformanceInterface.PerformanceMetric.InterruptReason)
+  @objc deinit
+}
+public protocol Metric {
+  func getName() -> AFMobilePerformanceInterface.MetricInfo
+}
+@objc @_hasMissingDesignatedInitializers public class MetricInfo : ObjectiveC.NSObject, Swift.Codable, Foundation.NSCoding {
+  @objc public func encode(with coder: Foundation.NSCoder)
+  @objc required public init?(coder: Foundation.NSCoder)
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_hasMissingDesignatedInitializers public class BaseMetric : ObjectiveC.NSObject, AFMobilePerformanceInterface.Metric {
+  final public let name: Swift.String
+  public func getName() -> AFMobilePerformanceInterface.MetricInfo
+  @objc deinit
+}
+public enum MetricType : Swift.Int {
+  case CounterMetric
+  case PerformanceMetric
+  public func metricType() -> Swift.String
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@available(swift, obsoleted: 1.0, message: "Please use PerformanceCustomerInteractionClosure instead")
+public typealias CustomerInteractionClosure = (_ customerInteraction: AFMobilePerformanceInterface.CustomerInteraction?, _ error: Foundation.NSError?) -> Swift.Void
+public typealias PerformanceCustomerInteractionClosure = (_ customerInteraction: AFMobilePerformanceInterface.CustomerInteraction?, _ error: Foundation.NSError?, _ sender: any AFMobilePerformanceInterface.PerformanceDelegate) -> Swift.Void
+extension AFMobilePerformanceInterface.PerformanceDelegate {
+  public func createCustomerInteraction(metricType: AFMobilePerformanceInterface.MetricType, interactionName: Swift.String, additionalInfo: [Swift.String : Swift.String]?, completionHandler: (_ customerInteraction: AFMobilePerformanceInterface.CustomerInteraction?, _ error: Foundation.NSError?, _ sender: any AFMobilePerformanceInterface.PerformanceDelegate) -> Swift.Void)
+  public func createTimedCustomerInteraction(interactionName: Swift.String, additionalInfo: [Swift.String : Swift.String]?, completionHandler: (_ customerInteraction: AFMobilePerformanceInterface.CustomerInteraction?, _ error: Foundation.NSError?, _ sender: any AFMobilePerformanceInterface.PerformanceDelegate) -> Swift.Void)
+  public func createCounterCustomerInteraction(interactionName: Swift.String, additionalInfo: [Swift.String : Swift.String]?, completionHandler: (_ customerInteraction: AFMobilePerformanceInterface.CustomerInteraction?, _ error: Foundation.NSError?, _ sender: any AFMobilePerformanceInterface.PerformanceDelegate) -> Swift.Void)
+  public func createChildTimedCustomerInteraction(interactionName: Swift.String, parentInteractionName: Swift.String, additionalInfo: [Swift.String : Swift.String]?, completionHandler: (_ customerInteraction: AFMobilePerformanceInterface.CustomerInteraction?, _ error: Foundation.NSError?, _ sender: any AFMobilePerformanceInterface.PerformanceDelegate) -> Swift.Void)
+  public func completeCustomerInteraction(interactionName: Swift.String, status: AFMobilePerformanceInterface.CIStatus, degraded: Swift.Bool, additionalInfo: [Swift.String : Swift.String]?, completionHandler: (((any Swift.Error)?) -> Swift.Void)?)
+}
+public protocol PerformanceDelegate : Foundation.NSCopying {
+  func sendMetrics(for perfEvent: AFMobilePerformanceInterface.PerformanceEvent)
+  func sendNetworkMetrics(_ metrics: Foundation.URLSessionTaskMetrics)
+  @available(*, deprecated, message: "This API will be removed in future release; please migrate to `trackActionStart(actionName:dateTime:additionalInfo:)`")
+  func trackActionStart(actionName: Swift.String, dateTime: Foundation.Date)
+  func trackActionStart(actionName: Swift.String, dateTime: Foundation.Date, additionalInfo: [Swift.String : Swift.String]?)
+  func trackActionEnd(actionName: Swift.String, dateTime: Foundation.Date)
+  func createCustomerInteraction(metricType: AFMobilePerformanceInterface.MetricType, interactionName: Swift.String, additionalInfo: [Swift.String : Swift.String]?, replaceIfExists: Swift.Bool, completionHandler: (_ customerInteraction: AFMobilePerformanceInterface.CustomerInteraction?, _ error: Foundation.NSError?, _ sender: any AFMobilePerformanceInterface.PerformanceDelegate) -> Swift.Void)
+  func createTimedCustomerInteraction(interactionName: Swift.String, additionalInfo: [Swift.String : Swift.String]?, replaceIfExists: Swift.Bool, completionHandler: (_ customerInteraction: AFMobilePerformanceInterface.CustomerInteraction?, _ error: Foundation.NSError?, _ sender: any AFMobilePerformanceInterface.PerformanceDelegate) -> Swift.Void)
+  func createChildTimedCustomerInteraction(interactionName: Swift.String, parentInteractionName: Swift.String, additionalInfo: [Swift.String : Swift.String]?, replaceIfExists: Swift.Bool, completionHandler: (_ customerInteraction: AFMobilePerformanceInterface.CustomerInteraction?, _ error: Foundation.NSError?, _ sender: any AFMobilePerformanceInterface.PerformanceDelegate) -> Swift.Void)
+  func createCounterCustomerInteraction(interactionName: Swift.String, additionalInfo: [Swift.String : Swift.String]?, replaceIfExists: Swift.Bool, completionHandler: (_ customerInteraction: AFMobilePerformanceInterface.CustomerInteraction?, _ error: Foundation.NSError?, _ sender: any AFMobilePerformanceInterface.PerformanceDelegate) -> Swift.Void)
+  func getCustomerInteraction(interactionName: Swift.String, completionHandler: (_ customerInteraction: AFMobilePerformanceInterface.CustomerInteraction?, _ error: Foundation.NSError?, _ sender: any AFMobilePerformanceInterface.PerformanceDelegate) -> Swift.Void)
+  @available(*, deprecated, message: "This API will be removed in future release; please migrate to `completeCustomerInteraction(interactionName:status:degraded:additionalInfo:completionHandler)`")
+  func endCustomerInteraction(interactionName: Swift.String, status: AFMobilePerformanceInterface.CIStatus, degraded: Swift.Bool, completionHandler: (_ customerInteraction: AFMobilePerformanceInterface.CustomerInteraction?, _ error: Foundation.NSError?, _ sender: any AFMobilePerformanceInterface.PerformanceDelegate) -> Swift.Void)
+  @available(*, deprecated, message: "This API will be removed in future release; please migrate to `completeCustomerInteraction(interactionName:status:degraded:additionalInfo:completionHandler)`")
+  func endCustomerInteraction(interactionName: Swift.String, status: AFMobilePerformanceInterface.CIStatus, degraded: Swift.Bool, additionalInfo: [Swift.String : Swift.String], completionHandler: (_ customerInteraction: AFMobilePerformanceInterface.CustomerInteraction?, _ error: Foundation.NSError?, _ sender: any AFMobilePerformanceInterface.PerformanceDelegate) -> Swift.Void)
+  func completeCustomerInteraction(interactionName: Swift.String, status: AFMobilePerformanceInterface.CIStatus, degraded: Swift.Bool, additionalInfo: [Swift.String : Swift.String]?, completionHandler: (((any Swift.Error)?) -> Swift.Void)?)
+  func getTracePropagationHeaders(_ interactionName: Swift.String) -> [Swift.String : Swift.String]?
+}
+@objc public class PerformanceEvent : ObjectiveC.NSObject {
+  public enum AdditionalInfoKey {
+    public static let isCustom: Swift.String
+    public static let mobileLibraryAssetId: Swift.String
+    public static let appCapabilityVersion: Swift.String
+  }
+  final public let metric: AFMobilePerformanceInterface.BaseMetric
+  public var additionalInfo: [Swift.String : Swift.String]? {
+    get
+    set
+  }
+  public func appendInfo(_ kvp: [Swift.String : Swift.String])
+  public init(metric: AFMobilePerformanceInterface.BaseMetric, additionalInfo: [Swift.String : Swift.String]?)
+  public func start()
+  public func end()
+  public func start(date: Foundation.Date?)
+  public func end(date: Foundation.Date?)
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class PerformanceMetric : AFMobilePerformanceInterface.BaseMetric {
+  public enum InterruptReason : Swift.Int {
+    case Background
+    case Network
+    case Navigation
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public var startTime: Foundation.Date? {
+    get
+    set
+  }
+  public var startDateGMT: Foundation.Date? {
+    get
+  }
+  public var endTime: Foundation.Date? {
+    get
+    set
+  }
+  public var endDateGMT: Foundation.Date? {
+    get
+  }
+  public var operations: [AFMobilePerformanceInterface.PerformanceMetric]?
+  public var interruptionList: [AFMobilePerformanceInterface.InterruptMetric]?
+  public var isInterrupted: Swift.Bool
+  public init(name: Swift.String, startTime: Foundation.Date? = nil, endTime: Foundation.Date? = nil, operations: [AFMobilePerformanceInterface.PerformanceMetric]? = nil)
+  public var duration: Swift.Float {
+    get
+  }
+  @discardableResult
+  public func startTimer(_ date: Foundation.Date? = nil) -> Foundation.Date
+  @discardableResult
+  public func endTimer(_ date: Foundation.Date? = nil) -> Foundation.Date
+  public var interruptedOffset: Swift.Float {
+    get
+  }
+  public var interruptedReasons: Swift.Set<AFMobilePerformanceInterface.PerformanceMetric.InterruptReason>? {
+    get
+  }
+  public func interrupted(by interruption: AFMobilePerformanceInterface.InterruptMetric)
+  @objc deinit
+}
+extension AFMobilePerformanceInterface.CIStatus : Swift.Equatable {}
+extension AFMobilePerformanceInterface.CIStatus : Swift.Hashable {}
+extension AFMobilePerformanceInterface.CIStatus : Swift.RawRepresentable {}
+extension AFMobilePerformanceInterface.MetricType : Swift.Equatable {}
+extension AFMobilePerformanceInterface.MetricType : Swift.Hashable {}
+extension AFMobilePerformanceInterface.MetricType : Swift.RawRepresentable {}
+extension AFMobilePerformanceInterface.PerformanceMetric.InterruptReason : Swift.Equatable {}
+extension AFMobilePerformanceInterface.PerformanceMetric.InterruptReason : Swift.Hashable {}
+extension AFMobilePerformanceInterface.PerformanceMetric.InterruptReason : Swift.RawRepresentable {}

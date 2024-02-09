@@ -1,0 +1,41 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AFMobilePubSubInterface
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AFMobilePubSubInterface
+import Foundation
+import MobileEventsControllerInterface
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public typealias LocalPubSubId = Swift.String
+public typealias LocalPubSubTopic = Swift.String
+public protocol PubSubDataSource {
+  typealias Topic = Swift.String
+  associatedtype Data : Swift.Decodable, Swift.Encodable
+  static var topic: Self.Topic { get }
+}
+public protocol LocalPubSubDelegate : Foundation.NSCopying {
+  func publish(topic: AFMobilePubSubInterface.LocalPubSubTopic, data: Any, isMessageFromWebWidget: Swift.Bool) throws
+  func publish<T>(type: T.Type, data: T.Data) throws where T : AFMobilePubSubInterface.PubSubDataSource
+  func subscribe(topic: AFMobilePubSubInterface.LocalPubSubTopic, onData: @escaping (_ data: Any?) -> Swift.Void) -> Swift.String?
+  func subscribe<T>(type: T.Type, onData: @escaping (T.Data) -> Swift.Void) -> Swift.String? where T : AFMobilePubSubInterface.PubSubDataSource
+  func unsubscribe(subscription: AFMobilePubSubInterface.LocalPubSubId) -> Swift.Bool
+}
+public protocol PubSubDelegate : Foundation.NSCopying {
+  func publish(topic: MobileEventsControllerInterface.Topic, data: Any, transInfo: MobileEventsControllerInterface.EventsMetadata?) throws -> Swift.Bool
+  func publish(topic: MobileEventsControllerInterface.Topic, data: Any, transInfo: MobileEventsControllerInterface.EventsMetadata?, completionHandler: @escaping (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
+  func subscribe(topic: MobileEventsControllerInterface.Topic, onData: @escaping (_ data: Any?, _ metadata: MobileEventsControllerInterface.EventsMetadata?) -> Swift.Void, onError: @escaping (_ error: any Swift.Error) -> Swift.Void, transInfo: MobileEventsControllerInterface.EventsMetadata?) throws -> MobileEventsControllerInterface.Subscription?
+  func subscribe(topic: MobileEventsControllerInterface.Topic, onData: @escaping (_ data: Any?, _ metadata: MobileEventsControllerInterface.EventsMetadata?) -> Swift.Void, onError: @escaping (_ error: any Swift.Error) -> Swift.Void, transInfo: MobileEventsControllerInterface.EventsMetadata?, completionHandler: @escaping (Swift.Result<MobileEventsControllerInterface.Subscription, any Swift.Error>) -> Swift.Void)
+  func unsubscribe(subscription: MobileEventsControllerInterface.Subscription, transInfo: MobileEventsControllerInterface.EventsMetadata?) throws -> Swift.Bool
+  func unsubscribe(subscription: MobileEventsControllerInterface.Subscription, transInfo: MobileEventsControllerInterface.EventsMetadata?, completionHandler: @escaping (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
+}
+extension AFMobilePubSubInterface.PubSubDelegate {
+  public func publish(topic: MobileEventsControllerInterface.Topic, data: Any) throws -> Swift.Bool
+  public func publish(topic: MobileEventsControllerInterface.Topic, data: Any, completionHandler: @escaping (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
+  public func subscribe(topic: MobileEventsControllerInterface.Topic, onData: @escaping (_ data: Any?, _ metadata: MobileEventsControllerInterface.EventsMetadata?) -> Swift.Void, onError: @escaping (_ error: any Swift.Error) -> Swift.Void = { _ in }) throws -> MobileEventsControllerInterface.Subscription?
+  public func subscribe(topic: MobileEventsControllerInterface.Topic, onData: @escaping (Any?, MobileEventsControllerInterface.EventsMetadata?) -> Swift.Void, onError: @escaping (any Swift.Error) -> Swift.Void = { _ in }, transInfo: MobileEventsControllerInterface.EventsMetadata? = nil, completionHandler: @escaping (Swift.Result<MobileEventsControllerInterface.Subscription, any Swift.Error>) -> Swift.Void)
+  public func unsubscribe(subscription: MobileEventsControllerInterface.Subscription) throws -> Swift.Bool
+  public func unsubscribe(subscription: MobileEventsControllerInterface.Subscription, transInfo: MobileEventsControllerInterface.EventsMetadata? = nil, completionHandler: @escaping (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
+}

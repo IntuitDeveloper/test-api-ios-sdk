@@ -1,0 +1,11 @@
+framework module AFMobilePerformanceInterface {
+  umbrella header "AFMobilePerformanceInterface-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AFMobilePerformanceInterface.Swift {
+  header "AFMobilePerformanceInterface-Swift.h"
+  requires objc
+}

@@ -278,7 +278,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import ObjectiveC;
-@import UIKit;
 #endif
 
 #endif
@@ -299,24 +298,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-
-@class NSCoder;
-@class NSString;
-@class NSBundle;
-
-SWIFT_CLASS("_TtC23AppShellWidgetInterface20PlayerViewController")
-@interface PlayerViewController : UIViewController
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
-@end
-
-
-SWIFT_CLASS("_TtC23AppShellWidgetInterface12PlayerWidget")
-@interface PlayerWidget : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
 
 
 /// WidgetElement represents the metadata of a UI control that the widget wants to display in the application’s global space.

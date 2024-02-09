@@ -1,0 +1,139 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BillingiOSInterface
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import BillingiOSInterface
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum BillingConstants {
+  public static let isUserEligibleForFreeTrialKey: Swift.String
+  public static let upgradePollingTimeoutInSecondsKey: Swift.String
+}
+public enum BillingRegisterStatus : Swift.String {
+  case ready, unauthorizedForPurchases, tryAgainLater
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum BillingSubscriptionUpdateReason : Swift.Equatable {
+  case purchase, purchaseFailed(error: (any Swift.Error)?), purchaseFailedVerification(error: (any Swift.Error)?), restore, restoreFailed, purchaseVerificationTakingTooLong, upgrade, downgrade
+  public static func == (lhs: BillingiOSInterface.BillingSubscriptionUpdateReason, rhs: BillingiOSInterface.BillingSubscriptionUpdateReason) -> Swift.Bool
+}
+public enum BillingSubscriptionPurchaseFailedReason : Swift.Error {
+  case deviceCannotMakePayments, tryAgainLater
+  public static func == (a: BillingiOSInterface.BillingSubscriptionPurchaseFailedReason, b: BillingiOSInterface.BillingSubscriptionPurchaseFailedReason) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum BillingSubscriptionStatus : Swift.String, Swift.Equatable {
+  case none, active, expired, gracePeriod, unknown
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum BillingSubscriptionServiceState : Swift.String, Swift.Equatable {
+  case paid
+  case pendingCancel
+  case canceled
+  case inProgress
+  case unknown
+  case notSubscribed
+  case free
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum BillingLogEvent : Swift.String {
+  case register, restore, setup, purchase, unregister, purchaseFailed, receiptFetch, transactionTracing, network, subscriptionInfo, getEntitlements
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum BillingLogSeverity {
+  case info, debug, error
+  public static func == (a: BillingiOSInterface.BillingLogSeverity, b: BillingiOSInterface.BillingLogSeverity) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum BillingError : Swift.Error {
+  case networkError, createSubscription(message: Swift.String), resubscribe(message: Swift.String), getEntitlements(message: Swift.String), getSubscription(message: Swift.String), unknown(error: any Swift.Error)
+}
+public struct BillingHostApp {
+  public let productCode: Swift.String
+  public let companyType: Swift.String
+  public let billingOfferingId: Swift.String
+  public init(productCode: Swift.String, companyType: Swift.String, billingOfferingId: Swift.String)
+}
+extension BillingiOSInterface.BillingHostApp {
+  public static let mint: BillingiOSInterface.BillingHostApp
+}
+public struct BillingProduct : Swift.Codable {
+  public enum Frequency : Swift.String, Swift.Codable {
+    case monthly, yearly
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public let products: [BillingiOSInterface.BillingProduct.Product]
+  public struct Product : Swift.Codable, Swift.Hashable {
+    public let name: Swift.String
+    public let flavor: Swift.String
+    public let appleSubscriptionProductId: Swift.String
+    public let offerId: Swift.String
+    public let trialOfferId: Swift.String?
+    public let frequency: BillingiOSInterface.BillingProduct.Frequency?
+    public let levelOfService: Swift.Int
+    public init(name: Swift.String, flavor: Swift.String, appleSubscriptionProductId: Swift.String, offerId: Swift.String, trialOfferId: Swift.String?, frequency: BillingiOSInterface.BillingProduct.Frequency?, levelOfService: Swift.Int)
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: BillingiOSInterface.BillingProduct.Product, b: BillingiOSInterface.BillingProduct.Product) -> Swift.Bool
+    public func encode(to encoder: any Swift.Encoder) throws
+    public var hashValue: Swift.Int {
+      get
+    }
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct BillingSubscriptionInfo : Swift.Equatable {
+  public let status: BillingiOSInterface.BillingSubscriptionStatus
+  public let serviceState: BillingiOSInterface.BillingSubscriptionServiceState
+  public let expirationDate: Swift.String?
+  public let productId: Swift.String
+  public init(status: BillingiOSInterface.BillingSubscriptionStatus, serviceState: BillingiOSInterface.BillingSubscriptionServiceState, expirationDate: Swift.String?, productId: Swift.String)
+  public static func == (a: BillingiOSInterface.BillingSubscriptionInfo, b: BillingiOSInterface.BillingSubscriptionInfo) -> Swift.Bool
+}
+extension BillingiOSInterface.BillingRegisterStatus : Swift.Equatable {}
+extension BillingiOSInterface.BillingRegisterStatus : Swift.Hashable {}
+extension BillingiOSInterface.BillingRegisterStatus : Swift.RawRepresentable {}
+extension BillingiOSInterface.BillingSubscriptionPurchaseFailedReason : Swift.Equatable {}
+extension BillingiOSInterface.BillingSubscriptionPurchaseFailedReason : Swift.Hashable {}
+extension BillingiOSInterface.BillingSubscriptionStatus : Swift.Hashable {}
+extension BillingiOSInterface.BillingSubscriptionStatus : Swift.RawRepresentable {}
+extension BillingiOSInterface.BillingSubscriptionServiceState : Swift.Hashable {}
+extension BillingiOSInterface.BillingSubscriptionServiceState : Swift.RawRepresentable {}
+extension BillingiOSInterface.BillingLogEvent : Swift.Equatable {}
+extension BillingiOSInterface.BillingLogEvent : Swift.Hashable {}
+extension BillingiOSInterface.BillingLogEvent : Swift.RawRepresentable {}
+extension BillingiOSInterface.BillingLogSeverity : Swift.Equatable {}
+extension BillingiOSInterface.BillingLogSeverity : Swift.Hashable {}
+extension BillingiOSInterface.BillingProduct.Frequency : Swift.Equatable {}
+extension BillingiOSInterface.BillingProduct.Frequency : Swift.Hashable {}
+extension BillingiOSInterface.BillingProduct.Frequency : Swift.RawRepresentable {}

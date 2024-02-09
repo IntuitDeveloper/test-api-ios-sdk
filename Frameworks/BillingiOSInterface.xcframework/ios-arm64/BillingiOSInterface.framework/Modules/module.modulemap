@@ -1,0 +1,11 @@
+framework module BillingiOSInterface {
+  umbrella header "BillingiOSInterface-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module BillingiOSInterface.Swift {
+  header "BillingiOSInterface-Swift.h"
+  requires objc
+}
